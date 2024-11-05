@@ -7,6 +7,7 @@ import CoreFeatures from "../components/CoreFeatures";
 import UserBenefits from "../components/UserBenefits";
 import Screenshots from "../components/Screenshots";
 import Download from "../components/Download";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 import Favicon from "../images/icon.png";
@@ -21,6 +22,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <UserBenefits />
         <Screenshots />
         <Download />
+        <Testimonials />
       </main>
       <Footer />
     </div>
