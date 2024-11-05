@@ -2,7 +2,7 @@ import React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
 import NavBar from "../components/NavBar";
-import IntroSection from "../components/IntroSection";
+import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
 
 import Favicon from "../images/icon.png";
@@ -11,7 +11,9 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <NavBar />
-      <main className="container mx-auto"></main>
+      <main>
+        <HeroSection />
+      </main>
       <Footer />
     </div>
   );
