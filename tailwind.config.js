@@ -8,6 +8,7 @@ module.exports = {
         screen: "#2a2a36",
         highlight: "#e74043",
         tint: "#ebaa39",
+        hover: "#f1643a",
         icon: "#9BA1A6",
         text: "#ECEDEE",
         subText: "#9BA1A6",
