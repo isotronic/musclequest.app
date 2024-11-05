@@ -4,6 +4,7 @@ import type { HeadFC, PageProps } from "gatsby";
 import NavBar from "../components/NavBar";
 import HeroSection from "../components/HeroSection";
 import CoreFeatures from "../components/CoreFeatures";
+import UserBenefits from "../components/UserBenefits";
 import Footer from "../components/Footer";
 
 import Favicon from "../images/icon.png";
@@ -15,6 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <main>
         <HeroSection />
         <CoreFeatures />
+        <UserBenefits />
       </main>
       <Footer />
     </div>
