@@ -8,7 +8,7 @@ const UserBenefits: React.FC = () => {
     <section id="benefits" className="flex flex-col items-center justify-center px-6 py-28">
       <h2 className="mb-12 text-center text-3xl font-bold">Why MuscleQuest?</h2>
 
-      <div className="grid max-w-5xl gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid max-w-7xl gap-8 md:grid-cols-2 lg:grid-cols-4">
         {/* Benefit 1: Offline-First Access */}
         <div className="flex items-start align-top">
           <div className="flex flex-col">
