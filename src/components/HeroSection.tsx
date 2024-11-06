@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGooglePlay } from "react-icons/fa";
 
 const HeroSection: React.FC = () => {
   return (
@@ -15,8 +16,9 @@ const HeroSection: React.FC = () => {
         </p>
         <a
           href="https://play.google.com/store"
-          className="bg-tint hover:bg-hover text-background rounded-full px-6 py-3 text-lg font-semibold transition duration-200"
+          className="flex items-center rounded-full bg-tint px-6 py-3 text-lg font-semibold text-background shadow-lg transition duration-200 hover:bg-hover"
         >
+          <FaGooglePlay className="mr-2 h-6 w-6" />
           Download on Google Play
         </a>
       </div>

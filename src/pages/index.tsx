@@ -11,7 +11,7 @@ import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
-import Favicon from "../images/icon.png";
+import Favicon from "../images/favicon.png";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
