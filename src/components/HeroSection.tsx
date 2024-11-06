@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
           plans, log every exercise detail, and visualize your progress—all with an intuitive, user-friendly interface.
         </p>
         <a
-          href="https://play.google.com/store"
+          href="#"
           className="flex items-center rounded-full bg-tint px-6 py-3 text-lg font-semibold text-background shadow-lg transition duration-200 hover:bg-hover"
         >
           <FaGooglePlay className="mr-2 h-6 w-6" />
