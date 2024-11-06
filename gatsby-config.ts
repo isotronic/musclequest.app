@@ -11,6 +11,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
+    "gatsby-plugin-anchor-links",
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
