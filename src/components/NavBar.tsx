@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Logo from "../images/logo.png";
 
@@ -65,54 +66,59 @@ const NavBar: React.FC = () => {
         >
           <ul className="flex h-full min-h-screen flex-col items-center justify-center space-y-4 p-8 text-xl font-semibold md:mt-0 md:h-auto md:min-h-0 md:flex-row md:space-x-12 md:space-y-0 md:p-0 md:text-base md:font-medium">
             <li>
-              <a
-                href="#features"
+              <AnchorLink
+                to="/#features"
                 aria-label="Features"
+                title="Features"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
-                onClick={() => setIsNavOpen(false)}
+                onAnchorLinkClick={() => setIsNavOpen(false)}
               >
                 Features
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
-                href="#benefits"
+              <AnchorLink
+                to="/#benefits"
                 aria-label="Benefits"
+                title="Benefits"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
-                onClick={() => setIsNavOpen(false)}
+                onAnchorLinkClick={() => setIsNavOpen(false)}
               >
                 Benefits
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
-                href="#screenshots"
+              <AnchorLink
+                to="/#screenshots"
                 aria-label="Screenshots"
+                title="Screenshots"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
-                onClick={() => setIsNavOpen(false)}
+                onAnchorLinkClick={() => setIsNavOpen(false)}
               >
                 Screenshots
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
-                href="#download"
+              <AnchorLink
+                to="/#download"
                 aria-label="Download"
+                title="Download"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
-                onClick={() => setIsNavOpen(false)}
+                onAnchorLinkClick={() => setIsNavOpen(false)}
               >
                 Download
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
-                href="#contact"
+              <AnchorLink
+                to="/#contact"
                 aria-label="Contact"
+                title="Contact"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
-                onClick={() => setIsNavOpen(false)}
+                onAnchorLinkClick={() => setIsNavOpen(false)}
               >
                 Contact
-              </a>
+              </AnchorLink>
             </li>
           </ul>
         </div>
