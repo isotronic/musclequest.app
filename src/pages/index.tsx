@@ -7,7 +7,7 @@ import CoreFeatures from "../components/CoreFeatures";
 import UserBenefits from "../components/UserBenefits";
 import Screenshots from "../components/Screenshots";
 import Download from "../components/Download";
-import Testimonials from "../components/Testimonials";
+// import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -23,7 +23,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <UserBenefits />
         <Screenshots />
         <Download />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />

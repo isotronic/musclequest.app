@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import SessionSetInfoScreenshot from "../images/session-set-info.jpg";
+import CreatePlanScreenshot from "../images/create-plan.jpg";
+import StatsScreenshot from "../images/stats-screen.jpg";
 
 // Features data
 const features = [
@@ -8,34 +11,35 @@ const features = [
     title: "Custom Training Plans",
     description:
       "Create and customize training plans tailored to your goals, schedule, and preferences for a fully personalized workout experience.",
-    image: "https://placehold.co/300x200.png?text=Custom+Plans",
+    image: CreatePlanScreenshot,
   },
   {
     id: "workoutTracking",
     title: "Comprehensive Workout Tracking",
     description:
       "Log sets, reps, weights, and more to track every detail of your workouts effortlessly and stay on top of your progress.",
-    image: "https://placehold.co/300x200.png?text=Workout+Tracking",
+    image: SessionSetInfoScreenshot,
   },
   {
     id: "inDepthStats",
     title: "In-Depth Statistics",
     description:
       "Access powerful insights with stats like body part split, workout history, and progression graphs to visualize and analyze your training.",
-    image: "https://placehold.co/300x200.png?text=In-Depth+Statistics",
+    image: StatsScreenshot,
   },
 ];
 
 const CoreFeatures: React.FC = () => {
   const [selectedFeature, setSelectedFeature] = useState(features[0].id);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   return (
-    <section className="flex flex-col items-center bg-screen px-6 py-28">
+    <section id="features" className="flex flex-col items-center bg-screen px-6 py-28">
       {/* Title */}
-      <h2 className="mb-12 w-full max-w-5xl text-left text-3xl font-bold">Core Features</h2>
+      <h2 className="mb-12 w-full text-center text-3xl font-bold">Core Features</h2>
 
       {/* Accordion and Image Container */}
-      <div className="flex w-full max-w-5xl flex-col md:h-80 md:flex-row">
+      <div className="flex w-full max-w-7xl flex-col md:h-96 md:flex-row">
         {/* Accordion / Features List */}
         <div className="flex flex-col md:w-1/2">
           {features.map((feature) => {
@@ -66,15 +70,30 @@ const CoreFeatures: React.FC = () => {
           })}
         </div>
 
-        {/* Image Display */}
+        {/* Cropped Image Display */}
         <div className="mt-8 flex items-start justify-center md:mt-0 md:w-1/2">
-          <img
-            src={features.find((feature) => feature.id === selectedFeature)?.image}
-            alt={features.find((feature) => feature.id === selectedFeature)?.title}
-            className="w-full max-w-md rounded-lg shadow-lg"
-          />
+          <div
+            className="relative w-full max-w-md cursor-pointer overflow-hidden rounded-lg border border-background shadow-md"
+            onClick={() => setLightboxImage(features.find((feature) => feature.id === selectedFeature)?.image || null)}
+          >
+            <img
+              src={features.find((feature) => feature.id === selectedFeature)?.image}
+              alt={features.find((feature) => feature.id === selectedFeature)?.title}
+              className="h-96 w-full transform object-cover object-[50%_15%] duration-500"
+            />
+          </div>
         </div>
       </div>
+
+      {/* Lightbox Modal */}
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 py-5"
+          onClick={() => setLightboxImage(null)}
+        >
+          <img src={lightboxImage} alt="Full screenshot" className="max-h-full max-w-full rounded-lg shadow-lg" />
+        </div>
+      )}
     </section>
   );
 };
