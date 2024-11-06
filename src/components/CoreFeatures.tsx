@@ -51,14 +51,14 @@ const CoreFeatures: React.FC = () => {
               <div
                 key={feature.id}
                 onClick={() => setSelectedFeature(feature.id as FeatureKey)}
-                className={`flex cursor-pointer items-start justify-between rounded-lg p-6 transition duration-200 ${
+                className={`flex cursor-pointer items-start justify-between rounded-lg p-6 transition duration-500 ${
                   isSelected ? "bg-background shadow-md" : "bg-screen"
                 }`}
               >
                 <div>
                   <h3 className="text-xl font-semibold">{feature.title}</h3>
                   <div
-                    className={`mt-2 overflow-hidden text-sm transition-all duration-300 ${
+                    className={`mt-2 overflow-hidden text-sm transition-all duration-500 ${
                       isSelected ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
                     }`}
                   >
