@@ -1,9 +1,11 @@
 import React from "react";
 import { FaGooglePlay } from "react-icons/fa";
 
+import HomeScreenshot from "../images/home-screen.jpg";
+
 const HeroSection: React.FC = () => {
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center py-20 text-center md:flex-row">
+    <section className="flex min-h-screen max-w-7xl flex-col items-center justify-center py-20 text-center md:m-auto md:flex-row">
       <div className="mx-auto mb-12 flex max-w-lg flex-col items-center md:mb-0 md:mr-24">
         <h1 className="mb-8 text-4xl font-bold md:text-5xl">
           Transform Your Workouts with <span className="italic">MuscleQuest</span>
@@ -24,8 +26,13 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Image Placeholder */}
-      <div className="mx-auto flex max-w-md flex-shrink-0 items-center justify-center">
-        <img src="https://placehold.co/300x600.png" alt="App Screenshot" className="rounded-lg shadow-lg" />
+      <div className="mx-auto flex max-w-md flex-shrink-0 items-center justify-center rounded-lg border border-screen">
+        <img
+          src={HomeScreenshot}
+          alt="App Screenshot"
+          className="rounded-lg shadow-md"
+          style={{ maxHeight: "700px" }}
+        />
       </div>
     </section>
   );
