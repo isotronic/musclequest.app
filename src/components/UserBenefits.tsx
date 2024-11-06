@@ -5,7 +5,7 @@ import { TbCurrencyDollarOff } from "react-icons/tb";
 
 const UserBenefits: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center px-6 py-28">
+    <section id="benefits" className="flex flex-col items-center justify-center px-6 py-28">
       <h2 className="mb-12 text-center text-3xl font-bold">Why MuscleQuest?</h2>
 
       <div className="grid max-w-5xl gap-8 md:grid-cols-2 lg:grid-cols-4">

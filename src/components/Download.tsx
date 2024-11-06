@@ -3,7 +3,7 @@ import { FaGooglePlay } from "react-icons/fa";
 
 const Download: React.FC = () => {
   return (
-    <section className="flex flex-col items-center bg-tint px-6 py-28 text-background">
+    <section id="download" className="flex flex-col items-center bg-tint px-6 py-28 text-background">
       <h2 className="mb-4 text-center text-3xl font-bold">Get MuscleQuest Today</h2>
       <p className="mb-8 max-w-lg text-center text-lg">
         Start your fitness journey with the tools you need to succeed. Track your workouts, monitor your progress, and

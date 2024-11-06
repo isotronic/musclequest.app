@@ -30,7 +30,7 @@ const CoreFeatures: React.FC = () => {
   const [selectedFeature, setSelectedFeature] = useState(features[0].id);
 
   return (
-    <section className="flex flex-col items-center bg-screen px-6 py-28">
+    <section id="features" className="flex flex-col items-center bg-screen px-6 py-28">
       {/* Title */}
       <h2 className="mb-12 w-full max-w-5xl text-left text-3xl font-bold">Core Features</h2>
 

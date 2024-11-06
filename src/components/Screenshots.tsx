@@ -11,7 +11,7 @@ const Screenshots: React.FC = () => {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   return (
-    <section className="flex flex-col items-center bg-screen px-6 py-28">
+    <section id="screenshots" className="flex flex-col items-center bg-screen px-6 py-28">
       <h2 className="mb-12 text-center text-3xl font-bold">See MuscleQuest in Action</h2>
 
       {/* Staggered Grid of Thumbnails */}

@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa"
 
 const Contact: React.FC = () => {
   return (
-    <section className="flex flex-col items-center bg-screen px-6 py-28">
+    <section id="contact" className="flex flex-col items-center bg-screen px-6 py-28">
       <h2 className="mb-8 text-center text-3xl font-bold">Connect With Us</h2>
       <p className="mb-8 max-w-md text-center">
         Follow us on social media or reach out via email for support, feedback, or questions. We’d love to hear from
