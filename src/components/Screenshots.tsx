@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 
+import PlanOverviewScreenshot from "../images/plan-overview-user-plan.jpg";
+import EditSetScreenshot from "../images/edit-set.jpg";
+import ExercisesScreenshot from "../images/exercises-screen.jpg";
+import WorkoutOverviewScreenshot from "../images/workout-overview.jpg";
+
 const screenshots = [
-  { id: 1, src: "https://placehold.co/300x600.png?text=Screenshot+1", caption: "Screenshot 1" },
-  { id: 2, src: "https://placehold.co/300x600.png?text=Screenshot+2", caption: "Screenshot 2" },
-  { id: 3, src: "https://placehold.co/300x600.png?text=Screenshot+3", caption: "Screenshot 3" },
-  { id: 4, src: "https://placehold.co/300x600.png?text=Screenshot+4", caption: "Screenshot 4" },
+  { id: 1, src: PlanOverviewScreenshot, caption: "Training Plan Overview" },
+  { id: 2, src: EditSetScreenshot, caption: "Edit Set" },
+  { id: 3, src: ExercisesScreenshot, caption: "Exercise Selection Screen" },
+  { id: 4, src: WorkoutOverviewScreenshot, caption: "Workout Session Overview" },
 ];
 
 const Screenshots: React.FC = () => {
@@ -22,7 +27,8 @@ const Screenshots: React.FC = () => {
             src={screenshot.src}
             alt={screenshot.caption}
             onClick={() => setLightboxImage(screenshot.src)}
-            className="transform cursor-pointer rounded-lg shadow-lg transition-transform duration-200 hover:scale-105"
+            className="transform cursor-pointer rounded-lg border border-background shadow-md transition-transform duration-200 hover:scale-105"
+            style={{ maxHeight: "600px" }}
           />
         ))}
       </div>
@@ -30,7 +36,7 @@ const Screenshots: React.FC = () => {
       {/* Lightbox Modal */}
       {lightboxImage && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 py-5"
           onClick={() => setLightboxImage(null)}
         >
           <img src={lightboxImage} alt="Lightbox" className="max-h-full max-w-full rounded-lg shadow-lg" />
