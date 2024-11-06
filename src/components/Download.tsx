@@ -10,7 +10,7 @@ const Download: React.FC = () => {
         achieve your goals with ease.
       </p>
       <a
-        href="https://play.google.com/store"
+        href="#"
         className="flex items-center rounded-full bg-white px-6 py-3 text-lg font-semibold shadow-lg transition duration-200 hover:bg-gray-200"
       >
         <FaGooglePlay className="mr-2 h-6 w-6" />

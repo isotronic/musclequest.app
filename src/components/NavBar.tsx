@@ -31,6 +31,7 @@ const NavBar: React.FC = () => {
       <div className="mx-auto flex max-w-screen-2xl flex-wrap items-center justify-between p-4">
         <a href="/" className="flex items-center space-x-3">
           <img src={Logo} alt="Logo" className="w-14" />
+          <span className="text-2xl font-bold text-tint">MuscleQuest</span>
         </a>
         <button
           onClick={() => setIsNavOpen((prev) => !prev)}
@@ -65,22 +66,42 @@ const NavBar: React.FC = () => {
           <ul className="flex h-full min-h-screen flex-col items-center justify-center space-y-4 p-8 text-xl font-semibold md:mt-0 md:h-auto md:min-h-0 md:flex-row md:space-x-12 md:space-y-0 md:p-0 md:text-base md:font-medium">
             <li>
               <a
-                href="#about"
-                aria-label="About"
+                href="#features"
+                aria-label="Features"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
                 onClick={() => setIsNavOpen(false)}
               >
-                About
+                Features
               </a>
             </li>
             <li>
               <a
-                href="#projects"
-                aria-label="Projects"
+                href="#benefits"
+                aria-label="Benefits"
                 className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
                 onClick={() => setIsNavOpen(false)}
               >
-                Projects
+                Benefits
+              </a>
+            </li>
+            <li>
+              <a
+                href="#screenshots"
+                aria-label="Screenshots"
+                className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
+                onClick={() => setIsNavOpen(false)}
+              >
+                Screenshots
+              </a>
+            </li>
+            <li>
+              <a
+                href="#download"
+                aria-label="Download"
+                className="block px-20 py-7 hover:text-tint md:px-0 md:py-0"
+                onClick={() => setIsNavOpen(false)}
+              >
+                Download
               </a>
             </li>
             <li>
