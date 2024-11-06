@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply bg-background text-text grid leading-relaxed;
+  @apply grid bg-background leading-relaxed text-text;
   font-family: Inter, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,17 +16,17 @@ body {
 
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 13px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #2a2a36;
+  background: #22222d;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #ebaa39;
-  border-radius: 6px;
-  border: 3px solid #22222d;
+  border-radius: 5px;
+  border: 2px solid #2a2a36;
 }
 
 ::-webkit-scrollbar-thumb:hover {
