@@ -152,14 +152,14 @@ export const Head: HeadFC = () => (
     <title>Privacy Policy | MuscleQuest</title>
     <meta
       name="description"
-      content="MuscleQuest is a mobile workout tracker app built to help users plan, track, and optimize their workout routines. With local-first data storage, MuscleQuest ensures smooth performance without requiring a constant internet connection. The app provides an intuitive interface to manage workout plans, log exercises, and track progress over time."
+      content="Read the MuscleQuest Privacy Policy to understand how we collect, use, and protect your data. Your privacy is important to us, and we are committed to safeguarding your personal information."
     />
     <link rel="canonical" href="https://musclequest.app/privacy-policy" />
     <link rel="icon" type="image/png" href={Favicon} />
     <meta property="og:title" content="Privacy Policy | MuscleQuest" />
     <meta
       property="og:description"
-      content="MuscleQuest is a mobile workout tracker app built to help users plan, track, and optimize their workout routines. With local-first data storage, MuscleQuest ensures smooth performance without requiring a constant internet connection. The app provides an intuitive interface to manage workout plans, log exercises, and track progress over time."
+      content="Read the MuscleQuest Privacy Policy to understand how we collect, use, and protect your data. Your privacy is important to us, and we are committed to safeguarding your personal information."
     />
     <meta property="og:image" content={Favicon} />
     <meta property="og:url" content="https://musclequest.app/privacy-policy" />
