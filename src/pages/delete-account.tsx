@@ -106,20 +106,20 @@ export default DeleteAccountPage;
 
 export const Head: HeadFC = () => (
   <>
-    <title>MuscleQuest - Workout tracker and planner</title>
+    <title>Request Account Deletion | MuscleQuest</title>
     <meta
       name="description"
-      content="MuscleQuest is a mobile workout tracker app built to help users plan, track, and optimize their workout routines. With local-first data storage, MuscleQuest ensures smooth performance without requiring a constant internet connection. The app provides an intuitive interface to manage workout plans, log exercises, and track progress over time."
+      content="Request the deletion of your MuscleQuest account and associated data. Follow our simple process to submit a request and ensure your privacy and data rights are respected."
     />
-    <link rel="canonical" href="https://musclequest.app" />
+    <link rel="canonical" href="https://musclequest.app/delete-account" />
     <link rel="icon" type="image/png" href={Favicon} />
-    <meta property="og:title" content="MuscleQuest - Workout tracker and planner" />
+    <meta property="og:title" content="Request Account Deletion | MuscleQuest" />
     <meta
       property="og:description"
-      content="MuscleQuest is a mobile workout tracker app built to help users plan, track, and optimize their workout routines. With local-first data storage, MuscleQuest ensures smooth performance without requiring a constant internet connection. The app provides an intuitive interface to manage workout plans, log exercises, and track progress over time."
+      content="Request the deletion of your MuscleQuest account and associated data. Follow our simple process to submit a request and ensure your privacy and data rights are respected."
     />
     <meta property="og:image" content={Favicon} />
-    <meta property="og:url" content="https://musclequest.app" />
+    <meta property="og:url" content="https://musclequest.app/delete-account" />
     <meta name="twitter:image" content={Favicon} />
   </>
 );
