@@ -1,49 +1,84 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# MuscleQuest Website
 
-## 🚀 Quick start
+This is the official landing page for the **MuscleQuest** mobile app, built using **Gatsby** and **Tailwind CSS**. The website serves as an informational and promotional platform for the app, showcasing its features, benefits, screenshots, and providing a way for users to request data deletion.
 
-1.  **Create a Gatsby site.**
+## Table of Contents
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Deploying on Cloudflare Pages](#deploying-on-cloudflare-pages)
+- [Contributing](#contributing)
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+## Overview
 
-2.  **Start developing.**
+The **MuscleQuest** website is designed to provide users with comprehensive information about the app. It includes sections for:
 
-    Navigate into your new site’s directory and start it up.
+- **Core Features** of the app
+- **User Benefits** of using the app
+- **Screenshots** of the app interface
+- A **Download** section with a Google Play download link
+- A **Privacy Policy** page
+- A **Request Account and Data Deletion** page
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Features
 
-3.  **Open the code and start customizing!**
+- **Responsive Design**: Fully responsive and optimized for different screen sizes.
+- **Single Page Navigation**: Smooth navigation between sections.
+- **Data Request Page**: A dedicated page where users can submit requests to delete their account and data.
+- **Modern Styling**: Styled with Tailwind CSS for a sleek and modern look.
+- **SEO Optimized**: Basic SEO optimization using Gatsby's SEO tools.
+- **Fast Performance**: Built with Gatsby for optimal performance and fast page loads.
 
-    Your site is now running at http://localhost:8000!
+## Technologies Used
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+- **Gatsby**: Static site generator for React.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **React**: JavaScript library for building user interfaces.
+- **Cloudflare Pages**: Hosting platform for deploying the site.
+- **Formspree/Getform**: (optional) For handling form submissions.
+- **react-icons**: For adding icons throughout the site.
 
-4.  **Learn more**
+## Setup and Installation
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+To run the project locally:
 
-## 🚀 Quick start (Netlify)
+1. **Clone the repository**:
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+   ```bash
+   git clone https://github.com/yourusername/musclequest-website.git
+   ```
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd musclequest-website
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**:
+
+   ```bash
+   gatsby develop
+   ```
+
+   The site will be available at `http://localhost:8000`.
+
+## Deploying on Cloudflare Pages
+
+1. **Connect the repository**: Link your GitHub repository to your Cloudflare Pages project.
+2. **Set up build settings**:
+   - **Framework preset**: Gatsby
+   - **Build command**: `gatsby build`
+   - **Output directory**: `public`
+3. **Deploy**: Cloudflare Pages will handle the deployment process.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
