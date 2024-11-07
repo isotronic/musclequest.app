@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 import Favicon from "../images/favicon.png";
 
-const PrivacyPage: React.FC<PageProps> = () => {
+const DeleteAccountPage: React.FC<PageProps> = () => {
   const [state, handleSubmit] = useForm("mzzbrvnb");
 
   if (state.succeeded) {
@@ -102,7 +102,7 @@ const PrivacyPage: React.FC<PageProps> = () => {
   );
 };
 
-export default PrivacyPage;
+export default DeleteAccountPage;
 
 export const Head: HeadFC = () => (
   <>
