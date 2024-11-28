@@ -9,16 +9,16 @@ const UserBenefits: React.FC = () => {
       <h2 className="mb-12 text-center text-3xl font-bold">Why MuscleQuest?</h2>
 
       <div className="grid max-w-7xl gap-8 md:grid-cols-2 lg:grid-cols-4">
-        {/* Benefit 1: Offline-First Access */}
-        <div className="flex items-start align-top">
+        {/* Benefit 1: Free with No Ads */}
+        <div className="flex items-start">
           <div className="flex flex-col">
             <div className="mr-4 flex-shrink-0 self-start">
-              <RiWifiOffLine className="text-tint" size={30} />
+              <TbCurrencyDollarOff className="text-tint" size={30} />
             </div>
-            <h3 className="text-lg font-semibold">Offline-First Access</h3>
+            <h3 className="text-lg font-semibold">100% Free, No Ads</h3>
             <p className="text-sm">
-              No internet? No problem! <span className="font-bold">MuscleQuest</span> is built to function seamlessly
-              offline, so you can track and plan anytime, anywhere.
+              Enjoy all features without any cost or interruptions. <span className="font-bold">MuscleQuest</span> is
+              completely free with no ads.
             </p>
           </div>
         </div>
@@ -51,16 +51,16 @@ const UserBenefits: React.FC = () => {
           </div>
         </div>
 
-        {/* Benefit 4: Free with No Ads */}
-        <div className="flex items-start">
+        {/* Benefit 4: Offline-First Access */}
+        <div className="flex items-start align-top">
           <div className="flex flex-col">
             <div className="mr-4 flex-shrink-0 self-start">
-              <TbCurrencyDollarOff className="text-tint" size={30} />
+              <RiWifiOffLine className="text-tint" size={30} />
             </div>
-            <h3 className="text-lg font-semibold">100% Free, No Ads</h3>
+            <h3 className="text-lg font-semibold">Offline-First Access</h3>
             <p className="text-sm">
-              Enjoy all features without any cost or interruptions. <span className="font-bold">MuscleQuest</span> is
-              completely free with no ads.
+              No internet? No problem! <span className="font-bold">MuscleQuest</span> is built to function seamlessly
+              offline, so you can track and plan anytime, anywhere.
             </p>
           </div>
         </div>
