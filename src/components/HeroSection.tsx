@@ -10,11 +10,11 @@ const HeroSection: React.FC = () => {
         <h1 className="mb-8 text-4xl font-bold md:text-5xl">
           Transform Your Workouts with <span className="italic">MuscleQuest</span>
         </h1>
-        <p className="mb-8 text-lg md:text-xl">Track, Analyze, and Elevate Your Fitness Journey</p>
+        <p className="mb-8 text-lg md:text-xl">Track, Analyse, and Elevate your Fitness Journey</p>
         <p className="mb-8 text-sm md:text-base">
           MuscleQuest is your all-in-one workout companion, designed to streamline planning, tracking, and enhancing
           your fitness journey. Built for smooth, offline-first performance, MuscleQuest empowers you to manage workout
-          plans, log every exercise detail, and visualize your progress—all with an intuitive, user-friendly interface.
+          plans, log every exercise detail, and visualise your progress—all with an intuitive, user-friendly interface.
         </p>
         <a
           href="#"
