@@ -87,7 +87,7 @@ const NavBar: React.FC = () => {
                 Benefits
               </AnchorLink>
             </li>
-            <li>
+            {/* <li>
               <AnchorLink
                 to="/#screenshots"
                 aria-label="Screenshots"
@@ -97,7 +97,7 @@ const NavBar: React.FC = () => {
               >
                 Screenshots
               </AnchorLink>
-            </li>
+            </li> */}
             <li>
               <AnchorLink
                 to="/#download"
