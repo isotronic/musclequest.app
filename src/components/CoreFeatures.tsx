@@ -10,7 +10,7 @@ const features = [
     id: "customPlans",
     title: "Custom Training Plans",
     description:
-      "Create and customize training plans tailored to your goals, schedule, and preferences for a fully personalized workout experience.",
+      "Create and customise training plans tailored to your goals, schedule, and preferences for a fully personalised workout experience.",
     image: CreatePlanScreenshot,
   },
   {
@@ -24,7 +24,7 @@ const features = [
     id: "inDepthStats",
     title: "In-Depth Statistics",
     description:
-      "Access powerful insights with stats like body part split, workout history, and progression graphs to visualize and analyze your training.",
+      "Access powerful insights with stats like body part split, workout history, and progression graphs to visualise and analyse your training.",
     image: StatsScreenshot,
   },
 ];
