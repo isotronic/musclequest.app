@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
   }, [isNavOpen]);
 
   return (
-    <nav className={`fixed z-10 w-full bg-background ${isScrolled ? "shadow-md" : ""}`}>
+    <nav className={`fixed z-20 w-full bg-background ${isScrolled ? "shadow-md" : ""}`}>
       <div className="mx-auto flex max-w-screen-2xl flex-wrap items-center justify-between p-4">
         <a href="/" className="flex items-center space-x-3">
           <img src={Logo} alt="Logo" className="w-14" />
