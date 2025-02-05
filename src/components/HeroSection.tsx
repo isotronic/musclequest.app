@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGooglePlay } from "react-icons/fa";
 import HomeScreenshot from "../images/google-pixel-2xl-home-screen.png";
+import BackgroundImage from "../images/anastase-maragos-unsplash.jpg";
 
 const HeroSection: React.FC = () => {
   return (
@@ -9,8 +10,7 @@ const HeroSection: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+          backgroundImage: `url(${BackgroundImage})`,
           backgroundPosition: "center top",
           opacity: 0.3,
         }}
