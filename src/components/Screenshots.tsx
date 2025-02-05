@@ -1,15 +1,21 @@
 import React, { useState } from "react";
 
-import PlanOverviewScreenshot from "../images/plan-overview-user-plan.jpg";
-import EditSetScreenshot from "../images/edit-set.jpg";
-import ExercisesScreenshot from "../images/exercises-screen.jpg";
-import WorkoutOverviewScreenshot from "../images/workout-overview.jpg";
+import HomeScreenshot from "../images/screenshot1-home.png";
+import StatsScreenshot from "../images/screenshot2-stats.png";
+import ExerciseDetailsScreenshot from "../images/screenshot3-exercise-details.png";
+import CreatePlanScreenshot from "../images/screenshot4-create-plan.png";
+import ExercisesScreenshot from "../images/screenshot5-exercises.png";
+import EditSetScreenshot from "../images/screenshot6-edit-set.png";
+import WorkoutSessionScreenshot from "../images/screenshot7-workout-session.png";
 
 const screenshots = [
-  { id: 1, src: PlanOverviewScreenshot, caption: "Training Plan Overview" },
+  { id: 0, src: HomeScreenshot, caption: "Home Screen" },
+  { id: 1, src: ExercisesScreenshot, caption: "Exercise Selection Screen" },
   { id: 2, src: EditSetScreenshot, caption: "Edit Set" },
-  { id: 3, src: ExercisesScreenshot, caption: "Exercise Selection Screen" },
-  { id: 4, src: WorkoutOverviewScreenshot, caption: "Workout Session Overview" },
+  { id: 3, src: CreatePlanScreenshot, caption: "Create Plan" },
+  { id: 4, src: ExerciseDetailsScreenshot, caption: "Exercise Details" },
+  { id: 5, src: WorkoutSessionScreenshot, caption: "Workout Session" },
+  { id: 6, src: StatsScreenshot, caption: "Stats Screen" },
 ];
 
 const Screenshots: React.FC = () => {
