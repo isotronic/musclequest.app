@@ -13,7 +13,7 @@ const PrivacyPage: React.FC<PageProps> = () => {
       <main className="bg-screen">
         <section className="mx-auto max-w-screen-lg px-6 py-28">
           <h1 className="mb-6 text-4xl font-bold">App Privacy Policy</h1>
-          <p className="mb-4 font-semibold">Last updated: 06.11.2024</p>
+          <p className="mb-4 font-semibold">Last updated: 05.02.2025</p>
           <p className="mb-8">
             Thank you for using <strong>MuscleQuest</strong>. We value your privacy and are committed to protecting your
             personal data. This privacy policy outlines how we collect, use, and safeguard your information when you use
@@ -110,7 +110,7 @@ const PrivacyPage: React.FC<PageProps> = () => {
               <strong>Google Analytics</strong> for usage data collection and analysis.
             </li>
             <li>
-              <strong>Sentry</strong> for app crash and error reporting.
+              <strong>Bugsnag</strong> for app crash and error reporting.
             </li>
           </ul>
           <p className="mb-8">
@@ -138,6 +138,19 @@ const PrivacyPage: React.FC<PageProps> = () => {
               <strong>Email</strong>: <a href="mailto:support@musclequest.com">support@musclequest.com</a>
             </li>
           </ul>
+
+          <h2 className="mb-4 text-2xl font-bold">11. Image Attribution</h2>
+
+          <p className="mb-4">
+            Hero section background photo by{" "}
+            <a href="https://unsplash.com/@visualsbyroyalz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+              Anastase Maragos
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/photos/topless-man-in-black-shorts-carrying-black-dumbbell-7kEpUPB8vNk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+              Unsplash
+            </a>
+          </p>
         </section>
       </main>
       <Footer />
