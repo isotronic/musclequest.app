@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Logo from "../images/logo.png";
+import { Link } from "gatsby";
 
 const NavBar: React.FC = () => {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
@@ -30,10 +31,10 @@ const NavBar: React.FC = () => {
   return (
     <nav className={`fixed z-20 w-full bg-background ${isScrolled ? "shadow-md" : ""}`}>
       <div className="mx-auto flex max-w-screen-2xl flex-wrap items-center justify-between p-4">
-        <a href="/" className="flex items-center space-x-3">
+        <Link to="/" className="flex items-center space-x-3" onClick={() => window.scrollTo(0, 0)}>
           <img src={Logo} alt="Logo" className="w-14" />
           <span className="text-2xl font-bold text-tint">MuscleQuest</span>
-        </a>
+        </Link>
         <button
           onClick={() => setIsNavOpen((prev) => !prev)}
           data-collapse-toggle="navbar-default"
