@@ -9,13 +9,13 @@ import EditSetScreenshot from "../images/screenshot6-edit-set.png";
 import WorkoutSessionScreenshot from "../images/screenshot7-workout-session.png";
 
 const screenshots = [
-  { id: 1, src: HomeScreenshot, caption: "Home Screen" },
-  { id: 3, src: ExercisesScreenshot, caption: "Exercise Selection Screen" },
+  { id: 0, src: HomeScreenshot, caption: "Home Screen" },
+  { id: 1, src: ExercisesScreenshot, caption: "Exercise Selection Screen" },
   { id: 2, src: EditSetScreenshot, caption: "Edit Set" },
-  { id: 6, src: CreatePlanScreenshot, caption: "Create Plan" },
-  { id: 7, src: ExerciseDetailsScreenshot, caption: "Exercise Details" },
-  { id: 4, src: WorkoutSessionScreenshot, caption: "Workout Session" },
-  { id: 5, src: StatsScreenshot, caption: "Stats Screen" },
+  { id: 3, src: CreatePlanScreenshot, caption: "Create Plan" },
+  { id: 4, src: ExerciseDetailsScreenshot, caption: "Exercise Details" },
+  { id: 5, src: WorkoutSessionScreenshot, caption: "Workout Session" },
+  { id: 6, src: StatsScreenshot, caption: "Stats Screen" },
 ];
 
 const Screenshots: React.FC = () => {
