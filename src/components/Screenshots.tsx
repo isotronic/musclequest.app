@@ -26,7 +26,7 @@ const Screenshots: React.FC = () => {
       <h2 className="mb-12 text-center text-3xl font-bold">See MuscleQuest in Action</h2>
 
       {/* Staggered Grid of Thumbnails */}
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-4 md:gap-4">
         {screenshots.map((screenshot) => (
           <img
             key={screenshot.id}
