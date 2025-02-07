@@ -5,7 +5,7 @@ import BackgroundImage from "../images/anastase-maragos-unsplash.jpg";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative flex min-h-screen items-center justify-center px-6 pt-14 text-center md:m-auto md:flex-row">
+    <section className="relative flex min-h-screen items-center justify-center px-6 pt-40 text-center md:m-auto md:flex-row md:pt-14">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -41,7 +41,7 @@ const HeroSection: React.FC = () => {
 
         {/* Image */}
         <div className="relative mx-auto flex max-w-md flex-shrink-0 items-center justify-center">
-          <img src={HomeScreenshot} alt="App Screenshot" className="ml-20 mt-20" />
+          <img src={HomeScreenshot} alt="App Screenshot" className="ml-20 mt-6 md:mt-20" />
         </div>
       </div>
     </section>
