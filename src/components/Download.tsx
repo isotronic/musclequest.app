@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGooglePlay, FaRocket, FaStar } from "react-icons/fa";
+import { FaGooglePlay, FaStar, FaRocket, FaCrown, FaGift } from "react-icons/fa";
 
 const Download: React.FC = () => {
   return (
@@ -40,9 +40,9 @@ const Download: React.FC = () => {
 
         <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-3">
           {[
-            { icon: FaStar, title: "Premium Features", desc: "Advanced workout tracking" },
-            { icon: FaRocket, title: "Fast & Reliable", desc: "Optimized performance" },
-            { icon: FaStar, title: "Always Free", desc: "No subscriptions required" },
+            { icon: FaCrown, title: "Premium Features", desc: "Advanced workout tracking" },
+            { icon: FaRocket, title: "Fast & Reliable", desc: "Optimised performance" },
+            { icon: FaGift, title: "Always Free", desc: "No subscriptions required" },
           ].map((feature, index) => (
             <div
               key={index}
