@@ -100,22 +100,40 @@ const PrivacyPage: React.FC<PageProps> = () => {
 
           <h2 className="mb-4 text-2xl font-bold">7. Third-Party Services</h2>
           <p className="mb-4">
-            <strong>MuscleQuest</strong> integrates third-party services, such as:
+            <strong>MuscleQuest</strong> uses third-party services to support core app functionality, analytics, and
+            diagnostics. These services may collect the following categories of data:
           </p>
           <ul className="mb-6 list-inside list-disc space-y-2">
+            <li>Device or other IDs (such as app instance IDs or device identifiers)</li>
+            <li>Technical and usage data (including app usage events, device/OS information)</li>
+            <li>Diagnostics and crash data (such as crash logs and performance data)</li>
+          </ul>
+          <p className="mb-4">This data is collected and used for the following purposes:</p>
+          <ul className="mb-6 list-inside list-disc space-y-2">
+            <li>Authentication and account security (via Firebase Authentication and Google OAuth)</li>
             <li>
-              <strong>Firebase Authentication</strong> for account creation and sign-in via Google OAuth.
+              Analytics to understand app usage and improve features (via Firebase Analytics / Google Analytics for
+              Firebase)
             </li>
-            <li>
-              <strong>Google Analytics</strong> for usage data collection and analysis.
-            </li>
-            <li>
-              <strong>Bugsnag</strong> for app crash and error reporting.
-            </li>
+            <li>Crash reporting and diagnostics to identify and fix technical issues (via Bugsnag)</li>
           </ul>
           <p className="mb-8">
-            These third-party services may have their own privacy policies governing their use of your data. We
-            encourage you to review these policies as well.
+            Data collected by these services may be associated with your user account or device to help investigate
+            issues and improve the app. MuscleQuest does <strong>not</strong> use this data for targeted advertising and
+            does <strong>not</strong> sell your personal data. For more information, please review the privacy policies
+            of{" "}
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">
+              Firebase/Google
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://docs.bugsnag.com/platforms/android/playstore-privacy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bugsnag
+            </a>
+            .
           </p>
 
           <h2 className="mb-4 text-2xl font-bold">8. Data Transfer</h2>
