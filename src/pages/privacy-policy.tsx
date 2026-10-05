@@ -76,6 +76,12 @@ const PrivacyPage: React.FC<PageProps> = () => {
               Expo for app updates).
             </li>
             <li>
+              <strong>Your Friends</strong>: If you use the social features, your display name and profile photo are
+              visible to your friends and to people who search for you by email. Plans, workouts, custom exercises,
+              workout history, body measurements and strength progress are shared with your friends only for the
+              categories where you turn sharing on in the app.
+            </li>
+            <li>
               <strong>Legal Requirements</strong>: We may disclose your information if required by law or in response to
               valid legal processes.
             </li>
