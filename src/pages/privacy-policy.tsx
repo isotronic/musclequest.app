@@ -13,7 +13,7 @@ const PrivacyPage: React.FC<PageProps> = () => {
       <main className="bg-screen">
         <section className="mx-auto max-w-screen-lg px-6 py-28">
           <h1 className="mb-6 text-4xl font-bold">App Privacy Policy</h1>
-          <p className="mb-4 font-semibold">Last updated: 05.02.2025</p>
+          <p className="mb-4 font-semibold">Last updated: 05.10.2026</p>
           <p className="mb-8">
             Thank you for using <strong>MuscleQuest</strong>. We value your privacy and are committed to protecting your
             personal data. This privacy policy outlines how we collect, use, and safeguard your information when you use
@@ -31,14 +31,23 @@ const PrivacyPage: React.FC<PageProps> = () => {
             </li>
             <li>
               <strong>Workout Data</strong>: Your workout data is stored locally on your device and will only leave your
-              device if you choose to create a backup.
+              device if you choose to create a backup or share it with friends.
+            </li>
+            <li>
+              <strong>Social Features</strong>: Friends and sharing are optional and require an account. Your display
+              name and profile photo are visible to people who search for you or are your friends. Your email address is
+              stored as a one-way hash so friends can find you by email; other users never see it. Plans, workouts,
+              custom exercises, workout history, body measurements and strength progress are shared only if you turn on
+              sharing for that category in the app, and only with your friends.
             </li>
           </ul>
 
           <h3 className="mb-2 text-xl font-semibold">b. Non-Personal Information</h3>
           <ul className="mb-6 list-inside list-disc space-y-2">
             <li>
-              <strong>Usage Data</strong>: We collect data about how you interact with the app through Google Analytics.
+              <strong>Usage Data</strong>: Google Analytics for Firebase automatically records app usage events such as
+              first launch, sessions, engagement time and app updates. We do not log the content of your workouts as
+              analytics events, and we do not collect the advertising ID.
             </li>
             <li>
               <strong>Device Information</strong>: General data related to your device type, operating system version,
@@ -63,7 +72,8 @@ const PrivacyPage: React.FC<PageProps> = () => {
           <ul className="mb-6 list-inside list-disc space-y-2">
             <li>
               <strong>Service Providers</strong>: We may share limited data with trusted service providers that assist
-              us in operating the app (e.g., Google Firebase for authentication and backup storage).
+              us in operating the app (e.g., Google Firebase for authentication, backup storage and social features, and
+              Expo for app updates).
             </li>
             <li>
               <strong>Legal Requirements</strong>: We may disclose your information if required by law or in response to
@@ -83,6 +93,10 @@ const PrivacyPage: React.FC<PageProps> = () => {
             <li>
               <strong>Workout Data</strong>: Stored locally on your device and only backed up to Firebase if you opt for
               a backup. Data from the backup is used exclusively for restoration.
+            </li>
+            <li>
+              <strong>Shared Data</strong>: Data you share with friends is kept until you turn off sharing for that
+              category or delete your account.
             </li>
             <li>
               <strong>Personal Data</strong>: Retained for as long as your account is active or as needed to provide
@@ -115,15 +129,26 @@ const PrivacyPage: React.FC<PageProps> = () => {
               Analytics to understand app usage and improve features (via Firebase Analytics / Google Analytics for
               Firebase)
             </li>
-            <li>Crash reporting and diagnostics to identify and fix technical issues (via Bugsnag)</li>
+            <li>
+              Crash reporting and diagnostics to identify and fix technical issues (via Bugsnag and Firebase
+              Crashlytics)
+            </li>
+            <li>
+              Delivering app updates and counting app launches by platform and app version (via Expo Application
+              Services)
+            </li>
           </ul>
           <p className="mb-8">
             Data collected by these services may be associated with your user account or device to help investigate
             issues and improve the app. MuscleQuest does <strong>not</strong> use this data for targeted advertising and
-            does <strong>not</strong> sell your personal data. For more information, please review the privacy policies
-            of{" "}
+            does <strong>not</strong> sell your personal data. Analytics runs with advertising features turned off. For
+            more information, please review the privacy policies of{" "}
             <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">
               Firebase/Google
+            </a>
+            ,{" "}
+            <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">
+              Expo
             </a>{" "}
             and{" "}
             <a
@@ -138,9 +163,10 @@ const PrivacyPage: React.FC<PageProps> = () => {
 
           <h2 className="mb-4 text-2xl font-bold">8. Data Transfer</h2>
           <p className="mb-8">
-            All data backups stored in Firebase Firestore are protected under Firebase's security measures. Your data
-            may be transferred to and stored on servers outside your region or country, which may have different data
-            protection regulations.
+            Backups are stored in Firebase Cloud Storage and shared data in Cloud Firestore, both protected by
+            Firebase's security measures and by access rules that limit each item to you and, for shared data, your
+            friends. Your data may be transferred to and stored on servers outside your region or country, which may
+            have different data protection regulations.
           </p>
 
           <h2 className="mb-4 text-2xl font-bold">9. Changes to This Privacy Policy</h2>
