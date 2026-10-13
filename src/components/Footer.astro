@@ -1,0 +1,39 @@
+---
+import { localePath, t, type Locale } from "../i18n/ui";
+import { AUTHOR_URL, INSTAGRAM_URL, SUPPORT_EMAIL, playUrl } from "../lib/seo";
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const year = new Date().getFullYear();
+const cols = [
+  { title: t(locale, "footer.product"), links: [
+    { href: localePath(locale, "/#features"), label: t(locale, "nav.features") },
+    { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
+    { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
+    { href: playUrl("footer"), label: "Google Play" },
+  ]},
+  { title: t(locale, "footer.legal"), links: [
+    { href: "/privacy-policy/", label: t(locale, "footer.privacy") },
+    { href: "/delete-account/", label: t(locale, "footer.deleteAccount") },
+  ]},
+  { title: t(locale, "footer.contact"), links: [
+    { href: `mailto:${SUPPORT_EMAIL}`, label: SUPPORT_EMAIL },
+    { href: INSTAGRAM_URL, label: t(locale, "footer.instagram") },
+  ]},
+];
+---
+<footer id="contact" class="border-t border-surface-2/60 bg-bg px-4 py-14 sm:px-6">
+  <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-4">
+    <div>
+      <p class="text-lg font-bold text-accent">MuscleQuest</p>
+      <p class="mt-2 text-sm text-muted">© {year} · {t(locale, "footer.madeBy")} <a href={AUTHOR_URL} class="underline hover:text-accent">Joseph Bouqdib</a></p>
+    </div>
+    {cols.map((c) => (
+      <div>
+        <h2 class="text-sm font-semibold text-text">{c.title}</h2>
+        <ul class="mt-3 space-y-2 text-sm">
+          {c.links.map((l) => <li><a href={l.href} class="text-muted hover:text-accent">{l.label}</a></li>)}
+        </ul>
+      </div>
+    ))}
+  </div>
+</footer>
