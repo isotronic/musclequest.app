@@ -1,4 +1,4 @@
-// Checks every internal href (and #anchor) in dist/ resolves, plus legacy URLs that must keep working.
+// Checks every internal href (and #anchor) in dist/ resolves, ids are unique per page, and legacy URLs keep working.
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, relative } from "node:path";
 
@@ -6,6 +6,7 @@ const DIST = process.argv[2] ?? "dist";
 const LEGACY = ["/privacy-policy/", "/delete-account/", "/#features", "/#download", "/#contact", "/#faq"];
 
 const pages = new Map(); // "/help/" -> Set(ids)
+const dupes = [];
 (function walk(dir) {
   for (const f of readdirSync(dir)) {
     const p = join(dir, f);
@@ -13,12 +14,14 @@ const pages = new Map(); // "/help/" -> Set(ids)
     else if (f.endsWith(".html")) {
       const rel = "/" + relative(DIST, p).replace(/index\.html$/, "").replace(/\\/g, "/");
       const html = readFileSync(p, "utf8");
-      pages.set(rel, { html, ids: new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1])) });
+      const idList = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
+      for (const id of new Set(idList.filter((id, i) => idList.indexOf(id) !== i))) dupes.push(`${rel}: duplicate id "${id}"`);
+      pages.set(rel, { html, ids: new Set(idList) });
     }
   }
 })(DIST);
 
-const errors = [];
+const errors = [...dupes];
 const check = (from, href) => {
   const [path, hash] = href.split("#");
   const target = path === "" ? from : path;
@@ -46,4 +49,4 @@ if (errors.length) {
   console.error(`\n${errors.length} problem(s)`);
   process.exit(1);
 }
-console.log(`OK: ${pages.size} pages, all internal links and anchors resolve`);
+console.log(`OK: ${pages.size} pages, all internal links and anchors resolve, no duplicate ids`);
