@@ -7,5 +7,5 @@ interface Props { placement: Placement; locale?: Locale; class?: string }
 const { placement, locale = "en", class: cls = "" } = Astro.props;
 ---
 <a href={playUrl(placement)} class:list={["inline-block rounded-lg", cls]} rel="noopener">
-  <Image src={badge} alt={t(locale, "play.badgeAlt")} height={72} class="-m-3 h-[72px] w-auto" loading="eager" />
+  <Image src={badge} alt={t(locale, "play.badgeAlt")} height={72} densities={[1, 2]} class="-m-3 h-[72px] w-auto max-w-none" loading="eager" />
 </a>

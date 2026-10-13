@@ -1,84 +1,53 @@
-# MuscleQuest Website
+# MuscleQuest website
 
-This is the official landing page for the **MuscleQuest** mobile app, built using **Gatsby** and **Tailwind CSS**. The website serves as an informational and promotional platform for the app, showcasing its features, benefits, screenshots, and providing a way for users to request data deletion.
+The website for [MuscleQuest](https://musclequest.app), a free, offline-first workout tracker for Android. Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), hosted on Cloudflare Pages.
 
-## Table of Contents
+## Develop
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Deploying on Cloudflare Pages](#deploying-on-cloudflare-pages)
-- [Contributing](#contributing)
+```bash
+npm install
+npm run dev          # http://localhost:4321
+npm test             # unit tests (content sync, loaders, SEO helpers)
+npm run build        # type check + static build to dist/
+npm run check-links  # verify internal links and anchors in dist/
+```
 
-## Overview
+## Help and changelog content
 
-The **MuscleQuest** website is designed to provide users with comprehensive information about the app. It includes sections for:
+The help guide and changelog come from the app repo (`constants/HelpData.ts`, `constants/WhatsNew.ts` and the Lingui `.po` files). After an app release:
 
-- **Core Features** of the app
-- **User Benefits** of using the app
-- **Screenshots** of the app interface
-- A **Download** section with a Google Play download link
-- A **Privacy Policy** page
-- A **Request Account and Data Deletion** page
+```bash
+npm run sync-content                       # expects the app at ../MuscleQuest
+npm run sync-content -- --app-dir <path>   # or MUSCLEQUEST_APP_DIR=<path>
+```
 
-## Features
+Commit the updated `src/content/help.json` and `src/content/changelog.json`.
 
-- **Responsive Design**: Fully responsive and optimized for different screen sizes.
-- **Single Page Navigation**: Smooth navigation between sections.
-- **Data Request Page**: A dedicated page where users can submit requests to delete their account and data.
-- **Modern Styling**: Styled with Tailwind CSS for a sleek and modern look.
-- **SEO Optimized**: Basic SEO optimization using Gatsby's SEO tools.
-- **Fast Performance**: Built with Gatsby for optimal performance and fast page loads.
+## Screenshots
 
-## Technologies Used
+Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.jpg` → `.png`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI:
 
-- **Gatsby**: Static site generator for React.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **React**: JavaScript library for building user interfaces.
-- **Cloudflare Pages**: Hosting platform for deploying the site.
-- **Formspree/Getform**: (optional) For handling form submissions.
-- **react-icons**: For adding icons throughout the site.
+| File | Screen | Should show | Used in |
+|---|---|---|---|
+| `home.png` | Home | Weekly goal strip with some days done, active plan workouts, measurements card | Hero, social preview image |
+| `plan.png` | Plan overview or editor | Several workouts and a weekly schedule, ideally a superset | Plans |
+| `workout.png` | Active workout | Mid-workout, pre-filled sets, rest timer running | Logging |
+| `progression.png` | Exercise details | Performance chart, all-time PR, top sets | Progression |
+| `stats.png` | Stats dashboard | Customised dashboard with muscle heatmap and weekly chart | Stats |
+| `measurements.jpg` | Body measurements | A measurement chart over time, e.g. body weight (**currently a placeholder showing the wrong screen**) | Measurements |
 
-## Setup and Installation
+Optional extras for later: plate calculator, friends.
 
-To run the project locally:
+After replacing `home.png`, regenerate the social preview image:
 
-1. **Clone the repository**:
+```bash
+google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files --window-size=1200,630 \
+  --virtual-time-budget=4000 --screenshot=public/og-image.png "file://$PWD/scripts/og/og-image.html"
+```
 
-   ```bash
-   git clone https://github.com/yourusername/musclequest-website.git
-   ```
+## Deploy (Cloudflare Pages)
 
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd musclequest-website
-   ```
-
-3. **Install dependencies**:
-
-   ```bash
-   npm install
-   ```
-
-4. **Run the development server**:
-
-   ```bash
-   gatsby develop
-   ```
-
-   The site will be available at `http://localhost:8000`.
-
-## Deploying on Cloudflare Pages
-
-1. **Connect the repository**: Link your GitHub repository to your Cloudflare Pages project.
-2. **Set up build settings**:
-   - **Framework preset**: Gatsby
-   - **Build command**: `gatsby build`
-   - **Output directory**: `public`
-3. **Deploy**: Cloudflare Pages will handle the deployment process.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+- Build command: `npm run build`
+- Output directory: `dist`
+- Environment variable: `NODE_VERSION=22`
+- Analytics: Cloudflare Web Analytics, enabled on the Pages project (no code, no cookies)
