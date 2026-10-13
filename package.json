@@ -1,40 +1,34 @@
 {
   "name": "musclequest.app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "musclequest.app",
+  "type": "module",
+  "description": "Website for the MuscleQuest workout tracker app",
   "author": "Joseph Bouqdib",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "sync-content": "tsx scripts/sync-content.ts",
+    "check-links": "node scripts/check-links.mjs",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.1.0",
-    "@formspree/react": "^2.5.1",
-    "autoprefixer": "^10.4.20",
-    "gatsby": "^5.13.7",
-    "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-google-gtag": "^5.13.1",
-    "gatsby-plugin-postcss": "^6.13.1",
-    "postcss": "^8.4.47",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.3.0",
-    "tailwindcss": "^3.4.14"
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.8",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "@types/react": "^18.2.55",
-    "@types/react-dom": "^18.2.19",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.8",
-    "typescript": "^5.3.3"
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tsx": "^4.23.15",
+    "vitest": "^5.0.4"
   }
 }

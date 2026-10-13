@@ -1,59 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
+@theme {
+  --color-bg: #22222d;
+  --color-surface: #2a2a36;
+  --color-surface-2: #3a3a4a;
+  --color-accent: #ebaa39;
+  --color-accent-hover: #d19530;
+  --color-danger: #e74043;
+  --color-text: #ecedee;
+  --color-muted: #9ba1a6;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
 }
 
-body {
-  @apply grid bg-background leading-relaxed text-text;
-  font-family: Inter, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #22222d 0%, #1a1a26 100%);
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-bg font-sans text-text antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 }
 
-/* Custom scrollbar styles */
-::-webkit-scrollbar {
-  width: 13px;
+@keyframes reveal {
+  from {
+    opacity: 0;
+    translate: 0 24px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 
-::-webkit-scrollbar-track {
-  background: #22222d;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #ebaa39, #d19530);
-  border-radius: 10px;
-  border: 2px solid #2a2a36;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, #d19530, #ebaa39);
-}
-
-/* Glass morphism utility class */
-.glass {
-  background: rgba(58, 58, 74, 0.25);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Animated gradient backgrounds */
-.gradient-bg {
-  background: linear-gradient(-45deg, #22222d, #2a2a36, #3a3a4a, #22222d);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
-/* Glow effects */
-.glow-effect {
-  box-shadow: 0 0 20px rgba(235, 170, 57, 0.3);
-  transition: box-shadow 0.3s ease;
-}
-
-.glow-effect:hover {
-  box-shadow: 0 0 30px rgba(235, 170, 57, 0.5);
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
 }
