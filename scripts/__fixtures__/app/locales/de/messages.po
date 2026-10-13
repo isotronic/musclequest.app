@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+
+msgid "Training"
+msgstr "Training"
+
+msgid "Plate Calculator"
+msgstr "Scheibenrechner"
+
+msgid "See which plates to load."
+msgstr "Sieh, welche Scheiben du auflegen musst."
+
+msgid ""
+"\n"
+"🚀 MuscleQuest Is Here!\n"
+"\n"
+"The first public release.\n"
+""
+msgstr ""
+"\n"
+"🚀 MuscleQuest ist da!\n"
+"\n"
+"Die erste öffentliche Version.\n"
+""
+
+msgid "Rest Timer"
+msgstr ""

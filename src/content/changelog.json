@@ -1,0 +1,811 @@
+{
+  "releases": [
+    {
+      "version": "1.5",
+      "date": "2026-10",
+      "entries": [
+        {
+          "version": 2673,
+          "message": {
+            "en": "\n✅ New: Keep the Changes You Want!\n\nChanged a workout while training? When you finish, MuscleQuest lists each change, such as an added exercise, an extra set or a new order. Tick the ones to keep for next time and leave the rest.\n\nAlso in this update:\n• Exercise demos now play even if you skipped sign-in.\n• Tips on home show one tip a day; tap the arrow for the next one.\n• Choose workout has a close button, and plan cards no longer drift as you swipe.\n",
+            "de": "\n✅ Neu: Behalte die Änderungen, die du willst!\n\nDu hast ein Training unterwegs geändert? Beim Beenden listet MuscleQuest jede Änderung auf, etwa eine hinzugefügte Übung, einen zusätzlichen Satz oder eine neue Reihenfolge. Hake die an, die du fürs nächste Mal behalten willst, und lass den Rest weg.\n\nAußerdem in diesem Update:\n• Übungsdemos laufen jetzt auch, wenn du die Anmeldung übersprungen hast.\n• Die Tipps auf dem Startbildschirm zeigen einen Tipp pro Tag; tippe auf den Pfeil für den nächsten.\n• Training auswählen hat einen Schließen-Button, und die Plankarten verrutschen beim Wischen nicht mehr.\n",
+            "es": "\n✅ Novedad: ¡Quédate con los cambios que quieras!\n\n¿Cambiaste un entrenamiento mientras entrenabas? Al terminar, MuscleQuest muestra cada cambio, como un ejercicio añadido, una serie extra o un nuevo orden. Marca los que quieras mantener para la próxima vez y deja el resto.\n\nTambién en esta actualización:\n• Las demostraciones de ejercicios ahora se ven aunque hayas omitido el inicio de sesión.\n• Los consejos de inicio muestran un consejo al día; toca la flecha para ver el siguiente.\n• Elegir entrenamiento tiene un botón para cerrar, y las tarjetas de planes ya no se desplazan al deslizar.\n",
+            "fr": "\n✅ Nouveau : garde les modifications que tu veux !\n\nTu as modifié un entraînement en pleine séance ? À la fin, MuscleQuest liste chaque modification, comme un exercice ajouté, une série en plus ou un nouvel ordre. Coche celles à garder pour la prochaine fois et laisse le reste.\n\nAussi dans cette mise à jour :\n• Les démos d'exercices s'affichent maintenant même si tu as ignoré la connexion.\n• Les conseils de l'accueil affichent un conseil par jour ; appuie sur la flèche pour le suivant.\n• Choisir un entraînement a un bouton pour fermer, et les cartes de programmes ne se décalent plus quand tu fais défiler.\n"
+          }
+        },
+        {
+          "version": 2672,
+          "message": {
+            "en": "\n🧭 New: Plans That Fit!\n\nNot sure where to start? Tap Help me choose above the premade plans, answer three questions, and see the two plans that suit you best. Every premade plan now shows its level, days a week and session length, with a short description.\n\nAlso in this update:\n• A plan without a weekly schedule now runs in order: home puts the workout after your last one first, even in a new week.\n• A workout can include the same exercise twice, such as heavy squats and back-off squats. Each one keeps its own history and suggestions, and the second shows as \"Squat (2)\".\n",
+            "de": "\n🧭 Neu: Pläne, die passen!\n\nDu weißt nicht, wo du anfangen sollst? Tippe über den vorgefertigten Plänen auf Hilf mir wählen, beantworte drei Fragen und sieh die zwei Pläne, die am besten zu dir passen. Jeder vorgefertigte Plan zeigt jetzt Niveau, Tage pro Woche und Dauer einer Einheit, mit einer kurzen Beschreibung.\n\nAußerdem in diesem Update:\n• Ein Plan ohne Wochenplan läuft jetzt der Reihe nach: Der Startbildschirm zeigt das Training nach deinem letzten zuerst, auch in einer neuen Woche.\n• Ein Training kann dieselbe Übung zweimal enthalten, etwa schwere Kniebeugen und Back-off-Kniebeugen. Jede behält ihren eigenen Verlauf und ihre eigenen Vorschläge, und die zweite erscheint als „Kniebeuge (2)“.\n",
+            "es": "\n🧭 Novedad: ¡Planes a tu medida!\n\n¿No sabes por dónde empezar? Toca Ayúdame a elegir sobre los planes prediseñados, responde tres preguntas y mira los dos planes que mejor te encajan. Cada plan prediseñado muestra ahora su nivel, sus días por semana y la duración de la sesión, con una breve descripción.\n\nTambién en esta actualización:\n• Un plan sin horario semanal ahora sigue su orden: el inicio muestra primero el entrenamiento que va después del último, incluso en una nueva semana.\n• Un entrenamiento puede incluir el mismo ejercicio dos veces, como sentadillas pesadas y sentadillas de descarga. Cada uno conserva su propio historial y sus sugerencias, y el segundo aparece como «Sentadilla (2)».\n",
+            "fr": "\n🧭 Nouveau : des programmes qui te vont !\n\nTu ne sais pas par où commencer ? Appuie sur Aide-moi à choisir au-dessus des programmes prêts à l'emploi, réponds à trois questions et découvre les deux programmes qui te conviennent le mieux. Chaque programme prêt à l'emploi affiche maintenant son niveau, ses jours par semaine et la durée d'une séance, avec une courte description.\n\nAussi dans cette mise à jour :\n• Un programme sans planning hebdomadaire suit maintenant son ordre : l'accueil affiche d'abord l'entraînement qui suit ton dernier, même en début de semaine.\n• Un entraînement peut contenir deux fois le même exercice, par exemple des squats lourds puis des squats allégés. Chacun garde son propre historique et ses suggestions, et le second s'affiche « Squat (2) ».\n"
+          }
+        },
+        {
+          "version": 2671,
+          "message": {
+            "en": "\n⚙️ New: Settings by Topic & Your Week Start!\n\nSettings are now grouped into topics, with a search at the top. Choose whether your week starts on Monday or Sunday under Week starts on; the change applies from next week, so your streak carries on.\n\nNew to MuscleQuest? A short setup asks for your units, weekly goal and week start. If you have used the app for a while, a card on home lets you check them once.\n\nAlso in this update:\n• Buttons say what they do, such as Discard instead of Cancel.\n• If something fails to load, you see a short message with Try again instead of an error code.\n",
+            "de": "\n⚙️ Neu: Einstellungen nach Themen und dein Wochenbeginn!\n\nDie Einstellungen sind jetzt nach Themen gruppiert, mit einer Suche ganz oben. Unter Woche beginnt am wählst du, ob deine Woche am Montag oder Sonntag beginnt; die Änderung gilt ab nächster Woche, damit deine Serie weiterläuft.\n\nNeu bei MuscleQuest? Eine kurze Einrichtung fragt nach deinen Einheiten, deinem Wochenziel und deinem Wochenbeginn. Nutzt du die App schon länger, kannst du sie einmal über eine Karte auf dem Startbildschirm prüfen.\n\nAußerdem in diesem Update:\n• Schaltflächen sagen, was sie tun, etwa Verwerfen statt Abbrechen.\n• Wenn etwas nicht lädt, siehst du eine kurze Meldung mit Erneut versuchen statt eines Fehlercodes.\n",
+            "es": "\n⚙️ Novedad: ¡Ajustes por temas y tu inicio de semana!\n\nLos ajustes ahora se agrupan por temas, con una búsqueda arriba. Elige si tu semana empieza el lunes o el domingo en La semana empieza el; el cambio se aplica desde la semana siguiente, así tu racha continúa.\n\n¿Nuevo en MuscleQuest? Una breve configuración te pide tus unidades, tu objetivo semanal y el inicio de la semana. Si ya usas la app desde hace tiempo, una tarjeta en el inicio te permite revisarlos una vez.\n\nTambién en esta actualización:\n• Los botones dicen lo que hacen, como Descartar en lugar de Cancelar.\n• Si algo no carga, verás un mensaje breve con Reintentar en lugar de un código de error.\n",
+            "fr": "\n⚙️ Nouveau : les réglages par thème et ton début de semaine !\n\nLes réglages sont maintenant regroupés par thème, avec une recherche en haut. Choisis si ta semaine commence le lundi ou le dimanche dans La semaine commence le ; le changement s'applique à partir de la semaine suivante, pour que ta série continue.\n\nNouveau sur MuscleQuest ? Une courte configuration te demande tes unités, ton objectif hebdomadaire et ton début de semaine. Si tu utilises l'app depuis un moment, une carte sur l'accueil te permet de les vérifier une fois.\n\nAussi dans cette mise à jour :\n• Les boutons disent ce qu'ils font, par exemple Abandonner au lieu d'Annuler.\n• Si quelque chose ne se charge pas, tu vois un court message avec Réessayer au lieu d'un code d'erreur.\n"
+          }
+        },
+        {
+          "version": 2670,
+          "message": {
+            "en": "\n🛠️ New: Fix & Fill In Your History!\n\nEditing a past workout now covers everything: the date, finish time and duration, the session note, and adding or removing sets and exercises.\n\nForgot to log a session? Tap Log past workout under Choose workout on home, or the calendar icon on Workout History in Stats. To repeat a session, open it in history and tap Do again.\n",
+            "de": "\n🛠️ Neu: Verlauf korrigieren und ergänzen!\n\nBeim Bearbeiten eines vergangenen Trainings kannst du jetzt alles ändern: Datum, Endzeit und Dauer, die Trainingsnotiz sowie Sätze und Übungen hinzufügen oder entfernen.\n\nEin Training vergessen? Tippe auf Vergangenes Training eintragen unter Training auswählen auf dem Startbildschirm, oder auf das Kalendersymbol bei Trainingshistorie in den Statistiken. Um ein Training zu wiederholen, öffne es im Verlauf und tippe auf Wiederholen.\n",
+            "es": "\n🛠️ Novedad: ¡Corrige y completa tu historial!\n\nEditar un entrenamiento pasado ahora lo cubre todo: la fecha, la hora de fin y la duración, la nota de la sesión, y añadir o quitar series y ejercicios.\n\n¿Olvidaste registrar una sesión? Toca Registrar un entrenamiento pasado en Elegir entrenamiento en el inicio, o el icono del calendario en Historial de entrenamientos en Estadísticas. Para repetir una sesión, ábrela en el historial y toca Repetir.\n",
+            "fr": "\n🛠️ Nouveau : corrige et complète ton historique !\n\nModifier un entraînement passé couvre maintenant tout : la date, l'heure de fin et la durée, la note de séance, et l'ajout ou le retrait de séries et d'exercices.\n\nTu as oublié d'enregistrer une séance ? Appuie sur Enregistrer un entraînement passé dans Choisir un entraînement sur l'accueil, ou sur l'icône calendrier de Historique des entraînements dans Stats. Pour refaire une séance, ouvre-la dans l'historique et appuie sur Refaire.\n"
+          }
+        },
+        {
+          "version": 2669,
+          "message": {
+            "en": "\n📈 Improved: Quieter Progression!\n\nAfter an exercise, a small card asks how it felt. One tap answers it; Any pain? opens more options. Cards you skip wait on the workout summary, so you can answer them there.\n\nProgression now also works for your workouts outside plans. If it is off, MuscleQuest offers to turn it on once you have a few sessions to learn from.\n",
+            "de": "\n📈 Verbessert: Ruhigere Progression!\n\nNach einer Übung fragt eine kleine Karte, wie es sich angefühlt hat. Ein Tippen beantwortet sie; Schmerzen? öffnet weitere Optionen. Übersprungene Karten warten in der Trainingszusammenfassung, wo du sie noch beantworten kannst.\n\nDie Progression funktioniert jetzt auch für deine Trainings außerhalb von Plänen. Ist sie aus, bietet MuscleQuest dir an, sie einzuschalten, sobald es aus ein paar Einheiten lernen kann.\n",
+            "es": "\n📈 Mejorado: ¡Progresión más discreta!\n\nDespués de un ejercicio, una pequeña tarjeta te pregunta cómo te fue. Un toque la responde; ¿Dolor? abre más opciones. Las tarjetas que saltas esperan en el resumen del entrenamiento, para que las respondas allí.\n\nLa progresión ahora también funciona en tus entrenamientos fuera de planes. Si está desactivada, MuscleQuest te ofrece activarla cuando tengas unas cuantas sesiones de las que aprender.\n",
+            "fr": "\n📈 Amélioré : une progression plus discrète !\n\nAprès un exercice, une petite carte te demande comment ça s'est passé. Un appui suffit pour répondre ; Une douleur ? ouvre d'autres options. Les cartes que tu passes t'attendent dans le résumé de l'entraînement, pour y répondre plus tard.\n\nLa progression fonctionne maintenant aussi pour tes entraînements hors programme. Si elle est désactivée, MuscleQuest te propose de l'activer dès que tu as quelques séances dont elle peut apprendre.\n"
+          }
+        },
+        {
+          "version": 2668,
+          "message": {
+            "en": "\n🔎 New: One Screen Per Exercise!\n\nExercises now open one screen with three tabs: Progress for your chart and bests, History for every time you logged it, and About for how to do it. Tap the pin at the top to add its chart to the Stats tab; these are now called Pinned exercises.\n",
+            "de": "\n🔎 Neu: Ein Bildschirm pro Übung!\n\nÜbungen öffnen jetzt einen Bildschirm mit drei Tabs: Fortschritt für dein Diagramm und deine Bestwerte, Verlauf für jedes Mal, das du sie erfasst hast, und Über für die Ausführung. Tippe oben auf die Nadel, um ihr Diagramm auf den Statistik-Tab zu holen; diese heißen jetzt Angeheftete Übungen.\n",
+            "es": "\n🔎 Novedad: ¡Una pantalla por ejercicio!\n\nLos ejercicios abren ahora una pantalla con tres pestañas: Progreso para tu gráfico y tus mejores marcas, Historial para cada vez que lo registraste y Acerca de para saber cómo hacerlo. Toca el pin de arriba para añadir su gráfico a la pestaña Estadísticas; ahora se llaman Ejercicios fijados.\n",
+            "fr": "\n🔎 Nouveau : un écran par exercice !\n\nLes exercices ouvrent maintenant un écran à trois onglets : Progression pour ton graphique et tes records, Historique pour chaque fois que tu l'as enregistré, et À propos pour savoir comment le faire. Appuie sur l'épingle en haut pour ajouter son graphique à l'onglet Stats ; ils s'appellent maintenant Exercices épinglés.\n"
+          }
+        },
+        {
+          "version": 2667,
+          "message": {
+            "en": "\n📝 New: Session & Set Notes!\n\nAdd a note to a whole session in the workout overview, or to a single set from its menu with Add note. Next time, the set shows your note under Last time, so you remember why the weight felt heavy.\n\nThe notes you keep on a plan, workout or exercise are now called Cues, so they don't get mixed up with notes on a session.\n",
+            "de": "\n📝 Neu: Notizen zu Training und Satz!\n\nFüge in der Trainingsübersicht eine Notiz zum ganzen Training hinzu, oder über das Menü eines Satzes mit Notiz hinzufügen eine Notiz zu diesem Satz. Beim nächsten Mal zeigt der Satz deine Notiz unter Letztes Mal, damit du weißt, warum sich das Gewicht schwer angefühlt hat.\n\nDie Notizen zu einem Plan, einem Training oder einer Übung heißen jetzt Hinweise, damit sie nicht mit Notizen zu einer Einheit verwechselt werden.\n",
+            "es": "\n📝 Novedad: ¡Notas de sesión y de serie!\n\nAñade una nota a toda la sesión en la vista del entrenamiento, o a una sola serie desde su menú con Añadir nota. La próxima vez, la serie muestra tu nota bajo Última vez, para que recuerdes por qué el peso se sintió pesado.\n\nLas notas que guardas en un plan, entrenamiento o ejercicio ahora se llaman Indicaciones, para que no se confundan con las notas de una sesión.\n",
+            "fr": "\n📝 Nouveau : notes de séance et de série !\n\nAjoute une note à toute la séance dans l'aperçu de l'entraînement, ou à une seule série depuis son menu avec Ajouter une note. La prochaine fois, la série affiche ta note sous La dernière fois, pour te rappeler pourquoi la charge semblait lourde.\n\nLes notes que tu gardes sur un programme, un entraînement ou un exercice s'appellent maintenant Repères, pour ne pas les confondre avec les notes d'une séance.\n"
+          }
+        },
+        {
+          "version": 2666,
+          "message": {
+            "en": "\n🐛 Fixed: Suggestions, Saves & Restores!\n\n• Progression suggestions now start from your latest session, not your heaviest ever, so a deleted or deload session no longer pushes them too high.\n• Finishing an old workout with \"Finish and save\" records it on the day you trained.\n• If the app closes right after you finish a workout, reopening it shows the summary instead of saving the workout twice.\n• Going back to an exercise opens its first unfinished set.\n• Restoring a backup warns you if a workout is in progress, and a restore that fails to open can be undone.\n• The app opens faster, numbers everywhere use your phone's decimal separator, and workout reminders appear in your language.\n• Crash reports no longer include your email address or name.\n",
+            "de": "\n🐛 Behoben: Vorschläge, Speichern & Wiederherstellen!\n\n• Progressionsvorschläge gehen jetzt von deinem letzten Training aus, nicht von deinem schwersten überhaupt. Ein gelöschtes oder Deload-Training treibt sie also nicht mehr zu hoch.\n• Ein altes Training, das du mit „Beenden und speichern“ abschließt, wird an dem Tag erfasst, an dem du trainiert hast.\n• Schließt sich die App direkt nach dem Beenden eines Trainings, zeigt sie beim Öffnen die Zusammenfassung, statt das Training doppelt zu speichern.\n• Kehrst du zu einer Übung zurück, öffnet sich ihr erster offener Satz.\n• Beim Wiederherstellen eines Backups wirst du gewarnt, wenn ein Training läuft, und eine Wiederherstellung, die sich nicht öffnen lässt, kann rückgängig gemacht werden.\n• Die App startet schneller, Zahlen nutzen überall das Dezimaltrennzeichen deines Handys, und Trainingserinnerungen erscheinen in deiner Sprache.\n• Absturzberichte enthalten nicht mehr deine E-Mail-Adresse oder deinen Namen.\n",
+            "es": "\n🐛 Corregido: ¡Sugerencias, guardado y restauraciones!\n\n• Las sugerencias de progresión ahora parten de tu último entrenamiento, no del más pesado de todos, así que un entrenamiento eliminado o de descarga ya no las sube demasiado.\n• Al terminar un entrenamiento antiguo con «Terminar y guardar», se registra el día en que entrenaste.\n• Si la app se cierra justo después de terminar un entrenamiento, al abrirla muestra el resumen en lugar de guardarlo dos veces.\n• Al volver a un ejercicio se abre su primera serie sin completar.\n• Al restaurar una copia de seguridad te avisa si hay un entrenamiento en curso, y una restauración que no se puede abrir se puede deshacer.\n• La app abre más rápido, los números usan en todas partes el separador decimal de tu teléfono y los recordatorios de entrenamiento aparecen en tu idioma.\n• Los informes de errores ya no incluyen tu correo electrónico ni tu nombre.\n",
+            "fr": "\n🐛 Corrigé : suggestions, enregistrements et restaurations !\n\n• Les suggestions de progression partent maintenant de ta dernière séance, et non de ta plus lourde, donc une séance supprimée ou de décharge ne les pousse plus trop haut.\n• Terminer une ancienne séance avec « Terminer et enregistrer » l'enregistre au jour où tu t'es entraîné.\n• Si l'app se ferme juste après la fin d'un entraînement, la rouvrir affiche le résumé au lieu d'enregistrer l'entraînement deux fois.\n• Revenir à un exercice ouvre sa première série non terminée.\n• Restaurer une sauvegarde t'avertit si un entraînement est en cours, et une restauration qui ne s'ouvre pas peut être annulée.\n• L'app s'ouvre plus vite, les nombres utilisent partout le séparateur décimal de ton téléphone, et les rappels d'entraînement s'affichent dans ta langue.\n• Les rapports de plantage n'incluent plus ton adresse e-mail ni ton nom.\n"
+          }
+        },
+        {
+          "version": 2665,
+          "message": {
+            "en": "\n👥 Improved: Sharing Keeps Up With Your Changes!\n\nDeleting or editing a workout, measurement, plan or workout you've shared now updates what your friends see. A friend's profile shows their latest workouts and their full workout count.\n\nIf someone signs in to a different account on your phone, backups and sharing now pause, and MuscleQuest asks whether to use your training data with that account.\n",
+            "de": "\n👥 Verbessert: Geteiltes bleibt aktuell!\n\nLöschst oder bearbeitest du ein geteiltes Training, eine Messung, einen Plan oder ein Workout, sehen deine Freunde jetzt die Änderung. Das Profil eines Freundes zeigt seine neuesten Trainings und seine gesamte Trainingsanzahl.\n\nMeldet sich jemand auf deinem Handy mit einem anderen Konto an, werden Backups und Teilen jetzt pausiert, und MuscleQuest fragt, ob deine Trainingsdaten mit diesem Konto verwendet werden sollen.\n",
+            "es": "\n👥 Mejorado: ¡Lo que compartes sigue tus cambios!\n\nSi eliminas o editas un entrenamiento, una medida, un plan o una rutina que has compartido, tus amigos ahora ven el cambio. El perfil de un amigo muestra sus últimos entrenamientos y su número total de entrenamientos.\n\nSi alguien inicia sesión con otra cuenta en tu teléfono, las copias de seguridad y el uso compartido se pausan, y MuscleQuest pregunta si quieres usar tus datos de entrenamiento con esa cuenta.\n",
+            "fr": "\n👥 Amélioré : le partage suit tes modifications !\n\nQuand tu supprimes ou modifies un entraînement, une mesure, un programme ou une séance que tu as partagés, tes amis voient maintenant le changement. Le profil d'un ami affiche ses derniers entraînements et son nombre total d'entraînements.\n\nSi quelqu'un se connecte à un autre compte sur ton téléphone, les sauvegardes et le partage sont mis en pause, et MuscleQuest te demande si tu veux utiliser tes données d'entraînement avec ce compte.\n"
+          }
+        },
+        {
+          "version": 2664,
+          "message": {
+            "en": "\n🏆 New: PRs as They Happen!\n\nBeat your best on an exercise and the set gets a PR badge and a short buzz, right as you log it. The workout summary lists every new personal record with what it beat.\n\nThe confetti is now saved for the moments that count: a new PR, or the workout that reaches your weekly goal.\n",
+            "de": "\n🏆 Neu: Bestleistungen sofort sehen!\n\nÜbertriffst du deine Bestleistung bei einer Übung, bekommt der Satz ein PR-Abzeichen und eine kurze Vibration, sobald du ihn erfasst. Die Trainingszusammenfassung listet jede neue Bestleistung mit dem Wert, den sie übertroffen hat.\n\nDas Konfetti gibt es jetzt nur noch für die Momente, die zählen: eine neue Bestleistung oder das Training, mit dem du dein Wochenziel erreichst.\n",
+            "es": "\n🏆 Novedad: ¡Récords al momento!\n\nSi superas tu mejor marca en un ejercicio, la serie recibe una insignia de PR y una vibración corta en cuanto la registras. El resumen del entrenamiento muestra cada nuevo récord personal con la marca que superó.\n\nEl confeti ahora se reserva para los momentos que cuentan: un nuevo récord o el entrenamiento con el que alcanzas tu objetivo semanal.\n",
+            "fr": "\n🏆 Nouveau : tes records en direct !\n\nBats ton record sur un exercice et la série reçoit un badge Record et une courte vibration, dès que tu l'enregistres. Le résumé de l'entraînement liste chaque nouveau record personnel, avec la valeur qu'il a battue.\n\nLes confettis sont maintenant réservés aux moments qui comptent : un nouveau record, ou l'entraînement qui atteint ton objectif de la semaine.\n"
+          }
+        },
+        {
+          "version": 2663,
+          "message": {
+            "en": "\n🔁 New: Last Time on Every Set!\n\nEach set now shows what you did last time, such as \"Last time: 60 kg × 8 (12 Sep)\", just above Complete Set. Tap it to fill in those values. When a progression suggestion has set the weight, you see both, so you know where the number came from.\n\nAlso in this update:\n• Tap Skip on the rest timer to end your rest early.\n• Finishing with sets left undone now asks first and tells you which ones won't be saved.\n",
+            "de": "\n🔁 Neu: Das letzte Mal bei jedem Satz!\n\nJeder Satz zeigt jetzt, was du beim letzten Mal geschafft hast, zum Beispiel „Letztes Mal: 60 kg × 8 (12. Sept.)“, direkt über „Satz abschließen“. Tippe darauf, um diese Werte einzutragen. Hat ein Progressionsvorschlag das Gewicht gesetzt, siehst du beides und weißt, woher die Zahl kommt.\n\nAußerdem in diesem Update:\n• Tippe beim Pausentimer auf „Überspringen“, um deine Pause früher zu beenden.\n• Wenn du mit offenen Sätzen beendest, fragt die App jetzt nach und sagt dir, welche nicht gespeichert werden.\n",
+            "es": "\n🔁 Novedad: ¡La última vez en cada serie!\n\nCada serie muestra ahora lo que hiciste la última vez, por ejemplo «Última vez: 60 kg × 8 (12 sept)», justo encima de Completar serie. Tócalo para rellenar esos valores. Si una sugerencia de progresión ha fijado el peso, ves ambos, así sabes de dónde sale el número.\n\nTambién en esta actualización:\n• Toca Saltar en el temporizador de descanso para terminar el descanso antes.\n• Si terminas con series sin hacer, ahora te pregunta primero y te dice cuáles no se guardarán.\n",
+            "fr": "\n🔁 Nouveau : la dernière fois à chaque série !\n\nChaque série affiche maintenant ce que tu as fait la dernière fois, par exemple « La dernière fois : 60 kg × 8 (12 sept.) », juste au-dessus de Terminer la série. Touche-le pour reprendre ces valeurs. Quand une suggestion de progression a fixé le poids, tu vois les deux, et tu sais d'où vient le chiffre.\n\nAussi dans cette mise à jour :\n• Touche Passer sur le minuteur de repos pour terminer ton repos plus tôt.\n• Si tu termines avec des séries non faites, l'app te demande d'abord et t'indique lesquelles ne seront pas enregistrées.\n"
+          }
+        },
+        {
+          "version": 2662,
+          "message": {
+            "en": "\n📊 New: Make Stats Your Own!\n\nTap the pencil on the Stats screen to show, hide and reorder every section, and the gear beside a section to change what it shows. Trend charts can plot workouts, volume, sets, reps or training time, and any section can keep its own time range.\n\nAlso new on Stats:\n• Sets per Muscle / Week: your weekly working sets for each muscle, against a target range you choose.\n• Recent PRs: every new personal record, with what it beat.\n• Consistency: a calendar grid of your training days.\n",
+            "de": "\n📊 Neu: Gestalte deine Statistiken!\n\nTippe auf dem Statistik-Bildschirm auf den Stift, um jeden Bereich ein- oder auszublenden und umzusortieren, und auf das Zahnrad neben einem Bereich, um zu ändern, was er zeigt. Trenddiagramme können Trainings, Volumen, Sätze, Wiederholungen oder Trainingszeit darstellen, und jeder Bereich kann seinen eigenen Zeitraum behalten.\n\nAußerdem neu in den Statistiken:\n• Sätze pro Muskel / Woche: deine wöchentlichen Arbeitssätze für jeden Muskel, verglichen mit einem selbst gewählten Zielbereich.\n• Neue Bestleistungen: jeder neue persönliche Rekord, mit dem Wert, den er übertroffen hat.\n• Beständigkeit: ein Kalenderraster deiner Trainingstage.\n",
+            "es": "\n📊 Novedad: ¡Personaliza tus estadísticas!\n\nToca el lápiz en la pantalla de Estadísticas para mostrar, ocultar y reordenar cada sección, y el engranaje junto a una sección para cambiar lo que muestra. Los gráficos de tendencia pueden mostrar entrenamientos, volumen, series, repeticiones o tiempo de entrenamiento, y cada sección puede tener su propio periodo.\n\nTambién nuevo en Estadísticas:\n• Series por músculo / semana: tus series efectivas semanales de cada músculo, frente a un rango objetivo que tú eliges.\n• Récords recientes: cada nuevo récord personal, con la marca que superó.\n• Constancia: una cuadrícula de calendario con tus días de entrenamiento.\n",
+            "fr": "\n📊 Nouveau : des statistiques à ton image !\n\nTouche le crayon sur l'écran Statistiques pour afficher, masquer et réorganiser chaque section, et la roue dentée à côté d'une section pour changer ce qu'elle affiche. Les graphiques de tendance peuvent montrer les entraînements, le volume, les séries, les répétitions ou le temps d'entraînement, et chaque section peut garder sa propre période.\n\nÉgalement nouveau dans Statistiques :\n• Séries par muscle / semaine : tes séries de travail hebdomadaires pour chaque muscle, par rapport à une plage cible de ton choix.\n• Records récents : chaque nouveau record personnel, avec la valeur qu'il a battue.\n• Régularité : une grille calendrier de tes jours d'entraînement.\n"
+          }
+        },
+        {
+          "version": 2661,
+          "message": {
+            "en": "\n📜 New: Changelog!\n\nMissed a What's New message, or want to see how MuscleQuest has grown? Open the menu and tap Changelog, below Help & Info, to browse every update by release, all the way back to the first version.\n",
+            "de": "\n📜 Neu: Änderungsprotokoll!\n\nEine Neuigkeiten-Meldung verpasst oder neugierig, wie sich MuscleQuest entwickelt hat? Öffne das Menü und tippe unter Hilfe & Info auf Änderungsprotokoll, um jedes Update nach Version zu durchstöbern, bis zurück zur allerersten Version.\n",
+            "es": "\n📜 Nuevo: ¡Registro de cambios!\n\n¿Te perdiste un mensaje de Novedades o quieres ver cómo ha crecido MuscleQuest? Abre el menú y toca Registro de cambios, debajo de Ayuda e información, para ver todas las actualizaciones por versión, desde la primera.\n",
+            "fr": "\n📜 Nouveau : journal des modifications !\n\nTu as raté un message Nouveautés ou tu veux voir comment MuscleQuest a évolué ? Ouvre le menu et appuie sur Journal des modifications, sous Aide & infos, pour parcourir chaque mise à jour par version, jusqu'à la toute première.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.4",
+      "date": "2026-07",
+      "entries": [
+        {
+          "version": 2660,
+          "message": {
+            "en": "\n✅ Fixed: Logged Values Are Right!\n\nNumber fields now use your phone's decimal separator. Typing 62,5 logs 62.5, not 625. If a weight looks far heavier than your recent sets, MuscleQuest asks before saving it and offers the likely intended value.\n\nAlso in this update:\n• Weight and distance units are locked while a workout is in progress, so values you have entered are not reinterpreted.\n• Editing a past workout now saves only the sets you changed.\n• Distance targets in your plans are now stored in metres, so changing units no longer changes them. If you use feet and had an unsaved plan draft open during this update, check its distance targets before saving. Friends on an older version see your shared distance targets in metres until they update.\n",
+            "de": "\n✅ Behoben: Erfasste Werte stimmen!\n\nZahlenfelder verwenden jetzt das Dezimaltrennzeichen deines Handys. Wenn du 62,5 eingibst, wird 62,5 gespeichert und nicht 625. Wirkt ein Gewicht deutlich schwerer als deine letzten Sätze, fragt MuscleQuest vor dem Speichern nach und bietet den wahrscheinlich gemeinten Wert an.\n\nAußerdem in diesem Update:\n• Gewichts- und Distanzeinheiten sind während eines laufenden Workouts gesperrt, damit bereits eingegebene Werte nicht umgedeutet werden.\n• Beim Bearbeiten eines vergangenen Workouts werden jetzt nur die Sätze gespeichert, die du geändert hast.\n• Distanzziele in deinen Plänen werden jetzt in Metern gespeichert, sodass ein Wechsel der Einheit sie nicht mehr verändert. Wenn du Fuß verwendest und während dieses Updates einen ungespeicherten Planentwurf offen hattest, prüfe vor dem Speichern dessen Distanzziele. Freunde mit einer älteren Version sehen deine geteilten Distanzziele in Metern, bis sie aktualisieren.\n",
+            "es": "\n✅ Corregido: ¡Los valores registrados son correctos!\n\nLos campos numéricos ahora usan el separador decimal de tu teléfono. Si escribes 62,5 se registra 62,5, no 625. Si un peso parece mucho mayor que tus series recientes, MuscleQuest te pregunta antes de guardarlo y te ofrece el valor que probablemente querías.\n\nTambién en esta actualización:\n• Las unidades de peso y distancia quedan bloqueadas mientras hay un entrenamiento en curso, para que los valores que ya introdujiste no se reinterpreten.\n• Al editar un entrenamiento pasado ahora solo se guardan las series que cambiaste.\n• Los objetivos de distancia de tus planes ahora se guardan en metros, así que cambiar de unidad ya no los altera. Si usas pies y tenías un borrador de plan sin guardar abierto durante esta actualización, revisa sus objetivos de distancia antes de guardarlo. Los amigos con una versión anterior verán tus objetivos de distancia compartidos en metros hasta que actualicen.\n",
+            "fr": "\n✅ Corrigé : des valeurs enregistrées exactes !\n\nLes champs numériques utilisent maintenant le séparateur décimal de ton téléphone. Si tu tapes 62,5, c'est 62,5 qui est enregistré, et non 625. Si un poids semble bien plus lourd que tes séries récentes, MuscleQuest te le demande avant de l'enregistrer et te propose la valeur probablement voulue.\n\nAussi dans cette mise à jour :\n• Les unités de poids et de distance sont verrouillées pendant une séance en cours, pour que les valeurs déjà saisies ne soient pas réinterprétées.\n• Modifier une séance passée n'enregistre plus que les séries que tu as changées.\n• Les objectifs de distance de tes programmes sont maintenant enregistrés en mètres, donc changer d'unité ne les modifie plus. Si tu utilises les pieds et qu'un brouillon de programme non enregistré était ouvert pendant cette mise à jour, vérifie ses objectifs de distance avant de l'enregistrer. Les amis sur une version plus ancienne voient tes objectifs de distance partagés en mètres jusqu'à leur mise à jour.\n"
+          }
+        },
+        {
+          "version": 2659,
+          "message": {
+            "en": "\n⏸️ New: Pick Up Where You Left Off!\n\nIf you come back to an unfinished workout after more than four hours, MuscleQuest now asks whether to resume it or discard it, or, once you have completed at least one set, to finish and save it. A workout finished this way records its duration up to your last logged set, instead of counting the hours in between.\n\nAlso in this update:\n• Correcting or deleting your latest session now updates the progression suggestion built on it, so a typo no longer carries into your next workout.\n• Sign-in problems now tell you what went wrong, such as being offline or missing Google Play Services, in your own language.\n",
+            "de": "\n⏸️ Neu: Dort weitermachen, wo du aufgehört hast!\n\nWenn du nach mehr als vier Stunden zu einem unbeendeten Workout zurückkehrst, fragt MuscleQuest jetzt, ob du es fortsetzen oder verwerfen möchtest, oder, sobald du mindestens einen Satz abgeschlossen hast, ob du es beenden und speichern möchtest. Ein so beendetes Workout speichert seine Dauer bis zu deinem letzten erfassten Satz, statt die Stunden dazwischen mitzuzählen.\n\nAußerdem in diesem Update:\n• Wenn du deine letzte Einheit korrigierst oder löschst, wird der darauf aufbauende Progressionsvorschlag jetzt aktualisiert, sodass ein Tippfehler nicht mehr in dein nächstes Workout übernommen wird.\n• Bei Anmeldeproblemen erfährst du jetzt, was schiefgelaufen ist, zum Beispiel dass du offline bist oder die Google Play-Dienste fehlen, und zwar in deiner Sprache.\n",
+            "es": "\n⏸️ Nuevo: ¡Continúa donde lo dejaste!\n\nSi vuelves a un entrenamiento sin terminar después de más de cuatro horas, MuscleQuest ahora te pregunta si quieres reanudarlo o descartarlo, o, si ya has completado al menos una serie, terminarlo y guardarlo. Un entrenamiento terminado así registra su duración hasta tu última serie registrada, en lugar de contar las horas intermedias.\n\nTambién en esta actualización:\n• Corregir o eliminar tu última sesión ahora actualiza la sugerencia de progresión basada en ella, para que un error al escribir no pase a tu próximo entrenamiento.\n• Los problemas al iniciar sesión ahora te dicen qué ha fallado, como estar sin conexión o que falten los Servicios de Google Play, en tu idioma.\n",
+            "fr": "\n⏸️ Nouveau : reprends là où tu t'étais arrêté !\n\nSi tu reviens à une séance inachevée après plus de quatre heures, MuscleQuest te demande maintenant si tu veux la reprendre ou l'abandonner, ou, si tu as déjà terminé au moins une série, la terminer et l'enregistrer. Une séance terminée ainsi enregistre sa durée jusqu'à ta dernière série enregistrée, au lieu de compter les heures écoulées entre-temps.\n\nAussi dans cette mise à jour :\n• Corriger ou supprimer ta dernière séance met maintenant à jour la suggestion de progression qui en découle, pour qu'une faute de frappe ne se retrouve plus dans ta prochaine séance.\n• Les problèmes de connexion t'indiquent maintenant ce qui n'a pas fonctionné, par exemple être hors ligne ou l'absence des services Google Play, dans ta langue.\n"
+          }
+        },
+        {
+          "version": 2658,
+          "message": {
+            "en": "\n☁️ New: Backup Reminders!\n\nYour training history lives on your phone, so a backup is the only way to get it back if you lose or replace it. The home screen now reminds you when you have never backed up, or when your last backup is more than 30 days old, and you can back up right from the card.\n\nNot signed in? After a few workouts the card offers to sign you in instead. Tap Later to hide it for two weeks.\n",
+            "de": "\n☁️ Neu: Sicherungserinnerungen!\n\nDein Trainingsverlauf liegt auf deinem Handy, deshalb ist eine Sicherung der einzige Weg, ihn zurückzubekommen, wenn du es verlierst oder ersetzt. Der Startbildschirm erinnert dich jetzt, wenn du noch nie gesichert hast oder deine letzte Sicherung mehr als 30 Tage alt ist, und du kannst direkt über die Karte sichern.\n\nNicht angemeldet? Nach einigen Workouts bietet dir die Karte stattdessen die Anmeldung an. Tippe auf Später, um sie für zwei Wochen auszublenden.\n",
+            "es": "\n☁️ Nuevo: ¡Recordatorios de copia de seguridad!\n\nTu historial de entrenamiento está en tu teléfono, así que una copia de seguridad es la única forma de recuperarlo si lo pierdes o lo cambias. La pantalla de inicio ahora te avisa cuando nunca has hecho una copia o cuando la última tiene más de 30 días, y puedes hacerla directamente desde la tarjeta.\n\n¿No has iniciado sesión? Tras unos cuantos entrenamientos, la tarjeta te ofrece iniciar sesión. Toca Más tarde para ocultarla durante dos semanas.\n",
+            "fr": "\n☁️ Nouveau : rappels de sauvegarde !\n\nTon historique d'entraînement se trouve sur ton téléphone, donc une sauvegarde est le seul moyen de le récupérer si tu le perds ou le remplaces. L'écran d'accueil te le rappelle maintenant quand tu n'as jamais fait de sauvegarde ou que la dernière date de plus de 30 jours, et tu peux sauvegarder directement depuis la carte.\n\nPas connecté ? Après quelques séances, la carte te propose de te connecter à la place. Appuie sur Plus tard pour la masquer pendant deux semaines.\n"
+          }
+        },
+        {
+          "version": 2657,
+          "message": {
+            "en": "\n⚡ Improved: Faster Lists & Tidier Friend Profiles!\n\nThe exercise library, home screen and stats open faster, especially with a long training history. The sections on a friend's profile now start collapsed, so a long profile is easier to scan; tap a heading to open it.\n",
+            "de": "\n⚡ Verbessert: Schnellere Listen & aufgeräumtere Freundesprofile!\n\nDie Übungsbibliothek, der Startbildschirm und die Statistiken öffnen sich schneller, besonders bei einem langen Trainingsverlauf. Die Abschnitte im Profil eines Freundes sind jetzt zunächst eingeklappt, damit ein langes Profil leichter zu überblicken ist; tippe auf eine Überschrift, um sie zu öffnen.\n",
+            "es": "\n⚡ Mejorado: ¡Listas más rápidas y perfiles de amigos más ordenados!\n\nLa biblioteca de ejercicios, la pantalla de inicio y las estadísticas se abren más rápido, sobre todo con un historial de entrenamiento largo. Las secciones del perfil de un amigo ahora empiezan plegadas, para que un perfil largo sea más fácil de recorrer; toca un título para abrirlo.\n",
+            "fr": "\n⚡ Amélioré : listes plus rapides et profils d'amis plus clairs !\n\nLa bibliothèque d'exercices, l'écran d'accueil et les statistiques s'ouvrent plus vite, surtout avec un long historique d'entraînement. Les sections du profil d'un ami sont maintenant repliées au départ, pour qu'un long profil soit plus facile à parcourir ; appuie sur un titre pour l'ouvrir.\n"
+          }
+        },
+        {
+          "version": 2656,
+          "message": {
+            "en": "\n♿ Improved: Screen Readers, Large Text & Reduced Motion!\n\nMuscleQuest now works properly with TalkBack and VoiceOver. Buttons and fields are labelled, finishing a set and the rest countdown are announced, and every chart has a spoken summary. On an exercise's chart you can tap Show as table to read the numbers instead.\n\nText and buttons now grow with your system font size, and animations are switched off when your device is set to reduce motion.\n",
+            "de": "\n♿ Verbessert: Screenreader, große Schrift & reduzierte Bewegung!\n\nMuscleQuest funktioniert jetzt richtig mit TalkBack und VoiceOver. Schaltflächen und Felder sind beschriftet, das Abschließen eines Satzes und der Pausen-Countdown werden angesagt, und jedes Diagramm hat eine gesprochene Zusammenfassung. Im Diagramm einer Übung kannst du auf Als Tabelle anzeigen tippen, um stattdessen die Zahlen zu lesen.\n\nText und Schaltflächen wachsen jetzt mit deiner Systemschriftgröße, und Animationen sind ausgeschaltet, wenn auf deinem Gerät Bewegungen reduziert werden.\n",
+            "es": "\n♿ Mejorado: ¡Lectores de pantalla, texto grande y movimiento reducido!\n\nMuscleQuest ahora funciona correctamente con TalkBack y VoiceOver. Los botones y campos tienen etiquetas, se anuncia cuando terminas una serie y la cuenta atrás del descanso, y cada gráfico tiene un resumen hablado. En el gráfico de un ejercicio puedes tocar Mostrar como tabla para leer los números.\n\nEl texto y los botones ahora crecen con el tamaño de fuente de tu sistema, y las animaciones se desactivan cuando tu dispositivo está configurado para reducir el movimiento.\n",
+            "fr": "\n♿ Amélioré : lecteurs d'écran, grand texte et animations réduites !\n\nMuscleQuest fonctionne désormais correctement avec TalkBack et VoiceOver. Les boutons et les champs sont étiquetés, la fin d'une série et le décompte du repos sont annoncés, et chaque graphique a un résumé vocal. Sur le graphique d'un exercice, tu peux appuyer sur Afficher en tableau pour lire les chiffres à la place.\n\nLe texte et les boutons grandissent maintenant avec la taille de police de ton système, et les animations sont désactivées quand ton appareil est réglé pour réduire les animations.\n"
+          }
+        },
+        {
+          "version": 2655,
+          "message": {
+            "en": "\n🐛 Fixed: Dates, Pounds & Speed!\n\n• Workout times now show the correct clock time, and late-evening workouts count toward the right day for streaks, the calendar, and weekly goals.\n• If you train in pounds, repeating the same weight no longer creates a false PR or shows \"+0.0 lbs\", and body weight entered in pounds reads back exactly as you typed it.\n• History and stats load faster, especially if you have a long training history.\n",
+            "de": "\n🐛 Behoben: Datum, Pfund & Tempo!\n\n• Trainingszeiten zeigen jetzt die richtige Uhrzeit, und späte Abendtrainings zählen für den richtigen Tag bei Serien, Kalender und Wochenzielen.\n• Wenn du in Pfund trainierst, erzeugt dasselbe Gewicht nicht mehr fälschlich einen neuen PR oder \"+0.0 lbs\", und dein Körpergewicht in Pfund wird genau so angezeigt, wie du es eingegeben hast.\n• Verlauf und Statistiken laden schneller, besonders wenn du schon lange trainierst.\n",
+            "es": "\n🐛 Corregido: ¡Fechas, libras y velocidad!\n\n• Las horas de los entrenamientos ahora muestran la hora correcta, y los entrenamientos a última hora de la tarde cuentan para el día correcto en rachas, calendario y objetivos semanales.\n• Si entrenas en libras, repetir el mismo peso ya no genera un PR falso ni muestra \"+0.0 lbs\", y el peso corporal introducido en libras se muestra exactamente como lo escribiste.\n• El historial y las estadísticas cargan más rápido, sobre todo si llevas mucho tiempo entrenando.\n",
+            "fr": "\n🐛 Corrigé : Dates, livres et rapidité !\n\n• Les heures des séances affichent désormais la bonne heure, et les séances tard le soir comptent pour le bon jour dans les séries consécutives, le calendrier et les objectifs hebdomadaires.\n• Si tu t'entraînes en livres, répéter le même poids ne crée plus de faux PR ni d'affichage \"+0.0 lbs\", et le poids corporel saisi en livres s'affiche exactement comme tu l'as tapé.\n• L'historique et les stats se chargent plus vite, surtout si tu as un long historique d'entraînement.\n"
+          }
+        },
+        {
+          "version": 2654,
+          "message": {
+            "en": "\n↩️ New: Undo Instead of \"Are You Sure?\"\n\nDeleting a completed workout, a standalone workout, a body measurement, or an exercise or set during a session now happens straight away, with an Undo button at the bottom of the screen for a few seconds. Plans still ask before deleting, and can be undone too.\n\nThe app is also clearer when you're offline: Friends shows a banner, and backup, restore, and sign-in tell you why they're unavailable. Pull down on Stats, Friends, or a friend's profile to refresh. Leaving the workout overview mid-session now asks you to confirm first, so you can't leave by accident.\n",
+            "de": "\n↩️ Neu: Rückgängig statt \"Bist du sicher?\"\n\nWenn du ein abgeschlossenes Training, ein eigenständiges Training, eine Körpermessung oder während einer Einheit eine Übung oder einen Satz löschst, passiert das jetzt sofort. Unten auf dem Bildschirm erscheint dann für ein paar Sekunden ein Rückgängig-Button. Pläne fragen weiterhin vor dem Löschen nach und lassen sich ebenfalls wiederherstellen.\n\nDie App zeigt außerdem klarer an, wenn du offline bist: Freunde zeigt einen Hinweis, und Backup, Wiederherstellung und Anmeldung erklären, warum sie gerade nicht verfügbar sind. Zieh auf Statistiken, Freunde oder dem Profil eines Freundes nach unten, um zu aktualisieren. Wenn du die Trainingsübersicht während einer Einheit verlassen willst, fragt die App jetzt vorher nach, damit du nicht versehentlich rauskommst.\n",
+            "es": "\n↩️ Nuevo: ¡Deshacer en lugar de \"¿Estás seguro?\"!\n\nAl borrar un entrenamiento completado, un entrenamiento individual, una medida corporal, o un ejercicio o una serie durante una sesión, ahora se elimina al instante y aparece un botón Deshacer en la parte inferior de la pantalla durante unos segundos. Los planes siguen pidiendo confirmación antes de borrarse, y también se pueden recuperar.\n\nLa app también indica mejor cuándo no tienes conexión: Amigos muestra un aviso, y la copia de seguridad, la restauración y el inicio de sesión te explican por qué no están disponibles. Desliza hacia abajo en Estadísticas, Amigos o el perfil de un amigo para actualizar. Salir de la vista general del entrenamiento a mitad de sesión ahora pide confirmación, para que no salgas por accidente.\n",
+            "fr": "\n↩️ Nouveau : Annuler au lieu de \"Tu es sûr ?\"\n\nSupprimer une séance terminée, un entraînement solo, une mesure corporelle, ou un exercice ou une série pendant une séance se fait désormais immédiatement, avec un bouton Annuler en bas de l'écran pendant quelques secondes. Les plans demandent toujours une confirmation avant suppression, et peuvent aussi être restaurés.\n\nL'app indique aussi plus clairement quand tu es hors ligne : Amis affiche une bannière, et la sauvegarde, la restauration et la connexion t'expliquent pourquoi elles sont indisponibles. Tire vers le bas sur Stats, Amis ou le profil d'un ami pour actualiser. Quitter l'aperçu de la séance en cours demande maintenant une confirmation, pour éviter de partir par erreur.\n"
+          }
+        },
+        {
+          "version": 2653,
+          "message": {
+            "en": "\n⏱️ Improved: Rest Timer Alerts When Your Phone Is Locked!\n\nThe rest timer now always sends a notification when your rest is over, even if your phone is locked or you switched to another app. The first time you start a rest, MuscleQuest asks for permission to send it.\n\nThe notification setting now only decides whether that alert also shows while the app is open. You'll find it in Settings as \"Show rest notification while app is open\".\n",
+            "de": "\n⏱️ Verbessert: Pausen-Alarm auch bei gesperrtem Handy!\n\nDer Pausentimer sendet jetzt immer eine Benachrichtigung, wenn deine Pause vorbei ist, auch wenn dein Handy gesperrt ist oder du zu einer anderen App gewechselt hast. Beim ersten Start einer Pause fragt MuscleQuest nach der Berechtigung dafür.\n\nDie Benachrichtigungseinstellung legt jetzt nur noch fest, ob dieser Alarm auch angezeigt wird, während die App geöffnet ist. Du findest sie in den Einstellungen unter \"Pausen-Benachrichtigung bei geöffneter App anzeigen\".\n",
+            "es": "\n⏱️ Mejorado: ¡Aviso de descanso con el móvil bloqueado!\n\nEl temporizador de descanso ahora siempre envía una notificación cuando termina tu descanso, aunque el móvil esté bloqueado o hayas cambiado a otra app. La primera vez que inicies un descanso, MuscleQuest te pedirá permiso para enviarla.\n\nEl ajuste de notificaciones ahora solo decide si ese aviso también se muestra con la app abierta. Lo encontrarás en Ajustes como \"Mostrar notificación de descanso con la app abierta\".\n",
+            "fr": "\n⏱️ Amélioré : alerte de repos même téléphone verrouillé !\n\nLe minuteur de repos envoie désormais toujours une notification à la fin de ton repos, même si ton téléphone est verrouillé ou si tu es passé à une autre app. La première fois que tu lances un repos, MuscleQuest demande l'autorisation de l'envoyer.\n\nLe réglage des notifications décide maintenant uniquement si cette alerte s'affiche aussi quand l'app est ouverte. Tu le trouveras dans les Réglages sous « Afficher la notification de repos quand l'app est ouverte ».\n"
+          }
+        },
+        {
+          "version": 2652,
+          "message": {
+            "en": "\n📏 New: Log Measurements from the Home Screen!\n\nA new card on the home screen shows your most recent measurement and how long ago you logged it. Tap it to record today's numbers in a quick sheet, pre-filled with your most recent values, without leaving the screen.\n\nThe card highlights itself once it has been a week since your last entry, and follows whichever metrics you have switched on in the Measurements section.\n",
+            "de": "\n📏 Neu: Körpermaße vom Startbildschirm erfassen!\n\nEine neue Karte auf dem Startbildschirm zeigt deine zuletzt erfasste Messung und wie lange das her ist. Tippe darauf, um die heutigen Werte in einem schnellen Eingabefenster zu erfassen, vorausgefüllt mit deinen letzten Werten, ohne den Bildschirm zu verlassen.\n\nDie Karte wird hervorgehoben, sobald dein letzter Eintrag eine Woche zurückliegt, und richtet sich nach den Messwerten, die du im Bereich Körpermaße aktiviert hast.\n",
+            "es": "\n📏 Nuevo: ¡Registra tus medidas desde la pantalla de inicio!\n\nUna nueva tarjeta en la pantalla de inicio muestra tu medida más reciente y cuánto hace que la registraste. Tócala para anotar los valores de hoy en un panel rápido, prerrellenado con tus últimos datos, sin salir de la pantalla.\n\nLa tarjeta se resalta cuando ha pasado una semana desde tu última entrada, y sigue las métricas que tengas activadas en la sección de Medidas corporales.\n",
+            "fr": "\n📏 Nouveau : Enregistre tes mesures depuis l'accueil !\n\nUne nouvelle carte sur l'écran d'accueil affiche ta mesure la plus récente et depuis combien de temps tu l'as enregistrée. Appuie dessus pour enregistrer les valeurs du jour dans un panneau rapide, prérempli avec tes dernières mesures, sans quitter l'écran.\n\nLa carte se met en évidence dès qu'une semaine s'est écoulée depuis ta dernière entrée, et suit les mesures que tu as activées dans la section Mesures corporelles.\n"
+          }
+        },
+        {
+          "version": 2651,
+          "message": {
+            "en": "\n📤 New: Export Your Data & Delete Your Account!\n\nUnder Settings > Your data you can now export your workouts and body measurements as CSV for spreadsheets, or as JSON with everything including plans and custom exercises. If you are signed in, you can also delete your account there, which removes everything stored online. You choose whether to keep your training history on this device.\n",
+            "de": "\n📤 Neu: Daten exportieren & Konto löschen!\n\nUnter Einstellungen > Deine Daten kannst du jetzt deine Workouts und Körpermaße als CSV für Tabellen exportieren oder als JSON mit allem, einschließlich Plänen und eigenen Übungen. Wenn du angemeldet bist, kannst du dort auch dein Konto löschen, wodurch alles online Gespeicherte entfernt wird. Du entscheidest, ob du deinen Trainingsverlauf auf diesem Gerät behältst.\n",
+            "es": "\n📤 Nuevo: Exporta tus datos y elimina tu cuenta!\n\nEn Ajustes > Tus datos ahora puedes exportar tus entrenamientos y medidas corporales como CSV para hojas de cálculo, o como JSON con todo, incluidos los planes y los ejercicios personalizados. Si has iniciado sesión, también puedes eliminar tu cuenta desde ahí, lo que borra todo lo guardado en línea. Tú decides si conservas tu historial de entrenamiento en este dispositivo.\n",
+            "fr": "\n📤 Nouveau : Exporte tes données et supprime ton compte !\n\nDans Paramètres > Tes données, tu peux maintenant exporter tes séances et mensurations en CSV pour les tableurs, ou en JSON avec tout, y compris les programmes et les exercices personnalisés. Si tu es connecté, tu peux aussi y supprimer ton compte, ce qui efface tout ce qui est stocké en ligne. Tu choisis de conserver ou non ton historique d'entraînement sur cet appareil.\n"
+          }
+        },
+        {
+          "version": 2650,
+          "message": {
+            "en": "\n☁️ Improved: Safer Backups & Restores!\n\nA backup that fails partway can no longer overwrite your last good one, and every backup is checked before it is uploaded. Restoring a backup made with an older version of the app now works reliably, and the restore prompt tells you exactly what will be replaced.\n",
+            "de": "\n☁️ Verbessert: Sicherere Sicherungen & Wiederherstellungen!\n\nEine Sicherung, die unterwegs fehlschlägt, kann deine letzte funktionierende Sicherung nicht mehr überschreiben, und jede Sicherung wird vor dem Hochladen geprüft. Das Wiederherstellen einer Sicherung aus einer älteren App-Version funktioniert jetzt zuverlässig, und die Wiederherstellungsabfrage sagt dir genau, was ersetzt wird.\n",
+            "es": "\n☁️ Mejorado: Copias de seguridad y restauraciones más seguras!\n\nUna copia de seguridad que falla a medias ya no puede sobrescribir la última copia buena, y cada copia se comprueba antes de subirse. Restaurar una copia hecha con una versión anterior de la app ahora funciona de forma fiable, y el aviso de restauración te indica exactamente qué se reemplazará.\n",
+            "fr": "\n☁️ Amélioré : Sauvegardes et restaurations plus sûres !\n\nUne sauvegarde qui échoue en cours de route ne peut plus écraser ta dernière sauvegarde valide, et chaque sauvegarde est vérifiée avant l'envoi. La restauration d'une sauvegarde créée avec une ancienne version de l'app fonctionne désormais de manière fiable, et la demande de restauration t'indique exactement ce qui sera remplacé.\n"
+          }
+        },
+        {
+          "version": 2649,
+          "message": {
+            "en": "\n🐛 Fixed: Weight Suggestions in Pounds!\n\nIf you train in pounds, adaptive progression suggestions now use your weight unit correctly. Previously some suggestions came out too small or were filled in with the wrong value.\n",
+            "de": "\n🐛 Behoben: Gewichtsvorschläge in Pfund!\n\nWenn du in Pfund trainierst, verwenden die Vorschläge der adaptiven Progression jetzt deine Gewichtseinheit korrekt. Bisher fielen manche Vorschläge zu klein aus oder wurden mit dem falschen Wert eingetragen.\n",
+            "es": "\n🐛 Corregido: Sugerencias de peso en libras!\n\nSi entrenas en libras, las sugerencias de la progresión adaptativa ahora usan correctamente tu unidad de peso. Antes, algunas sugerencias salían demasiado bajas o se rellenaban con un valor incorrecto.\n",
+            "fr": "\n🐛 Corrigé : Suggestions de poids en livres !\n\nSi tu t'entraînes en livres, les suggestions de la progression adaptative utilisent désormais correctement ton unité de poids. Auparavant, certaines suggestions étaient trop faibles ou remplies avec une mauvaise valeur.\n"
+          }
+        },
+        {
+          "version": 2648,
+          "message": {
+            "en": "\n🏋️ New: Plate Calculator!\n\nOpen the three-dot menu during a workout and tap Plate Calculator to see exactly which plates to load on each side of the bar. Pick your bar weight once and it is remembered. Under Settings > Workout > Plates you can tell the app which plates you actually own, so it never suggests a load you cannot build.\n",
+            "de": "\n🏋️ Neu: Scheibenrechner!\n\nÖffne während des Trainings das Drei-Punkte-Menü und tippe auf Scheibenrechner, um genau zu sehen, welche Scheiben du auf jede Seite der Stange laden musst. Wähle dein Stangengewicht einmal aus, es wird gemerkt. Unter Einstellungen > Training > Scheiben kannst du der App mitteilen, welche Scheiben du tatsächlich besitzt, damit sie nie ein Gewicht vorschlägt, das du gar nicht zusammenstellen kannst.\n",
+            "es": "\n🏋️ Nuevo: ¡Calculadora de discos!\n\nAbre el menú de tres puntos durante un entrenamiento y toca Calculadora de discos para ver exactamente qué discos cargar en cada lado de la barra. Elige el peso de la barra una vez y se recordará. En Ajustes > Entrenamiento > Discos puedes indicar a la app qué discos tienes realmente, para que nunca sugiera una carga que no puedas montar.\n",
+            "fr": "\n🏋️ Nouveau : Calculateur de disques !\n\nOuvre le menu à trois points pendant un entraînement et appuie sur Calculateur de disques pour voir exactement quels disques charger de chaque côté de la barre. Choisis ton poids de barre une fois, il est mémorisé. Dans Paramètres > Entraînement > Disques, tu peux indiquer à l'app quels disques tu possèdes vraiment, pour qu'elle ne propose jamais une charge que tu ne peux pas monter.\n"
+          }
+        },
+        {
+          "version": 2647,
+          "message": {
+            "en": "\n⚙️ Improved: More Control During Your Workout!\n\nYou can now change an exercise's rep range and rest time mid-workout from the three-dot menu. If you enter a weight other than the suggested one, it now carries over to your remaining sets. Weight suggestions also stay hidden when adaptive progression is switched off.\n",
+            "de": "\n⚙️ Verbessert: Mehr Kontrolle während des Trainings!\n\nDu kannst den Wiederholungsbereich und die Pausenzeit einer Übung jetzt mitten im Training über das Drei-Punkte-Menü ändern. Wenn du ein anderes als das vorgeschlagene Gewicht einträgst, wird es nun auf deine restlichen Sätze übernommen. Gewichtsvorschläge bleiben außerdem ausgeblendet, wenn die Adaptive Progression ausgeschaltet ist.\n",
+            "es": "\n⚙️ Mejorado: ¡Más control durante el entrenamiento!\n\nAhora puedes cambiar el rango de repeticiones y el tiempo de descanso de un ejercicio durante el entrenamiento desde el menú de tres puntos. Si introduces un peso distinto al sugerido, ahora se aplica a tus series restantes. Además, las sugerencias de peso permanecen ocultas cuando la progresión adaptativa está desactivada.\n",
+            "fr": "\n⚙️ Amélioré : Plus de contrôle pendant la séance !\n\nTu peux désormais modifier la plage de répétitions et le temps de repos d'un exercice en pleine séance depuis le menu à trois points. Si tu saisis un poids différent de celui suggéré, il est maintenant repris sur tes séries restantes. Les suggestions de poids restent également masquées lorsque la progression adaptative est désactivée.\n"
+          }
+        },
+        {
+          "version": 2646,
+          "message": {
+            "en": "\n👀 Improved: Preview Before You Start!\n\nIn the Choose Workout list, tapping a workout now opens its details so you can check the exercises first. Use the Start button on the right to jump straight into the session. Plan workouts also gained a Start button on their details screen.\n",
+            "de": "\n👀 Verbessert: Vorschau vor dem Start!\n\nIn der Liste \"Training auswählen\" öffnet ein Tippen auf ein Training jetzt dessen Details, sodass du die Übungen zuerst prüfen kannst. Mit der Schaltfläche \"Starten\" rechts springst du direkt in die Einheit. Trainings aus einem Plan haben jetzt ebenfalls eine Schaltfläche \"Training starten\" auf ihrer Detailseite.\n",
+            "es": "\n👀 Mejorado: ¡Vista previa antes de empezar!\n\nEn la lista \"Elegir entrenamiento\", tocar un entrenamiento ahora abre sus detalles para que puedas revisar los ejercicios primero. Usa el botón \"Iniciar\" de la derecha para entrar directamente en la sesión. Los entrenamientos de un plan también tienen ahora un botón \"Iniciar entrenamiento\" en su pantalla de detalles.\n",
+            "fr": "\n👀 Amélioré : aperçu avant de commencer !\n\nDans la liste \"Choisir un entraînement\", toucher un entraînement ouvre désormais ses détails pour que tu puisses vérifier les exercices d'abord. Utilise le bouton \"Commencer\" à droite pour passer directement à la séance. Les entraînements d'un plan disposent eux aussi d'un bouton \"Commencer l'entraînement\" sur leur écran de détails.\n"
+          }
+        },
+        {
+          "version": 2645,
+          "message": {
+            "en": "\n🔍 Improved: More Accurate Exercise Search!\n\nExercise search has been rebuilt on a more robust matching engine, improving how typos, abbreviations, and multi-word queries get matched and ranked, so the exercise you're looking for shows up first more often.\n",
+            "de": "\n🔍 Verbessert: Präzisere Übungssuche!\n\nDie Übungssuche wurde auf eine robustere Such-Engine umgestellt, die Tippfehler, Abkürzungen und mehrteilige Suchbegriffe besser erkennt und einordnet, damit die gesuchte Übung häufiger ganz oben erscheint.\n",
+            "es": "\n🔍 Mejorado: ¡Búsqueda de ejercicios más precisa!\n\nLa búsqueda de ejercicios se ha reconstruido sobre un motor de coincidencias más robusto, mejorando cómo se detectan y clasifican las erratas, las abreviaturas y las búsquedas con varias palabras, para que el ejercicio que buscas aparezca primero con más frecuencia.\n",
+            "fr": "\n🔍 Amélioré : recherche d'exercices plus précise !\n\nLa recherche d'exercices a été reconstruite sur un moteur de correspondance plus robuste, améliorant la façon dont les fautes de frappe, les abréviations et les requêtes à plusieurs mots sont associées et classées, afin que l'exercice recherché apparaisse plus souvent en premier.\n"
+          }
+        },
+        {
+          "version": 2644,
+          "message": {
+            "en": "\n📖 Improved: Redesigned Help Screen!\n\nThe Help & Info screen now opens with collapsed, expandable topic groups and a chip row to jump straight to a section. Search is faster and smarter, highlighting the exact matching text in each result, and shows a helpful empty state with a link to request a feature if nothing matches.\n",
+            "de": "\n📖 Verbessert: Neu gestalteter Hilfe & Info-Bereich!\n\nDer Hilfe & Info-Bereich öffnet sich jetzt mit eingeklappten, aufklappbaren Themengruppen und einer Chip-Leiste, um direkt zu einem Abschnitt zu springen. Die Suche ist schneller und intelligenter, hebt den genau passenden Text in jedem Ergebnis hervor und zeigt bei keinem Treffer einen hilfreichen leeren Zustand mit einem Link zum Einreichen eines Funktionswunsches.\n",
+            "es": "\n📖 Mejorado: ¡Pantalla de ayuda rediseñada!\n\nLa sección de Ayuda e información ahora se abre con grupos de temas contraídos y expandibles, y una fila de chips para saltar directamente a una sección. La búsqueda es más rápida e inteligente, resalta el texto exacto que coincide en cada resultado, y muestra un estado vacío útil con un enlace para solicitar una función si no hay coincidencias.\n",
+            "fr": "\n📖 Amélioré : écran d'aide repensé !\n\nLa section Aide & infos s'ouvre désormais avec des groupes de sujets repliés et extensibles, ainsi qu'une rangée de puces pour accéder directement à une section. La recherche est plus rapide et plus intelligente, met en surbrillance le texte correspondant exact dans chaque résultat, et affiche un état vide utile avec un lien pour demander une fonctionnalité si rien ne correspond.\n"
+          }
+        },
+        {
+          "version": 2643,
+          "message": {
+            "en": "\n🐛 Fixed: Cloud Backup Errors!\n\nBackup would silently fail after a clean shutdown because it required extra database files that aren't always present. Backups now work correctly in that case, and any real backup failure now shows an on-screen error instead of failing silently.\n",
+            "de": "\n🐛 Behoben: Fehler bei der Cloud-Sicherung!\n\nDie Sicherung schlug nach einem sauberen Beenden der App unbemerkt fehl, weil zusätzliche Datenbankdateien vorausgesetzt wurden, die nicht immer vorhanden sind. Sicherungen funktionieren jetzt auch in diesem Fall korrekt, und ein tatsächlicher Fehler bei der Sicherung wird jetzt als Meldung auf dem Bildschirm angezeigt, statt unbemerkt zu bleiben.\n",
+            "es": "\n🐛 Corregido: ¡Errores en la copia de seguridad en la nube!\n\nLa copia de seguridad fallaba en silencio tras un cierre limpio de la app porque requería archivos de base de datos adicionales que no siempre están presentes. Ahora las copias de seguridad funcionan correctamente en ese caso, y cualquier fallo real se muestra como un error en pantalla en lugar de fallar en silencio.\n",
+            "fr": "\n🐛 Corrigé : erreurs de sauvegarde dans le cloud !\n\nLa sauvegarde échouait silencieusement après un arrêt propre de l'application, car elle nécessitait des fichiers de base de données supplémentaires qui ne sont pas toujours présents. Les sauvegardes fonctionnent désormais correctement dans ce cas, et un véritable échec de sauvegarde affiche maintenant une erreur à l'écran au lieu d'échouer silencieusement.\n"
+          }
+        },
+        {
+          "version": 2642,
+          "message": {
+            "en": "\n✏️ New: Fix a Logged Exercise!\n\nMade a mistake in a completed workout? Tap the pencil icon next to any exercise on the edit-history screen to swap it for the correct one, filtered to match its tracking type.\n",
+            "de": "\n✏️ Neu: Falsch erfasste Übung korrigieren!\n\nHast du dich bei einem abgeschlossenen Workout vertan? Tippe auf das Stift-Symbol neben einer Übung im Bearbeiten-Verlauf, um sie gegen die richtige auszutauschen, gefiltert nach passendem Tracking-Typ.\n",
+            "es": "\n✏️ Nuevo: ¡Corrige un ejercicio registrado!\n\n¿Te equivocaste en un entrenamiento completado? Toca el icono de lápiz junto a cualquier ejercicio en la pantalla de edición de historial para cambiarlo por el correcto, filtrado según su tipo de seguimiento.\n",
+            "fr": "\n✏️ Nouveau : corrige un exercice enregistré !\n\nUne erreur dans une séance terminée ? Appuie sur l'icône crayon à côté d'un exercice dans l'écran de modification de l'historique pour l'échanger contre le bon, filtré selon son type de suivi.\n"
+          }
+        },
+        {
+          "version": 2641,
+          "message": {
+            "en": "\n📋 New: Copy a Workout to Your Standalone Library!\n\nAny workout in a plan can now be copied straight to your standalone workout library in one tap, from the plan or workout details screen, so you can run it independently whenever you like.\n",
+            "de": "\n📋 Neu: Workout in deine eigenständige Bibliothek kopieren!\n\nJedes Workout in einem Plan kann jetzt mit einem Tipp direkt in deine eigenständige Workout-Bibliothek kopiert werden, von der Plan- oder Workout-Detailansicht aus, damit du es jederzeit unabhängig ausführen kannst.\n",
+            "es": "\n📋 Nuevo: ¡Copia un entrenamiento a tu biblioteca independiente!\n\nAhora puedes copiar cualquier entrenamiento de un plan directamente a tu biblioteca de entrenamientos independientes con un toque, desde la pantalla de detalles del plan o del entrenamiento, para ejecutarlo por separado cuando quieras.\n",
+            "fr": "\n📋 Nouveau : copie une séance vers ta bibliothèque indépendante !\n\nToute séance d'un plan peut désormais être copiée directement vers ta bibliothèque de séances indépendantes en un tap, depuis l'écran de détails du plan ou de la séance, pour la lancer séparément quand tu veux.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.3",
+      "date": "2026-06",
+      "entries": [
+        {
+          "version": 2640,
+          "message": {
+            "en": "\n🔃 New: Reorder Tracked Exercises!\n\nYou can now drag and drop to reorder the exercises you're tracking on the Stats screen, so your most important ones stay right where you want them.\n",
+            "de": "\n🔃 Neu: Verfolgte Übungen neu anordnen!\n\nDu kannst jetzt die Übungen, die du auf dem Statistik-Bildschirm verfolgst, per Drag & Drop neu anordnen, damit deine wichtigsten Übungen genau dort bleiben, wo du sie willst.\n",
+            "es": "\n🔃 Nuevo: ¡Reordena los ejercicios que sigues!\n\nAhora puedes arrastrar y soltar para reordenar los ejercicios que sigues en la pantalla de Estadísticas, para que los más importantes se queden justo donde quieres.\n",
+            "fr": "\n🔃 Nouveau : réorganise les exercices suivis !\n\nTu peux désormais glisser-déposer pour réorganiser les exercices que tu suis sur l'écran Statistiques, pour que les plus importants restent exactement là où tu veux.\n"
+          }
+        },
+        {
+          "version": 2639,
+          "message": {
+            "en": "\n📉 New: Layoff-Aware Weight Suggestions!\n\nHaven't trained a muscle group in 2 or more weeks? Adaptive Progression now suggests a lighter starting weight to help you ease back in safely, scaling the reduction from 10% to 20% the longer you've been away. It respects a manually flagged Deload Week, so the two never stack.\n\nWe also fixed a batch of Adaptive Progression bugs: rep-increase suggestions now show up properly instead of only weight ones, the Recovery Check-in appears reliably even if you close the app mid-workout, and feedback prompts no longer repeat during drop sets.\n",
+            "de": "\n📉 Neu: Vorschläge nach Trainingspausen!\n\nEine Muskelgruppe seit 2 oder mehr Wochen nicht trainiert? Adaptive Progression schlägt jetzt ein leichteres Einstiegsgewicht vor, damit du sicher wieder einsteigen kannst. Die Reduzierung skaliert von 10 % bis 20 %, je länger du pausiert hast. Eine manuell markierte Deload-Woche wird dabei berücksichtigt, sodass sich beides nicht überlagert.\n\nAußerdem haben wir mehrere Fehler in Adaptive Progression behoben: Vorschläge zur Erhöhung der Wiederholungen erscheinen jetzt korrekt statt nur Gewichtsvorschläge, der Regenerations-Check-in erscheint zuverlässig auch nach dem Schließen der App mitten im Training, und Feedback-Abfragen wiederholen sich nicht mehr bei Dropsätzen.\n",
+            "es": "\n📉 Nuevo: ¡Sugerencias tras una pausa de entrenamiento!\n\n¿Llevas 2 semanas o más sin entrenar un grupo muscular? Progresión adaptativa ahora sugiere un peso inicial más ligero para que retomes con seguridad, escalando la reducción del 10 % al 20 % según el tiempo que hayas estado fuera. Respeta una semana de descarga marcada manualmente, así que ambas nunca se acumulan.\n\nTambién corregimos varios errores de Progresión adaptativa: las sugerencias de aumento de repeticiones ahora aparecen correctamente en lugar de solo las de peso, el Control de recuperación aparece de forma fiable incluso si cierras la app a mitad del entrenamiento, y los avisos de feedback ya no se repiten durante los drop sets.\n",
+            "fr": "\n📉 Nouveau : Suggestions après une pause d'entraînement !\n\nTu n'as pas entraîné un groupe musculaire depuis 2 semaines ou plus ? Progression adaptative suggère désormais un poids de départ plus léger pour reprendre en toute sécurité, avec une réduction qui passe de 10 % à 20 % selon la durée de ta pause. Une semaine de décharge marquée manuellement est respectée, donc les deux ne s'accumulent jamais.\n\nNous avons aussi corrigé plusieurs bugs de Progression adaptative : les suggestions d'augmentation des répétitions s'affichent désormais correctement au lieu de seulement celles de poids, le Bilan de récupération apparaît de manière fiable même si tu fermes l'app en plein entraînement, et les invites de feedback ne se répètent plus pendant les drop sets.\n"
+          }
+        },
+        {
+          "version": 2638,
+          "message": {
+            "en": "\n🏋️ New: Choose Workout from the Home Screen!\n\nTap the new \"Choose Workout\" button next to Quick Workout to search and browse every workout across your plans and standalone library, then start any one of them instantly.\n",
+            "de": "\n🏋️ Neu: Training direkt vom Startbildschirm wählen!\n\nTippe neben Schnelltraining auf die neue Schaltfläche „Training auswählen“, um jedes Training in deinen Plänen und deiner eigenständigen Bibliothek zu durchsuchen und sofort zu starten.\n",
+            "es": "\n🏋️ Nuevo: ¡Elige un entrenamiento desde la pantalla de inicio!\n\nToca el nuevo botón \"Elegir entrenamiento\" junto a Entrenamiento rápido para buscar y explorar todos los entrenamientos de tus planes y tu biblioteca de entrenamientos independientes, y empieza cualquiera de ellos al instante.\n",
+            "fr": "\n🏋️ Nouveau : Choisis ton entraînement depuis l'accueil !\n\nAppuie sur le nouveau bouton « Choisir un entraînement » à côté d'Entraînement rapide pour rechercher et parcourir tous les entraînements de tes programmes et de ta bibliothèque autonome, puis démarre n'importe lequel instantanément.\n"
+          }
+        },
+        {
+          "version": 2637,
+          "message": {
+            "en": "\n🔃 Improved: Drop Set Flow!\n\nAdding a drop set during a session now appends a brand new set rather than flagging the current one, giving you full control over your drop set structure. The new set is pre-filled with weight and 10 second rest time automatically.\n",
+            "de": "\n🔃 Verbessert: Dropsatz-Ablauf!\n\nEinen Dropsatz während einer Einheit hinzuzufügen hängt jetzt einen brandneuen Satz an, anstatt den aktuellen zu markieren, sodass du die volle Kontrolle über deine Dropsatz-Struktur hast. Der neue Satz wird automatisch mit Gewicht und 10 Sekunden Pausenzeit vorgefüllt.\n",
+            "es": "\n🔃 Mejorado: ¡Flujo de drop set!\n\nAñadir un drop set durante una sesión ahora añade un nuevo set en lugar de marcar el actual, dándote control total sobre tu estructura de drop sets. El nuevo set se rellena automáticamente con el peso y 10 segundos de descanso.\n",
+            "fr": "\n🔃 Amélioré : Flux des drop sets !\n\nAjouter un drop set pendant une séance ajoute désormais un tout nouveau set plutôt que de marquer l'actuel, te donnant un contrôle total sur ta structure de drop sets. Le nouveau set est pré-rempli automatiquement avec le poids et 10 secondes de repos.\n"
+          }
+        },
+        {
+          "version": 2636,
+          "message": {
+            "en": "\n📋 New: Duplicate a Plan!\n\nYou can now duplicate any of your training plans directly from the plan overview screen. A full copy is created instantly with all workouts and exercises, ready for you to rename and customise.\n",
+            "de": "\n📋 Neu: Plan duplizieren!\n\nDu kannst jetzt jeden deiner Trainingspläne direkt vom Planübersichtsbildschirm duplizieren. Eine vollständige Kopie wird sofort mit allen Trainings und Übungen erstellt, bereit zum Umbenennen und Anpassen.\n",
+            "es": "\n📋 Nuevo: ¡Duplicar un plan!\n\nAhora puedes duplicar cualquiera de tus planes de entrenamiento directamente desde la pantalla de resumen del plan. Se crea una copia completa al instante con todos los entrenamientos y ejercicios, lista para renombrar y personalizar.\n",
+            "fr": "\n📋 Nouveau : Dupliquer un programme !\n\nTu peux maintenant dupliquer n'importe lequel de tes programmes d'entraînement directement depuis l'écran de vue d'ensemble du programme. Une copie complète est créée instantanément avec tous les entraînements et exercices, prête à renommer et personnaliser.\n"
+          }
+        },
+        {
+          "version": 2635,
+          "message": {
+            "en": "\n👥 New: Friends & Social Sharing!\n\nAdd friends by searching for their username from the Friends tab in the menu. Send a request, and once accepted you can browse each other's shared content. A badge on the Friends menu item shows pending incoming requests.\n\nShare your plans, standalone workouts, custom exercises, body measurements, and strength PRs by toggling Share in the relevant screen or from Privacy Settings in the Account section of Settings. Shared content syncs automatically whenever it changes, and a cloud icon on plan and workout cards shows what is currently published. You can delete all shared data for any category from Privacy Settings at any time.\n\nTap any accepted friend's name to open their profile and import their plans, standalone workouts, or custom exercises directly into your own library.\n",
+            "de": "\n👥 Neu: Freunde & Social Sharing!\n\nFüge Freunde hinzu, indem du nach ihrem Nutzernamen im Freunde-Tab im Menü suchst. Sende eine Anfrage – sobald sie angenommen wird, könnt ihr gegenseitig eure geteilten Inhalte durchstöbern. Ein Badge am Freunde-Menüpunkt zeigt ausstehende eingehende Anfragen.\n\nTeile deine Pläne, eigenständigen Trainings, eigene Übungen, Körpermaße und Kraft-PRs, indem du in der jeweiligen Ansicht oder in den Datenschutzeinstellungen im Konto-Bereich der Einstellungen den Teilen-Schalter aktivierst. Geteilte Inhalte werden automatisch synchronisiert, wenn sie sich ändern, und ein Wolken-Symbol auf Plan- und Trainingskarten zeigt an, was gerade veröffentlicht ist. Du kannst alle geteilten Daten einer Kategorie jederzeit über die Datenschutzeinstellungen löschen.\n\nTippe auf den Namen eines akzeptierten Freundes, um sein Profil zu öffnen und seine Pläne, eigenständigen Trainings oder eigenen Übungen direkt in deine eigene Bibliothek zu importieren.\n",
+            "es": "\n👥 Nuevo: ¡Amigos y uso compartido!\n\nAñade amigos buscando su nombre de usuario en la pestaña Amigos del menú. Envía una solicitud y, una vez aceptada, podréis explorar el contenido compartido del otro. Un badge en el elemento del menú Amigos muestra las solicitudes entrantes pendientes.\n\nComparte tus planes, entrenamientos individuales, ejercicios personalizados, medidas corporales y récords de fuerza activando Compartir en la pantalla correspondiente o desde la Configuración de privacidad en la sección Cuenta de Ajustes. El contenido compartido se sincroniza automáticamente cada vez que cambia, y un icono de nube en las tarjetas de plan y entrenamiento muestra lo que está publicado. Puedes eliminar todos los datos compartidos de cualquier categoría desde la Configuración de privacidad en cualquier momento.\n\nToca el nombre de cualquier amigo aceptado para abrir su perfil e importar sus planes, entrenamientos individuales o ejercicios personalizados directamente a tu propia biblioteca.\n",
+            "fr": "\n👥 Nouveau : Amis & partage social !\n\nAjoute des amis en cherchant leur nom d'utilisateur depuis l'onglet Amis dans le menu. Envoie une demande et, une fois acceptée, vous pouvez parcourir le contenu partagé de l'autre. Un badge sur l'élément Amis du menu indique les demandes entrantes en attente.\n\nPartage tes programmes, entraînements solo, exercices personnalisés, mesures corporelles et records de force en activant Partager dans l'écran correspondant ou depuis les Paramètres de confidentialité dans la section Compte des Paramètres. Le contenu partagé se synchronise automatiquement à chaque modification, et une icône nuage sur les cartes programme et entraînement indique ce qui est actuellement publié. Tu peux supprimer toutes les données partagées d'une catégorie depuis les Paramètres de confidentialité à tout moment.\n\nAppuie sur le nom de n'importe quel ami accepté pour ouvrir son profil et importer ses programmes, entraînements solo ou exercices personnalisés directement dans ta propre bibliothèque.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-05",
+      "entries": [
+        {
+          "version": 2634,
+          "message": {
+            "en": "\n📈 Beta: Adaptive Progression!\n\nMuscleQuest can now suggest when to increase your weight or reps based on how your sessions feel. After each exercise, answer two quick questions about effort and pain. Once you have reported the same signal for two sessions in a row, the app suggests a change. All suggestions appear in the Workout Summary screen, where you can accept or dismiss each one individually. Accepted suggestions are pre-filled into your next session automatically.\n\nA Recovery Check-in at the start of your next workout lets you factor in soreness before any suggestion is applied. You can also mark a full week as a Deload from the plan overview, which pauses feedback and progression tracking for that week.\n\nEnable it in Settings under Adaptive Progression, and configure your preferred load increment per equipment category.\n",
+            "de": "\n📈 Beta: Adaptive Progression!\n\nMuscleQuest kann dir jetzt vorschlagen, wann du dein Gewicht oder deine Wiederholungen erhöhen solltest, basierend auf dem Gefühl deiner Einheiten. Beantworte nach jeder Übung zwei kurze Fragen zu Anstrengung und Schmerzen. Sobald du dasselbe Signal zwei Einheiten in Folge gemeldet hast, schlägt die App eine Änderung vor. Alle Vorschläge erscheinen im Trainingsübersichtsbildschirm, wo du jeden einzeln annehmen oder ablehnen kannst. Angenommene Vorschläge werden automatisch in deine nächste Einheit vorgefüllt.\n\nEin Regenerations-Check-in zu Beginn deines nächsten Trainings lässt dich Muskelkater einbeziehen, bevor ein Vorschlag angewendet wird. Du kannst auch eine ganze Woche als Deload in der Planübersicht markieren, was Feedback und Fortschritts-Tracking für diese Woche pausiert.\n\nAktiviere es in den Einstellungen unter Adaptive Progression und konfiguriere deinen bevorzugten Gewichtsschritt pro Gerätekategorie.\n",
+            "es": "\n📈 Beta: ¡Progresión adaptativa!\n\nMuscleQuest ahora puede sugerirte cuándo aumentar tu peso o reps según cómo se sienten tus sesiones. Después de cada ejercicio, responde dos preguntas rápidas sobre esfuerzo y dolor. Cuando hayas reportado la misma señal dos sesiones seguidas, la app sugiere un cambio. Todas las sugerencias aparecen en la pantalla de Resumen del entrenamiento, donde puedes aceptar o descartar cada una por separado. Las sugerencias aceptadas se prerellenan en tu próxima sesión automáticamente.\n\nUn Control de recuperación al inicio de tu próximo entrenamiento te permite tener en cuenta el dolor muscular antes de aplicar cualquier sugerencia. También puedes marcar una semana entera como semana de descarga desde la vista general del plan, lo que pausa el feedback y el seguimiento de progresión durante esa semana.\n\nActívalo en Ajustes, en Progresión adaptativa, y configura tu incremento de carga preferido por categoría de equipamiento.\n",
+            "fr": "\n📈 Beta : Progression adaptative !\n\nMuscleQuest peut maintenant te suggérer quand augmenter ton poids ou tes reps selon ce que tu ressens pendant tes séances. Après chaque exercice, réponds à deux questions rapides sur l'effort et la douleur. Dès que tu as signalé le même résultat deux séances de suite, l'app suggère un changement. Toutes les suggestions apparaissent sur l'écran de Résumé d'entraînement, où tu peux accepter ou rejeter chacune individuellement. Les suggestions acceptées sont pré-remplies dans ta prochaine séance automatiquement.\n\nUn Bilan de récupération au début de ton prochain entraînement te permet de prendre en compte les courbatures avant d'appliquer une suggestion. Tu peux aussi marquer une semaine entière comme semaine de décharge depuis la vue d'ensemble du programme, ce qui met en pause le feedback et le suivi de progression pour cette semaine.\n\nActive-le dans Paramètres, sous Progression adaptative, et configure ton incrément de charge préféré par catégorie d'équipement.\n"
+          }
+        },
+        {
+          "version": 2633,
+          "message": {
+            "en": "\n🗂️ New: Plan View Options!\n\nThe Plans screen now has three display modes. Use the icons next to the \"Your Training Plans\" heading to switch between Carousel, List, and Grid view. Your preferred layout is saved automatically.\n",
+            "de": "\n🗂️ Neu: Planansichtsoptionen!\n\nDer Pläne-Bildschirm hat jetzt drei Anzeigemodi. Nutze die Symbole neben der Überschrift „Deine Trainingspläne“, um zwischen Karussell-, Listen- und Rasteransicht zu wechseln. Deine bevorzugte Darstellung wird automatisch gespeichert.\n",
+            "es": "\n🗂️ Nuevo: ¡Opciones de vista de planes!\n\nLa pantalla de Planes ahora tiene tres modos de visualización. Usa los iconos junto al encabezado \"Tus planes de entrenamiento\" para cambiar entre las vistas Carrusel, Lista y Cuadrícula. Tu disposición preferida se guarda automáticamente.\n",
+            "fr": "\n🗂️ Nouveau : Options d'affichage des plans !\n\nL'écran Programmes dispose maintenant de trois modes d'affichage. Utilise les icônes à côté du titre « Tes plans d'entraînement » pour basculer entre les vues Carrousel, Liste et Grille. Ton affichage préféré est sauvegardé automatiquement.\n"
+          }
+        },
+        {
+          "version": 2632,
+          "message": {
+            "en": "\n⚖️ New: Track Weight for Bodyweight Exercises!\n\nFor bodyweight exercises like pull-ups or dips, you can now toggle on weight tracking per workout. Perfect for weighted variations, so you can log the added weight and track progression over time.\n",
+            "de": "\n⚖️ Neu: Gewicht erfassen für Körpergewichtsübungen!\n\nFür Körpergewichtsübungen wie Klimmzüge oder Dips kannst du jetzt die Gewichtserfassung pro Training aktivieren. Perfekt für gewichtete Varianten, um das zusätzliche Gewicht zu protokollieren und den Fortschritt über Zeit zu verfolgen.\n",
+            "es": "\n⚖️ Nuevo: ¡Registrar peso para ejercicios con peso corporal!\n\nPara ejercicios con peso corporal como dominadas o fondos, ahora puedes activar el registro de peso por entrenamiento. Perfecto para variantes con peso adicional, para anotar el peso añadido y seguir la progresión con el tiempo.\n",
+            "fr": "\n⚖️ Nouveau : Enregistrer le poids pour les exercices au poids de corps !\n\nPour les exercices au poids de corps comme les tractions ou les dips, tu peux maintenant activer l'enregistrement du poids par entraînement. Parfait pour les variantes lestées, pour noter le poids ajouté et suivre ta progression dans le temps.\n"
+          }
+        },
+        {
+          "version": 2631,
+          "message": {
+            "en": "\n🔃 New: Sort the Exercise Library!\n\nThe exercise library now has sort chips so you can find exercises faster. Sort by Default, Active Plan, Recent, or Frequent to see the exercises most relevant to you at the top.\n",
+            "de": "\n🔃 Neu: Übungsbibliothek sortieren!\n\nDie Übungsbibliothek hat jetzt Sortier-Chips, damit du Übungen schneller findest. Sortiere nach Standard, Aktiver Plan, Zuletzt oder Häufig, um die für dich relevantesten Übungen oben zu sehen.\n",
+            "es": "\n🔃 Nuevo: ¡Ordena la biblioteca de ejercicios!\n\nLa biblioteca de ejercicios ahora tiene chips de ordenación para encontrar ejercicios más rápido. Ordena por Predeterminado, Plan activo, Reciente o Frecuente para ver los ejercicios más relevantes para ti arriba.\n",
+            "fr": "\n🔃 Nouveau : Trie la bibliothèque d'exercices !\n\nLa bibliothèque d'exercices a maintenant des chips de tri pour trouver les exercices plus vite. Trie par Par défaut, Programme actif, Récent ou Fréquent pour voir les exercices les plus pertinents pour toi en haut.\n"
+          }
+        },
+        {
+          "version": 2630,
+          "message": {
+            "en": "\n📏 New: Body Measurements!\n\nTrack your body composition alongside your training from the new Measurements section in the Stats tab.\n\n• Log weight, body fat %, waist, hips, chest, and more\n• Tap any past entry to edit values or view a chart of that metric over time\n• Manage which metrics appear and add your own custom metrics\n• Units follow your weight and size preferences in Settings\n",
+            "de": "\n📏 Neu: Körpermaße!\n\nVerfolge deine Körperzusammensetzung neben deinem Training im neuen Bereich Messungen im Stats-Tab.\n\n• Gewicht, Körperfettanteil, Taille, Hüften, Brust und mehr erfassen\n• Vergangene Einträge antippen, um Werte zu bearbeiten oder ein Diagramm anzusehen\n• Messgrößen verwalten und eigene hinzufügen\n• Einheiten folgen deinen Gewichts- und Größeneinstellungen\n",
+            "es": "\n📏 Nuevo: ¡Medidas corporales!\n\nSigue tu composición corporal junto a tu entrenamiento desde la nueva sección Medidas en el tab Estadísticas.\n\n• Registra peso, % de grasa corporal, cintura, caderas, pecho y más\n• Toca cualquier entrada anterior para editar valores o ver un gráfico de esa métrica\n• Gestiona qué métricas se muestran y añade las tuyas personalizadas\n• Las unidades siguen tus preferencias de peso y tamaño en Ajustes\n",
+            "fr": "\n📏 Nouveau : Mesures corporelles !\n\nSuis ta composition corporelle en parallèle de tes entraînements depuis la nouvelle section Mesures de l'onglet Statistiques.\n\n• Enregistre poids, % de masse grasse, tour de taille, hanches, poitrine et plus\n• Appuie sur une entrée passée pour modifier les valeurs ou consulter un graphique\n• Gère les mesures affichées et ajoute tes propres mesures personnalisées\n• Les unités suivent tes préférences de poids et de taille dans Paramètres\n"
+          }
+        },
+        {
+          "version": 2629,
+          "message": {
+            "en": "\n📋 Improved: Smarter History Pre-Fill During Workouts!\n\nSet fields now pre-fill more intelligently. If an exercise has no history in the current workout, it falls back to the most recent time you performed it in any session, so you always start with a useful reference.\n\nA new setting in the Workout section lets you always use the most recent history across all workouts, regardless of which routine it came from.\n",
+            "de": "\n📋 Verbessert: Intelligenteres Vorbefüllen mit Trainingshistorie!\n\nSatzfelder werden jetzt intelligenter vorbefüllt. Hat eine Übung keine Historie im aktuellen Training, wird automatisch auf die letzte Ausführung dieser Übung aus einer beliebigen Einheit zurückgegriffen. Du startest also immer mit einer sinnvollen Referenz.\n\nEine neue Einstellung im Bereich „Training\" ermöglicht es, stets die aktuellste Historie aus allen Trainings zu verwenden, unabhängig davon, aus welcher Routine sie stammt.\n",
+            "es": "\n📋 Mejorado: ¡Prerelleno más inteligente del historial durante los entrenamientos!\n\nLos campos de series ahora se prerellenan de forma más inteligente. Si un ejercicio no tiene historial en el entrenamiento actual, se usa automáticamente la última vez que lo realizaste en cualquier sesión, para que siempre tengas una referencia útil.\n\nUn nuevo ajuste en la sección Entrenamiento te permite usar siempre el historial más reciente de todos los entrenamientos, independientemente de la rutina de la que provenga.\n",
+            "fr": "\n📋 Amélioré : Pré-remplissage plus intelligent de l'historique pendant l'entraînement !\n\nLes champs de séries se pré-remplissent maintenant de façon plus intelligente. Si un exercice n'a pas d'historique dans l'entraînement en cours, l'app utilise automatiquement la dernière fois que tu l'as effectué dans n'importe quelle séance, pour toujours avoir une référence utile.\n\nUn nouveau paramètre dans la section Entraînement te permet d'utiliser toujours l'historique le plus récent de tous tes entraînements, quelle que soit la routine d'origine.\n"
+          }
+        },
+        {
+          "version": 2628,
+          "message": {
+            "en": "\n🔍 Improved: Smarter Exercise Search & Easy Access to the Exercise Library!\n\nExercise search now understands common abbreviations like RDL, OHP, DB, and KB, corrects minor typos, and ranks results by relevance so the best match always comes first.\n\nYou can also browse the full exercise library any time from the menu, without needing to be in a workout or plan.\n",
+            "de": "\n🔍 Verbessert: Intelligentere Übungssuche & einfacher Zugriff auf die Übungsbibliothek!\n\nDie Übungssuche erkennt jetzt gängige Abkürzungen wie RDL, OHP, DB und KB, korrigiert kleine Tippfehler und sortiert die Ergebnisse nach Relevanz, sodass die beste Übereinstimmung immer zuerst erscheint.\n\nDu kannst die vollständige Übungsbibliothek jederzeit über das Menü durchsuchen, ohne dich in einem Training oder Plan befinden zu müssen.\n",
+            "es": "\n🔍 Mejorado: ¡Búsqueda de ejercicios más inteligente y acceso fácil a la biblioteca de ejercicios!\n\nLa búsqueda de ejercicios ahora reconoce abreviaturas comunes como RDL, OHP, DB y KB, corrige pequeños errores tipográficos y clasifica los resultados por relevancia para que la mejor coincidencia aparezca siempre primero.\n\nTambién puedes explorar la biblioteca completa de ejercicios en cualquier momento desde el menú, sin necesidad de estar en un entrenamiento o plan.\n",
+            "fr": "\n🔍 Amélioré : Recherche d'exercices plus intelligente et accès facile à la bibliothèque d'exercices !\n\nLa recherche d'exercices reconnaît maintenant les abréviations courantes comme RDL, OHP, DB et KB, corrige les petites fautes de frappe et classe les résultats par pertinence pour que la meilleure correspondance apparaisse toujours en premier.\n\nTu peux aussi parcourir la bibliothèque complète d'exercices à tout moment depuis le menu, sans avoir besoin d'être dans un entraînement ou un plan.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.21",
+      "date": "2026-05",
+      "entries": [
+        {
+          "version": 2627,
+          "message": {
+            "en": "\n📅 New: Workout Calendar!\n\nTap the calendar icon in the Workout History section on the Stats tab to browse your training history by date. Days with workouts are highlighted, and tapping any day shows the sessions logged on that date.\n",
+            "de": "\n📅 Neu: Trainingskalender!\n\nTippe auf das Kalendersymbol im Bereich Trainingshistorie auf dem Statistiken-Tab, um deine Trainingshistorie nach Datum zu durchsuchen. Tage mit Trainings sind hervorgehoben, und ein Tippen auf einen Tag zeigt die an diesem Datum protokollierten Einheiten.\n",
+            "es": "\n📅 Nuevo: ¡Calendario de entrenamientos!\n\nToca el icono del calendario en la sección Historial de entrenamientos de la pestaña Estadísticas para explorar tu historial de entrenamiento por fecha. Los días con entrenamientos están resaltados, y al tocar cualquier día se muestran las sesiones registradas ese día.\n",
+            "fr": "\n📅 Nouveau : Calendrier d'entraînement !\n\nAppuie sur l'icône de calendrier dans la section Historique des entraînements de l'onglet Stats pour consulter ton historique par date. Les jours avec des entraînements sont mis en évidence, et appuyer sur un jour affiche les séances enregistrées ce jour-là.\n"
+          }
+        },
+        {
+          "version": 2626,
+          "message": {
+            "en": "\n🗂️ New: Five New Premade Training Plans!\n\nFive new ready-to-use plans are now available: 5-Day Bro Split, 5-Day Push/Pull/Legs, 6-Day Split, Bodyweight, and Dumbbell Only. Whether you're training at home or in the gym, there's a plan to get you started straight away.\n",
+            "de": "\n🗂️ Neu: Fünf neue vorgefertigte Trainingspläne!\n\nFünf neue sofort einsatzbereite Pläne sind jetzt verfügbar: 5-Tage-Bro-Split, 5-Tage-Push/Pull/Beine, 6-Tage-Split, Körpergewicht und Nur Kurzhanteln. Ob du zuhause oder im Gym trainierst, es gibt einen Plan, mit dem du sofort loslegen kannst.\n",
+            "es": "\n🗂️ Nuevo: ¡Cinco nuevos planes de entrenamiento prediseñados!\n\nCinco nuevos planes listos para usar están ahora disponibles: Split de 5 días Bro, Push/Pull/Piernas de 5 días, Split de 6 días, Peso corporal y Solo mancuernas. Tanto si entrenas en casa como en el gimnasio, hay un plan para que empieces de inmediato.\n",
+            "fr": "\n🗂️ Nouveau : Cinq nouveaux programmes préfaits !\n\nCinq nouveaux programmes prêts à l'emploi sont maintenant disponibles : Bro Split 5 jours, Push/Pull/Jambes 5 jours, Split 6 jours, Poids de corps et Haltères uniquement. Que tu t'entraînes à la maison ou en salle, il y a un programme pour démarrer immédiatement.\n"
+          }
+        },
+        {
+          "version": 2625,
+          "message": {
+            "en": "\n🔥 Improved: Warm-Up Set Management!\n\nWarm-up sets are visually grouped and styled separately from working sets, and \"Apply to all\" lets you bulk-edit warm-up or working sets independently.\n",
+            "de": "\n🔥 Verbessert: Aufwärmsatz-Verwaltung!\n\nAufwärmsätze werden visuell gruppiert und getrennt von Arbeitssätzen dargestellt, und \"Auf alle anwenden\" ermöglicht das gleichzeitige Bearbeiten von Aufwärm- oder Arbeitssätzen unabhängig voneinander.\n",
+            "es": "\n🔥 Mejorado: ¡Gestión de series de calentamiento!\n\nLas series de calentamiento están agrupadas visualmente y con un estilo separado de las series de trabajo, y \"Aplicar a todas\" te permite editar en bloque las series de calentamiento o de trabajo de forma independiente.\n",
+            "fr": "\n🔥 Amélioré : Gestion des séries d'échauffement !\n\nLes séries d'échauffement sont visuellement regroupées et stylisées séparément des séries de travail, et \"Appliquer à tous\" te permet de modifier en masse les séries d'échauffement ou de travail indépendamment.\n"
+          }
+        },
+        {
+          "version": 2624,
+          "message": {
+            "en": "\n💾 New: Save & Resume Plan and Workout Drafts!\n\nYour work in the plan and standalone workout editors is now automatically saved as a draft. If you leave mid-edit, you'll be prompted to continue where you left off or discard the draft, so you never lose progress by accident.\n",
+            "de": "\n💾 Neu: Plan- und Trainingsentwürfe speichern und fortsetzen!\n\nDeine Arbeit in den Plan- und Trainings-Editoren wird jetzt automatisch als Entwurf gespeichert. Wenn du mittendrin abbrichst, wirst du gefragt, ob du weitermachen oder den Entwurf verwerfen möchtest, damit du deinen Fortschritt nie versehentlich verlierst.\n",
+            "es": "\n💾 Nuevo: ¡Guarda y reanuda borradores de planes y entrenamientos!\n\nTu trabajo en los editores de planes y entrenamientos independientes ahora se guarda automáticamente como borrador. Si sales a mitad de la edición, se te preguntará si quieres continuar donde lo dejaste o descartar el borrador, para que nunca pierdas el progreso por accidente.\n",
+            "fr": "\n💾 Nouveau : Sauvegarde et reprise des brouillons de programme et d'entraînement !\n\nTon travail dans les éditeurs de programme et d'entraînement autonome est maintenant automatiquement sauvegardé comme brouillon. Si tu quittes en cours d'édition, tu seras invité à continuer là où tu t'es arrêté ou à supprimer le brouillon, pour ne jamais perdre ta progression par accident.\n"
+          }
+        },
+        {
+          "version": 2623,
+          "message": {
+            "en": "\n📋 New: \"More\" Menu and Help & Info Section!\n\nThere's a new \"More\" tab in the navigation bar. Tap it to open a slide-in panel where you'll find Settings and a brand new Help & Info section.\n\nSettings has moved here from the tab bar, and Help & Info covers everything from plans and workouts to stats and your account, with a search bar to find answers quickly.\n",
+            "de": "\n📋 Neu: \"Mehr\"-Menü und Hilfe & Info-Bereich!\n\nEs gibt einen neuen \"Mehr\"-Tab in der Navigationsleiste. Tippe darauf, um ein Einblendmenü zu öffnen, in dem du Einstellungen und einen brandneuen Hilfe & Info-Bereich findest.\n\nDie Einstellungen wurden von der Tab-Leiste hierher verschoben, und Hilfe & Info deckt alles ab, von Plänen und Trainings bis hin zu Statistiken und deinem Konto, mit einer Suchleiste, um schnell Antworten zu finden.\n",
+            "es": "\n📋 Nuevo: ¡Menú \"Más\" y sección de Ayuda e información!\n\nHay una nueva pestaña \"Más\" en la barra de navegación. Tócala para abrir un panel deslizante donde encontrarás Ajustes y una nueva sección de Ayuda e información.\n\nAjustes se ha movido aquí desde la barra de pestañas, y Ayuda e información lo cubre todo, desde planes y entrenamientos hasta estadísticas y tu cuenta, con una barra de búsqueda para encontrar respuestas rápidamente.\n",
+            "fr": "\n📋 Nouveau : Menu \"Plus\" et section Aide & infos !\n\nIl y a un nouvel onglet \"Plus\" dans la barre de navigation. Appuie dessus pour ouvrir un panneau coulissant où tu trouveras les Paramètres et une toute nouvelle section Aide & infos.\n\nLes Paramètres ont été déplacés ici depuis la barre d'onglets, et Aide & infos couvre tout, des programmes et entraînements aux stats et à ton compte, avec une barre de recherche pour trouver rapidement des réponses.\n"
+          }
+        },
+        {
+          "version": 2622,
+          "message": {
+            "en": "\n🔔 New: Exercise Timer Sounds!\n\nThe exercise timer now plays audio cues to keep you on track. A countdown beep as the timer nears zero and a sound when you hit your goal. Toggle each sound independently in Settings.\n",
+            "de": "\n🔔 Neu: Übungstimer-Töne!\n\nDer Übungstimer gibt jetzt Audiosignale aus, damit du auf Kurs bleibst. Ein Countdown-Piep, wenn der Timer sich null nähert, und ein Sound, wenn du dein Ziel erreichst. Schalte jeden Ton unabhängig in den Einstellungen ein oder aus.\n",
+            "es": "\n🔔 Nuevo: ¡Sonidos del temporizador de ejercicios!\n\nEl temporizador de ejercicios ahora reproduce señales de audio para mantenerte en camino. Un pitido de cuenta atrás cuando el temporizador se acerca a cero y un sonido cuando alcanzas tu objetivo. Activa o desactiva cada sonido de forma independiente en Ajustes.\n",
+            "fr": "\n🔔 Nouveau : Sons de la minuterie d'exercice !\n\nLa minuterie d'exercice joue maintenant des signaux sonores pour te garder concentré. Un bip de compte à rebours quand la minuterie approche de zéro et un son quand tu atteins ton objectif. Active ou désactive chaque son indépendamment dans les Paramètres.\n"
+          }
+        },
+        {
+          "version": 2621,
+          "message": {
+            "en": "\n🕐 New: Workout Duration Estimate!\n\nEach workout card now shows an estimated duration so you can plan your sessions at a glance before you start.\n",
+            "de": "\n🕐 Neu: Geschätzte Trainingsdauer!\n\nJede Trainingskarte zeigt jetzt eine geschätzte Dauer an, damit du deine Einheiten auf einen Blick planen kannst, bevor du startest.\n",
+            "es": "\n🕐 Nuevo: ¡Estimación de duración del entrenamiento!\n\nCada tarjeta de entrenamiento ahora muestra una duración estimada para que puedas planificar tus sesiones de un vistazo antes de empezar.\n",
+            "fr": "\n🕐 Nouveau : Estimation de la durée d'entraînement !\n\nChaque carte d'entraînement affiche maintenant une durée estimée pour que tu puisses planifier tes séances d'un coup d'œil avant de commencer.\n"
+          }
+        },
+        {
+          "version": 2620,
+          "message": {
+            "en": "\n⚙️ New: Three New Stats Settings!\n\nCustomise how your volume and stats are calculated with three new options in Settings:\n\n• Exclude warm-up sets from stats so they don't skew your numbers.\n• Double dumbbell weight automatically, so you can log the weight of one dumbbell and have the total counted for you.\n• Double reps for single arm/leg exercises, so unilateral movements are counted correctly in your volume totals.\n",
+            "de": "\n⚙️ Neu: Drei neue Statistikeinstellungen!\n\nPasse an, wie dein Volumen und deine Statistiken berechnet werden, mit drei neuen Optionen in den Einstellungen:\n\n• Aufwärmsätze aus den Statistiken ausschließen, damit sie deine Zahlen nicht verfälschen.\n• Kurzhanteln automatisch doppelt gewichten, sodass du das Gewicht einer Kurzhantel eingeben und das Gesamtgewicht automatisch berechnen lassen kannst.\n• Wiederholungen für einseitige Arm-/Beinübungen verdoppeln, damit unilaterale Bewegungen korrekt in deinem Gesamtvolumen gezählt werden.\n",
+            "es": "\n⚙️ Nuevo: ¡Tres nuevas opciones de estadísticas!\n\nPersonaliza cómo se calculan tu volumen y tus estadísticas con tres nuevas opciones en Ajustes:\n\n• Excluir las series de calentamiento de las estadísticas para que no distorsionen tus números.\n• Doblar el peso de las mancuernas automáticamente, para que puedas registrar el peso de una mancuerna y que el total se calcule solo.\n• Doblar las reps de los ejercicios unilaterales, para que los movimientos unilaterales se cuenten correctamente en tus totales de volumen.\n",
+            "fr": "\n⚙️ Nouveau : Trois nouveaux paramètres pour les stats !\n\nPersonnalise le calcul de ton volume et de tes stats avec trois nouvelles options dans les Paramètres :\n\n• Exclure les séries d'échauffement des stats pour ne pas fausser tes chiffres.\n• Doubler automatiquement le poids des haltères, pour que tu puisses noter le poids d'un seul haltère et que le total soit compté pour toi.\n• Doubler les répétitions pour les exercices unilatéraux (un bras/une jambe), pour que ces mouvements soient comptés correctement dans tes totaux de volume.\n"
+          }
+        },
+        {
+          "version": 2619,
+          "message": {
+            "en": "\n📈 New: Exercise History in the Info Screen!\n\nThe exercise info screen now includes a full history of every time you've performed that exercise, showing weights, reps, time, and distance for each set from past sessions. Access it during a workout, from your plan, or anywhere else exercise info is available.\n",
+            "de": "\n📈 Neu: Übungshistorie in der Infoansicht!\n\nDie Übungsinfoansicht enthält jetzt eine vollständige Übungshistorie mit Gewicht, Wiederholungen, Zeit und Distanz für jeden Satz aus vergangenen Einheiten. Zugriff während eines Trainings, über deinen Plan oder überall dort, wo Übungsinfos verfügbar sind.\n",
+            "es": "\n📈 Nuevo: ¡Historial de ejercicios en la pantalla de información!\n\nLa pantalla de información del ejercicio ahora incluye un historial completo de cada vez que has realizado ese ejercicio, mostrando pesos, reps, tiempo y distancia de cada serie en sesiones anteriores. Accede a él durante un entrenamiento, desde tu plan o desde cualquier lugar donde esté disponible la información del ejercicio.\n",
+            "fr": "\n📈 Nouveau : Historique des exercices dans l'écran d'informations !\n\nL'écran d'informations sur les exercices inclut maintenant un historique complet de chaque fois que tu as effectué cet exercice, avec les poids, répétitions, temps et distance de chaque série des séances passées. Accède-y pendant un entraînement, depuis ton programme, ou partout où les informations sur les exercices sont disponibles.\n"
+          }
+        },
+        {
+          "version": 2618,
+          "message": {
+            "en": "\n🔔 New: Workout Reminder Notifications!\n\nNever miss a session. Set reminder notifications for your workouts directly from the app. Choose which days you want to be reminded, and pick a time to get started.\n",
+            "de": "\n🔔 Neu: Trainings-Erinnerungsbenachrichtigungen!\n\nVerpasse keine Einheit mehr. Richte Erinnerungsbenachrichtigungen für deine Trainings direkt in der App ein. Wähle die Tage, an denen du erinnert werden möchtest, und lege eine Uhrzeit fest.\n",
+            "es": "\n🔔 Nuevo: ¡Notificaciones de recordatorio de entrenamiento!\n\nNo te pierdas ninguna sesión. Configura notificaciones de recordatorio para tus entrenamientos directamente desde la app. Elige qué días quieres que te recuerden y selecciona una hora para empezar.\n",
+            "fr": "\n🔔 Nouveau : Notifications de rappel d'entraînement !\n\nNe rate plus jamais une séance. Configure des rappels pour tes entraînements directement depuis l'application. Choisis les jours où tu veux être rappelé et une heure pour commencer.\n"
+          }
+        },
+        {
+          "version": 2617,
+          "message": {
+            "en": "\n📏 New: Distance Tracking for Custom Exercises!\n\nCustom exercises can now use a distance tracking type, perfect for cardio and conditioning movements like runs, rows, or sled pushes. Log distance for your sets and get insights on progression just like any other exercise.\n",
+            "de": "\n📏 Neu: Distanzverfolgung für eigene Übungen!\n\nEigene Übungen können jetzt den Tracking-Typ Distanz verwenden, perfekt für Ausdauer- und Konditionsbewegungen wie Laufen, Rudern oder Schlittendrücken. Protokolliere die Distanz für deine Sätze und erhalte Einblicke in deinen Fortschritt wie bei jeder anderen Übung.\n",
+            "es": "\n📏 Nuevo: ¡Seguimiento de distancia para ejercicios personalizados!\n\nLos ejercicios personalizados ahora pueden usar un tipo de seguimiento por distancia, perfecto para movimientos de cardio y acondicionamiento como carreras, remadas o empujes de trineo. Registra la distancia de tus series y obtén información sobre tu progresión igual que con cualquier otro ejercicio.\n",
+            "fr": "\n📏 Nouveau : Suivi de distance pour les exercices personnalisés !\n\nLes exercices personnalisés peuvent maintenant utiliser un type de suivi par distance, parfait pour les mouvements cardio et de conditionnement comme les courses, les rameurs ou les poussées de traîneau. Note la distance de tes séries et suis ta progression comme pour n'importe quel autre exercice.\n"
+          }
+        },
+        {
+          "version": 2616,
+          "message": {
+            "en": "\n📊 New: Improved Stats Screen!\n\nThe stats screen has been redesigned with a fresh new look and improved insights. Explore your training history with better charts, clearer summaries, and more detailed breakdowns of your progress over time.\n",
+            "de": "\n📊 Neu: Verbesserter Statistiken-Bildschirm!\n\nDer Statistiken-Bildschirm wurde mit einem neuen Look und verbesserten Einblicken neu gestaltet. Erkunde deine Trainingshistorie mit besseren Diagrammen, klareren Zusammenfassungen und detaillierteren Aufschlüsselungen deines Fortschritts über die Zeit.\n",
+            "es": "\n📊 Nuevo: ¡Pantalla de estadísticas mejorada!\n\nLa pantalla de estadísticas ha sido rediseñada con un aspecto renovado y perspectivas mejoradas. Explora tu historial de entrenamiento con mejores gráficos, resúmenes más claros y desgloses más detallados de tu progreso a lo largo del tiempo.\n",
+            "fr": "\n📊 Nouveau : Écran de statistiques amélioré !\n\nL'écran de statistiques a été repensé avec un nouveau look et des aperçus améliorés. Explore ton historique d'entraînement avec de meilleurs graphiques, des résumés plus clairs et des analyses plus détaillées de ta progression dans le temps.\n"
+          }
+        },
+        {
+          "version": 2615,
+          "message": {
+            "en": "\n💾 New: Save Workout Changes Back to Your Plan!\n\nWhen you finish a session where you added, removed, or reordered exercises, or sets, you'll be prompted to save those changes back to the original plan or standalone workout, keeping your training up to date automatically.\n",
+            "de": "\n💾 Neu: Trainingsänderungen in deinen Plan zurückspeichern!\n\nWenn du eine Einheit beendest, in der du Übungen oder Sätze hinzugefügt, entfernt oder neu angeordnet hast, wirst du gefragt, ob du diese Änderungen in den ursprünglichen Plan oder das eigenständige Training zurückspeichern möchtest, damit dein Training automatisch aktuell bleibt.\n",
+            "es": "\n💾 Nuevo: ¡Guarda los cambios del entrenamiento en tu plan!\n\nCuando termines una sesión en la que hayas añadido, eliminado o reordenado ejercicios o series, se te pedirá que guardes esos cambios en el plan original o en el entrenamiento independiente, manteniendo tu entrenamiento actualizado automáticamente.\n",
+            "fr": "\n💾 Nouveau : Sauvegarde des modifications d'entraînement dans ton programme !\n\nQuand tu termines une séance où tu as ajouté, supprimé ou réorganisé des exercices ou des séries, tu seras invité à sauvegarder ces modifications dans le programme original ou l'entraînement autonome, pour garder ton entraînement à jour automatiquement.\n"
+          }
+        },
+        {
+          "version": 2614,
+          "message": {
+            "en": "\n↕️ New: Reorder Exercises in the Workout Overview!\n\nYou can now drag and drop exercises and supersets to reorder them directly from the workout overview screen during a session.\n",
+            "de": "\n↕️ Neu: Übungen in der Trainingsübersicht neu anordnen!\n\nDu kannst jetzt Übungen und Supersätze per Drag-and-drop direkt in der Trainingsübersicht während einer Trainingseinheit neu anordnen.\n",
+            "es": "\n↕️ Nuevo: ¡Reordena ejercicios en la vista general del entrenamiento!\n\nAhora puedes arrastrar y soltar ejercicios y superseries para reordenarlos directamente desde la pantalla de vista general del entrenamiento durante una sesión.\n",
+            "fr": "\n↕️ Nouveau : Réorganiser les exercices dans la vue d'ensemble de l'entraînement !\n\nTu peux maintenant glisser-déposer les exercices et les superseries pour les réorganiser directement depuis la vue d'ensemble de l'entraînement pendant une séance.\n"
+          }
+        },
+        {
+          "version": 2613,
+          "message": {
+            "en": "\n🔵 New: Exercise Timer Modal!\n\nTime-based exercises now show a dedicated countdown modal with a progress ring, making it easy to track your effort and stay on pace during timed sets.\n",
+            "de": "\n🔵 Neu: Übungstimer-Fenster!\n\nZeitbasierte Übungen zeigen jetzt ein eigenes Countdown-Fenster mit einem Fortschrittsring, damit du deinen Einsatz leicht verfolgen und bei zeitgesteuerten Sätzen im Rhythmus bleiben kannst.\n",
+            "es": "\n🔵 Nuevo: ¡Modal del temporizador de ejercicios!\n\nLos ejercicios basados en tiempo ahora muestran un modal de cuenta atrás dedicado con un anillo de progreso, lo que facilita el seguimiento de tu esfuerzo y mantener el ritmo durante las series cronometradas.\n",
+            "fr": "\n🔵 Nouveau : Modal de minuterie d'exercice !\n\nLes exercices basés sur le temps affichent maintenant un modal dédié avec un anneau de progression, pour suivre facilement ton effort et garder le rythme pendant les séries chronométrées.\n"
+          }
+        },
+        {
+          "version": 2612,
+          "message": {
+            "en": "\n⏱️ New: Adjustable Rest Timer!\n\nA new slide-in panel lets you fine-tune your rest duration on the fly during a workout. Your custom rest time is saved per set, so each set remembers exactly how long you like to rest.\n",
+            "de": "\n⏱️ Neu: Einstellbarer Pausentimer!\n\nEin neues Einblendmenü lässt dich die Pausendauer während des Trainings spontan anpassen. Deine individuelle Pausenzeit wird pro Satz gespeichert, sodass jeder Satz genau weiß, wie lange du pausieren möchtest.\n",
+            "es": "\n⏱️ Nuevo: ¡Temporizador de descanso ajustable!\n\nUn nuevo panel deslizante te permite ajustar la duración del descanso en cualquier momento durante un entrenamiento. Tu tiempo de descanso personalizado se guarda por serie, para que cada serie recuerde exactamente cuánto tiempo quieres descansar.\n",
+            "fr": "\n⏱️ Nouveau : Minuterie de repos ajustable !\n\nUn nouveau panneau coulissant te permet d'ajuster ta durée de repos à la volée pendant un entraînement. Ton temps de repos personnalisé est sauvegardé par série, donc chaque série se souvient exactement du temps de repos que tu préfères.\n"
+          }
+        },
+        {
+          "version": 2611,
+          "message": {
+            "en": "\n📊 New: Workout Summary!\n\nAfter completing a workout, you'll now see a full summary of your session: total duration, sets, and volume, plus a comparison against your previous session. Tap any exercise to expand its individual sets and weights.\n",
+            "de": "\n📊 Neu: Trainingsübersicht!\n\nNach dem Abschließen eines Trainings siehst du jetzt eine vollständige Übersicht deiner Einheit: Gesamtdauer, Sätze und Volumen sowie einen Vergleich mit deiner vorherigen Einheit. Tippe auf eine Übung, um ihre einzelnen Sätze und Gewichte anzuzeigen.\n",
+            "es": "\n📊 Nuevo: ¡Resumen del entrenamiento!\n\nAl completar un entrenamiento, verás un resumen completo de tu sesión: duración total, series y volumen, además de una comparación con tu sesión anterior. Toca cualquier ejercicio para expandirlo y ver sus series y pesos individuales.\n",
+            "fr": "\n📊 Nouveau : Résumé d'entraînement !\n\nAprès avoir terminé un entraînement, tu verras maintenant un résumé complet de ta séance : durée totale, séries et volume, plus une comparaison avec ta séance précédente. Appuie sur n'importe quel exercice pour afficher ses séries et poids individuels.\n"
+          }
+        },
+        {
+          "version": 2610,
+          "message": {
+            "en": "\n✨ New: Workout Session Animations!\n\nNavigating between sets now features smooth slide transitions. Swipe left or right to move between sets, or use the pre-existing arrow buttons for the same effect.\n",
+            "de": "\n✨ Neu: Animationen in der Trainingseinheit!\n\nDas Wechseln zwischen Sätzen erfolgt jetzt mit flüssigen Übergangsanimationen. Wische nach links oder rechts, um zwischen Sätzen zu wechseln, oder nutze die vorhandenen Pfeilschaltflächen für denselben Effekt.\n",
+            "es": "\n✨ Nuevo: ¡Animaciones en la sesión de entrenamiento!\n\nNavegar entre series ahora incluye transiciones deslizantes suaves. Desliza hacia la izquierda o la derecha para moverte entre series, o usa los botones de flecha para el mismo efecto.\n",
+            "fr": "\n✨ Nouveau : Animations de séance !\n\nLa navigation entre les séries propose maintenant des transitions glissantes. Glisse vers la gauche ou la droite pour passer d'une série à l'autre, ou utilise les boutons fléchés existants pour le même effet.\n"
+          }
+        },
+        {
+          "version": 2609,
+          "message": {
+            "en": "\n🔗 New: Supersets!\n\nPair two exercises together as a superset directly in the plan editor. Sets are kept in sync between both exercises, and supersets are clearly grouped with a visual indicator throughout the app.\n",
+            "de": "\n🔗 Neu: Supersätze!\n\nVerbinde zwei Übungen direkt im Plan-Editor zu einem Supersatz. Die Sätze beider Übungen werden synchron gehalten, und Supersätze sind überall in der App mit einem visuellen Indikator klar gruppiert.\n",
+            "es": "\n🔗 Nuevo: ¡Superseries!\n\nCombina dos ejercicios como una superserie directamente en el editor de planes. Las series se mantienen sincronizadas entre ambos ejercicios, y las superseries están claramente agrupadas con un indicador visual en toda la app.\n",
+            "fr": "\n🔗 Nouveau : Superseries !\n\nAssocie deux exercices en superserie directement dans l'éditeur de programme. Les séries sont synchronisées entre les deux exercices, et les superseries sont clairement regroupées avec un indicateur visuel dans toute l'application.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.20",
+      "date": "2026-05",
+      "entries": [
+        {
+          "version": 2608,
+          "message": {
+            "en": "\n📅 New: Weekly Schedule for Your Plan!\n\nYou can now assign workouts to specific days of the week directly in the plan editor. Tap any day to pick a workout or mark it as a rest day. Use the auto-suggest button to instantly generate a balanced schedule based on your weekly goal.\n",
+            "de": "\n📅 Neu: Wochenplan für deinen Trainingsplan!\n\nDu kannst jetzt direkt im Plan-Editor bestimmten Wochentagen Trainings zuweisen. Tippe auf einen Tag, um ein Training auszuwählen oder ihn als Ruhetag zu markieren. Nutze die Auto-Vorschlag-Schaltfläche, um sofort einen ausgewogenen Wochenplan basierend auf deinem Wochenziel zu erstellen.\n",
+            "es": "\n📅 Nuevo: ¡Horario semanal para tu plan!\n\nAhora puedes asignar entrenamientos a días específicos de la semana directamente en el editor del plan. Toca cualquier día para elegir un entrenamiento o marcarlo como día de descanso. Usa el botón de sugerencia automática para generar al instante un horario equilibrado basado en tu objetivo semanal.\n",
+            "fr": "\n📅 Nouveau : Planning hebdomadaire pour ton programme !\n\nTu peux maintenant assigner des entraînements à des jours de la semaine spécifiques directement dans l'éditeur de programme. Appuie sur n'importe quel jour pour choisir un entraînement ou le marquer comme jour de repos. Utilise le bouton de suggestion automatique pour générer instantanément un planning équilibré basé sur ton objectif hebdomadaire.\n"
+          }
+        },
+        {
+          "version": 2607,
+          "message": {
+            "en": "\n🏋️ New: Single Workouts & Quick Workouts!\n\nCreate standalone workouts outside of your training plans — perfect for flexible training sessions, mobility work, or anything ad hoc. Find them on the Plans screen.\n\nOr start a Quick Workout from the home screen, add exercises on the fly, and optionally save it as a standalone workout when you're done.\n",
+            "de": "\n🏋️ Neu: Einzeltrainings und Schnelltrainings!\n\nErstelle eigenständige Trainings außerhalb deiner Trainingspläne, perfekt für flexible Trainingseinheiten, Mobilitätsarbeit oder spontane Sessions. Du findest sie auf dem Pläne-Bildschirm.\n\nOder starte ein Schnelltraining direkt vom Startbildschirm, füge Übungen spontan hinzu und speichere es am Ende optional als eigenständiges Training.\n",
+            "es": "\n🏋️ Nuevo: ¡Entrenamientos individuales y entrenamientos rápidos!\n\nCrea entrenamientos independientes fuera de tus planes de entrenamiento, perfectos para sesiones flexibles, trabajo de movilidad o cualquier cosa espontánea. Encuéntralos en la pantalla de Planes.\n\nO empieza un Entrenamiento rápido desde la pantalla de inicio, añade ejercicios al vuelo y guárdalo opcionalmente como entrenamiento independiente cuando termines.\n",
+            "fr": "\n🏋️ Nouveau : Entraînements autonomes et entraînements rapides !\n\nCrée des entraînements autonomes en dehors de tes programmes d'entraînement, parfaits pour les séances flexibles, le travail de mobilité ou tout ce qui se présente. Retrouve-les dans l'écran Programmes.\n\nOu démarre un Entraînement rapide depuis l'accueil, ajoute des exercices à la volée, et sauvegarde-le éventuellement comme entraînement autonome quand tu as terminé.\n"
+          }
+        },
+        {
+          "version": 2606,
+          "message": {
+            "en": "\n🐛 Fixed: Various Bug Fixes & Improvements!\n\nFixed the rest timer notification not triggering correctly, exercise name wrapping in the workout session, the workout completion circle width, notes not updating correctly while typing, and workout details sometimes opening in the wrong tab. Workouts now load faster thanks to internal performance improvements.\n",
+            "de": "\n🐛 Behoben: Verschiedene Fehlerbehebungen und Verbesserungen!\n\nBehoben: Pausentimer-Benachrichtigung wurde nicht korrekt ausgelöst, Übungsname wurde in der Trainingsansicht falsch umgebrochen, die Breite des Trainingsabschlusskreises war falsch, Notizen wurden beim Tippen nicht korrekt aktualisiert und Trainingsdetails öffneten sich manchmal im falschen Tab. Trainings werden dank interner Leistungsverbesserungen jetzt schneller geladen.\n",
+            "es": "\n🐛 Solucionado: ¡Varias correcciones y mejoras!\n\nSe corrigió que la notificación del temporizador de descanso no se activaba correctamente, el ajuste de texto del nombre del ejercicio en la sesión, el ancho del círculo de finalización del entrenamiento, las notas que no se actualizaban correctamente al escribir, y los detalles del entrenamiento que a veces se abrían en la pestaña incorrecta. Los entrenamientos ahora se cargan más rápido gracias a mejoras internas de rendimiento.\n",
+            "fr": "\n🐛 Correctif : Divers correctifs et améliorations !\n\nCorrection de la notification de minuterie de repos qui ne se déclenchait pas correctement, du retour à la ligne du nom de l'exercice pendant la séance, de la largeur du cercle de fin d'entraînement, des notes qui ne se mettaient pas à jour correctement pendant la saisie, et des détails d'entraînement qui s'ouvraient parfois dans le mauvais onglet. Les entraînements se chargent maintenant plus vite grâce à des améliorations de performances internes.\n"
+          }
+        },
+        {
+          "version": 2605,
+          "message": {
+            "en": "\n↕️ New: Reorder Workouts in Your Plan!\n\nYou can now reorder workouts directly in the plan creation screen and workout cards, giving you full control over your training schedule layout.\n",
+            "de": "\n↕️ Neu: Trainings in deinem Plan neu anordnen!\n\nDu kannst Trainings jetzt direkt in der Planerstellungsansicht und auf den Trainingskarten neu anordnen und hast so die volle Kontrolle über die Struktur deines Trainingsplans.\n",
+            "es": "\n↕️ Nuevo: ¡Reordena entrenamientos en tu plan!\n\nAhora puedes reordenar los entrenamientos directamente en la pantalla de creación del plan y en las tarjetas de entrenamiento, dándote control total sobre la estructura de tu horario de entrenamiento.\n",
+            "fr": "\n↕️ Nouveau : Réorganiser les entraînements dans ton programme !\n\nTu peux maintenant réorganiser les entraînements directement depuis l'écran de création de programme et les cartes d'entraînement, pour avoir un contrôle total sur la mise en page de ton planning.\n"
+          }
+        },
+        {
+          "version": 2604,
+          "message": {
+            "en": "\n📋 New: View Workout Details from the Home Screen!\n\nYou can now tap any recent workout on the home screen to view its full details. Each workout and set overview also has a new details button for quick access to exercise information.\n",
+            "de": "\n📋 Neu: Trainingsdetails vom Startbildschirm anzeigen!\n\nDu kannst jetzt auf ein beliebiges kürzliches Training auf dem Startbildschirm tippen, um alle Details anzuzeigen. Jede Trainings- und Satzübersicht hat außerdem eine neue Details-Schaltfläche für schnellen Zugriff auf Übungsinformationen.\n",
+            "es": "\n📋 Nuevo: ¡Ver detalles del entrenamiento desde la pantalla de inicio!\n\nAhora puedes tocar cualquier entrenamiento reciente en la pantalla de inicio para ver sus detalles completos. Cada resumen de entrenamiento y series también tiene un nuevo botón de detalles para acceder rápidamente a la información del ejercicio.\n",
+            "fr": "\n📋 Nouveau : Voir les détails d'un entraînement depuis l'accueil !\n\nTu peux maintenant appuyer sur n'importe quel entraînement récent depuis l'accueil pour voir ses détails complets. Chaque entraînement et vue d'ensemble des séries dispose aussi d'un nouveau bouton de détails pour accéder rapidement aux informations sur les exercices.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.17",
+      "date": "2025-11",
+      "entries": [
+        {
+          "version": 2603,
+          "message": {
+            "en": "\n🔔 New: In-App Update Notifications!\n\nA new update modal now appears when an over-the-air update is available, so you always know when improvements have been downloaded and are ready to apply.\n",
+            "de": "\n🔔 Neu: In-App-Update-Benachrichtigungen!\n\nEin neues Update-Fenster erscheint jetzt, wenn ein Over-the-Air-Update verfügbar ist, damit du immer weißt, wann Verbesserungen heruntergeladen wurden und bereit zur Anwendung sind.\n",
+            "es": "\n🔔 Nuevo: ¡Notificaciones de actualizaciones en la app!\n\nAhora aparece un modal de actualización cuando hay una actualización disponible, para que siempre sepas cuándo se han descargado mejoras y están listas para aplicarse.\n",
+            "fr": "\n🔔 Nouveau : Notifications de mise à jour dans l'application !\n\nUn nouveau modal de mise à jour s'affiche maintenant quand une mise à jour est disponible, pour que tu saches toujours quand des améliorations ont été téléchargées et sont prêtes à être appliquées.\n"
+          }
+        },
+        {
+          "version": 2602,
+          "message": {
+            "en": "\n🐛 Fixed: Workout Session Buttons & Edit Set Modal!\n\nFixed a bug where all buttons (increment/decrement, next/previous set, complete set) would stop working after completing a set. Also fixed an error in the edit set modal. Set transitions now happen instantly for a smoother workout flow.\n",
+            "de": "\n🐛 Behoben: Schaltflächen in der Trainingsansicht und Satz-Bearbeiten-Fenster!\n\nEin Fehler wurde behoben, bei dem alle Schaltflächen (erhöhen/verringern, nächster/vorheriger Satz, Satz abschließen) nach dem Abschließen eines Satzes nicht mehr funktionierten. Außerdem wurde ein Fehler im Satz-Bearbeiten-Fenster behoben. Satzübergänge erfolgen jetzt sofort für einen flüssigeren Trainingsablauf.\n",
+            "es": "\n🐛 Solucionado: ¡Botones de la sesión y modal de edición de series!\n\nSe corrigió un error por el que todos los botones (incrementar/decrementar, serie siguiente/anterior, completar serie) dejaban de funcionar al completar una serie. También se corrigió un error en el modal de edición de series. Las transiciones entre series ahora son instantáneas para un flujo de entrenamiento más fluido.\n",
+            "fr": "\n🐛 Correctif : Boutons de séance et modal de modification de série !\n\nCorrection d'un bug où tous les boutons (incrémenter/décrémenter, série suivante/précédente, terminer la série) cessaient de fonctionner après avoir terminé une série. Correction aussi d'une erreur dans le modal de modification de série. Les transitions de série se font maintenant instantanément pour un entraînement plus fluide.\n"
+          }
+        },
+        {
+          "version": 2601,
+          "message": {
+            "en": "\n🎯 Improved: Smarter Exercise Filters!\n\nWhen replacing an exercise, the filter now automatically preselects the target muscle to match what you're replacing. Only relevant filters are shown based on your current selection, making it much faster to find the right alternative.\n",
+            "de": "\n🎯 Verbessert: Intelligentere Übungsfilter!\n\nWenn du eine Übung ersetzt, wählt der Filter jetzt automatisch den passenden Zielmuskel vor. Es werden nur relevante Filter basierend auf deiner aktuellen Auswahl angezeigt, sodass du deutlich schneller die richtige Alternative findest.\n",
+            "es": "\n🎯 Mejorado: ¡Filtros de ejercicios más inteligentes!\n\nAl reemplazar un ejercicio, el filtro ahora preselecciona automáticamente el músculo objetivo para que coincida con lo que estás reemplazando. Solo se muestran los filtros relevantes según tu selección actual, lo que hace mucho más rápido encontrar la alternativa adecuada.\n",
+            "fr": "\n🎯 Amélioré : Filtres d'exercices plus intelligents !\n\nQuand tu remplaces un exercice, le filtre présélectionne maintenant automatiquement le muscle cible correspondant. Seuls les filtres pertinents s'affichent en fonction de ta sélection, ce qui rend la recherche d'une alternative bien plus rapide.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.16",
+      "date": "2025-03",
+      "entries": [
+        {
+          "version": 1600,
+          "message": {
+            "en": "\n🔥 New Feature: To Failure Sets!\n\nYou can now mark a set \"to failure\", instead of adding a rep range, which is especially useful for isolation machine, dumbbell, or bodyweight exercises, when you want to push yourself to the limit.\n",
+            "de": "\n🔥 Neue Funktion: Sätze bis zum Versagen!\n\nDu kannst einen Satz jetzt als „bis zum Versagen“ markieren, statt einen Wiederholungsbereich anzugeben. Das ist besonders nützlich bei Isolationsübungen an Maschinen, mit Kurzhanteln oder mit dem eigenen Körpergewicht, wenn du an deine Grenzen gehen willst.\n",
+            "es": "\n🔥 Nueva función: ¡Series al fallo!\n\nAhora puedes marcar una serie \"al fallo\" en lugar de indicar un rango de repeticiones, algo especialmente útil en ejercicios de aislamiento con máquina, mancuernas o peso corporal cuando quieres llevarte al límite.\n",
+            "fr": "\n🔥 Nouvelle fonctionnalité : séries jusqu'à l'échec !\n\nTu peux maintenant marquer une série « jusqu'à l'échec » au lieu d'indiquer une plage de répétitions. C'est particulièrement utile pour les exercices d'isolation sur machine, avec haltères ou au poids du corps, quand tu veux aller jusqu'à ta limite.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.14",
+      "date": "2025-03",
+      "entries": [
+        {
+          "version": 1300,
+          "message": {
+            "en": "\n📝 New Feature: Notes!\n\nYou can now add notes to exercises, workouts and plans. Use this to jot down technique tips, machine settings, reminders, or anything else that helps you crush your session!\n",
+            "de": "\n📝 Neue Funktion: Notizen!\n\nDu kannst jetzt Notizen zu Übungen, Trainings und Plänen hinzufügen. Halte damit Technik-Tipps, Geräteeinstellungen, Erinnerungen oder alles andere fest, was dir hilft, dein Training zu rocken!\n",
+            "es": "\n📝 Nueva función: ¡Notas!\n\nAhora puedes añadir notas a ejercicios, entrenamientos y planes. Úsalas para apuntar consejos de técnica, ajustes de máquinas, recordatorios o cualquier otra cosa que te ayude a darlo todo en tu sesión.\n",
+            "fr": "\n📝 Nouvelle fonctionnalité : les notes !\n\nTu peux maintenant ajouter des notes aux exercices, aux séances et aux programmes. Note-y des conseils de technique, les réglages des machines, des rappels ou tout ce qui t'aide à tout donner pendant ta séance !\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.12",
+      "date": "2025-02",
+      "entries": [
+        {
+          "version": 1201,
+          "message": {
+            "en": "\n↕️ Improved: Smoother Plan Editing!\n\nDragging exercises to reorder them in the plan editor is smoother and more reliable, and a newly added workout scrolls into view straight away. Loading indicators now show while workouts start, save, and open, so you always know the app is working.\n",
+            "de": "\n↕️ Verbessert: Flüssigeres Bearbeiten von Plänen!\n\nDas Verschieben von Übungen per Drag & Drop im Plan-Editor ist flüssiger und zuverlässiger, und ein neu hinzugefügtes Training wird sofort ins Bild gescrollt. Ladeanzeigen erscheinen jetzt, während Trainings starten, gespeichert und geöffnet werden, damit du immer weißt, dass die App arbeitet.\n",
+            "es": "\n↕️ Mejorado: ¡Edición de planes más fluida!\n\nArrastrar ejercicios para reordenarlos en el editor de planes es más fluido y fiable, y un entrenamiento recién añadido aparece en pantalla al instante. Ahora se muestran indicadores de carga mientras los entrenamientos se inician, se guardan y se abren, para que siempre sepas que la app está trabajando.\n",
+            "fr": "\n↕️ Amélioré : modification des programmes plus fluide !\n\nRéorganiser les exercices par glisser-déposer dans l'éditeur de programme est plus fluide et plus fiable, et un entraînement que tu viens d'ajouter s'affiche tout de suite. Des indicateurs de chargement apparaissent maintenant pendant le démarrage, l'enregistrement et l'ouverture des séances, pour que tu saches toujours que l'app travaille.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.10",
+      "date": "2025-02",
+      "entries": [
+        {
+          "version": 1001,
+          "message": {
+            "en": "\n⚙️ New: More in Settings!\n\nYou can now replay the app introduction, request a feature, and find MuscleQuest on Instagram, all from Settings.\n",
+            "de": "\n⚙️ Neu: Mehr in den Einstellungen!\n\nDu kannst jetzt die Einführung erneut ansehen, eine Funktion vorschlagen und MuscleQuest auf Instagram finden, alles direkt aus den Einstellungen.\n",
+            "es": "\n⚙️ Nuevo: ¡Más opciones en Ajustes!\n\nAhora puedes volver a ver la introducción de la app, solicitar una función y encontrar MuscleQuest en Instagram, todo desde Ajustes.\n",
+            "fr": "\n⚙️ Nouveau : plus d'options dans les Paramètres !\n\nTu peux maintenant revoir l'introduction de l'app, proposer une fonctionnalité et retrouver MuscleQuest sur Instagram, le tout depuis les Paramètres.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.9",
+      "date": "2025-02",
+      "entries": [
+        {
+          "version": 901,
+          "message": {
+            "en": "\n📋 New: Pre-Filled Sets!\n\nWeight and reps are now pre-filled from the last time you did the workout, so you can see what to beat without looking it up.\n\nYou can also give your plans a picture from a built-in gallery or from your own photos.\n",
+            "de": "\n📋 Neu: Vorausgefüllte Sätze!\n\nGewicht und Wiederholungen werden jetzt mit den Werten vom letzten Mal vorausgefüllt, als du dieses Training gemacht hast. So siehst du sofort, was es zu schlagen gilt.\n\nAußerdem kannst du deinen Plänen ein Bild aus einer eingebauten Galerie oder aus deinen eigenen Fotos geben.\n",
+            "es": "\n📋 Nuevo: ¡Series rellenadas automáticamente!\n\nEl peso y las repeticiones ahora se rellenan con los valores de la última vez que hiciste el entrenamiento, para que veas lo que tienes que superar sin buscarlo.\n\nTambién puedes poner a tus planes una imagen de una galería integrada o de tus propias fotos.\n",
+            "fr": "\n📋 Nouveau : séries préremplies !\n\nLe poids et les répétitions sont maintenant préremplis avec les valeurs de ta dernière séance de cet entraînement, pour que tu voies ce qu'il faut battre sans avoir à chercher.\n\nTu peux aussi donner une image à tes programmes, depuis une galerie intégrée ou tes propres photos.\n"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.8",
+      "date": "2024-11",
+      "entries": [
+        {
+          "version": 803,
+          "message": {
+            "en": "\n🔔 New: Rest Timer Notifications!\n\nThe rest timer now sends a notification when your rest is over, so you don't miss your next set while you're in another app. You can switch it off in Settings.\n",
+            "de": "\n🔔 Neu: Benachrichtigungen für den Pausentimer!\n\nDer Pausentimer schickt jetzt eine Benachrichtigung, wenn deine Pause vorbei ist, damit du deinen nächsten Satz nicht verpasst, während du in einer anderen App bist. Du kannst das in den Einstellungen ausschalten.\n",
+            "es": "\n🔔 Nuevo: ¡Notificaciones del temporizador de descanso!\n\nEl temporizador de descanso ahora envía una notificación cuando termina tu descanso, para que no te pierdas la siguiente serie mientras estás en otra app. Puedes desactivarlo en Ajustes.\n",
+            "fr": "\n🔔 Nouveau : notifications de la minuterie de repos !\n\nLa minuterie de repos envoie maintenant une notification quand ton repos est terminé, pour que tu ne rates pas ta série suivante pendant que tu es dans une autre app. Tu peux la désactiver dans les Paramètres.\n"
+          }
+        },
+        {
+          "version": 802,
+          "message": {
+            "en": "\n☁️ New: Backup & Restore!\n\nSign in to back up your training data to the cloud and restore it on a new phone, so a lost or replaced device no longer means losing your history.\n\nAlso new in this release: a short introduction for first-time users, a 4-Day Upper/Lower Split premade plan, more bodyweight exercises, replacing an exercise in the plan editor, and an \"Active\" badge on your current plan.\n",
+            "de": "\n☁️ Neu: Sichern & Wiederherstellen!\n\nMelde dich an, um deine Trainingsdaten in der Cloud zu sichern und auf einem neuen Handy wiederherzustellen. Ein verlorenes oder ersetztes Gerät bedeutet so nicht mehr, dass dein Verlauf weg ist.\n\nAußerdem neu in dieser Version: eine kurze Einführung für neue Nutzer, ein vorgefertigter 4-Tage-Oberkörper/Unterkörper-Plan, mehr Übungen mit dem eigenen Körpergewicht, das Ersetzen einer Übung im Plan-Editor und ein „Aktiv“-Abzeichen an deinem aktuellen Plan.\n",
+            "es": "\n☁️ Nuevo: ¡Copia de seguridad y restauración!\n\nInicia sesión para guardar tus datos de entrenamiento en la nube y restaurarlos en un móvil nuevo, para que perder o cambiar de dispositivo ya no signifique perder tu historial.\n\nTambién nuevo en esta versión: una breve introducción para nuevos usuarios, un plan prediseñado de 4 días torso/pierna, más ejercicios con peso corporal, la opción de reemplazar un ejercicio en el editor de planes y una insignia \"Activo\" en tu plan actual.\n",
+            "fr": "\n☁️ Nouveau : sauvegarde et restauration !\n\nConnecte-toi pour sauvegarder tes données d'entraînement dans le cloud et les restaurer sur un nouveau téléphone. Perdre ou remplacer ton appareil ne signifie plus perdre ton historique.\n\nAussi dans cette version : une courte introduction pour les nouveaux utilisateurs, un programme prêt à l'emploi haut/bas du corps sur 4 jours, plus d'exercices au poids du corps, le remplacement d'un exercice dans l'éditeur de programme et un badge « Actif » sur ton programme en cours.\n"
+          }
+        },
+        {
+          "version": 801,
+          "message": {
+            "en": "\n🚀 MuscleQuest Is Here!\n\nThe first public release. Build your own training plans or start from a premade one, then log weight, reps, or time for every set as you train. A rest timer counts down between sets and alerts you with a sound and vibration when it's done.\n\nThe home screen tracks your weekly goal, Stats shows your workout history and a progression chart for every exercise, and you can edit any completed workout. Everything is stored on your phone, so the app works offline.\n",
+            "de": "\n🚀 MuscleQuest ist da!\n\nDie erste öffentliche Version. Erstelle deine eigenen Trainingspläne oder starte mit einem vorgefertigten Plan und erfasse beim Training Gewicht, Wiederholungen oder Zeit für jeden Satz. Ein Pausentimer zählt zwischen den Sätzen herunter und meldet sich mit Ton und Vibration, sobald die Pause vorbei ist.\n\nDer Startbildschirm verfolgt dein Wochenziel, die Statistiken zeigen deinen Trainingsverlauf und ein Fortschrittsdiagramm für jede Übung, und du kannst jedes abgeschlossene Training bearbeiten. Alles wird auf deinem Handy gespeichert, die App funktioniert also auch offline.\n",
+            "es": "\n🚀 ¡Llega MuscleQuest!\n\nLa primera versión pública. Crea tus propios planes de entrenamiento o empieza con uno prediseñado y registra el peso, las repeticiones o el tiempo de cada serie mientras entrenas. Un temporizador de descanso cuenta atrás entre series y te avisa con sonido y vibración cuando termina.\n\nLa pantalla de inicio sigue tu objetivo semanal, Estadísticas muestra tu historial de entrenamientos y un gráfico de progreso para cada ejercicio, y puedes editar cualquier entrenamiento completado. Todo se guarda en tu móvil, así que la app funciona sin conexión.\n",
+            "fr": "\n🚀 MuscleQuest est là !\n\nLa première version publique. Crée tes propres programmes d'entraînement ou commence avec un programme prêt à l'emploi, puis note le poids, les répétitions ou le temps de chaque série pendant ta séance. Une minuterie de repos décompte entre les séries et te prévient par un son et une vibration quand c'est terminé.\n\nL'écran d'accueil suit ton objectif hebdomadaire, les Stats affichent ton historique de séances et un graphique de progression pour chaque exercice, et tu peux modifier n'importe quelle séance terminée. Tout est enregistré sur ton téléphone, donc l'app fonctionne hors ligne.\n"
+          }
+        }
+      ]
+    }
+  ]
+}
