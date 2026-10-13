@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Prose from "../components/Prose.astro";
+import { SUPPORT_EMAIL, breadcrumbJsonLd } from "../lib/seo";
+const field = "w-full rounded-lg border border-surface-2 bg-surface px-3 py-2.5 text-text placeholder:text-muted";
+---
+<BaseLayout title="Delete your account | MuscleQuest" path="/delete-account/"
+  description="Delete your MuscleQuest account and cloud data in the app, or request deletion here."
+  jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Delete account", path: "/delete-account/" }])]}>
+  <Prose>
+    <h1>Delete your account and data</h1>
+    <h2 id="in-app">The quickest way: in the app</h2>
+    <p>Open <strong>Settings</strong>, go to <strong>Your data</strong> and tap <strong>Delete account</strong>. This removes your sign-in account, your profile and friend connections, everything you've shared with friends and your cloud backups. You choose whether to keep the training data on your phone. Export a copy first if you want to keep your history.</p>
+    <p>If you never signed in, there's no account: all your data is on your phone, and uninstalling the app removes it.</p>
+
+    <h2 id="request">Can't use the app? Request deletion here</h2>
+    <p>Send us the email address of your Google account and we'll delete the same data for you within 30 days and confirm by email.</p>
+
+    <form id="delete-form" action="https://formspree.io/f/mzzbrvnb" method="POST" class="mt-6 space-y-5">
+      <div><label for="name" class="mb-1 block font-medium">Full name</label><input id="name" name="name" required autocomplete="name" class={field} /></div>
+      <div><label for="email" class="mb-1 block font-medium">Email address of your account</label><input id="email" name="email" type="email" required autocomplete="email" class={field} /></div>
+      <div><label for="message" class="mb-1 block font-medium">Anything else? <span class="font-normal text-muted">(optional)</span></label><textarea id="message" name="message" rows="4" class={field}></textarea></div>
+      <input type="hidden" name="_subject" value="Account deletion request" />
+      <button type="submit" class="w-full rounded-full bg-accent px-6 py-3 font-semibold text-bg hover:bg-accent-hover disabled:opacity-60">Send deletion request</button>
+      <p id="form-status" role="status" aria-live="polite" class="min-h-6"></p>
+    </form>
+    <p>Questions? Email <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>.</p>
+  </Prose>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById("delete-form") as HTMLFormElement;
+  const status = document.getElementById("form-status")!;
+  const button = form.querySelector("button")!;
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    button.disabled = true;
+    status.textContent = "Sending…";
+    try {
+      const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+      if (!res.ok) throw new Error(String(res.status));
+      form.reset();
+      status.textContent = "Thanks, we've received your request. We'll confirm by email once it's done.";
+    } catch {
+      status.textContent = "Sorry, that didn't go through. Please try again, or email support@musclequest.app.";
+      button.disabled = false;
+    }
+  });
+</script>
