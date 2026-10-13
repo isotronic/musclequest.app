@@ -1,0 +1,31 @@
+---
+import Screenshot from "./Screenshot.astro";
+import PlayBadge from "./PlayBadge.astro";
+import { localePath, t, type Locale } from "../i18n/ui";
+import { latestRelease } from "../lib/content";
+import type { HomeContent } from "../content/home/types";
+interface Props { content: HomeContent["hero"]; locale: Locale }
+const { content, locale } = Astro.props;
+const version = latestRelease();
+---
+<section class="overflow-hidden px-4 pt-10 sm:px-6 md:pt-16">
+  <div class="mx-auto grid max-w-6xl items-end gap-10 md:grid-cols-[1.15fr_0.85fr]">
+    <div class="pb-6 md:pb-24">
+      <a href={localePath(locale, `/changelog/#${version}`)} class="inline-flex items-center gap-2 rounded-full border border-surface-2 px-3 py-1 text-sm text-muted hover:text-accent">
+        <span class="size-1.5 rounded-full bg-danger" aria-hidden="true"></span>{t(locale, "home.newIn").replace("{version}", version)} →
+      </a>
+      <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+        {content.titleLead}<br /><span class="text-accent">{content.titleAccent}</span>
+      </h1>
+      <p class="mt-5 max-w-md text-lg text-muted text-pretty">{content.lede}</p>
+      <ul class="mt-6 flex flex-wrap gap-2">
+        {content.chips.map((c) => <li class="rounded-full border border-surface-2 bg-surface px-3 py-1 text-sm">{c}</li>)}
+      </ul>
+      <div class="mt-8"><PlayBadge placement="hero" locale={locale} /></div>
+    </div>
+    <div class="relative mx-auto w-64 sm:w-72 md:w-80">
+      <div aria-hidden="true" class="absolute inset-x-[-30%] bottom-[-10%] top-[20%] rounded-full bg-accent/20 blur-3xl"></div>
+      <Screenshot id="home" alt={content.screenshotAlt} eager locale={locale} class="relative rounded-b-none border-b-0" />
+    </div>
+  </div>
+</section>

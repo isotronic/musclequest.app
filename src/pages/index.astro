@@ -1,7 +1,30 @@
 ---
-// src/pages/index.astro (temporary)
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Section from "../components/Section.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import FeatureBlock from "../components/FeatureBlock.astro";
+import PrivacySection from "../components/PrivacySection.astro";
+import FeatureGrid from "../components/FeatureGrid.astro";
+import Faq from "../components/Faq.astro";
+import DownloadCta from "../components/DownloadCta.astro";
+import Lightbox from "../components/Lightbox.astro";
+import { home } from "../content/home/en";
+import { faqJsonLd, mobileAppJsonLd } from "../lib/seo";
+const locale = "en";
 ---
-<BaseLayout title="MuscleQuest" description="MuscleQuest workout tracker." path="/">
-  <h1 class="p-8 text-4xl font-bold text-accent">MuscleQuest</h1>
+<BaseLayout locale={locale} title={home.meta.title} description={home.meta.description} path="/"
+  jsonLd={[mobileAppJsonLd(), faqJsonLd(home.faq.items)]}>
+  <Hero content={home.hero} locale={locale} />
+  <Section id="features" tone="surface">
+    <SectionHeading title={home.features.intro.title} intro={home.features.intro.text} />
+    <div class="space-y-24 md:space-y-32">
+      {home.features.blocks.map((b, i) => <FeatureBlock block={b} flip={i % 2 === 1} locale={locale} />)}
+    </div>
+  </Section>
+  <PrivacySection content={home.privacy} />
+  <FeatureGrid content={home.more} />
+  <Faq content={home.faq} />
+  <DownloadCta content={home.download} locale={locale} />
+  <Lightbox locale={locale} />
 </BaseLayout>

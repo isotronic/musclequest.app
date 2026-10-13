@@ -1,0 +1,100 @@
+import type { HomeContent } from "./types";
+
+export const home: HomeContent = {
+  meta: {
+    title: "MuscleQuest: free workout tracker and planner for Android",
+    description: "Free workout tracker for Android. Plan workouts, log sets, track PRs and progress. Works offline, no ads, no account needed.",
+  },
+  hero: {
+    titleLead: "Plan it. Lift it.",
+    titleAccent: "Watch it add up.",
+    lede: "The free workout tracker that keeps your training on your phone, not in someone's cloud.",
+    chips: ["Free, no ads", "Works offline", "No account needed"],
+    screenshotAlt: "MuscleQuest home screen showing this week's workouts and progress toward the weekly goal",
+  },
+  features: {
+    intro: { title: "Everything a training log should do", text: "From the plan to the last rep to the long-term trend, in one app that stays out of your way." },
+    blocks: [
+      {
+        id: "plans",
+        title: "Plans that fit your week",
+        text: "Build your own plan from nearly 1,000 exercises, or start from one of seven premade programmes and make it yours. Set sets, reps and rest for every exercise, then pin workouts to the days you train.",
+        bullets: ["7 premade plans, from 3-Day Full Body to 5-Day PPL", "Warm-up sets, drop sets and supersets", "A weekly schedule with suggested training days", "Duplicate plans and reuse workouts anywhere"],
+        screenshot: "plan",
+        screenshotAlt: "Plan editor with several workouts and a weekly schedule",
+      },
+      {
+        id: "logging",
+        title: "Logging that keeps up with you",
+        text: "Start from your plan, your saved workouts or a quick workout on the fly. Sets come pre-filled from last time, so most of the time you just tap done.",
+        bullets: ["Reps, weight, time, distance or assisted loads", "A rest timer that alerts you even with your phone locked", "A plate calculator for the plates you actually own", "Pick up an interrupted session right where you left off"],
+        screenshot: "workout",
+        screenshotAlt: "Active workout with pre-filled sets and the rest timer",
+      },
+      {
+        id: "progression",
+        title: "Progress you can see, and a nudge when it's time",
+        text: "Tell MuscleQuest how each exercise felt and it suggests when to add weight, reps or sets. Nothing changes without your OK.",
+        bullets: ["Adaptive progression with deload support", "A gentle restart after time away", "All-time PRs and top sets for every exercise", "Performance charts and pinned exercise sparklines"],
+        screenshot: "progression",
+        screenshotAlt: "Exercise details with a performance chart and personal records",
+      },
+      {
+        id: "stats",
+        title: "Stats worth opening",
+        text: "See how much you train, what you train and how it's trending, on a dashboard you arrange yourself.",
+        bullets: ["Volume, time and workouts per week", "Muscle heatmap and body-part split", "A workout calendar and a full, editable history", "Weekly goal and streak tracking"],
+        screenshot: "stats",
+        screenshotAlt: "Stats dashboard with weekly volume and a muscle heatmap",
+      },
+      {
+        id: "measurements",
+        title: "Track more than the bar",
+        text: "Log body weight, body fat, circumferences or your own metrics, straight from the home screen, and chart any of them over time.",
+        bullets: ["Weight, body fat and circumferences", "Your own custom metrics", "Quick entry from the home screen", "A chart for every metric"],
+        screenshot: "measurements",
+        screenshotAlt: "Body measurements chart over time",
+      },
+    ],
+  },
+  privacy: {
+    title: "Your data stays yours",
+    intro: "MuscleQuest is built offline-first. Your training lives on your phone, and nothing leaves it unless you choose.",
+    items: [
+      { title: "On your phone", text: "Everything is stored locally and works without a connection." },
+      { title: "Account optional", text: "Use every training feature without signing in. Sign in only for backups and friends." },
+      { title: "Backups you control", text: "Back up to the cloud when you want, and restore when you switch phones." },
+      { title: "Export any time", text: "Download your workouts and measurements as CSV or JSON." },
+      { title: "Delete in a tap", text: "Remove your account and cloud data from Settings, whenever you like." },
+      { title: "No ads, no ad tracking", text: "There are no ads, and the app doesn't use the advertising ID." },
+    ],
+  },
+  more: {
+    title: "And everything else",
+    intro: "The small things that make a training app pleasant to use every day.",
+    items: [
+      { title: "Train with friends", text: "Share workouts, PRs and plans, and import theirs in one tap. You choose what to share." },
+      { title: "Nearly 1,000 exercises", text: "Animated demos and search that understands RDL, OHP and typos." },
+      { title: "Custom exercises", text: "Add your own, with your own image and tracking type." },
+      { title: "Workout reminders", text: "On the days and at the times you choose." },
+      { title: "Your units", text: "kg or lbs, cm or in, metres or feet." },
+      { title: "Accessible", text: "TalkBack, large text, spoken chart summaries and reduced motion." },
+      { title: "Four languages", text: "English, Deutsch, Español and Français." },
+      { title: "Undo, not \"Are you sure?\"", text: "Deleted something by mistake? Tap Undo." },
+    ],
+  },
+  faq: {
+    title: "Questions",
+    items: [
+      { question: "Is MuscleQuest free?", answer: "Yes. Every feature is free, with no ads and no subscriptions." },
+      { question: "Does it work offline?", answer: "Yes. Your plans, workouts and stats are stored on your phone, so everything works without a connection. You only need the internet to sign in, back up, restore or use friends." },
+      { question: "Do I need an account?", answer: "No. You can skip sign-in and use every training feature. Signing in with Google adds cloud backups and friends." },
+      { question: "How do backups work?", answer: "Sign in with Google, then tap Backup in Settings. A backup that fails partway never replaces your last good one, and the app reminds you when your last backup is more than 30 days old. On a new phone, sign in with the same account and tap Restore." },
+      { question: "Is there an iPhone version?", answer: "Not yet. MuscleQuest is on Android today, and an iOS version is planned." },
+      { question: "Which languages does it support?", answer: "English, German, Spanish and French." },
+      { question: "How do I export or delete my data?", answer: "In Settings under Your data, export your workouts and measurements as CSV or JSON. If you're signed in, Delete account removes your account, profile, friend connections, shared data and cloud backups. You can also request deletion on the web.", link: { label: "Request deletion", href: "/delete-account/" } },
+      { question: "Where can I get help?", answer: "The help guide covers every feature. If you're stuck, email support@musclequest.app.", link: { label: "Open the help guide", href: "/help/" } },
+    ],
+  },
+  download: { title: "Start your next workout with MuscleQuest", text: "Free on Google Play. No ads, no account needed." },
+};

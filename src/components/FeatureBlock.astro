@@ -1,0 +1,21 @@
+---
+import Screenshot from "./Screenshot.astro";
+import type { HomeContent } from "../content/home/types";
+import type { Locale } from "../i18n/ui";
+interface Props { block: HomeContent["features"]["blocks"][number]; flip: boolean; locale: Locale }
+const { block, flip, locale } = Astro.props;
+---
+<article id={block.id} class="reveal grid items-center gap-10 md:grid-cols-2 md:gap-16">
+  <div class:list={[flip && "md:order-2"]}>
+    <h3 class="text-2xl font-bold tracking-tight md:text-3xl">{block.title}</h3>
+    <p class="mt-4 text-lg text-muted text-pretty">{block.text}</p>
+    <ul class="mt-6 space-y-3">
+      {block.bullets.map((b) => (
+        <li class="flex gap-3"><svg aria-hidden="true" viewBox="0 0 20 20" class="mt-1 size-5 shrink-0 text-accent" fill="currentColor"><path d="M8 13.6 4.4 10l-1.4 1.4L8 16.4l9-9L15.6 6z" /></svg><span>{b}</span></li>
+      ))}
+    </ul>
+  </div>
+  <div class:list={["mx-auto w-60 sm:w-64 md:w-72", flip && "md:order-1"]}>
+    <Screenshot id={block.screenshot} alt={block.screenshotAlt} locale={locale} />
+  </div>
+</article>

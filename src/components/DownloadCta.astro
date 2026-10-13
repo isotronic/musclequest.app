@@ -1,0 +1,13 @@
+---
+import PlayBadge from "./PlayBadge.astro";
+import type { HomeContent } from "../content/home/types";
+import type { Locale } from "../i18n/ui";
+const { content, locale } = Astro.props as { content: HomeContent["download"]; locale: Locale };
+---
+<section id="download" class="px-4 py-20 sm:px-6 md:py-28">
+  <div class="mx-auto max-w-4xl rounded-3xl border border-surface-2 bg-surface px-6 py-14 text-center">
+    <h2 class="text-3xl font-bold tracking-tight text-balance md:text-4xl">{content.title}</h2>
+    <p class="mt-4 text-lg text-muted">{content.text}</p>
+    <div class="mt-8 flex justify-center"><PlayBadge placement="cta" locale={locale} /></div>
+  </div>
+</section>
