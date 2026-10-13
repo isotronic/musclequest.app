@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import { getChangelog } from "../lib/content";
+import { t } from "../i18n/ui";
+import { breadcrumbJsonLd } from "../lib/seo";
+const locale = "en";
+const releases = getChangelog(locale);
+---
+<BaseLayout locale={locale} title="Changelog | MuscleQuest" path="/changelog/"
+  description="Every MuscleQuest release and what changed, from the first public version to the latest update."
+  jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: t(locale, "changelog.title"), path: "/changelog/" }])]}>
+  <div class="mx-auto max-w-3xl px-4 py-14 sm:px-6 md:py-20">
+    <SectionHeading as="h1" align="left" title={t(locale, "changelog.title")} intro={t(locale, "changelog.intro")} />
+    <ol class="space-y-16">
+      {releases.map((r) => (
+        <li>
+          <section id={r.version} class="scroll-mt-24" aria-labelledby={`v-${r.version}`}>
+            <h2 id={`v-${r.version}`} class="flex items-baseline gap-3 border-b border-surface-2 pb-2">
+              <a href={`#${r.version}`} class="text-2xl font-bold hover:text-accent">{r.version}</a>
+              <span class="text-sm text-muted">{r.label}</span>
+            </h2>
+            <div class="mt-6 space-y-8">
+              {r.entries.map((e) => (
+                <article>
+                  <h3 class="text-lg font-semibold">{e.title}</h3>
+                  <div class="mt-2 space-y-3 leading-relaxed text-text/90">
+                    {e.blocks.map((b) => b.type === "p"
+                      ? <p>{b.text}</p>
+                      : <ul class="list-disc space-y-1.5 pl-6 marker:text-accent">{b.items.map((i) => <li>{i}</li>)}</ul>)}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        </li>
+      ))}
+    </ol>
+  </div>
+</BaseLayout>
