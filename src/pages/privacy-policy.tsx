@@ -185,7 +185,7 @@ const PrivacyPage: React.FC<PageProps> = () => {
           <p className="mb-4">If you have any questions about this privacy policy, please contact us:</p>
           <ul className="mb-6 list-inside list-disc space-y-2">
             <li>
-              <strong>Email</strong>: <a href="mailto:support@musclequest.com">support@musclequest.com</a>
+              <strong>Email</strong>: <a href="mailto:support@musclequest.app">support@musclequest.app</a>
             </li>
           </ul>
 

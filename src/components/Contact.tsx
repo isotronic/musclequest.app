@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
           </a>
 
           <a
-            href="mailto:support@musclequest.com"
+            href="mailto:support@musclequest.app"
             className="group relative overflow-hidden rounded-2xl border border-gray-700/30 bg-gradient-to-br from-cardBackground/30 to-cardBackground/10 p-8 backdrop-blur-sm transition-all duration-500 hover:scale-105 hover:border-tint/40 hover:shadow-2xl hover:shadow-tint/10"
           >
             <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-tint/20 via-highlight/20 to-tint/20 opacity-0 blur-sm transition-opacity duration-500 group-hover:opacity-100"></div>
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
               <h3 className="mb-2 text-xl font-bold text-white">Send an Email</h3>
-              <p className="text-sm text-gray-400">support@musclequest.com</p>
+              <p className="text-sm text-gray-400">support@musclequest.app</p>
               <div className="mt-4 text-xs text-tint/70">Direct support & feedback</div>
             </div>
 

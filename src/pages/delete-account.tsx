@@ -90,8 +90,8 @@ const DeleteAccountPage: React.FC<PageProps> = () => {
 
           <p className="mt-8 text-sm">
             For any questions or further assistance, please contact us at{" "}
-            <a href="mailto:support@musclequest.com" className="text-tint hover:underline">
-              support@musclequest.com
+            <a href="mailto:support@musclequest.app" className="text-tint hover:underline">
+              support@musclequest.app
             </a>
             .
           </p>
