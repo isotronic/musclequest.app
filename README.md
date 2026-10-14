@@ -31,9 +31,10 @@ Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/scre
 |---|---|---|---|
 | `home.jpg` | Home | Weekly goal strip with some days done, the active plan's workouts | Hero, social preview image |
 | `plan.jpg` | Plan editor | Workouts with sets and reps, ideally a superset | Plans |
-| `workout.jpg` | Active workout | Mid-workout, pre-filled set, rest timer running | Logging, download card |
+| `workout.jpg` | Active workout | Mid-workout, pre-filled set, rest timer running | Logging |
+| `workout-overview.jpg` | Workout overview | Exercise list with a PR badge and suggested reps | Download card |
 | `progression.jpg` | Exercise details | Performance chart, all-time PR | Progression |
-| `stats.jpg` | Stats | Insights, totals, workout history, PRs | Stats |
+| `stats.jpg` | Stats | Insights, totals, workout history, PRs (or the Consistency and Training Split widgets) | Stats |
 | `measurements.jpg` | Body measurements | Latest values and a chart over time | Measurements |
 | `friend-profile.jpg` | Friend profile | A friend's shared PRs and activity | Friends |
 

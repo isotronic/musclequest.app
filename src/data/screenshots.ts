@@ -6,8 +6,9 @@ import progression from "../assets/screenshots/progression.jpg";
 import stats from "../assets/screenshots/stats.jpg";
 import measurements from "../assets/screenshots/measurements.jpg";
 import friends from "../assets/screenshots/friend-profile.jpg";
+import workoutOverview from "../assets/screenshots/workout-overview.jpg";
 
-export type ScreenshotId = "home" | "plan" | "workout" | "progression" | "stats" | "measurements" | "friends";
+export type ScreenshotId = "home" | "plan" | "workout" | "progression" | "stats" | "measurements" | "friends" | "workoutOverview";
 export const screenshots: Record<ScreenshotId, ImageMetadata> = {
   home,
   plan,
@@ -16,4 +17,5 @@ export const screenshots: Record<ScreenshotId, ImageMetadata> = {
   stats,
   measurements,
   friends,
+  workoutOverview,
 };

@@ -43,7 +43,7 @@ export const home: HomeContent = {
         id: "stats",
         title: "Stats worth opening",
         text: "See how much you train, what you train and how it's trending, on a dashboard you arrange yourself.",
-        bullets: ["Volume, time and workouts per week", "Muscle heatmap and body-part split", "A workout calendar and a full, editable history", "Weekly goal and streak tracking"],
+        bullets: ["Volume, time and workouts per week", "Training split and weekly sets per muscle", "Every training day at a glance, plus a full, editable history", "Weekly goal and streak tracking"],
         screenshot: "stats",
         screenshotAlt: "Stats screen with weekly insights, totals for workouts, volume and time, recent workouts and PRs",
       },
@@ -108,7 +108,7 @@ export const home: HomeContent = {
     eyebrow: "Free on Google Play",
     title: "Start your next workout with MuscleQuest",
     text: "Your plan, your sets and your progress in one app. No ads, no account needed, and it works offline.",
-    screenshot: "workout",
-    screenshotAlt: "Active workout with a suggested weight and the rest timer counting down",
+    screenshot: "workoutOverview",
+    screenshotAlt: "Workout overview with a new PR on the military press and suggested reps for the next exercises",
   },
 };
