@@ -7,7 +7,7 @@
   "author": "Joseph Bouqdib",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build && node scripts/check-links.mjs",
     "preview": "astro preview",
     "test": "vitest run",
     "sync-content": "tsx scripts/sync-content.ts",

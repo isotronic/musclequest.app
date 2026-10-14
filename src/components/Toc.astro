@@ -51,29 +51,54 @@ const itemClass =
 
   const nav = document.querySelector<HTMLElement>("[data-toc]");
   if (nav) {
+    const byHash = (a: HTMLAnchorElement) => document.getElementById(decodeURIComponent(a.hash.slice(1)));
     const links = [...nav.querySelectorAll<HTMLAnchorElement>("a[data-toc-item]")];
-    const targets = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1))));
+    // Spy targets in document order. A group heading counts as its first topic, so jumping to a group
+    // highlights that topic rather than the end of the previous group.
+    const targets: { el: HTMLElement; link: HTMLAnchorElement }[] = [];
+    for (const a of nav.querySelectorAll<HTMLAnchorElement>("a[data-toc-group-link], a[data-toc-item]")) {
+      const link = a.hasAttribute("data-toc-group-link")
+        ? a.closest("[data-toc-group]")?.querySelector<HTMLAnchorElement>("a[data-toc-item]")
+        : a;
+      const el = byHash(a);
+      if (el && link) targets.push({ el, link });
+    }
     const select = document.querySelector<HTMLSelectElement>("[data-toc-select]");
     let current: string | null = null;
     let queued = false;
 
+    // Hide menu entries whose section is hidden (e.g. by the help filter), so they can't be clicked into nothing.
+    const syncVisibility = () => {
+      for (const a of links) {
+        const shown = byHash(a)?.offsetParent != null;
+        a.parentElement!.hidden = !shown;
+        const option = select?.querySelector<HTMLOptionElement>(`option[value="${CSS.escape(a.hash.slice(1))}"]`);
+        if (option) option.hidden = !shown;
+      }
+      nav.querySelectorAll<HTMLElement>("[data-toc-group]").forEach((g) => {
+        g.hidden = !g.querySelector("li:not([hidden])");
+      });
+    };
+
     const update = () => {
       queued = false;
-      const sections = targets.flatMap((el) =>
-        el && el.offsetParent !== null ? [{ id: el.id, top: el.getBoundingClientRect().top }] : []
+      syncVisibility();
+      const sections = targets.flatMap(({ el }, i) =>
+        el.offsetParent !== null ? [{ id: String(i), top: el.getBoundingClientRect().top }] : []
       );
       const root = document.documentElement;
       // A heading reached from the menu lands at the page's scroll-padding-top; count it as read from just below that.
       const offset = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) + 40;
-      const id = activeId(sections, offset, root.scrollTop + innerHeight >= root.scrollHeight - 2);
+      const index = activeId(sections, offset, root.scrollTop + innerHeight >= root.scrollHeight - 2);
+      const link = index === null ? undefined : targets[Number(index)]!.link;
+      const id = link ? decodeURIComponent(link.hash.slice(1)) : null;
       if (id === current) return;
       current = id;
       nav.querySelectorAll("[data-active]").forEach((el) => {
         el.removeAttribute("data-active");
         el.removeAttribute("aria-current");
       });
-      const link = links.find((a) => a.hash === `#${id}`);
-      if (!link) return;
+      if (!link || !id) return;
       link.setAttribute("data-active", "");
       link.setAttribute("aria-current", "location");
       link.closest("[data-toc-group]")?.querySelector("[data-toc-group-link]")?.setAttribute("data-active", "");
