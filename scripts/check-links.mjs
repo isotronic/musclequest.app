@@ -23,8 +23,10 @@ const dupes = [];
 
 const errors = [...dupes];
 const check = (from, href) => {
-  const [path, hash] = href.split("#");
-  const target = path === "" ? from : path;
+  // Resolve against the linking page so relative hrefs ("../help/", "#faq") are checked too.
+  const url = new URL(href, `http://site${from.startsWith("/") ? from : "/"}`);
+  const target = decodeURIComponent(url.pathname);
+  const hash = url.hash.slice(1);
   const page = pages.get(target);
   if (!page) {
     if (!existsSync(join(DIST, target))) errors.push(`${from}: broken link ${href}`);
@@ -35,11 +37,11 @@ const check = (from, href) => {
 
 for (const [from, { html }] of pages) {
   for (const [, href] of html.matchAll(/\shref="([^"]+)"/g)) {
-    if (/^(https?:|mailto:|tel:|data:)/.test(href)) continue;
+    if (/^[a-z][a-z\d+.-]*:/i.test(href) || href.startsWith("//")) continue; // external or non-page scheme
     if (href.startsWith("/") && !href.startsWith("//") && !href.startsWith("/_astro/") && !/\.\w+$/.test(href.split("#")[0]) && !href.split("#")[0].endsWith("/") && href.split("#")[0] !== "") {
       errors.push(`${from}: internal link without trailing slash ${href}`);
     }
-    if (href.startsWith("/") || href.startsWith("#")) check(from, href);
+    check(from, href);
   }
 }
 for (const href of LEGACY) check("(legacy)", href);

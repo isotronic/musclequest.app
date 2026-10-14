@@ -48,3 +48,35 @@ test("skips the header, empty translations and obsolete entries", () => {
   expect(map.has("Obsolete")).toBe(false);
   expect(map.size).toBe(2);
 });
+
+test("skips fuzzy entries, including one that directly follows another entry", () => {
+  const map = parsePo(`msgid "Kept"
+msgstr "Behalten"
+#, fuzzy
+msgid "Unsure"
+msgstr "Unsicher"
+
+#, c-format, fuzzy
+msgid "Also unsure"
+msgstr "Auch unsicher"
+
+msgid "After fuzzy"
+msgstr "Nach fuzzy"
+`);
+  expect(map.get("Kept")).toBe("Behalten");
+  expect(map.has("Unsure")).toBe(false);
+  expect(map.has("Also unsure")).toBe(false);
+  expect(map.get("After fuzzy")).toBe("Nach fuzzy");
+});
+
+test("keeps adjacent entries that have no blank line between them", () => {
+  const map = parsePo(`msgid "One"
+msgstr "Eins"
+msgid "Two"
+msgstr "Zwei"
+`);
+  expect([...map]).toEqual([
+    ["One", "Eins"],
+    ["Two", "Zwei"],
+  ]);
+});
