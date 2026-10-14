@@ -17,6 +17,7 @@ const locale = "en";
   jsonLd={[mobileAppJsonLd(), faqJsonLd(home.faq.items)]}>
   <Hero content={home.hero} locale={locale} />
   <Section id="features" tone="surface">
+    <span id="screenshots"></span><!-- legacy anchor from the old site -->
     <SectionHeading title={home.features.intro.title} intro={home.features.intro.text} />
     <div class="space-y-24 md:space-y-32">
       {home.features.blocks.map((b, i) => <FeatureBlock block={b} flip={i % 2 === 1} locale={locale} />)}

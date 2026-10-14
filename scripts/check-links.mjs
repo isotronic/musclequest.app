@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, relative } from "node:path";
 
 const DIST = process.argv[2] ?? "dist";
-const LEGACY = ["/privacy-policy/", "/delete-account/", "/#features", "/#download", "/#contact", "/#faq"];
+const LEGACY = ["/privacy-policy/", "/delete-account/", "/#features", "/#download", "/#contact", "/#faq", "/#benefits", "/#screenshots"];
 
 const pages = new Map(); // "/help/" -> Set(ids)
 const dupes = [];
