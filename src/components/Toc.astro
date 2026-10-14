@@ -1,0 +1,99 @@
+---
+// Sticky contents menu that highlights the section being read. Pass `groups` (with items) or plain `items`.
+type Item = { id: string; title: string };
+interface Props {
+  label: string;
+  groups?: (Item & { items: Item[] })[];
+  items?: Item[];
+}
+const { label, groups, items } = Astro.props;
+const itemClass =
+  "-ml-px block border-l-2 border-transparent py-1 pl-3 text-muted hover:text-accent data-[active]:border-accent data-[active]:font-medium data-[active]:text-accent";
+---
+
+<nav aria-label={label} data-toc class="sticky top-24 max-h-[calc(100dvh-7rem)] overflow-y-auto pr-2 text-sm">
+  {groups &&
+    groups.map((g) => (
+      <div class="mb-5" data-toc-group>
+        <a
+          href={`#${g.id}`}
+          data-toc-group-link
+          class="font-semibold text-text hover:text-accent data-[active]:text-accent"
+        >
+          {g.title}
+        </a>
+        <ul class="mt-2 border-l border-surface-2">
+          {g.items.map((s) => (
+            <li>
+              <a href={`#${s.id}`} data-toc-item class={itemClass}>
+                {s.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  {items && (
+    <ul class="border-l border-surface-2">
+      {items.map((s) => (
+        <li>
+          <a href={`#${s.id}`} data-toc-item class={itemClass}>
+            {s.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</nav>
+
+<script>
+  import { activeId } from "../lib/scrollspy";
+
+  const nav = document.querySelector<HTMLElement>("[data-toc]");
+  if (nav) {
+    const links = [...nav.querySelectorAll<HTMLAnchorElement>("a[data-toc-item]")];
+    const targets = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1))));
+    const select = document.querySelector<HTMLSelectElement>("[data-toc-select]");
+    let current: string | null = null;
+    let queued = false;
+
+    const update = () => {
+      queued = false;
+      const sections = targets.flatMap((el) =>
+        el && el.offsetParent !== null ? [{ id: el.id, top: el.getBoundingClientRect().top }] : []
+      );
+      const root = document.documentElement;
+      // A heading reached from the menu lands at the page's scroll-padding-top; count it as read from just below that.
+      const offset = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) + 40;
+      const id = activeId(sections, offset, root.scrollTop + innerHeight >= root.scrollHeight - 2);
+      if (id === current) return;
+      current = id;
+      nav.querySelectorAll("[data-active]").forEach((el) => {
+        el.removeAttribute("data-active");
+        el.removeAttribute("aria-current");
+      });
+      const link = links.find((a) => a.hash === `#${id}`);
+      if (!link) return;
+      link.setAttribute("data-active", "");
+      link.setAttribute("aria-current", "location");
+      link.closest("[data-toc-group]")?.querySelector("[data-toc-group-link]")?.setAttribute("data-active", "");
+      if (select && id) select.value = id;
+      // Keep the highlighted link visible inside the scrollable menu without scrolling the page.
+      if (nav.scrollHeight > nav.clientHeight) {
+        const top = link.offsetTop; // the sticky nav is the links' offsetParent
+        if (top < nav.scrollTop || top > nav.scrollTop + nav.clientHeight - 40)
+          nav.scrollTop = top - nav.clientHeight / 3;
+      }
+    };
+    const schedule = () => {
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(update);
+      }
+    };
+    addEventListener("scroll", schedule, { passive: true });
+    addEventListener("resize", schedule);
+    document.addEventListener("input", schedule); // the help filter changes which sections exist
+    update();
+  }
+</script>

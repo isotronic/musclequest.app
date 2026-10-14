@@ -8,7 +8,7 @@ const { content } = Astro.props as { content: HomeContent["more"] };
   <SectionHeading title={content.title} intro={content.intro} />
   <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
     {content.items.map((i) => (
-      <li class="reveal rounded-2xl border border-surface-2 bg-surface p-6">
+      <li class="reveal rounded-2xl border border-surface-2/70 bg-bg p-6 shadow-lg shadow-black/25">
         <h3 class="font-semibold">{i.title}</h3>
         <p class="mt-2 text-sm text-muted">{i.text}</p>
       </li>

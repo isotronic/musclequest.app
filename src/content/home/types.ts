@@ -7,5 +7,5 @@ export type HomeContent = {
   privacy: { title: string; intro: string; items: { title: string; text: string }[] };
   more: { title: string; intro: string; items: { title: string; text: string }[] };
   faq: { title: string; items: { question: string; answer: string; link?: { label: string; href: string } }[] };
-  download: { title: string; text: string };
+  download: { eyebrow: string; title: string; text: string; screenshot: ScreenshotId; screenshotAlt: string };
 };

@@ -1,58 +1,95 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionHeading from "../components/SectionHeading.astro";
+import Toc from "../components/Toc.astro";
 import { getHelp } from "../lib/content";
 import { t } from "../i18n/ui";
 import { breadcrumbJsonLd } from "../lib/seo";
 const locale = "en";
 const groups = getHelp(locale);
 ---
-<BaseLayout locale={locale} title="Help & guide | MuscleQuest" path="/help/"
+
+<BaseLayout
+  locale={locale}
+  title="Help & guide | MuscleQuest"
+  path="/help/"
   description="How to use MuscleQuest: plans, workouts, rest timer, adaptive progression, stats, measurements, friends, backups and your data."
-  jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: t(locale, "help.title"), path: "/help/" }])]}>
+  jsonLd={[
+    breadcrumbJsonLd([
+      { name: "Home", path: "/" },
+      { name: t(locale, "help.title"), path: "/help/" },
+    ]),
+  ]}
+>
   <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 md:py-20">
     <SectionHeading as="h1" align="left" title={t(locale, "help.title")} intro={t(locale, "help.intro")} />
     <div class="grid gap-10 lg:grid-cols-[15rem_1fr]">
       <aside class="hidden lg:block">
-        <nav aria-label={t(locale, "help.contents")} class="sticky top-24 max-h-[calc(100dvh-7rem)] overflow-y-auto pr-2 text-sm">
-          {groups.map((g) => (
-            <div class="mb-5">
-              <a href={`#${g.id}`} class="font-semibold text-text hover:text-accent">{g.title}</a>
-              <ul class="mt-2 space-y-1.5 border-l border-surface-2 pl-3">
-                {g.sections.map((s) => <li><a href={`#${s.id}`} class="text-muted hover:text-accent">{s.title}</a></li>)}
-              </ul>
-            </div>
-          ))}
-        </nav>
+        <Toc
+          label={t(locale, "help.contents")}
+          groups={groups.map((g) => ({ id: g.id, title: g.title, items: g.sections }))}
+        />
       </aside>
       <div>
         <div class="mb-8 grid gap-3 sm:grid-cols-2">
           <label class="block lg:hidden">
             <span class="mb-1 block text-sm text-muted">{t(locale, "help.jumpTo")}</span>
-            <select id="help-jump" class="w-full rounded-lg border border-surface-2 bg-surface px-3 py-2.5">
-              {groups.map((g) => <optgroup label={g.title}>{g.sections.map((s) => <option value={s.id}>{s.title}</option>)}</optgroup>)}
+            <select
+              id="help-jump"
+              data-toc-select
+              class="w-full rounded-lg border border-surface-2 bg-surface px-3 py-2.5"
+            >
+              {groups.map((g) => (
+                <optgroup label={g.title}>
+                  {g.sections.map((s) => (
+                    <option value={s.id}>{s.title}</option>
+                  ))}
+                </optgroup>
+              ))}
             </select>
           </label>
           <label class="block sm:col-span-2 lg:col-span-1" hidden id="help-filter-wrap">
             <span class="mb-1 block text-sm text-muted">{t(locale, "help.filterLabel")}</span>
-            <input id="help-filter" type="search" placeholder={t(locale, "help.filterPlaceholder")}
-              class="w-full rounded-lg border border-surface-2 bg-surface px-3 py-2.5 placeholder:text-muted" />
+            <input
+              id="help-filter"
+              type="search"
+              placeholder={t(locale, "help.filterPlaceholder")}
+              class="w-full rounded-lg border border-surface-2 bg-surface px-3 py-2.5 placeholder:text-muted"
+            />
           </label>
         </div>
-        <p id="help-empty" hidden class="rounded-lg bg-surface p-4 text-muted" role="status">{t(locale, "help.noResults")}</p>
+        <p id="help-empty" hidden class="rounded-lg bg-surface p-4 text-muted" role="status">
+          {t(locale, "help.noResults")}
+        </p>
         {groups.map((g) => (
-          <section id={g.id} data-help-group class="mb-14 scroll-mt-24">
+          <section id={g.id} data-help-group class="mb-14">
             <h2 class="mb-6 border-b border-surface-2 pb-2 text-2xl font-bold">{g.title}</h2>
             {g.sections.map((s) => (
-              <article id={s.id} data-help-topic class="mb-10 scroll-mt-24">
-                <h3 class="text-xl font-semibold"><a href={`#${s.id}`} class="hover:text-accent">{s.title}</a></h3>
+              <article id={s.id} data-help-topic class="mb-10">
+                <h3 class="text-xl font-semibold">
+                  <a href={`#${s.id}`} class="hover:text-accent">
+                    {s.title}
+                  </a>
+                </h3>
                 <div class="mt-3 max-w-prose space-y-3 leading-relaxed text-text/90">
-                  {s.body.type === "text" ? <p>{s.body.text}</p> : (
+                  {s.body.type === "text" ? (
+                    <p>{s.body.text}</p>
+                  ) : (
                     <>
                       <p>{s.body.lead}</p>
-                      {s.body.ordered
-                        ? <ol class="list-decimal space-y-2 pl-6 marker:text-accent">{s.body.steps.map((x) => <li>{x}</li>)}</ol>
-                        : <ul class="list-disc space-y-2 pl-6 marker:text-accent">{s.body.steps.map((x) => <li>{x}</li>)}</ul>}
+                      {s.body.ordered ? (
+                        <ol class="list-decimal space-y-2 pl-6 marker:text-accent">
+                          {s.body.steps.map((x) => (
+                            <li>{x}</li>
+                          ))}
+                        </ol>
+                      ) : (
+                        <ul class="list-disc space-y-2 pl-6 marker:text-accent">
+                          {s.body.steps.map((x) => (
+                            <li>{x}</li>
+                          ))}
+                        </ul>
+                      )}
                     </>
                   )}
                 </div>

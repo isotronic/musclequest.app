@@ -1,13 +1,24 @@
 ---
+import { Image } from "astro:assets";
 import PlayBadge from "./PlayBadge.astro";
+import Screenshot from "./Screenshot.astro";
+import icon from "../assets/icon.png";
 import type { HomeContent } from "../content/home/types";
 import type { Locale } from "../i18n/ui";
 const { content, locale } = Astro.props as { content: HomeContent["download"]; locale: Locale };
 ---
 <section id="download" class="px-4 py-20 sm:px-6 md:py-28">
-  <div class="mx-auto max-w-4xl rounded-3xl border border-surface-2 bg-surface px-6 py-14 text-center">
-    <h2 class="text-3xl font-bold tracking-tight text-balance md:text-4xl">{content.title}</h2>
-    <p class="mt-4 text-lg text-muted">{content.text}</p>
-    <div class="mt-8 flex justify-center"><PlayBadge placement="cta" locale={locale} /></div>
+  <div class="reveal relative mx-auto grid max-w-5xl overflow-hidden rounded-3xl border border-surface-2 bg-surface md:grid-cols-[1fr_auto]">
+    <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1 bg-accent"></div>
+    <div class="px-6 pt-12 text-center sm:px-10 md:py-16 md:pl-14 md:text-left">
+      <Image src={icon} alt="" width={64} height={64} densities={[1, 2]} class="mx-auto size-16 rounded-2xl shadow-lg shadow-black/40 md:mx-0" />
+      <p class="mt-6 text-sm font-semibold tracking-wide text-accent uppercase">{content.eyebrow}</p>
+      <h2 class="mt-2 text-3xl font-bold tracking-tight text-balance md:text-4xl">{content.title}</h2>
+      <p class="mt-4 max-w-md text-lg text-muted text-pretty max-md:mx-auto">{content.text}</p>
+      <div class="mt-8 flex justify-center md:justify-start"><PlayBadge placement="cta" locale={locale} /></div>
+    </div>
+    <div class="mx-auto mt-10 w-52 self-end sm:w-56 md:mt-12 md:mr-14 md:w-60">
+      <Screenshot id={content.screenshot} alt={content.screenshotAlt} locale={locale} class="rounded-b-none border-b-0" />
+    </div>
   </div>
 </section>
