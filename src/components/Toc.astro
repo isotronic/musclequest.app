@@ -1,0 +1,124 @@
+---
+// Sticky contents menu that highlights the section being read. Pass `groups` (with items) or plain `items`.
+type Item = { id: string; title: string };
+interface Props {
+  label: string;
+  groups?: (Item & { items: Item[] })[];
+  items?: Item[];
+}
+const { label, groups, items } = Astro.props;
+const itemClass =
+  "-ml-px block border-l-2 border-transparent py-1 pl-3 text-muted hover:text-accent data-[active]:border-accent data-[active]:font-medium data-[active]:text-accent";
+---
+
+<nav aria-label={label} data-toc class="sticky top-24 max-h-[calc(100dvh-7rem)] overflow-y-auto pr-2 text-sm">
+  {groups &&
+    groups.map((g) => (
+      <div class="mb-5" data-toc-group>
+        <a
+          href={`#${g.id}`}
+          data-toc-group-link
+          class="font-semibold text-text hover:text-accent data-[active]:text-accent"
+        >
+          {g.title}
+        </a>
+        <ul class="mt-2 border-l border-surface-2">
+          {g.items.map((s) => (
+            <li>
+              <a href={`#${s.id}`} data-toc-item class={itemClass}>
+                {s.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  {items && (
+    <ul class="border-l border-surface-2">
+      {items.map((s) => (
+        <li>
+          <a href={`#${s.id}`} data-toc-item class={itemClass}>
+            {s.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</nav>
+
+<script>
+  import { activeId } from "../lib/scrollspy";
+
+  const nav = document.querySelector<HTMLElement>("[data-toc]");
+  if (nav) {
+    const byHash = (a: HTMLAnchorElement) => document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    const links = [...nav.querySelectorAll<HTMLAnchorElement>("a[data-toc-item]")];
+    // Spy targets in document order. A group heading counts as its first topic, so jumping to a group
+    // highlights that topic rather than the end of the previous group.
+    const targets: { el: HTMLElement; link: HTMLAnchorElement }[] = [];
+    for (const a of nav.querySelectorAll<HTMLAnchorElement>("a[data-toc-group-link], a[data-toc-item]")) {
+      const link = a.hasAttribute("data-toc-group-link")
+        ? a.closest("[data-toc-group]")?.querySelector<HTMLAnchorElement>("a[data-toc-item]")
+        : a;
+      const el = byHash(a);
+      if (el && link) targets.push({ el, link });
+    }
+    const select = document.querySelector<HTMLSelectElement>("[data-toc-select]");
+    let current: string | null = null;
+    let queued = false;
+
+    // Hide menu entries whose section is hidden (e.g. by the help filter), so they can't be clicked into nothing.
+    const syncVisibility = () => {
+      for (const a of links) {
+        const shown = byHash(a)?.offsetParent != null;
+        a.parentElement!.hidden = !shown;
+        const option = select?.querySelector<HTMLOptionElement>(`option[value="${CSS.escape(a.hash.slice(1))}"]`);
+        if (option) option.hidden = !shown;
+      }
+      nav.querySelectorAll<HTMLElement>("[data-toc-group]").forEach((g) => {
+        g.hidden = !g.querySelector("li:not([hidden])");
+      });
+    };
+
+    const update = () => {
+      queued = false;
+      syncVisibility();
+      const sections = targets.flatMap(({ el }, i) =>
+        el.offsetParent !== null ? [{ id: String(i), top: el.getBoundingClientRect().top }] : []
+      );
+      const root = document.documentElement;
+      // A heading reached from the menu lands at the page's scroll-padding-top; count it as read from just below that.
+      const offset = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) + 40;
+      const index = activeId(sections, offset, root.scrollTop + innerHeight >= root.scrollHeight - 2);
+      const link = index === null ? undefined : targets[Number(index)]!.link;
+      const id = link ? decodeURIComponent(link.hash.slice(1)) : null;
+      if (id === current) return;
+      current = id;
+      nav.querySelectorAll("[data-active]").forEach((el) => {
+        el.removeAttribute("data-active");
+        el.removeAttribute("aria-current");
+      });
+      if (!link || !id) return;
+      link.setAttribute("data-active", "");
+      link.setAttribute("aria-current", "location");
+      link.closest("[data-toc-group]")?.querySelector("[data-toc-group-link]")?.setAttribute("data-active", "");
+      if (select && id) select.value = id;
+      // Keep the highlighted link visible inside the scrollable menu without scrolling the page.
+      if (nav.scrollHeight > nav.clientHeight) {
+        const top = link.offsetTop; // the sticky nav is the links' offsetParent
+        if (top < nav.scrollTop || top > nav.scrollTop + nav.clientHeight - 40)
+          nav.scrollTop = top - nav.clientHeight / 3;
+      }
+    };
+    const schedule = () => {
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(update);
+      }
+    };
+    addEventListener("scroll", schedule, { passive: true });
+    addEventListener("resize", schedule);
+    document.addEventListener("input", schedule); // the help filter changes which sections exist
+    update();
+  }
+</script>

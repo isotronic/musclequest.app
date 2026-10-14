@@ -1,0 +1,27 @@
+---
+import { t, type Locale } from "../i18n/ui";
+const { locale = "en" } = Astro.props as { locale?: Locale };
+---
+<dialog id="lightbox" class="m-auto max-h-[92dvh] max-w-[92vw] bg-transparent p-0 backdrop:bg-black/85">
+  <button type="button" id="lightbox-close" class="absolute right-2 top-2 grid size-11 place-items-center rounded-full bg-bg/90 text-text hover:text-accent">
+    <span class="sr-only">{t(locale, "lightbox.close")}</span>
+    <svg aria-hidden="true" viewBox="0 0 24 24" class="size-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+  </button>
+  <img id="lightbox-img" alt="" class="max-h-[92dvh] w-auto rounded-2xl" />
+</dialog>
+
+<script>
+  const dialog = document.getElementById("lightbox") as HTMLDialogElement;
+  const img = document.getElementById("lightbox-img") as HTMLImageElement;
+  document.querySelectorAll<HTMLButtonElement>("[data-lightbox-src]").forEach((btn) =>
+    btn.addEventListener("click", () => {
+      img.src = btn.dataset.lightboxSrc!;
+      img.alt = btn.dataset.lightboxAlt ?? "";
+      dialog.showModal();
+    }),
+  );
+  document.getElementById("lightbox-close")!.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (e) => {
+    if (e.target === dialog) dialog.close();
+  });
+</script>

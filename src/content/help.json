@@ -1,0 +1,1044 @@
+{
+  "groups": [
+    {
+      "id": "training",
+      "title": {
+        "en": "Training",
+        "de": "Training",
+        "es": "Entrenamiento",
+        "fr": "Entraînement"
+      },
+      "sections": [
+        {
+          "id": "home-screen-weekly-goal",
+          "title": {
+            "en": "Home Screen & Weekly Goal",
+            "de": "Startbildschirm & Wochenziel",
+            "es": "Pantalla de inicio y objetivo semanal",
+            "fr": "Écran d'accueil et objectif hebdomadaire"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "The home screen shows your progress toward your weekly training goal, which is the number of days you want to work out each week, set in Settings. A strip at the top tracks how many days you have completed and highlights each completed day; tap a highlighted day to view the workout you logged. Below it, your active plan's workouts are listed with their completion status for the week; tap Start on any workout to begin. Without a weekly schedule, the plan runs in order: the workout after the one you did last comes first, even in a new week. If you are just starting out and have no active plan, a Pick a plan to get started card suggests a few premade plans instead. The card displayed beneath changes with your status: a Resume card appears if a session is in progress, a Rest Day card shows on days with no scheduled workout, and a Workout Done card confirms today's session is complete. When you hit your weekly goal, a Weekly Summary card appears showing total workouts, sets, and volume for the week, plus your streak, which counts the number of consecutive weeks you have met your goal. At the bottom, the Log Measurements card shows your latest body measurement; tap it to log today's values without leaving the screen. If your training history has never been backed up, or your last backup is more than 30 days old, a reminder card appears here so you can back up or sign in on the spot; tap Later to hide it for two weeks.",
+              "de": "Der Startbildschirm zeigt deinen Fortschritt in Richtung deines wöchentlichen Trainingsziels, also die Anzahl der Tage, an denen du pro Woche trainieren möchtest, festgelegt in den Einstellungen. Ein Streifen oben verfolgt, wie viele Tage du abgeschlossen hast, und hebt jeden abgeschlossenen Tag hervor; tippe auf einen hervorgehobenen Tag, um das dort erfasste Training anzusehen. Darunter werden die Trainings deines aktiven Plans mit ihrem Abschlussstatus für die Woche aufgelistet; tippe auf Starten bei einem Training, um zu beginnen. Ohne Wochenplan läuft der Plan der Reihe nach: Das Training nach deinem letzten steht oben, auch in einer neuen Woche. Wenn du gerade erst anfängst und noch keinen aktiven Plan hast, schlägt dir stattdessen die Karte „Wähle einen Plan, um loszulegen“ einige vorgefertigte Pläne vor. Die darunter angezeigte Karte ändert sich je nach Status: Eine Fortsetzen-Karte erscheint, wenn eine Einheit läuft, eine Ruhetag-Karte wird an Tagen ohne geplantes Training angezeigt, und eine Training-abgeschlossen-Karte bestätigt, dass die heutige Einheit abgeschlossen ist. Wenn du dein Wochenziel erreichst, erscheint eine Wochenzusammenfassungskarte mit Gesamttrainings, Sätzen und Volumen der Woche sowie deiner Serie, die die Anzahl aufeinanderfolgender Wochen zählt, in denen du dein Ziel erreicht hast. Ganz unten zeigt die Karte Körpermaße erfassen deine letzte Messung; tippe darauf, um die heutigen Werte einzutragen, ohne den Bildschirm zu verlassen. Wenn dein Trainingsverlauf noch nie gesichert wurde oder deine letzte Sicherung mehr als 30 Tage alt ist, erscheint hier eine Erinnerungskarte, über die du direkt sichern oder dich anmelden kannst; tippe auf Später, um sie für zwei Wochen auszublenden.",
+              "es": "La pantalla de inicio muestra tu progreso hacia tu objetivo semanal de entrenamiento, que es el número de días que quieres entrenar cada semana, establecido en Ajustes. Una franja en la parte superior registra cuántos días has completado y resalta cada día completado; toca un día resaltado para ver el entrenamiento que registraste. Debajo, los entrenamientos de tu plan activo se listan con su estado de finalización para la semana; toca Iniciar en cualquier entrenamiento para comenzar. Sin horario semanal, el plan sigue su orden: primero aparece el entrenamiento que va después del último que hiciste, incluso en una nueva semana. Si acabas de empezar y no tienes un plan activo, la tarjeta Elige un plan para empezar te sugiere algunos planes prediseñados. La tarjeta que se muestra debajo cambia según tu estado: aparece una tarjeta Reanudar si hay una sesión en curso, una tarjeta Día de descanso en los días sin entrenamiento programado, y una tarjeta Entrenamiento completado que confirma que la sesión de hoy está terminada. Cuando alcanzas tu objetivo semanal, aparece una tarjeta Resumen semanal que muestra el total de entrenamientos, series y volumen de la semana, más tu racha, que cuenta el número de semanas consecutivas en las que has cumplido tu objetivo. Al final, la tarjeta Registrar medidas muestra tu última medida corporal; tócala para registrar los valores de hoy sin salir de la pantalla. Si nunca has hecho una copia de seguridad de tu historial de entrenamiento, o la última tiene más de 30 días, aquí aparece una tarjeta de recordatorio para hacer la copia o iniciar sesión al momento; toca Más tarde para ocultarla durante dos semanas.",
+              "fr": "L'écran d'accueil affiche ta progression vers ton objectif d'entraînement hebdomadaire, qui correspond au nombre de jours par semaine où tu veux t'entraîner, défini dans les Paramètres. Une bande en haut indique le nombre de jours complétés et met en évidence chaque jour terminé ; appuie sur un jour mis en évidence pour voir l'entraînement enregistré. En dessous, les entraînements de ton programme actif sont listés avec leur statut d'avancement pour la semaine ; appuie sur Commencer sur n'importe quel entraînement pour le lancer. Sans planning hebdomadaire, le programme suit son ordre : l'entraînement qui suit ton dernier apparaît en premier, même en début de semaine. Si tu débutes et n'as pas encore de programme actif, la carte Choisis un programme pour commencer te propose plutôt quelques programmes prêts à l'emploi. La carte affichée en dessous change selon ton statut : une carte Reprendre apparaît si une séance est en cours, une carte Jour de repos s'affiche les jours sans entraînement planifié, et une carte Entraînement terminé confirme que la séance du jour est complète. Quand tu atteins ton objectif hebdomadaire, une carte Résumé de la semaine apparaît avec le total d'entraînements, de séries et de volume pour la semaine, plus ta série consécutive, qui compte le nombre de semaines consécutives où tu as atteint ton objectif. Tout en bas, la carte Saisir les mesures affiche ta dernière mesure corporelle ; appuie dessus pour saisir les valeurs du jour sans quitter l'écran. Si ton historique d'entraînement n'a jamais été sauvegardé, ou si ta dernière sauvegarde date de plus de 30 jours, une carte de rappel apparaît ici pour sauvegarder ou te connecter directement ; appuie sur Plus tard pour la masquer pendant deux semaines."
+            }
+          }
+        },
+        {
+          "id": "plans",
+          "title": {
+            "en": "Plans",
+            "de": "Pläne",
+            "es": "Planes",
+            "fr": "Programmes"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Plans are structured training programmes made up of workouts.",
+              "de": "Pläne sind strukturierte Trainingsprogramme aus mehreren Trainings.",
+              "es": "Los planes son programas de entrenamiento estructurados compuestos por entrenamientos.",
+              "fr": "Les programmes sont des plans d'entraînement structurés composés de séances."
+            },
+            "steps": [
+              {
+                "en": "Go to the Plans tab, tap New Plan, give it a name, and pick a cover image.",
+                "de": "Gehe zum Pläne-Tab, tippe auf Neuer Plan, gib einen Namen ein und wähle ein Titelbild.",
+                "es": "Ve a la pestaña Planes, toca Nuevo plan, dale un nombre y elige una imagen de portada.",
+                "fr": "Va dans l'onglet Programmes, appuie sur Nouveau programme, donne-lui un nom et choisis une image de couverture."
+              },
+              {
+                "en": "Add workouts to the plan, then add exercises to each workout with target sets and reps. Each workout card shows an estimated duration and exercise count.",
+                "de": "Füge Trainings zum Plan hinzu und dann Übungen zu jedem Training mit Ziel-Sätzen und Wiederholungen. Jede Trainingskarte zeigt eine geschätzte Dauer und die Übungsanzahl.",
+                "es": "Añade entrenamientos al plan y luego ejercicios a cada entrenamiento con series y reps objetivo. Cada tarjeta muestra una duración estimada y el número de ejercicios.",
+                "fr": "Ajoute des entraînements au programme, puis des exercices à chaque entraînement avec des séries et reps cibles. Chaque carte affiche une durée estimée et le nombre d'exercices."
+              },
+              {
+                "en": "Reorder a workout card with the up/down arrow buttons, or remove it with the X button, both in the top right of the card.",
+                "de": "Ordne eine Trainingskarte mit den Hoch/Runter-Pfeilen neu an oder entferne sie mit der X-Schaltfläche, beide befinden sich oben rechts auf der Karte.",
+                "es": "Reordena una tarjeta de entrenamiento con los botones de flecha arriba/abajo, o elímínala con el botón X; ambos están en la parte superior derecha de la tarjeta.",
+                "fr": "Réorganise une carte d'entraînement avec les boutons fléchés haut/bas, ou supprime-la avec le bouton X ; les deux se trouvent en haut à droite de la carte."
+              },
+              {
+                "en": "Assign workouts to days in the schedule editor: tap a day to pick a workout or leave it as a rest day, or use the auto-suggest button to space them out evenly.",
+                "de": "Weise Trainings im Zeitplan-Editor bestimmten Wochentagen zu: Tippe auf einen Tag, um ein Training auszuwählen oder ihn als Ruhetag zu lassen, oder nutze den Auto-Vorschlag, um sie gleichmäßig zu verteilen.",
+                "es": "Asigna entrenamientos a días específicos en el editor de horarios: toca un día para elegir un entrenamiento o dejarlo como día de descanso, o usa el botón de sugerencia automática para distribuirlos de manera uniforme.",
+                "fr": "Assigne des entraînements à des jours dans l'éditeur de planning : appuie sur un jour pour choisir un entraînement ou le laisser comme jour de repos, ou utilise le bouton de suggestion automatique pour les espacer régulièrement."
+              },
+              {
+                "en": "Open the plan and tap Set as active plan when it's ready. Your edits are auto-saved as a draft, so you can leave and resume later.",
+                "de": "Öffne den Plan und tippe auf Als aktiven Plan festlegen, wenn er fertig ist. Deine Änderungen werden automatisch als Entwurf gespeichert, sodass du ihn verlassen und später fortsetzen kannst.",
+                "es": "Abre el plan y toca Establecer como plan activo cuando esté listo. Tus cambios se guardan automáticamente como borrador para que puedas salir y retomarlo más tarde.",
+                "fr": "Ouvre le programme et appuie sur Définir comme programme actif quand il est prêt. Tes modifications sont automatiquement sauvegardées comme brouillon pour que tu puisses partir et reprendre plus tard."
+              },
+              {
+                "en": "Add cues to the plan with the lightbulb icon on its overview screen, and switch between Carousel, List, and Grid views using the icons next to \"Your training plans\" (your choice is remembered).",
+                "de": "Füge dem Plan über das Glühbirnensymbol auf seinem Übersichtsbildschirm Hinweise hinzu und wechsle mithilfe der Ansichtssymbole neben \"Deine Trainingspläne\" zwischen Karussell-, Listen- und Rasteransicht (deine Wahl wird gespeichert).",
+                "es": "Añade indicaciones al plan con el icono de la bombilla en su pantalla de resumen y cambia entre los modos Carrusel, Lista y Cuadrícula con los iconos junto a \"Tus planes de entrenamiento\" (tu elección se recuerda).",
+                "fr": "Ajoute des repères au programme avec l'icône d'ampoule sur son écran de vue d'ensemble et bascule entre les affichages Carrousel, Liste et Grille avec les icônes à côté de \"Tes programmes\" (ton choix est mémorisé)."
+              },
+              {
+                "en": "To duplicate one of your own plans, open it and tap Duplicate for a full, editable copy.",
+                "de": "Um einen deiner eigenen Pläne zu duplizieren, öffne ihn und tippe auf Duplizieren für eine vollständige, bearbeitbare Kopie.",
+                "es": "Para duplicar uno de tus propios planes, ábrelo y toca Duplicar para obtener una copia completa y editable.",
+                "fr": "Pour dupliquer l'un de tes propres programmes, ouvre-le et appuie sur Dupliquer pour en obtenir une copie complète et modifiable."
+              },
+              {
+                "en": "Tap the copy icon on any workout in a plan to copy it to Your workouts.",
+                "de": "Tippe auf das Kopiersymbol bei einem Training in einem Plan, um es in Deine Trainings zu kopieren.",
+                "es": "Toca el icono de copiar en cualquier entrenamiento de un plan para copiarlo a Tus entrenamientos.",
+                "fr": "Appuie sur l'icône de copie d'un entraînement dans un programme pour le copier dans Tes entraînements."
+              },
+              {
+                "en": "To delete a plan, tap the trash icon on its overview screen and confirm. If you change your mind, tap Undo on the message that appears.",
+                "de": "Um einen Plan zu löschen, tippe auf das Papierkorbsymbol in seiner Übersicht und bestätige. Wenn du es dir anders überlegst, tippe in der eingeblendeten Meldung auf Rückgängig.",
+                "es": "Para eliminar un plan, toca el icono de papelera en su pantalla de vista general y confirma. Si cambias de opinión, toca Deshacer en el mensaje que aparece.",
+                "fr": "Pour supprimer un programme, appuie sur l'icône corbeille sur son écran de vue d'ensemble et confirme. Si tu changes d'avis, appuie sur Annuler dans le message qui s'affiche."
+              }
+            ],
+            "ordered": true
+          }
+        },
+        {
+          "id": "premade-plans",
+          "title": {
+            "en": "Premade Plans",
+            "de": "Vorgefertigte Pläne",
+            "es": "Planes prediseñados",
+            "fr": "Programmes prêts à l'emploi"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "The Plans tab includes a library of ready-made training programmes you can start immediately. Scroll past Your training plans to find the Premade plans section. Tap any programme to preview its workouts and schedule, then tap Set as active plan. To adjust exercises, sets, or the weekly schedule, tap Customise Plan. This creates a copy of the premade plan that you can modify without affecting the original, so you can always return to the default version if needed.",
+              "de": "Der Pläne-Tab enthält eine Bibliothek vorgefertigter Trainingsprogramme, die du sofort starten kannst. Scrolle an Deine Trainingspläne vorbei, um den Bereich Vorgefertigte Pläne zu finden. Tippe auf ein Programm, um seine Trainings und den Zeitplan in der Vorschau anzuzeigen, dann tippe auf Als aktiven Plan festlegen. Um Übungen, Sätze oder den Wochenplan anzupassen, tippe auf Plan anpassen. Dabei wird eine Kopie des vorgefertigten Plans erstellt, die du ohne Auswirkungen auf das Original ändern kannst, sodass du bei Bedarf immer zur Standardversion zurückkehren kannst.",
+              "es": "La pestaña Planes incluye una biblioteca de programas de entrenamiento prediseñados que puedes empezar de inmediato. Desplázate más allá de Tus planes de entrenamiento para encontrar la sección Planes prediseñados. Toca cualquier programa para previsualizar sus entrenamientos y horario, luego toca Establecer como plan activo. Para ajustar ejercicios, series o el horario semanal, toca Personalizar plan. Esto crea una copia del plan prediseñado que puedes modificar sin afectar al original, para que siempre puedas volver a la versión predeterminada si es necesario.",
+              "fr": "L'onglet Programmes inclut une bibliothèque de programmes d'entraînement prêts à l'emploi que tu peux démarrer immédiatement. Fais défiler au-delà de Tes programmes pour trouver la section Programmes prêts à l'emploi. Appuie sur n'importe quel programme pour prévisualiser ses entraînements et son planning, puis appuie sur Définir comme programme actif. Pour ajuster les exercices, les séries ou le planning hebdomadaire, appuie sur Personnaliser le programme. Cela crée une copie du programme que tu peux modifier sans affecter l'original."
+            }
+          }
+        },
+        {
+          "id": "workouts",
+          "title": {
+            "en": "Workouts",
+            "de": "Trainings",
+            "es": "Entrenamientos",
+            "fr": "Entraînements"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Workouts can also live outside of plans, under Your workouts on the Plans screen. Create one by tapping New Workout, give it a name, and add exercises; you can run it at any time without needing an active plan. An estimated duration is shown on each workout so you can plan your time before starting. A quick workout starts a session immediately from the home screen: tap Quick workout, add exercises as you go, and at the end you can give it a name to reuse it later. Tap Choose workout next to it to search and browse every workout across your plans and Your workouts; tap a workout to preview its exercises, or tap its Start button to begin straight away. Like plans, the workout editor automatically saves a draft so you can safely leave and return without losing your work. If you delete a workout by mistake, tap Undo on the message that appears.",
+              "de": "Trainings können auch außerhalb von Plänen existieren, unter Deine Trainings auf dem Pläne-Bildschirm. Erstelle eines, indem du auf Neues Training tippst, einen Namen vergibst und Übungen hinzufügst; du kannst es jederzeit starten, ohne einen aktiven Plan zu benötigen. Eine geschätzte Dauer wird bei jedem Training angezeigt, damit du deine Zeit vor dem Start planen kannst. Ein Schnelltraining startet eine Einheit sofort vom Startbildschirm aus: Tippe auf Schnelltraining, füge Übungen unterwegs hinzu, und am Ende kannst du ihm einen Namen geben, um es später wiederzuverwenden. Tippe daneben auf Training auswählen, um jedes Training in deinen Plänen und in Deine Trainings zu durchsuchen; tippe auf ein Training, um seine Übungen anzusehen, oder auf seinen Starten-Button, um direkt loszulegen. Wie Pläne speichert der Trainings-Editor automatisch einen Entwurf, damit du sicher gehen und zurückkehren kannst, ohne deine Arbeit zu verlieren. Wenn du ein Training versehentlich löschst, tippe in der eingeblendeten Meldung auf Rückgängig.",
+              "es": "Los entrenamientos también pueden estar fuera de los planes, en Tus entrenamientos en la pantalla Planes. Crea uno tocando Nuevo entrenamiento, dale un nombre y añade ejercicios; puedes ejecutarlo en cualquier momento sin necesitar un plan activo. Cada entrenamiento muestra una duración estimada para que puedas planificar tu tiempo antes de empezar. Un entrenamiento rápido inicia una sesión de inmediato desde la pantalla de inicio: toca Entrenamiento rápido, añade ejercicios sobre la marcha y al final puedes ponerle un nombre para reutilizarlo más tarde. Toca Elegir entrenamiento justo al lado para buscar y explorar todos los entrenamientos de tus planes y de Tus entrenamientos; toca un entrenamiento para ver sus ejercicios, o toca su botón Iniciar para empezar de inmediato. Al igual que los planes, el editor de entrenamiento guarda automáticamente un borrador para que puedas salir y volver sin perder tu trabajo. Si eliminas un entrenamiento por error, toca Deshacer en el mensaje que aparece.",
+              "fr": "Les entraînements peuvent aussi exister hors des programmes, sous Tes entraînements dans l'onglet Programmes. Crée-en un en appuyant sur Nouvel entraînement, donne-lui un nom et ajoute des exercices ; tu peux le lancer à tout moment sans avoir besoin d'un programme actif. Une durée estimée est affichée sur chaque entraînement pour que tu puisses planifier ton temps avant de commencer. Un entraînement rapide démarre une séance immédiatement depuis l'écran d'accueil : appuie sur Entraînement rapide, ajoute des exercices au fur et à mesure, et à la fin tu peux lui donner un nom pour le réutiliser plus tard. Appuie sur Choisir un entraînement juste à côté pour rechercher et parcourir tous les entraînements de tes programmes et de Tes entraînements ; appuie sur un entraînement pour voir ses exercices, ou sur son bouton Commencer pour démarrer tout de suite. Comme les programmes, l'éditeur d'entraînement sauvegarde automatiquement un brouillon. Si tu supprimes un entraînement par erreur, appuie sur Annuler dans le message qui s'affiche."
+            }
+          }
+        },
+        {
+          "id": "active-workout",
+          "title": {
+            "en": "Active Workout",
+            "de": "Aktives Training",
+            "es": "Entrenamiento activo",
+            "fr": "Entraînement actif"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "During a session, the header shows your total elapsed time throughout.",
+              "de": "Die gesamte vergangene Zeit wird durchgehend in der Kopfzeile angezeigt.",
+              "es": "El tiempo total transcurrido se muestra en el encabezado durante toda la sesión.",
+              "fr": "Le temps écoulé total s'affiche en haut tout au long de la séance."
+            },
+            "steps": [
+              {
+                "en": "Swipe left/right or use the arrow buttons to move between sets.",
+                "de": "Wische nach links/rechts oder nutze die Pfeilschaltflächen, um zwischen Sätzen zu wechseln.",
+                "es": "Desliza a izquierda/derecha o usa los botones de flecha para moverte entre series.",
+                "fr": "Glisse vers la gauche/droite ou utilise les boutons fléchés pour naviguer entre les séries."
+              },
+              {
+                "en": "Enter your weight and reps, then tap Complete Set.",
+                "de": "Gib Gewicht und Wiederholungen ein und tippe dann auf Satz abschließen.",
+                "es": "Introduce tu peso y reps, luego toca Completar serie.",
+                "fr": "Entre ton poids et tes reps, puis appuie sur Terminer la série."
+              },
+              {
+                "en": "Drag the handle on any exercise card to reorder exercises mid-session.",
+                "de": "Du kannst den Anfasser einer Übungskarte ziehen, um Übungen während der Einheit neu anzuordnen.",
+                "es": "Arrastra el asa de cualquier tarjeta de ejercicio para reordenar ejercicios durante la sesión.",
+                "fr": "Glisse la poignée d'une carte d'exercice pour réorganiser les exercices en cours de séance."
+              },
+              {
+                "en": "For time-based exercises, tap Start Timer. After a short Get Ready countdown, a count-up timer with a progress ring marks your goal time; you can keep going past it.",
+                "de": "Tippe bei zeitbasierten Übungen auf Timer starten. Nach einem kurzen Countdown „Mach dich bereit“ markiert ein Vorwärts-Timer mit Fortschrittsring deine Zielzeit; du kannst auch darüber hinaus weitermachen.",
+                "es": "En los ejercicios basados en tiempo, toca Iniciar temporizador. Tras una breve cuenta atrás ¡Prepárate!, un cronómetro con un anillo de progreso marca tu tiempo objetivo; puedes continuar más allá de él.",
+                "fr": "Pour les exercices basés sur le temps, appuie sur Démarrer la minuterie. Après un court compte à rebours Prépare-toi, un chronomètre avec un anneau de progression marque ton temps objectif ; tu peux continuer au-delà."
+              },
+              {
+                "en": "Tap the menu (⋮) on a set and choose Edit Set to change its rep range or rest time mid-workout.",
+                "de": "Tippe auf das Menü (⋮) eines Satzes und wähle Satz bearbeiten, um seinen Wiederholungsbereich oder seine Pausenzeit während des Trainings zu ändern.",
+                "es": "Toca el menú (⋮) de una serie y elige Editar serie para cambiar su rango de reps o su tiempo de descanso a mitad del entrenamiento.",
+                "fr": "Appuie sur le menu (⋮) d'une série et choisis Modifier la série pour changer sa plage de répétitions ou son temps de repos en cours d'entraînement."
+              },
+              {
+                "en": "If you enter a different weight than the one suggested, it carries over to your remaining sets.",
+                "de": "Wenn du ein anderes Gewicht als das vorgeschlagene eingibst, wird es für deine restlichen Sätze übernommen.",
+                "es": "Si introduces un peso distinto del sugerido, se aplica también a tus series restantes.",
+                "fr": "Si tu saisis un poids différent de celui suggéré, il est repris pour tes séries restantes."
+              },
+              {
+                "en": "Removed a set or exercise by mistake? Tap Undo on the message that appears.",
+                "de": "Satz oder Übung versehentlich entfernt? Tippe in der eingeblendeten Meldung auf Rückgängig.",
+                "es": "¿Has eliminado una serie o un ejercicio por error? Toca Deshacer en el mensaje que aparece.",
+                "fr": "Tu as supprimé une série ou un exercice par erreur ? Appuie sur Annuler dans le message qui s'affiche."
+              },
+              {
+                "en": "Cues are standing reminders. Add them per exercise with the lightbulb icon in the exercise header, per workout from the workout overview screen, or per plan from the plan overview screen.",
+                "de": "Hinweise sind dauerhafte Erinnerungen. Füge sie pro Übung über das Glühbirnensymbol in der Kopfzeile der Übung hinzu, pro Training über den Trainingsübersichtsbildschirm oder pro Plan über den Planübersichtsbildschirm.",
+                "es": "Las indicaciones son recordatorios permanentes. Añádelas por ejercicio con el icono de la bombilla en la cabecera del ejercicio, por entrenamiento desde la pantalla de resumen del entrenamiento o por plan desde la pantalla de resumen del plan.",
+                "fr": "Les repères sont des rappels permanents. Ajoute-les par exercice avec l'icône d'ampoule dans l'en-tête de l'exercice, par entraînement depuis l'écran de vue d'ensemble de l'entraînement ou par programme depuis l'écran de vue d'ensemble du programme."
+              },
+              {
+                "en": "Notes belong to one session. Add a session note from the workout overview, or a note on a single set with Add note in its menu (⋮). Next time, a set's note shows under its Last time line. Notes stay on your device and are never shared with friends.",
+                "de": "Notizen gehören zu einer Einheit. Füge in der Trainingsübersicht eine Trainingsnotiz hinzu oder über Notiz hinzufügen im Menü (⋮) eines Satzes eine Notiz zu diesem Satz. Beim nächsten Mal erscheint die Notiz eines Satzes unter seiner Zeile „Letztes Mal“. Notizen bleiben auf deinem Gerät und werden nie mit Freunden geteilt.",
+                "es": "Las notas pertenecen a una sesión. Añade una nota de la sesión desde el resumen del entrenamiento, o una nota a una sola serie con Añadir nota en su menú (⋮). La próxima vez, la nota de una serie aparece bajo su línea Última vez. Las notas se quedan en tu dispositivo y nunca se comparten con amigos.",
+                "fr": "Les notes appartiennent à une séance. Ajoute une note de séance depuis la vue d'ensemble de l'entraînement, ou une note sur une seule série avec Ajouter une note dans son menu (⋮). La fois suivante, la note d'une série s'affiche sous sa ligne La dernière fois. Les notes restent sur ton appareil et ne sont jamais partagées avec tes amis."
+              },
+              {
+                "en": "If you add, remove, or reorder exercises or sets, you'll be prompted at the end to save those changes back to the original workout or plan.",
+                "de": "Wenn du während einer Einheit Übungen oder Sätze hinzufügst, entfernst oder neu anordnest, wirst du am Ende gefragt, ob du diese Änderungen im ursprünglichen Training oder Plan speichern möchtest.",
+                "es": "Si añades, eliminas o reordenas ejercicios o series durante una sesión, se te pedirá al final si quieres guardar esos cambios en el entrenamiento o plan original.",
+                "fr": "Si tu ajoutes, supprimes ou réorganises des exercices ou des séries pendant une séance, tu seras invité à la fin à sauvegarder ces modifications dans l'entraînement ou le programme original."
+              },
+              {
+                "en": "Leaving the workout overview mid-session asks you to confirm first. Your progress is saved, so you can resume from the home screen.",
+                "de": "Wenn du die Trainingsübersicht während einer Einheit verlässt, fragt die App vorher nach. Dein Fortschritt wird gespeichert, sodass du ihn vom Startbildschirm aus fortsetzen kannst.",
+                "es": "Si sales de la vista general del entrenamiento a mitad de sesión, la app te pide confirmación. Tu progreso se guarda, así que puedes reanudarlo desde la pantalla de inicio.",
+                "fr": "Quitter l'aperçu de l'entraînement en pleine séance demande d'abord une confirmation. Ta progression est sauvegardée, tu peux donc reprendre depuis l'écran d'accueil."
+              },
+              {
+                "en": "If you come back to a workout after more than four hours, you're asked whether to resume it or discard it, or, if you have completed at least one set, to finish and save it. Finishing it this way records the duration up to your last logged set.",
+                "de": "Wenn du nach mehr als vier Stunden zu einem Training zurückkehrst, wirst du gefragt, ob du es fortsetzen oder verwerfen möchtest, oder, wenn du mindestens einen Satz abgeschlossen hast, ob du es beenden und speichern möchtest. Wenn du es so beendest, wird die Dauer bis zu deinem letzten erfassten Satz gespeichert.",
+                "es": "Si vuelves a un entrenamiento después de más de cuatro horas, se te pregunta si quieres reanudarlo o descartarlo, o, si has completado al menos una serie, terminarlo y guardarlo. Si lo terminas así, la duración se registra hasta tu última serie registrada.",
+                "fr": "Si tu reviens à un entraînement après plus de quatre heures, on te demande si tu veux le reprendre ou l'abandonner, ou, si tu as terminé au moins une série, le terminer et l'enregistrer. Si tu le termines ainsi, la durée est enregistrée jusqu'à ta dernière série enregistrée."
+              }
+            ],
+            "ordered": true
+          }
+        },
+        {
+          "id": "workout-summary",
+          "title": {
+            "en": "Workout Summary",
+            "de": "Trainingsübersicht",
+            "es": "Resumen del entrenamiento",
+            "fr": "Résumé de l'entraînement"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "After finishing a workout, a summary screen shows your total duration, sets completed, and total volume. If you have done the same workout before, a comparison row shows how each metric compares to the previous session. A weekly goal banner shows how many sessions you have logged this week against your goal. Tap any exercise in the list to expand it and review every set in detail. Add a session note to remember how it went. After a quick workout, your session is saved and you can give it a name to reuse it as a workout.",
+              "de": "Nach dem Beenden eines Trainings zeigt ein Übersichtsbildschirm die Gesamtdauer, abgeschlossene Sätze und das Gesamtvolumen. Wenn du dasselbe Training schon früher gemacht hast, zeigt eine Vergleichszeile, wie jede Kennzahl zur vorherigen Einheit abschneidet. Ein Wochenzielbanner zeigt, wie viele Einheiten du diese Woche im Vergleich zu deinem Ziel protokolliert hast. Tippe auf eine Übung in der Liste, um sie aufzuklappen und jeden Satz im Detail zu prüfen. Füge eine Trainingsnotiz hinzu, um festzuhalten, wie es lief. Nach einem Schnelltraining ist deine Einheit gespeichert, und du kannst ihr einen Namen geben, um sie als Training wiederzuverwenden.",
+              "es": "Al terminar un entrenamiento, una pantalla de resumen muestra tu duración total, series completadas y volumen total. Si ya has hecho ese entrenamiento antes, una fila de comparación muestra cómo se compara cada métrica con la sesión anterior. Un banner de objetivo semanal indica cuántas sesiones has registrado esta semana respecto a tu objetivo. Toca cualquier ejercicio de la lista para expandirlo y revisar cada serie en detalle. Añade una nota de la sesión para recordar cómo fue. Tras un entrenamiento rápido, tu sesión queda guardada y puedes ponerle un nombre para reutilizarla como entrenamiento.",
+              "fr": "Après avoir terminé un entraînement, un écran récapitulatif affiche ta durée totale, les séries terminées et le volume total. Si tu as déjà effectué le même entraînement, une ligne de comparaison indique comment chaque indicateur se compare à la session précédente. Une bannière d'objectif hebdomadaire montre combien de séances tu as enregistrées cette semaine par rapport à ton objectif. Appuie sur n'importe quel exercice dans la liste pour le développer et consulter chaque série en détail. Ajoute une note de séance pour te souvenir de son déroulement. Après un entraînement rapide, ta séance est enregistrée et tu peux lui donner un nom pour la réutiliser comme entraînement."
+            }
+          }
+        },
+        {
+          "id": "rest-timer",
+          "title": {
+            "en": "Rest Timer",
+            "de": "Pausentimer",
+            "es": "Temporizador de descanso",
+            "fr": "Minuterie de repos"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "The rest timer starts automatically after each set and counts down to zero; each set remembers its own rest duration, so different sets within the same exercise can have different rest periods.",
+              "de": "Der Pausentimer startet nach jedem Satz automatisch und zählt bis null herunter; jeder Satz merkt sich seine eigene Pausendauer, sodass verschiedene Sätze innerhalb derselben Übung unterschiedliche Pausenzeiten haben können.",
+              "es": "El temporizador de descanso se inicia automáticamente tras cada serie y cuenta regresiva hasta cero; cada serie recuerda su propia duración de descanso, por lo que diferentes series dentro del mismo ejercicio pueden tener períodos distintos.",
+              "fr": "La minuterie de repos démarre automatiquement après chaque série et compte à rebours jusqu'à zéro ; chaque série mémorise sa propre durée de repos, donc différentes séries au sein du même exercice peuvent avoir des durées différentes."
+            },
+            "steps": [
+              {
+                "en": "Use the ± buttons to adjust the remaining time on the fly during rest.",
+                "de": "Nutze die ±-Schaltflächen, um die verbleibende Zeit während der Pause spontan anzupassen.",
+                "es": "Usa los botones ± para ajustar el tiempo restante sobre la marcha durante el descanso.",
+                "fr": "Utilise les boutons ± pour ajuster le temps restant à la volée pendant le repos."
+              },
+              {
+                "en": "Configure the default rest duration and the timer increment in Settings.",
+                "de": "Konfiguriere die Standard-Pausendauer und den Timer-Schritt in den Einstellungen.",
+                "es": "Configura la duración de descanso predeterminada y el incremento del temporizador en Ajustes.",
+                "fr": "Configure la durée de repos par défaut et l'incrément de la minuterie dans les Paramètres."
+              },
+              {
+                "en": "When your rest is over, you get a notification even if your phone is locked or you are in another app. The first time you start a rest, the app asks for permission to send it.",
+                "de": "Wenn deine Pause vorbei ist, bekommst du eine Benachrichtigung, auch wenn dein Handy gesperrt ist oder du in einer anderen App bist. Beim ersten Start einer Pause fragt die App nach der Berechtigung dafür.",
+                "es": "Cuando termina tu descanso, recibes una notificación aunque tu teléfono esté bloqueado o estés en otra app. La primera vez que inicias un descanso, la app te pide permiso para enviarla.",
+                "fr": "Quand ton repos est terminé, tu reçois une notification même si ton téléphone est verrouillé ou si tu es dans une autre appli. La première fois que tu lances un repos, l'appli demande l'autorisation de l'envoyer."
+              },
+              {
+                "en": "In Settings, toggle a sound or vibration for when the timer ends, and choose whether the notification also shows while the app is open.",
+                "de": "Schalte in den Einstellungen einen Ton oder eine Vibration für das Ende des Timers ein und lege fest, ob die Benachrichtigung auch angezeigt wird, während die App geöffnet ist.",
+                "es": "En Ajustes, activa un sonido o una vibración para el final del temporizador, y elige si la notificación también se muestra mientras la app está abierta.",
+                "fr": "Dans les Paramètres, active un son ou une vibration pour la fin de la minuterie, et choisis si la notification s'affiche aussi quand l'appli est ouverte."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "plate-calculator",
+          "title": {
+            "en": "Plate Calculator",
+            "de": "Scheibenrechner",
+            "es": "Calculadora de discos",
+            "fr": "Calculateur de disques"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "During a session, tap the menu (⋮) on a set and choose Plate Calculator to see which plates to load on each side of the bar. Pick your bar weight, or enter a custom one, and it is remembered. If the exact weight can't be built, the closest possible load is shown instead. To tell the app which plates you actually own, go to Settings and tap Plates in the Workout section; counts are pairs, one plate for each side of the bar.",
+              "de": "Tippe während einer Einheit auf das Menü (⋮) eines Satzes und wähle Scheibenrechner, um zu sehen, welche Scheiben du auf jede Seite der Stange laden musst. Wähle dein Stangengewicht oder gib ein eigenes ein; es wird gespeichert. Lässt sich das genaue Gewicht nicht zusammenstellen, wird stattdessen die nächstmögliche Last angezeigt. Um der App zu sagen, welche Scheiben du tatsächlich besitzt, öffne die Einstellungen und tippe im Bereich Training auf Scheiben; gezählt werden Paare, also eine Scheibe pro Seite der Stange.",
+              "es": "Durante una sesión, toca el menú (⋮) de una serie y elige Calculadora de discos para ver qué discos cargar en cada lado de la barra. Elige el peso de tu barra, o introduce uno personalizado, y se recordará. Si no se puede formar el peso exacto, se muestra la carga posible más cercana. Para indicar a la app qué discos tienes realmente, ve a Ajustes y toca Discos en la sección Entrenamiento; las cantidades son pares, un disco para cada lado de la barra.",
+              "fr": "Pendant une séance, appuie sur le menu (⋮) d'une série et choisis Calculateur de disques pour voir quels disques charger de chaque côté de la barre. Choisis le poids de ta barre, ou saisis-en un personnalisé, et il est mémorisé. Si le poids exact ne peut pas être formé, la charge possible la plus proche s'affiche à la place. Pour indiquer à l'appli quels disques tu possèdes vraiment, va dans les Paramètres et appuie sur Disques dans la section Entraînement ; les quantités sont des paires, un disque de chaque côté de la barre."
+            }
+          }
+        },
+        {
+          "id": "supersets",
+          "title": {
+            "en": "Supersets",
+            "de": "Supersätze",
+            "es": "Superseries",
+            "fr": "Superseries"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Group two exercises into a superset so they alternate automatically during a session, ideal for pairing antagonist muscles or staying efficient between sets.",
+              "de": "Fasse zwei Übungen zu einem Supersatz zusammen, damit sie während einer Einheit automatisch abwechseln, ideal zum Kombinieren antagonistischer Muskeln oder für effizientes Trainieren zwischen Sätzen.",
+              "es": "Agrupa dos ejercicios en una superserie para que alternen automáticamente durante una sesión, ideal para combinar músculos antagonistas o mantener la eficiencia entre series.",
+              "fr": "Regroupe deux exercices en superserie pour qu'ils alternent automatiquement pendant une séance, idéal pour associer des muscles antagonistes ou rester efficace entre les séries."
+            },
+            "steps": [
+              {
+                "en": "In the workout editor, tap the three-dot menu on an exercise and choose Create Superset.",
+                "de": "Tippe im Trainings-Editor auf das Drei-Punkte-Menü einer Übung und wähle Supersatz erstellen.",
+                "es": "Toca el menú de tres puntos en cualquier ejercicio del editor de entrenamiento y elige Crear superserie.",
+                "fr": "Appuie sur le menu trois points d'un exercice dans l'éditeur d'entraînement et choisis Créer une superserie."
+              },
+              {
+                "en": "Select the second exercise to pair it with.",
+                "de": "Wähle dann die zweite Übung aus.",
+                "es": "Luego selecciona el segundo ejercicio.",
+                "fr": "Sélectionne ensuite le deuxième exercice."
+              },
+              {
+                "en": "A coloured label identifies which superset each exercise belongs to throughout the app.",
+                "de": "Ein farbiges Label zeigt in der gesamten App, zu welchem Supersatz jede Übung gehört.",
+                "es": "Una etiqueta de color identifica en toda la app a qué superserie pertenece cada ejercicio.",
+                "fr": "Un label de couleur identifie à quelle superserie appartient chaque exercice dans toute l'application."
+              },
+              {
+                "en": "Completing a set on one exercise automatically moves you to its superset partner.",
+                "de": "Wenn du einen Satz einer Übung abschließt, wechselt die App direkt zum Supersatz-Partner.",
+                "es": "Cuando completas una serie en un ejercicio, la app te lleva directamente a su compañero de superserie.",
+                "fr": "Quand tu termines une série sur un exercice, l'appli te déplace directement vers son partenaire de superserie."
+              }
+            ],
+            "ordered": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "adaptive-progression",
+      "title": {
+        "en": "Adaptive Progression",
+        "de": "Adaptive Progression",
+        "es": "Progresión adaptativa",
+        "fr": "Progression adaptative"
+      },
+      "sections": [
+        {
+          "id": "overview",
+          "title": {
+            "en": "Overview",
+            "de": "Übersicht",
+            "es": "Vista general",
+            "fr": "Vue d'ensemble"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Adaptive Progression analyses your effort feedback over consecutive sessions and suggests when to increase your weight, reps, or sets. Enable it in Settings under Adaptive progression, or tap Turn on when the Workout Summary offers it. Once on, a short feedback prompt appears after each exercise in plans and saved workouts (not quick workouts), provided the exercise has a defined rep range to progress within. The engine requires two sessions with the same signal before recommending an upward change, filtering out one-off easy days and ensuring consistent performance before suggesting an increase. Pain or failed sets act immediately regardless of your session history. Discomfort is tracked across sessions: a single report keeps the load steady, and recurring discomfort prompts a note to check your form. If an exercise has been stuck at the same load for four or more sessions, a plateau advisory appears alongside the suggestion to prompt a technique check or a brief deload. A suggestion is never applied to your workout without your explicit approval. You can also configure your preferred load increment for barbell, dumbbell, cable, and machine exercises in the same section of Settings, for example 2.5 kg for barbell exercises and 2.0 kg for dumbbells.",
+              "de": "Adaptive Progression analysiert dein Anstrengungsfeedback über aufeinanderfolgende Einheiten und schlägt vor, wann du dein Gewicht, deine Wiederholungen oder Sätze erhöhen solltest. Aktiviere es in den Einstellungen unter Adaptive Progression oder tippe auf Aktivieren, wenn die Trainingsübersicht es anbietet. Sobald aktiviert, erscheint nach jeder Übung in Plänen und gespeicherten Trainings (nicht in Schnelltrainings) eine kurze Feedbackabfrage, sofern die Übung einen definierten Wiederholungsbereich hat. Das System benötigt zwei Einheiten mit demselben Signal, bevor es eine Steigerung empfiehlt, sodass einmalige leichte Tage herausgefiltert werden und eine gleichbleibende Leistung vor einem Vorschlag sichergestellt wird. Schmerzen oder nicht abgeschlossene Sätze werden sofort berücksichtigt, unabhängig von deiner Einheitenhistorie. Unbehagen wird über Einheiten hinweg verfolgt: Ein einzelner Bericht hält die Last stabil, und wiederkehrendes Unbehagen löst eine Notiz aus, die dich zu einem Technik-Check auffordert. Wenn eine Übung vier oder mehr Einheiten lang bei derselben Last stagniert, erscheint neben dem Vorschlag ein Plateau-Hinweis, der zu einem Technik-Check oder einem kurzen Deload auffordert. Ein Vorschlag wird deinem Training nie ohne deine ausdrückliche Bestätigung angewendet. Du kannst auch deinen bevorzugten Gewichtsschritt für Langhantel-, Kurzhantel-, Kabelzug- und Maschinenübungen im selben Abschnitt der Einstellungen konfigurieren, zum Beispiel 2,5 kg für Langhantelübungen und 2,0 kg für Kurzhanteln.",
+              "es": "La Progresión adaptativa analiza tu feedback de esfuerzo a lo largo de sesiones consecutivas y sugiere cuándo aumentar tu peso, reps o series. Actívala en Ajustes, en Progresión adaptativa, o toca Activar cuando el Resumen del entrenamiento te lo ofrezca. Una vez activada, aparece una breve pregunta de feedback tras cada ejercicio en los planes y entrenamientos guardados (no en los entrenamientos rápidos), siempre que el ejercicio tenga un rango de reps definido para progresar. El sistema requiere dos sesiones con la misma señal antes de recomendar un aumento, lo que filtra los días puntualmente fáciles y garantiza un rendimiento constante antes de sugerir un aumento. El dolor o las series fallidas actúan de forma inmediata independientemente de tu historial de sesiones. Las molestias se registran entre sesiones: un informe mantiene la carga estable, y las molestias recurrentes generan una nota para revisar tu técnica. Si un ejercicio lleva cuatro o más sesiones con la misma carga, aparece un aviso de estancamiento junto a la sugerencia para incitar a un chequeo de técnica o un breve deload. Una sugerencia nunca se aplica a tu entrenamiento sin tu aprobación explícita. También puedes configurar tu incremento de carga preferido para ejercicios con barra, mancuernas, polea y máquina en la misma sección de Ajustes, por ejemplo 2,5 kg para ejercicios con barra y 2,0 kg para mancuernas.",
+              "fr": "La Progression adaptative analyse ton feedback d'effort sur des séances consécutives et suggère quand augmenter ton poids, tes reps ou tes séries. Active-la dans Paramètres, sous Progression adaptative, ou appuie sur Activer quand le Résumé de l'entraînement te la propose. Une fois activée, une courte question de feedback apparaît après chaque exercice dans les programmes et les entraînements enregistrés (pas les entraînements rapides), à condition que l'exercice ait une plage de reps définie pour progresser. Le système nécessite deux séances avec le même signal avant de recommander une augmentation, ce qui filtre les jours ponctuellement faciles et garantit une performance constante avant de suggérer une hausse. La douleur ou les séries non terminées sont prises en compte immédiatement, quelle que soit ton historique de séances. Les gênes sont suivies d'une séance à l'autre : un seul rapport maintient la charge stable, et des gênes récurrentes génèrent une note pour vérifier ta technique. Si un exercice stagne à la même charge depuis quatre séances ou plus, un avis de plateau apparaît à côté de la suggestion pour inciter à un contrôle technique ou un bref deload. Une suggestion n'est jamais appliquée à ton entraînement sans ton accord explicite. Tu peux aussi configurer ton incrément de charge préféré pour les exercices à la barre, aux haltères, à la poulie et sur machine dans la même section des Paramètres, par exemple 2,5 kg pour les exercices à la barre et 2,0 kg pour les haltères."
+            }
+          }
+        },
+        {
+          "id": "post-exercise-feedback",
+          "title": {
+            "en": "Post-Exercise Feedback",
+            "de": "Feedback nach Übungen",
+            "es": "Feedback tras el ejercicio",
+            "fr": "Feedback après exercice"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "After the last working set of an exercise, a short feedback card appears in the rest timer, or under the set when there is no rest.",
+              "de": "Nach dem letzten Arbeitssatz einer Übung erscheint eine kurze Feedbackkarte im Pausentimer oder, wenn es keine Pause gibt, unter dem Satz.",
+              "es": "Tras la última serie efectiva de un ejercicio, aparece una breve tarjeta de feedback en el temporizador de descanso, o bajo la serie si no hay descanso.",
+              "fr": "Après la dernière série de travail d'un exercice, une courte carte de feedback apparaît dans le minuteur de repos, ou sous la série s'il n'y a pas de repos."
+            },
+            "steps": [
+              {
+                "en": "Tap how it felt: Easy, About right, Hard, or Couldn't finish. One tap sends it.",
+                "de": "Tippe an, wie es sich angefühlt hat: Leicht, Passt so, Schwer oder Nicht geschafft. Ein Tippen sendet es ab.",
+                "es": "Toca cómo te ha ido: Fácil, Más o menos bien, Difícil o No pude terminar. Un toque lo envía.",
+                "fr": "Appuie sur ton ressenti : Facile, À peu près bien, Difficile ou Pas réussi à finir. Un seul appui suffit."
+              },
+              {
+                "en": "To report pain, tap Any pain? first, choose Discomfort or Pain, then tap how it felt. With Pain you can note where you felt it.",
+                "de": "Um Schmerzen zu melden, tippe zuerst auf Schmerzen?, wähle Unbehagen oder Schmerzen und tippe dann an, wie es sich angefühlt hat. Bei Schmerzen kannst du notieren, wo du sie gespürt hast.",
+                "es": "Para indicar dolor, toca primero ¿Dolor?, elige Molestias o Dolor y luego toca cómo te ha ido. Con Dolor puedes anotar dónde lo sentiste.",
+                "fr": "Pour signaler une douleur, appuie d'abord sur Une douleur ?, choisis Gêne ou Douleur, puis appuie sur ton ressenti. Avec Douleur, tu peux noter où tu l'as ressentie."
+              },
+              {
+                "en": "After a set that felt About right, tap More and choose Stay here to keep the same load next time.",
+                "de": "Wenn sich eine Übung wie Passt so angefühlt hat, tippe auf Mehr und wähle Hierbleiben, um beim nächsten Mal dieselbe Last zu behalten.",
+                "es": "Si un ejercicio te ha ido Más o menos bien, toca Más y elige Mantener para usar la misma carga la próxima vez.",
+                "fr": "Après un exercice À peu près bien, appuie sur Plus et choisis Rester ici pour garder la même charge la prochaine fois."
+              },
+              {
+                "en": "If you fell short of the rep target, the card only asks about pain, since the suggestion holds either way.",
+                "de": "Wenn du das Wiederholungsziel verfehlt hast, fragt die Karte nur nach Schmerzen, da der Vorschlag ohnehin gleich bleibt.",
+                "es": "Si te quedaste por debajo del objetivo de reps, la tarjeta solo pregunta por el dolor, ya que la sugerencia se mantiene igualmente.",
+                "fr": "Si tu n'as pas atteint l'objectif de reps, la carte ne demande que la douleur, car la suggestion reste la même dans tous les cas."
+              },
+              {
+                "en": "Discomfort is tracked across sessions: one report keeps the load steady, a second consecutive report adds a form-check note.",
+                "de": "Unbehagen wird über Einheiten hinweg verfolgt: Ein Bericht hält die Last stabil, ein zweiter aufeinanderfolgender Bericht fügt eine Notiz für einen Technik-Check hinzu.",
+                "es": "Las molestias se registran entre sesiones: un informe mantiene la carga estable, y un segundo informe consecutivo añade una nota de chequeo de técnica.",
+                "fr": "Les gênes sont suivies d'une séance à l'autre : un rapport maintient la charge stable, et un second rapport consécutif ajoute une note de contrôle de technique."
+              },
+              {
+                "en": "Tap Skip, or simply carry on with your next set, to set a card aside. Cards you set aside are listed on the Workout Summary under Help tune your next session. Reps-only exercises without a rep range never ask, since there's no room to progress within.",
+                "de": "Tippe auf Überspringen oder mach einfach mit deinem nächsten Satz weiter, um eine Karte zurückzustellen. Zurückgestellte Karten erscheinen in der Trainingsübersicht unter Hilf, deine nächste Einheit abzustimmen. Übungen nur mit Wiederholungen und ohne Wiederholungsbereich fragen nie, da es keinen Spielraum für Fortschritt gibt.",
+                "es": "Toca Saltar, o simplemente sigue con tu próxima serie, para dejar una tarjeta para después. Las tarjetas que dejes aparecen en el Resumen del entrenamiento, en Ayuda a ajustar tu próxima sesión. Los ejercicios solo de reps sin rango de reps nunca preguntan, ya que no hay margen para progresar.",
+                "fr": "Appuie sur Passer, ou continue simplement avec ta série suivante, pour mettre une carte de côté. Les cartes mises de côté apparaissent dans le Résumé de l'entraînement, sous Aide à ajuster ta prochaine séance. Les exercices en reps seules sans plage de reps ne posent jamais la question, faute de marge pour progresser."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "progression-suggestions",
+          "title": {
+            "en": "Progression Suggestions",
+            "de": "Progressionsvorschläge",
+            "es": "Sugerencias de progresión",
+            "fr": "Suggestions de progression"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "After finishing a workout, the Workout Summary screen shows a Next Session card listing actionable suggestions for your exercises. Each row shows the exercise name, the proposed change, why it's suggested, and the date you last increased load.",
+              "de": "Nachdem du ein Training abgeschlossen hast, zeigt die Trainingsübersicht eine Karte für die nächste Einheit. Jede Zeile zeigt den Namen der Übung, die vorgeschlagene Änderung, den Grund und das Datum der letzten Lasterhöhung.",
+              "es": "Al terminar un entrenamiento, la pantalla de Resumen muestra una tarjeta de Próxima sesión. Cada fila muestra el nombre del ejercicio, el cambio propuesto, el motivo y la fecha en que aumentaste la carga por última vez.",
+              "fr": "Après avoir terminé un entraînement, l'écran de Résumé affiche une carte Prochaine séance. Chaque ligne indique le nom de l'exercice, le changement proposé, le motif et la date de la dernière augmentation de charge."
+            },
+            "steps": [
+              {
+                "en": "Tap Accept to apply a suggestion for your next session, or Dismiss to ignore it; Accept All applies every suggestion at once.",
+                "de": "Tippe auf Übernehmen, um einen Vorschlag für deine nächste Einheit anzuwenden, oder auf Ablehnen; Alle übernehmen wendet alle Vorschläge auf einmal an.",
+                "es": "Toca Aceptar para aplicar una sugerencia en tu próxima sesión, o Descartar para ignorarla; Aceptar todo aplica todas las sugerencias a la vez.",
+                "fr": "Appuie sur Accepter pour appliquer une suggestion pour ta prochaine séance, ou sur Ignorer pour la rejeter ; Tout accepter applique toutes les suggestions en une fois."
+              },
+              {
+                "en": "Accepted suggestions are pre-filled into the weight and rep fields next time you open that workout.",
+                "de": "Angenommene Vorschläge werden beim nächsten Öffnen des Trainings automatisch in die Gewichts- und Wiederholungsfelder vorgefüllt.",
+                "es": "Las sugerencias aceptadas se prerellenan en los campos de peso y reps la próxima vez que abras ese entrenamiento.",
+                "fr": "Les suggestions acceptées sont pré-remplies dans les champs de poids et de reps la prochaine fois que tu ouvres cet entraînement."
+              },
+              {
+                "en": "Suggestions to hold the current load don't appear in the card, since no action is needed.",
+                "de": "Vorschläge, die empfehlen, die aktuelle Last beizubehalten, erscheinen nicht in der Karte, da keine Aktion erforderlich ist.",
+                "es": "Las sugerencias que recomiendan mantener la carga actual no aparecen en la tarjeta, ya que no se necesita ninguna acción.",
+                "fr": "Les suggestions qui recommandent de maintenir la charge actuelle n'apparaissent pas dans la carte, car aucune action n'est nécessaire."
+              },
+              {
+                "en": "A plateau advisory note appears if an exercise has been at the same load for four or more sessions.",
+                "de": "Ein Plateau-Hinweis erscheint, wenn eine Übung vier oder mehr Einheiten lang bei derselben Last stagniert.",
+                "es": "Aparece un aviso de estancamiento si un ejercicio lleva cuatro o más sesiones con la misma carga.",
+                "fr": "Une note d'avis de plateau apparaît si un exercice stagne à la même charge depuis quatre séances ou plus."
+              },
+              {
+                "en": "A deload-week banner appears if three or more exercises in the workout show fatigue signs.",
+                "de": "Ein Deload-Woche-Banner erscheint, wenn drei oder mehr Übungen im Training Ermüdungszeichen zeigen.",
+                "es": "Aparece un banner de semana de deload si tres o más ejercicios del entrenamiento muestran signos de fatiga.",
+                "fr": "Une bannière de semaine de deload apparaît si trois exercices ou plus du programme montrent des signes de fatigue."
+              },
+              {
+                "en": "A Changes for this session card appears on the workout overview screen whenever you have accepted suggestions, so you can review targets before starting.",
+                "de": "Eine Karte Änderungen für diese Einheit erscheint auf der Trainingsübersicht, wenn du Vorschläge übernommen hast, damit du deine Ziele vor dem Start überprüfen kannst.",
+                "es": "Una tarjeta Cambios para esta sesión aparece en la pantalla de resumen del entrenamiento cuando has aceptado sugerencias, para que puedas revisar tus objetivos antes de empezar.",
+                "fr": "Une carte Changements pour cette séance apparaît sur l'écran de présentation de l'entraînement quand tu as accepté des suggestions, pour revoir tes objectifs avant de commencer."
+              },
+              {
+                "en": "If you edit or delete your most recent session of a workout, its pending suggestions are recalculated from the corrected numbers.",
+                "de": "Wenn du deine letzte Einheit eines Trainings bearbeitest oder löschst, werden die offenen Vorschläge mit den korrigierten Werten neu berechnet.",
+                "es": "Si editas o eliminas tu sesión más reciente de un entrenamiento, sus sugerencias pendientes se recalculan con los números corregidos.",
+                "fr": "Si tu modifies ou supprimes ta séance la plus récente d'un entraînement, ses suggestions en attente sont recalculées à partir des valeurs corrigées."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "recovery-check-in",
+          "title": {
+            "en": "Recovery Check-in",
+            "de": "Regenerations-Check-in",
+            "es": "Control de recuperación",
+            "fr": "Bilan de récupération"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "When you open a workout that contains exercises you trained recently, a Recovery Check-in sheet appears if those exercises have a pending progression suggestion and your last session was at least 12 hours ago. For each relevant muscle group, you choose one of three options: Fresh (fully recovered), Mild soreness, or Still very sore. If a muscle is marked as still very sore, any upward progression suggestion for exercises targeting that muscle is paused and held at the current load until you re-evaluate at the start of the following session. Fresh or Mild soreness does not affect suggestions. Tap Skip for now to bypass the check-in entirely; a skipped check-in is treated the same as fresh recovery, so pending suggestions are unaffected.",
+              "de": "Wenn du ein Training öffnest, das Übungen enthält, die du kürzlich trainiert hast, erscheint ein Regenerations-Check-in-Bogen, falls diese Übungen einen ausstehenden Progressionsvorschlag haben und deine letzte Einheit mindestens 12 Stunden zurückliegt. Für jede relevante Muskelgruppe wählst du eine von drei Optionen: Frisch (vollständig erholt), Leichter Muskelkater oder Noch sehr starker Muskelkater. Wenn ein Muskel als noch sehr starker Muskelkater markiert wird, wird jeder aufwärtsgerichtete Progressionsvorschlag für Übungen, die diesen Muskel trainieren, pausiert und bei der aktuellen Last gehalten, bis du zu Beginn der folgenden Einheit neu bewertest. Frisch oder Leichter Muskelkater beeinflusst Vorschläge nicht. Tippe auf Jetzt überspringen, um den Check-in ganz zu umgehen; ein übersprungener Check-in wird wie frische Erholung behandelt, ausstehende Vorschläge bleiben unverändert.",
+              "es": "Cuando abres un entrenamiento con ejercicios que entrenaste recientemente, aparece un cuestionario de Control de recuperación si esos ejercicios tienen una sugerencia de progresión pendiente y tu última sesión fue hace al menos 12 horas. Para cada grupo muscular relevante, eliges una de tres opciones: Fresco (completamente recuperado), Dolor muscular leve o Todavía muy dolorido. Si un músculo se marca como todavía muy dolorido, cualquier sugerencia de progresión ascendente para los ejercicios que trabajan ese músculo se pausa y se mantiene en la carga actual hasta que lo reevalúes al inicio de la siguiente sesión. Fresco o Dolor muscular leve no afectan a las sugerencias. Toca Omitir por ahora para saltarte el control completamente; un control omitido se trata igual que la recuperación completa, por lo que las sugerencias pendientes no se ven afectadas.",
+              "fr": "Quand tu ouvres un entraînement contenant des exercices que tu as pratiqués récemment, une feuille de Bilan de récupération apparaît si ces exercices ont une suggestion de progression en attente et que ta dernière séance remonte à au moins 12 heures. Pour chaque groupe musculaire concerné, tu choisis une de trois options : Frais (complètement récupéré), Légère courbature ou Encore très courbaturé. Si un muscle est marqué comme encore très courbaturé, toute suggestion de progression à la hausse pour les exercices ciblant ce muscle est mise en pause et maintenue à la charge actuelle jusqu'à ce que tu réévalues au début de la séance suivante. Frais ou Légère courbature ne modifie pas les suggestions. Appuie sur Passer pour l'instant pour contourner le bilan entièrement ; un bilan ignoré est traité comme une récupération complète, donc les suggestions en attente ne sont pas affectées."
+            }
+          }
+        },
+        {
+          "id": "deload-week",
+          "title": {
+            "en": "Deload Week",
+            "de": "Deload-Woche",
+            "es": "Semana de descarga",
+            "fr": "Semaine de décharge"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "A deload is a planned recovery week where you train at reduced intensity to let your body fully recover before the next training block. Turn on the Deload Week switch on your active plan's overview screen to flag the current week as a deload. While the deload is active, the post-exercise feedback card does not appear and no new progression states are created or updated, so your suggestion history is not disrupted by the lighter sessions. The Workout Summary also skips its comparison with the previous session. The deload resets automatically at the start of the following week, and normal feedback and progression tracking resume without any manual action. If you change your mind, turn the switch off again. To keep deload sessions out of your exercise stats, turn on Exclude deload workouts from exercise stats in Settings.",
+              "de": "Eine Deload-Woche ist eine geplante Erholungswoche, in der du mit reduzierter Intensität trainierst, damit sich dein Körper vor dem nächsten Trainingsblock vollständig erholen kann. Aktiviere den Schalter Deload-Woche in der Übersicht deines aktiven Plans, um die aktuelle Woche als Deload zu kennzeichnen. Während der Deload aktiv ist, erscheint die Feedbackkarte nach Übungen nicht und es werden keine neuen Progressionszustände erstellt oder aktualisiert, sodass deine Vorschlagshistorie durch die leichteren Einheiten nicht gestört wird. Die Trainingsübersicht überspringt außerdem den Vergleich mit der vorherigen Einheit. Der Deload wird automatisch zu Beginn der folgenden Woche zurückgesetzt und normales Feedback sowie Fortschritts-Tracking werden ohne manuellen Eingriff fortgesetzt. Wenn du deine Meinung änderst, schalte den Schalter einfach wieder aus. Um Deload-Einheiten aus deinen Übungsstatistiken herauszuhalten, aktiviere in den Einstellungen Deload-Trainings aus Übungsstatistiken ausschließen.",
+              "es": "Una semana de descarga es una semana de recuperación planificada en la que entrenas con menor intensidad para que tu cuerpo se recupere completamente antes del siguiente bloque de entrenamiento. Activa el interruptor Semana de descarga en la pantalla de vista general de tu plan activo para indicar que la semana actual es una descarga. Mientras la descarga está activa, la tarjeta de feedback tras el ejercicio no aparece y no se crean ni actualizan nuevos estados de progresión, por lo que tu historial de sugerencias no se ve afectado por las sesiones más ligeras. El Resumen del entrenamiento también omite la comparación con la sesión anterior. La descarga se restablece automáticamente al inicio de la semana siguiente y el feedback normal y el seguimiento de progresión se reanudan sin ninguna acción manual. Si cambias de opinión, vuelve a desactivar el interruptor. Para que las sesiones de descarga no cuenten en las estadísticas de tus ejercicios, activa Excluir entrenamientos de descarga de las estadísticas de ejercicios en Ajustes.",
+              "fr": "Une semaine de décharge est une semaine de récupération planifiée où tu t'entraînes avec une intensité réduite pour permettre à ton corps de récupérer complètement avant le prochain bloc d'entraînement. Active l'interrupteur Semaine de décharge sur l'écran de vue d'ensemble de ton programme actif pour indiquer que la semaine en cours est une décharge. Pendant que la décharge est active, la carte de feedback après exercice n'apparaît pas et aucun nouvel état de progression n'est créé ou mis à jour, de sorte que ton historique de suggestions n'est pas perturbé par les séances plus légères. Le Résumé de l'entraînement ignore aussi la comparaison avec la séance précédente. La décharge se réinitialise automatiquement au début de la semaine suivante et le feedback normal ainsi que le suivi de progression reprennent sans aucune action manuelle. Si tu changes d'avis, désactive simplement l'interrupteur. Pour garder les séances de décharge hors de tes stats d'exercices, active Exclure les entraînements de décharge des stats d'exercices dans les Paramètres."
+            }
+          }
+        },
+        {
+          "id": "returning-after-break",
+          "title": {
+            "en": "Returning After a Break",
+            "de": "Nach einer Pause zurückkehren",
+            "es": "Volver tras un descanso",
+            "fr": "Reprendre après une pause"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "If you haven't trained a muscle group for two weeks or more, Adaptive Progression suggests a lighter starting weight for exercises that target it, so you can ease back in safely. The reduction starts at 10% after two weeks and grows to 20% after four weeks or more, rounded to a weight you can actually load. It never stacks with a Deload Week.",
+              "de": "Wenn du eine Muskelgruppe zwei Wochen oder länger nicht trainiert hast, schlägt Adaptive Progression für Übungen, die sie beanspruchen, ein leichteres Startgewicht vor, damit du sicher wieder einsteigen kannst. Die Reduktion beginnt bei 10 % nach zwei Wochen und steigt auf 20 % nach vier Wochen oder mehr, gerundet auf ein Gewicht, das du tatsächlich laden kannst. Sie wird nie mit einer Deload-Woche kombiniert.",
+              "es": "Si no has entrenado un grupo muscular durante dos semanas o más, la Progresión adaptativa sugiere un peso inicial más ligero para los ejercicios que lo trabajan, para que puedas retomar con seguridad. La reducción empieza en un 10 % tras dos semanas y aumenta hasta un 20 % tras cuatro semanas o más, redondeada a un peso que realmente puedas cargar. Nunca se suma a una Semana de descarga.",
+              "fr": "Si tu n'as pas entraîné un groupe musculaire depuis deux semaines ou plus, la Progression adaptative suggère un poids de départ plus léger pour les exercices qui le sollicitent, afin que tu reprennes en douceur. La réduction commence à 10 % après deux semaines et monte jusqu'à 20 % après quatre semaines ou plus, arrondie à un poids que tu peux réellement charger. Elle ne se cumule jamais avec une Semaine de décharge."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sets-exercises",
+      "title": {
+        "en": "Sets & Exercises",
+        "de": "Sätze & Übungen",
+        "es": "Series y ejercicios",
+        "fr": "Séries et exercices"
+      },
+      "sections": [
+        {
+          "id": "set-types",
+          "title": {
+            "en": "Set Types",
+            "de": "Satztypen",
+            "es": "Tipos de serie",
+            "fr": "Types de séries"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Each set can be flagged as a Warm-up, Drop Set, To Failure, or any combination of these; a badge next to the set shows its current type.",
+              "de": "Jeder Satz kann als Aufwärmsatz, Dropsatz, bis zum Versagen oder eine beliebige Kombination davon markiert werden; ein Badge neben dem Satz zeigt seinen aktuellen Typ.",
+              "es": "Cada serie puede marcarse como Calentamiento, Serie descendente, Al fallo o cualquier combinación de estas; una insignia junto a la serie muestra su tipo actual.",
+              "fr": "Chaque série peut être marquée comme Échauffement, Série dégressive, Jusqu'à l'échec, ou toute combinaison ; un badge à côté de la série indique son type actuel."
+            },
+            "steps": [
+              {
+                "en": "During a session, tap the menu (⋮) on a set to toggle Warm-up or To Failure, or tap Add Drop Set to append a new drop set pre-filled with your last set's weight and a 10 second rest.",
+                "de": "Tippe während einer Einheit auf das Menü (⋮) eines Satzes, um Aufwärmen oder Bis zum Versagen umzuschalten, oder tippe auf Dropsatz hinzufügen, um einen neuen Dropsatz mit dem Gewicht deines letzten Satzes und 10 Sekunden Pause anzuhängen.",
+                "es": "Durante una sesión, toca el menú (⋮) de una serie para activar o desactivar Calentamiento o Al fallo, o toca Añadir drop set para añadir un nuevo drop set con el peso de tu última serie y 10 segundos de descanso.",
+                "fr": "Pendant une séance, appuie sur le menu (⋮) d'une série pour activer ou désactiver Échauffement ou Jusqu'à l'échec, ou appuie sur Ajouter une série dégressive pour ajouter une nouvelle série dégressive pré-remplie avec le poids de ta dernière série et 10 secondes de repos."
+              },
+              {
+                "en": "When building a plan, use the checkboxes in the set editor, or tap Add Warm-up to insert a dedicated warm-up set at the top of the list.",
+                "de": "Beim Erstellen eines Plans nutze die Checkboxen im Satz-Editor oder tippe auf Aufwärmsatz hinzufügen, um einen dedizierten Aufwärmsatz oben in der Liste einzufügen.",
+                "es": "Al crear un plan, usa las casillas en el editor de series o toca Añadir calentamiento para insertar una serie de calentamiento al principio de la lista.",
+                "fr": "Lors de la création d'un programme, utilise les cases à cocher dans l'éditeur de séries ou appuie sur Ajouter un échauffement pour insérer une série d'échauffement dédiée en haut de la liste."
+              },
+              {
+                "en": "Warm-up sets are visually grouped and separated from working sets; the Apply to All option only affects sets of the same type.",
+                "de": "Aufwärmsätze werden visuell gruppiert und von Arbeitssätzen getrennt; die Option Auf alle anwenden betrifft nur Sätze desselben Typs.",
+                "es": "Las series de calentamiento se agrupan y separan visualmente de las series de trabajo; la opción Aplicar a todas solo afecta a series del mismo tipo.",
+                "fr": "Les séries d'échauffement sont visuellement regroupées et séparées des séries de travail ; l'option Appliquer à tous n'affecte que les séries du même type."
+              },
+              {
+                "en": "Exclude warm-up sets from volume and stats calculations in Settings.",
+                "de": "Aufwärmsätze können in den Einstellungen von Volumen- und Statistikberechnungen ausgeschlossen werden.",
+                "es": "Las series de calentamiento se pueden excluir de los cálculos de volumen y estadísticas en Ajustes.",
+                "fr": "Les séries d'échauffement peuvent être exclues des calculs de volume et de stats dans les Paramètres."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "exercise-library",
+          "title": {
+            "en": "Exercise Library",
+            "de": "Übungsbibliothek",
+            "es": "Biblioteca de ejercicios",
+            "fr": "Bibliothèque d'exercices"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Open the Exercise Library from the menu at any time to browse almost 1,000 exercises, and filter by body part, target muscle, or equipment. Search understands common abbreviations like RDL, OHP, DB, and KB, and forgives small typos. Use the sort chips at the top to order exercises by Default, Active Plan, Recent, or Frequent, so the exercises most relevant to you appear first. When replacing an exercise, the filter automatically preselects the matching target muscle to help you find alternatives faster. Tap any exercise to view its animated demonstration, the muscles targeted, and a full history of every time you have performed it, including weights, reps, time, or distance per set. Download all exercise animations (~100 MB) in Settings for offline access; the download needs an internet connection.",
+              "de": "Öffne die Übungsbibliothek jederzeit über das Menü, um fast 1.000 Übungen zu durchsuchen, und filtere nach Körperteil, Zielmuskel oder Gerät. Die Suche versteht gängige Abkürzungen wie RDL, OHP, DB und KB und verzeiht kleine Tippfehler. Nutze die Sortier-Chips oben, um Übungen nach Standard, Aktiver Plan, Zuletzt oder Häufig zu sortieren, damit die für dich relevantesten Übungen zuerst erscheinen. Wenn du eine Übung ersetzt, wählt der Filter automatisch den passenden Zielmuskel vor, damit du schneller Alternativen findest. Tippe auf eine Übung, um die animierte Demo, die angesprochenen Muskeln und eine vollständige Historie jeder Durchführung mit Gewicht, Wiederholungen, Zeit oder Distanz pro Satz anzuzeigen. Lade alle Übungsanimationen (~100 MB) in den Einstellungen für den Offline-Zugriff herunter; dafür brauchst du eine Internetverbindung.",
+              "es": "Abre la Biblioteca de ejercicios desde el menú en cualquier momento para explorar casi 1.000 ejercicios, y filtra por parte del cuerpo, músculo objetivo o equipamiento. La búsqueda entiende abreviaturas comunes como RDL, OHP, DB y KB, y tolera pequeñas erratas. Usa los chips de ordenación en la parte superior para ordenar los ejercicios por Predeterminado, Plan activo, Reciente o Frecuente, y así los ejercicios más relevantes para ti aparecerán primero. Al reemplazar un ejercicio, el filtro preselecciona automáticamente el músculo objetivo correspondiente para ayudarte a encontrar alternativas más rápido. Toca cualquier ejercicio para ver su demostración animada, los músculos trabajados y un historial completo de cada vez que lo has realizado, incluyendo pesos, reps, tiempo o distancia por serie. Descarga todas las animaciones de ejercicios (~100 MB) en Ajustes para acceso sin conexión; la descarga necesita conexión a internet.",
+              "fr": "Ouvre la Bibliothèque d'exercices depuis le menu à tout moment pour parcourir près de 1 000 exercices, et filtre par partie du corps, muscle cible ou équipement. La recherche comprend les abréviations courantes comme RDL, OHP, DB et KB, et tolère les petites fautes de frappe. Utilise les chips de tri en haut pour classer les exercices par Par défaut, Programme actif, Récent ou Fréquent, afin que les exercices les plus pertinents pour toi apparaissent en premier. Quand tu remplaces un exercice, le filtre présélectionne automatiquement le muscle cible correspondant pour t'aider à trouver des alternatives plus rapidement. Appuie sur n'importe quel exercice pour voir sa démonstration animée, les muscles sollicités et un historique complet de chaque fois que tu l'as effectué, avec les poids, répétitions, temps ou distances par série. Télécharge toutes les animations d'exercices (~100 Mo) dans les Paramètres pour y accéder hors ligne ; le téléchargement nécessite une connexion internet."
+            }
+          }
+        },
+        {
+          "id": "favourite-exercises",
+          "title": {
+            "en": "Favourite Exercises",
+            "de": "Lieblingsübungen",
+            "es": "Ejercicios favoritos",
+            "fr": "Exercices favoris"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Tap the star icon in the top-right corner of any exercise info screen to mark it as a favourite. Favourited exercises appear at the top of the exercise picker when building or editing workouts, so the exercises you use most are always within quick reach.",
+              "de": "Tippe auf das Sternsymbol oben rechts in einer Übungsinfoansicht, um sie als Favorit zu markieren. Favoritisierte Übungen erscheinen oben in der Übungsauswahl beim Erstellen oder Bearbeiten von Trainings, damit die Übungen, die du am häufigsten verwendest, immer schnell erreichbar sind.",
+              "es": "Toca el icono de estrella en la esquina superior derecha de cualquier pantalla de información de ejercicio para marcarlo como favorito. Los ejercicios favoritos aparecen en la parte superior del selector de ejercicios al crear o editar entrenamientos, para que los ejercicios que más usas siempre estén a mano.",
+              "fr": "Appuie sur l'icône étoile dans le coin supérieur droit de n'importe quel écran d'infos d'exercice pour le marquer comme favori. Les exercices favoris apparaissent en haut du sélecteur d'exercices lors de la création ou modification d'entraînements, afin que les exercices que tu utilises le plus soient toujours à portée de main."
+            }
+          }
+        },
+        {
+          "id": "custom-exercises",
+          "title": {
+            "en": "Custom Exercises",
+            "de": "Eigene Übungen",
+            "es": "Ejercicios personalizados",
+            "fr": "Exercices personnalisés"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Create your own exercises from the exercise picker.",
+              "de": "Erstelle eigene Übungen über die Übungsauswahl.",
+              "es": "Crea tus propios ejercicios desde el selector de ejercicios.",
+              "fr": "Crée tes propres exercices depuis le sélecteur d'exercices."
+            },
+            "steps": [
+              {
+                "en": "Give it a name, an optional image, body part, target muscles, secondary muscles, and equipment.",
+                "de": "Gib einen Namen, ein optionales Bild, Körperteil, Zielmuskeln, sekundäre Muskeln und Gerät an.",
+                "es": "Dale un nombre, una imagen opcional, parte del cuerpo, músculos objetivo, músculos secundarios y equipamiento.",
+                "fr": "Donne-lui un nom, une image optionnelle, une partie du corps, des muscles cibles, des muscles secondaires et de l'équipement."
+              },
+              {
+                "en": "Choose a tracking type: Weight/Reps, Time, Distance, Reps, or Assistance/Reps (factors in your body weight, for movements like assisted pull-ups). The tracking type can't be changed after the exercise is created.",
+                "de": "Wähle einen Tracking-Typ: Gewicht/Wdh., Zeit, Distanz, Wdh. oder Assistenz/Wdh. (berücksichtigt dein Körpergewicht für Bewegungen wie assistierte Klimmzüge). Der Tracking-Typ kann nach dem Erstellen der Übung nicht mehr geändert werden.",
+                "es": "Elige un tipo de seguimiento: Peso/Reps, Tiempo, Distancia, Reps o Asistencia/Reps (que tiene en cuenta tu peso corporal para movimientos como dominadas asistidas). El tipo de seguimiento no se puede cambiar después de crear el ejercicio.",
+                "fr": "Choisis un type de suivi : Poids/Rép., Temps, Distance, Répétitions ou Assistance/Rép. (qui prend en compte ton poids de corps pour des mouvements comme les tractions assistées). Le type de suivi ne peut plus être modifié une fois l'exercice créé."
+              },
+              {
+                "en": "Turn on Single-arm / single-leg for unilateral exercises; reps can be automatically doubled in your stats.",
+                "de": "Aktiviere Einarmig / einbeinig für einseitige Übungen; Wiederholungen können in den Statistiken automatisch verdoppelt werden.",
+                "es": "Activa Un solo brazo / una sola pierna para ejercicios unilaterales; las reps pueden doblarse automáticamente en tus estadísticas.",
+                "fr": "Active Unilatéral bras / jambe pour les exercices unilatéraux ; les répétitions peuvent être automatiquement doublées dans tes stats."
+              },
+              {
+                "en": "Turn on Paired implements if you track one implement's weight rather than the total: for example, logging 20 kg for one dumbbell counts 40 kg toward your volume.",
+                "de": "Aktiviere Gepaarte Geräte, wenn du das Gewicht eines Geräts statt des Gesamtgewichts protokollierst: Zum Beispiel werden 20 kg für eine Kurzhantel als 40 kg für dein Volumen gezählt.",
+                "es": "Activa Implementos pareados si registras el peso de un solo implemento en lugar del total: por ejemplo, si anotas 20 kg para una mancuerna, la app cuenta 40 kg hacia tu volumen.",
+                "fr": "Active Implements appariés si tu notes le poids d'un seul implement plutôt que le total : par exemple, noter 20 kg pour un haltère compte 40 kg dans ton volume."
+              },
+              {
+                "en": "To change a custom exercise later, open its info screen and tap Edit Exercise.",
+                "de": "Um eine eigene Übung später zu ändern, öffne ihren Infobildschirm und tippe auf Übung bearbeiten.",
+                "es": "Para cambiar un ejercicio personalizado más adelante, abre su pantalla de información y toca Editar ejercicio.",
+                "fr": "Pour modifier un exercice personnalisé plus tard, ouvre son écran d'infos et appuie sur Modifier l'exercice."
+              }
+            ],
+            "ordered": true
+          }
+        },
+        {
+          "id": "weight-tracking-bodyweight",
+          "title": {
+            "en": "Weight Tracking for Bodyweight Exercises",
+            "de": "Gewichtserfassung für Körpergewichtsübungen",
+            "es": "Registro de peso para ejercicios con peso corporal",
+            "fr": "Enregistrement du poids pour les exercices au poids de corps"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Bodyweight exercises like pull-ups or dips track reps only by default. If you want to log added weight, such as a weight belt or vest, open the sets overview for that exercise in the workout or plan editor and toggle Track Weight on. During a session, you can also tap the menu (⋮) on a set and choose Add Weight. The toggle is saved per workout, so you can have some workouts use bodyweight-only and others track the additional load. Progression charts and history will reflect the logged weight once the toggle is on.",
+              "de": "Körpergewichtsübungen wie Klimmzüge oder Dips erfassen standardmäßig nur Wiederholungen. Wenn du zusätzliches Gewicht protokollieren möchtest, z. B. einen Gewichtsgürtel oder eine Gewichtsweste, öffne die Satzübersicht für diese Übung im Trainings- oder Planeditor und aktiviere Gewicht erfassen. Während einer Einheit kannst du auch auf das Menü (⋮) eines Satzes tippen und Gewicht hinzufügen wählen. Die Einstellung wird pro Training gespeichert, sodass manche Trainings nur Körpergewicht verwenden und andere die zusätzliche Last erfassen können. Fortschrittsgraphen und Historie spiegeln das protokollierte Gewicht wider, sobald die Einstellung aktiviert ist.",
+              "es": "Los ejercicios con peso corporal como las dominadas o los fondos registran solo repeticiones por defecto. Si quieres anotar peso adicional, como un cinturón de lastre o un chaleco, abre el resumen de series de ese ejercicio en el editor de entrenamiento o plan y activa Registrar peso. Durante una sesión, también puedes tocar el menú (⋮) de una serie y elegir Añadir peso. La opción se guarda por entrenamiento, así que puedes tener algunos entrenamientos solo con peso corporal y otros que registren la carga adicional. Los gráficos de progresión y el historial reflejarán el peso registrado una vez que la opción esté activada.",
+              "fr": "Les exercices au poids de corps comme les tractions ou les dips ne suivent que les répétitions par défaut. Si tu veux noter le poids ajouté, comme une ceinture lestée ou un gilet, ouvre le récapitulatif des séries de cet exercice dans l'éditeur d'entraînement ou de programme et active Enregistrer le poids. Pendant une séance, tu peux aussi appuyer sur le menu (⋮) d'une série et choisir Ajouter du poids. Le réglage est sauvegardé par entraînement, tu peux donc avoir des entraînements en poids de corps uniquement et d'autres qui enregistrent la charge supplémentaire. Les graphiques de progression et l'historique refléteront le poids enregistré une fois le réglage activé."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "tracking",
+      "title": {
+        "en": "Tracking",
+        "de": "Tracking",
+        "es": "Seguimiento",
+        "fr": "Suivi"
+      },
+      "sections": [
+        {
+          "id": "insights",
+          "title": {
+            "en": "Insights",
+            "de": "Einblicke",
+            "es": "Estadísticas clave",
+            "fr": "Aperçus"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "The Insights strip at the top of the Stats tab gives four at-a-glance highlights for the selected time range: your average workouts per week, your biggest strength gain across pinned exercises, the body part you have trained most, and your current weekly streak. These update automatically after each workout.",
+              "de": "Der Einblicke-Streifen oben auf dem Statistiken-Tab gibt vier schnelle Highlights für den ausgewählten Zeitraum: deine durchschnittlichen Trainings pro Woche, deinen größten Kraftzuwachs bei angehefteten Übungen, das Körperteil, das du am meisten trainiert hast, und deine aktuelle Wochenserie. Diese werden nach jedem Training automatisch aktualisiert.",
+              "es": "La franja de Estadísticas clave en la parte superior de la pestaña Estadísticas ofrece cuatro aspectos destacados de un vistazo para el rango de tiempo seleccionado: tu promedio de entrenamientos por semana, tu mayor ganancia de fuerza entre los ejercicios fijados, la parte del cuerpo que más has entrenado y tu racha semanal actual. Se actualizan automáticamente tras cada entrenamiento.",
+              "fr": "La bande Aperçus en haut de l'onglet Stats donne quatre points saillants en un coup d'œil pour la période sélectionnée : ta moyenne d'entraînements par semaine, ta plus grande progression de force parmi les exercices épinglés, la partie du corps la plus entraînée, et ta série consécutive hebdomadaire actuelle. Ces données se mettent à jour automatiquement après chaque entraînement."
+            }
+          }
+        },
+        {
+          "id": "stats-history",
+          "title": {
+            "en": "Stats & History",
+            "de": "Statistiken & Verlauf",
+            "es": "Estadísticas e historial",
+            "fr": "Stats et historique"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "The Stats tab shows total workouts, total volume, total time, and average session duration over a selectable time range, with a period-over-period delta for each metric. Charts display weekly volume, workouts per week, and your training split by body part. Browse your full workout history and tap any session to review every set in detail, including weights, reps, time, or distance. You can edit or delete completed workouts from the history details screen; a deleted workout can be restored by tapping Undo on the message that appears. If you logged the wrong exercise, tap the pencil icon next to it on the edit screen to swap it for the correct one. Tap the calendar icon in the Workout History section to open a calendar view: days with workouts are highlighted with a yellow circle, and tapping any day shows the workouts logged on that date.",
+              "de": "Der Statistiken-Tab zeigt Gesamttrainings, Gesamtvolumen, Gesamtzeit und durchschnittliche Einheitsdauer über einen auswählbaren Zeitraum, mit einer Periode-zu-Periode-Differenz für jede Kennzahl. Diagramme zeigen wöchentliches Volumen, Trainings pro Woche und deinen Trainings-Split nach Körperteil. Durchsuche deine vollständige Trainingshistorie und tippe auf eine Einheit, um jeden Satz im Detail einzusehen, einschließlich Gewichte, Wiederholungen, Zeit oder Distanz. Du kannst abgeschlossene Trainings vom Verlaufsdetailsbildschirm bearbeiten oder löschen; ein gelöschtes Training kannst du über Rückgängig in der eingeblendeten Meldung wiederherstellen. Wenn du die falsche Übung erfasst hast, tippe auf dem Bearbeitungsbildschirm auf das Stiftsymbol daneben, um sie gegen die richtige auszutauschen. Tippe auf das Kalendersymbol im Bereich Trainingshistorie, um eine Kalenderansicht zu öffnen: Tage mit Trainings sind mit einem gelben Kreis hervorgehoben, und ein Tippen auf einen Tag zeigt die an diesem Datum protokollierten Trainings.",
+              "es": "La pestaña Estadísticas muestra el total de entrenamientos, volumen total, tiempo total y duración media de sesión en un rango de tiempo seleccionable, con una variación período a período para cada métrica. Los gráficos muestran el volumen semanal, los entrenamientos por semana y tu división de entrenamiento por parte del cuerpo. Navega por tu historial completo de entrenamientos y toca cualquier sesión para revisar cada serie en detalle, incluyendo pesos, reps, tiempo o distancia. Puedes editar o eliminar entrenamientos completados desde la pantalla de detalles del historial; puedes recuperar un entrenamiento eliminado tocando Deshacer en el mensaje que aparece. Si registraste el ejercicio equivocado, toca el icono de lápiz junto a él en la pantalla de edición para cambiarlo por el correcto. Toca el icono de calendario en la sección Historial de entrenamientos para abrir una vista de calendario: los días con entrenamientos se resaltan con un círculo amarillo, y al tocar cualquier día se muestran los entrenamientos registrados en esa fecha.",
+              "fr": "L'onglet Stats affiche le nombre total d'entraînements, le volume total, le temps total et la durée moyenne des séances sur une période sélectionnable, avec un delta par rapport à la période précédente pour chaque indicateur. Des graphiques affichent le volume hebdomadaire, les entraînements par semaine et ta répartition d'entraînement par partie du corps. Parcours l'historique complet de tes entraînements et appuie sur une séance pour revoir chaque série en détail. Tu peux modifier ou supprimer des entraînements terminés depuis l'écran de détails ; un entraînement supprimé peut être restauré en appuyant sur Annuler dans le message qui s'affiche. Si tu as enregistré le mauvais exercice, appuie sur l'icône crayon à côté dans l'écran de modification pour l'échanger contre le bon. Appuie sur l'icône calendrier dans la section Historique pour ouvrir une vue calendrier : les jours avec des entraînements sont mis en évidence avec un cercle jaune."
+            }
+          }
+        },
+        {
+          "id": "exercise-tracking",
+          "title": {
+            "en": "Exercise progress",
+            "de": "Übungsfortschritt",
+            "es": "Progreso del ejercicio",
+            "fr": "Progression des exercices"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Tap an exercise's name almost anywhere in the app to open its screen. Progress shows a chart of your performance over the selected time range, your all-time personal record, your top sets, and your recent sessions with the best set of each day. History lists every set you have logged; tap a session to open that workout. About has the exercise's muscles, equipment and description. Tap the pin at the top of an exercise's screen, or + Add in the Pinned exercises section of the Stats tab, to keep its chart on the Stats tab, and tap Reorder there to drag pinned exercises into the order you want. Charts update automatically after each workout that includes that exercise. Tap Show as table under a chart to read the same numbers as a list.",
+              "de": "Tippe fast überall in der App auf den Namen einer Übung, um ihren Bildschirm zu öffnen. Fortschritt zeigt ein Diagramm deiner Leistung im gewählten Zeitraum, deinen persönlichen Rekord aller Zeiten, deine besten Sätze und deine letzten Einheiten mit dem besten Satz des Tages. Verlauf listet jeden Satz, den du protokolliert hast; tippe auf eine Einheit, um dieses Training zu öffnen. Über zeigt die Muskeln, die Ausrüstung und die Beschreibung der Übung. Tippe oben auf dem Bildschirm einer Übung auf die Stecknadel oder im Bereich Angeheftete Übungen des Statistiken-Tabs auf + Hinzufügen, um ihr Diagramm im Statistiken-Tab zu behalten, und tippe dort auf Ordnen, um angeheftete Übungen in die gewünschte Reihenfolge zu ziehen. Diagramme werden nach jedem Training, das die Übung enthält, automatisch aktualisiert. Tippe unter einem Diagramm auf Als Tabelle anzeigen, um dieselben Zahlen als Liste zu lesen.",
+              "es": "Toca el nombre de un ejercicio casi en cualquier parte de la app para abrir su pantalla. Progreso muestra un gráfico de tu rendimiento en el rango de tiempo seleccionado, tu récord personal histórico, tus mejores series y tus sesiones recientes con la mejor serie de cada día. Historial lista cada serie que has registrado; toca una sesión para abrir ese entrenamiento. Acerca de muestra los músculos, el equipo y la descripción del ejercicio. Toca la chincheta en la parte superior de la pantalla de un ejercicio, o + Añadir en la sección Ejercicios fijados de la pestaña Estadísticas, para mantener su gráfico en la pestaña Estadísticas, y toca Reordenar allí para arrastrar los ejercicios fijados al orden que quieras. Los gráficos se actualizan automáticamente tras cada entrenamiento que incluya ese ejercicio. Toca Mostrar como tabla debajo de un gráfico para leer los mismos números en forma de lista.",
+              "fr": "Appuie sur le nom d'un exercice presque partout dans l'app pour ouvrir son écran. Progression affiche un graphique de tes performances sur la période sélectionnée, ton record personnel absolu, tes meilleures séries et tes sessions récentes avec la meilleure série de chaque jour. Historique liste chaque série que tu as enregistrée ; appuie sur une session pour ouvrir cet entraînement. À propos présente les muscles, l'équipement et la description de l'exercice. Appuie sur l'épingle en haut de l'écran d'un exercice, ou sur + Ajouter dans la section Exercices épinglés de l'onglet Stats, pour garder son graphique dans l'onglet Stats, et appuie sur Réorganiser pour faire glisser les exercices épinglés dans l'ordre souhaité. Les graphiques se mettent à jour automatiquement après chaque entraînement incluant cet exercice. Appuie sur Afficher en tableau sous un graphique pour lire les mêmes chiffres sous forme de liste."
+            }
+          }
+        },
+        {
+          "id": "body-measurements",
+          "title": {
+            "en": "Body Measurements",
+            "de": "Körpermaße",
+            "es": "Medidas corporales",
+            "fr": "Mesures corporelles"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Track your body composition over time from the Measurements section in the Stats tab. Use the Log Entry form to record values for any active metric, or tap the Log Measurements card on the home screen for a quick entry. Tap a past entry in the History list to review, edit, or delete it; a deleted entry can be restored by tapping Undo on the message that appears. On the entry detail screen, tap a metric chip to switch the chart between different measurements and use the time range selector to zoom in or out. Metrics are split into three types: mass (weight, in kg or lbs), length (circumferences like waist and hips, in cm or in), and percentage (body fat). Units follow your weight and size preferences in Settings. To control which metrics appear in the entry form, tap Manage metrics at the top of the Log Entry section. Built-in metrics can be toggled on or off; you can also create your own custom metrics and choose their type. Custom metrics can be hidden from the form at any time, and your historical data for them is always preserved.",
+              "de": "Verfolge deine Körperzusammensetzung im Zeitverlauf im Bereich Messungen des Stats-Tabs. Verwende das Formular „Eintrag erfassen“, um Werte für jeden aktiven Messwert einzutragen, oder tippe auf dem Startbildschirm auf die Karte „Körpermaße erfassen“ für einen schnellen Eintrag. Tippe auf einen vergangenen Eintrag in der Verlaufsliste, um ihn anzusehen, zu bearbeiten oder zu löschen; einen gelöschten Eintrag kannst du über Rückgängig in der eingeblendeten Meldung wiederherstellen. Tippe auf dem Eintragsdetailbildschirm auf einen Messwert-Chip, um das Diagramm zwischen verschiedenen Messwerten zu wechseln, und nutze die Zeitbereichsauswahl zum Vergrößern oder Verkleinern. Messwerte sind in drei Typen unterteilt: Masse (Gewicht, in kg oder lbs), Länge (Umfänge wie Taille und Hüften, in cm oder Zoll) und Prozent (Körperfettanteil). Einheiten folgen deinen Gewichts- und Größeneinstellungen. Tippe auf „Messwerte verwalten“ oben im Bereich „Eintrag erfassen“, um zu steuern, welche Messwerte im Formular erscheinen. Integrierte Messwerte können ein- oder ausgeschaltet werden; du kannst auch eigene Messwerte erstellen und deren Typ auswählen. Eigene Messwerte können jederzeit ausgeblendet werden, und deine historischen Daten bleiben stets erhalten.",
+              "es": "Sigue tu composición corporal a lo largo del tiempo desde la sección Medidas del tab Estadísticas. Usa el formulario Registrar entrada para introducir valores en cualquier métrica activa, o toca la tarjeta Registrar medidas en la pantalla de inicio para una entrada rápida. Toca una entrada anterior en el historial para revisarla, editarla o eliminarla; puedes recuperar una entrada eliminada tocando Deshacer en el mensaje que aparece. En la pantalla de detalle de la entrada, toca el chip de una métrica para cambiar el gráfico entre distintas medidas y usa el selector de rango de tiempo para acercar o alejar la vista. Las métricas se dividen en tres tipos: masa (peso, en kg o lbs), longitud (circunferencias como cintura y caderas, en cm o pulgadas) y porcentaje (grasa corporal). Las unidades siguen tus preferencias de peso y tamaño en Ajustes. Para controlar qué métricas aparecen en el formulario, toca Gestionar métricas en la parte superior de la sección Registrar entrada. Las métricas integradas pueden activarse o desactivarse; también puedes crear métricas personalizadas y elegir su tipo. Las métricas personalizadas pueden ocultarse del formulario en cualquier momento y tus datos históricos se conservan siempre.",
+              "fr": "Suis ta composition corporelle dans le temps depuis la section Mesures de l'onglet Statistiques. Utilise le formulaire Saisir une entrée pour enregistrer des valeurs pour chaque mesure active, ou appuie sur la carte Saisir les mesures de l'écran d'accueil pour une saisie rapide. Appuie sur une entrée passée dans l'historique pour la consulter, la modifier ou la supprimer ; une entrée supprimée peut être restaurée en appuyant sur Annuler dans le message qui s'affiche. Sur l'écran de détail de l'entrée, appuie sur un chip de mesure pour basculer le graphique entre différentes mesures et utilise le sélecteur de plage de temps pour zoomer ou dézoomer. Les mesures sont divisées en trois types : masse (poids, en kg ou lbs), longueur (circonférences comme la taille et les hanches, en cm ou pouces) et pourcentage (masse grasse). Les unités suivent tes préférences de poids et de taille dans Paramètres. Pour contrôler quelles mesures apparaissent dans le formulaire, appuie sur Gérer les mesures en haut de la section Saisir une entrée. Les mesures intégrées peuvent être activées ou désactivées ; tu peux également créer tes propres mesures personnalisées et choisir leur type. Les mesures personnalisées peuvent être masquées du formulaire à tout moment, et tes données historiques sont toujours conservées."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "customisation",
+      "title": {
+        "en": "Customisation",
+        "de": "Anpassung",
+        "es": "Personalización",
+        "fr": "Personnalisation"
+      },
+      "sections": [
+        {
+          "id": "settings",
+          "title": {
+            "en": "Settings",
+            "de": "Einstellungen",
+            "es": "Ajustes",
+            "fr": "Paramètres"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Settings lets you tune units and defaults across the app.",
+              "de": "In den Einstellungen kannst du Einheiten und Standards in der gesamten App anpassen.",
+              "es": "Los ajustes te permiten personalizar unidades y valores predeterminados en toda la app.",
+              "fr": "Les Paramètres te permettent de personnaliser les unités et les valeurs par défaut dans toute l'app."
+            },
+            "steps": [
+              {
+                "en": "Weight, size, and distance units, your weekly goal, default sets per exercise, default rest time, and the ± weight and rest timer increments used during a session.",
+                "de": "Gewichts-, Größen- und Distanzeinheiten, dein Wochenziel, Standard-Sätze pro Übung, Standard-Pausenzeit sowie die ±-Schritte für Gewicht und Pausentimer während einer Einheit.",
+                "es": "Unidades de peso, tamaño y distancia, tu objetivo semanal, series predeterminadas por ejercicio, tiempo de descanso predeterminado y los incrementos ± de peso y del temporizador de descanso durante la sesión.",
+                "fr": "Unités de poids, de taille et de distance, ton objectif hebdomadaire, séries par exercice par défaut, temps de repos par défaut et incréments ± de poids et de minuterie de repos utilisés pendant une séance."
+              },
+              {
+                "en": "Workout button size (Standard, Large, or XLarge), and Keep Screen On to stop the display sleeping mid-workout.",
+                "de": "Schaltflächengröße für das Training (Standard, Groß oder Sehr groß) und Bildschirm eingeschaltet lassen, damit das Display nicht mitten im Training ausgeht.",
+                "es": "Tamaño de los botones de entrenamiento (Estándar, Grande o Muy grande) y Mantener pantalla encendida para que la pantalla no se apague.",
+                "fr": "Taille des boutons d'entraînement (Standard, Grand ou Très grand) et Garder l'écran allumé pour que l'écran ne s'éteigne pas pendant l'entraînement."
+              },
+              {
+                "en": "Exercise timer options: the length of the Get Ready countdown, countdown beeps, and a sound when you reach your goal time.",
+                "de": "Optionen für den Übungstimer: die Länge des Countdowns „Mach dich bereit“, Countdown-Pieptöne und ein Ton, wenn du deine Zielzeit erreichst.",
+                "es": "Opciones del temporizador de ejercicio: la duración de la cuenta atrás ¡Prepárate!, los pitidos de cuenta atrás y un sonido al alcanzar tu tiempo objetivo.",
+                "fr": "Options de la minuterie d'exercice : la durée du compte à rebours Prépare-toi, les bips du compte à rebours et un son quand tu atteins ton temps objectif."
+              },
+              {
+                "en": "Always use most recent exercise history, to pre-fill sets from the last time you did an exercise in any workout rather than only the same workout.",
+                "de": "Immer aktuellste Übungshistorie verwenden, um Sätze mit den Werten vom letzten Mal vorauszufüllen, als du eine Übung in einem beliebigen Training gemacht hast, statt nur im selben Training.",
+                "es": "Usar siempre el historial más reciente del ejercicio, para rellenar las series con la última vez que hiciste un ejercicio en cualquier entrenamiento, y no solo en el mismo.",
+                "fr": "Toujours utiliser l'historique le plus récent, pour pré-remplir les séries avec la dernière fois où tu as fait un exercice dans n'importe quel entraînement, et pas seulement le même."
+              },
+              {
+                "en": "Under Stats: exclude warm-up sets from volume, turn on Single-side rep logging to double reps for unilateral exercises, or Per-side weight entry to double the weight for paired implements (useful if you log per-dumbbell weight rather than the total).",
+                "de": "Unter Statistiken: Aufwärmsätze vom Volumen ausschließen, Einseitige Wdh.-Erfassung aktivieren, um Wiederholungen für einseitige Übungen zu verdoppeln, oder Gewichteingabe pro Seite, um das Gewicht für gepaarte Geräte zu verdoppeln (nützlich, wenn du das Gewicht pro Kurzhantel statt das Gesamtgewicht protokollierst).",
+                "es": "En Estadísticas: excluye las series de calentamiento del volumen, activa Reps por un solo lado para duplicar las reps en ejercicios unilaterales, o Peso por lado para doblar el peso de implementos pareados (útil si registras el peso de una mancuerna en lugar del total).",
+                "fr": "Sous Stats : exclure les séries d'échauffement du volume, activer Reps d'un seul côté pour doubler les reps des exercices unilatéraux, ou Poids par côté pour doubler le poids des implements appariés (utile si tu notes le poids par haltère plutôt que le total)."
+              },
+              {
+                "en": "Your body weight, used to calculate effective load for assisted exercises.",
+                "de": "Dein Körpergewicht, das zur Berechnung der effektiven Last bei Assistenzübungen verwendet wird.",
+                "es": "Tu peso corporal, usado para calcular la carga efectiva en ejercicios asistidos.",
+                "fr": "Ton poids de corps, utilisé pour calculer la charge effective pour les exercices assistés."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "accessibility",
+          "title": {
+            "en": "Accessibility",
+            "de": "Barrierefreiheit",
+            "es": "Accesibilidad",
+            "fr": "Accessibilité"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "MuscleQuest works with TalkBack and VoiceOver: buttons and fields are labelled, completing a set and the rest countdown are announced, and every chart has a spoken summary. Text follows your system font size, and animations such as the workout summary confetti are switched off when your device is set to reduce motion.",
+              "de": "MuscleQuest funktioniert mit TalkBack und VoiceOver: Schaltflächen und Felder sind beschriftet, das Abschließen eines Satzes und der Pausen-Countdown werden angesagt, und jedes Diagramm hat eine gesprochene Zusammenfassung. Der Text folgt deiner Systemschriftgröße, und Animationen wie das Konfetti in der Trainingszusammenfassung sind ausgeschaltet, wenn auf deinem Gerät Bewegungen reduziert werden.",
+              "es": "MuscleQuest funciona con TalkBack y VoiceOver: los botones y campos tienen etiquetas, se anuncia cuando completas una serie y la cuenta atrás del descanso, y cada gráfico tiene un resumen hablado. El texto sigue el tamaño de fuente de tu sistema, y las animaciones, como el confeti del resumen del entrenamiento, se desactivan cuando tu dispositivo está configurado para reducir el movimiento.",
+              "fr": "MuscleQuest fonctionne avec TalkBack et VoiceOver : les boutons et les champs sont étiquetés, la fin d'une série et le décompte du repos sont annoncés, et chaque graphique a un résumé vocal. Le texte suit la taille de police de ton système, et les animations, comme les confettis du résumé d'entraînement, sont désactivées quand ton appareil est réglé pour réduire les animations."
+            }
+          }
+        },
+        {
+          "id": "workout-reminders",
+          "title": {
+            "en": "Workout Reminders",
+            "de": "Trainingserinnerungen",
+            "es": "Recordatorios de entrenamiento",
+            "fr": "Rappels d'entraînement"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Enable recurring workout reminders from Settings. Select the days of the week you want to be reminded using the day chips and choose a time. You will receive a notification at that time on each selected day. Notification permission must be granted for reminders to work.",
+              "de": "Richte wiederkehrende Trainingserinnerungen in den Einstellungen ein. Wähle die Wochentage, an denen du erinnert werden möchtest, über die Tag-Chips aus und lege eine Uhrzeit fest. Du erhältst eine Benachrichtigung zu dieser Uhrzeit an jedem ausgewählten Tag. Die Benachrichtigungsberechtigung muss erteilt sein, damit Erinnerungen funktionieren.",
+              "es": "Activa los recordatorios de entrenamiento recurrentes desde Ajustes. Selecciona los días de la semana en los que quieres recibir el recordatorio usando los chips de día y elige una hora. Recibirás una notificación a esa hora en cada día seleccionado. Se debe conceder el permiso de notificaciones para que los recordatorios funcionen.",
+              "fr": "Active des rappels d'entraînement récurrents depuis les Paramètres. Sélectionne les jours de la semaine pour lesquels tu veux être rappelé en utilisant les pastilles de jours et choisis une heure. Tu recevras une notification à cette heure chaque jour sélectionné. La permission pour les notifications doit être accordée pour que les rappels fonctionnent."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "friends-social",
+      "title": {
+        "en": "Friends & Social",
+        "de": "Freunde & Social",
+        "es": "Amigos y social",
+        "fr": "Amis & social"
+      },
+      "sections": [
+        {
+          "id": "adding-friends",
+          "title": {
+            "en": "Adding Friends",
+            "de": "Freunde hinzufügen",
+            "es": "Añadir amigos",
+            "fr": "Ajouter des amis"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Open Friends from the menu to manage your connections; you need to be signed in and online. On the Search tab, enter a friend's exact email address and send them a friend request. Email addresses are never shown to other users. Incoming and sent requests appear in the Requests tab; tap Accept to confirm or Decline to ignore. A badge on the Friends menu item shows how many pending requests are waiting. Once a request is accepted, both users appear in each other's Friends list and can view each other's shared content. To remove a friend, long-press them in your list. Pull down on the list to refresh it.",
+              "de": "Öffne Freunde im Menü, um deine Verbindungen zu verwalten; dafür musst du angemeldet und online sein. Gib im Tab Suchen die genaue E-Mail-Adresse eines Freundes ein und sende eine Freundschaftsanfrage. E-Mail-Adressen werden anderen Nutzern nie angezeigt. Eingehende und gesendete Anfragen erscheinen im Tab Anfragen; tippe auf Annehmen zum Bestätigen oder Ablehnen zum Ignorieren. Ein Badge am Freunde-Menüpunkt zeigt, wie viele Anfragen noch ausstehen. Sobald eine Anfrage angenommen wurde, erscheinen beide Nutzer in der Freundesliste des anderen und können gegenseitig die geteilten Inhalte einsehen. Um einen Freund zu entfernen, halte ihn in deiner Liste gedrückt. Zieh die Liste nach unten, um sie zu aktualisieren.",
+              "es": "Abre Amigos desde el menú para gestionar tus conexiones; necesitas haber iniciado sesión y tener conexión. En la pestaña Buscar, introduce la dirección de correo exacta de un amigo y envíale una solicitud de amistad. Las direcciones de correo nunca se muestran a otros usuarios. Las solicitudes entrantes y enviadas aparecen en la pestaña Solicitudes; toca Aceptar para confirmar o Rechazar para ignorar. Un badge en el elemento Amigos del menú muestra cuántas solicitudes están pendientes. Una vez aceptada una solicitud, ambos usuarios aparecen en la lista de Amigos del otro y pueden ver el contenido compartido del otro. Para eliminar a un amigo, mantenlo pulsado en tu lista. Desliza la lista hacia abajo para actualizarla.",
+              "fr": "Ouvre Amis depuis le menu pour gérer tes connexions ; tu dois être connecté à ton compte et en ligne. Dans l'onglet Rechercher, saisis l'adresse e-mail exacte d'un ami et envoie-lui une demande d'ami. Les adresses e-mail ne sont jamais montrées aux autres utilisateurs. Les demandes reçues et envoyées apparaissent dans l'onglet Demandes ; appuie sur Accepter pour confirmer ou Refuser pour ignorer. Un badge sur l'élément Amis du menu indique combien de demandes sont en attente. Une fois une demande acceptée, les deux utilisateurs apparaissent dans la liste d'amis de l'autre et peuvent voir le contenu partagé de l'autre. Pour retirer un ami, appuie longuement sur son nom dans ta liste. Tire la liste vers le bas pour l'actualiser."
+            }
+          }
+        },
+        {
+          "id": "sharing-content",
+          "title": {
+            "en": "Sharing Your Content",
+            "de": "Inhalte teilen",
+            "es": "Compartir tu contenido",
+            "fr": "Partager ton contenu"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "You can share plans, workouts, custom exercises, completed workouts, body measurements, and strength PRs with your friends. Each category has a toggle in the Privacy section of Settings, which you can also open from the gear icon on the Friends screen. Turning a category on shares it with your friends and keeps it in sync as it changes. Plans and workouts also have an individual Share toggle on each item's overview screen, so you can publish specific plans or workouts without sharing everything. A cloud icon on the plan or workout card confirms it is currently published. Turning a category off stops sharing new items, but anything already shared stays visible until you tap Delete all shared data in the Privacy section of Settings. If a plan is too large to share, split it into smaller plans.",
+              "de": "Du kannst Pläne, Trainings, eigene Übungen, abgeschlossene Trainings, Körpermaße und Kraft-PRs mit deinen Freunden teilen. Jede Kategorie hat einen Schalter im Bereich Datenschutz der Einstellungen, den du auch über das Zahnradsymbol auf dem Freunde-Bildschirm öffnen kannst. Wenn du eine Kategorie aktivierst, wird sie mit deinen Freunden geteilt und bei Änderungen synchron gehalten. Pläne und Trainings haben zusätzlich einen individuellen Teilen-Schalter in der Übersicht jedes Eintrags, sodass du bestimmte Pläne oder Trainings veröffentlichen kannst, ohne alles zu teilen. Ein Wolken-Symbol auf der Plan- oder Trainingskarte bestätigt, dass er aktuell veröffentlicht ist. Wenn du eine Kategorie deaktivierst, werden keine neuen Einträge mehr geteilt, aber bereits Geteiltes bleibt sichtbar, bis du im Bereich Datenschutz der Einstellungen auf Alle geteilten Daten löschen tippst. Wenn ein Plan zu groß zum Teilen ist, teile ihn in kleinere Pläne auf.",
+              "es": "Puedes compartir planes, entrenamientos, ejercicios personalizados, entrenamientos completados, medidas corporales y récords de fuerza con tus amigos. Cada categoría tiene un interruptor en la sección Privacidad de Ajustes, que también puedes abrir desde el icono de engranaje en la pantalla Amigos. Al activar una categoría se comparte con tus amigos y se mantiene sincronizada cuando cambia. Los planes y entrenamientos también tienen un interruptor Compartir individual en la pantalla de resumen de cada elemento, para que puedas publicar planes o entrenamientos específicos sin compartir todo. Un icono de nube en la tarjeta del plan o entrenamiento confirma que está publicado actualmente. Al desactivar una categoría se deja de compartir lo nuevo, pero lo ya compartido sigue visible hasta que tocas Eliminar todos los datos compartidos en la sección Privacidad de Ajustes. Si un plan es demasiado grande para compartirlo, divídelo en planes más pequeños.",
+              "fr": "Tu peux partager tes programmes, entraînements, exercices personnalisés, entraînements terminés, mesures corporelles et records de force avec tes amis. Chaque catégorie a un interrupteur dans la section Confidentialité des Paramètres, que tu peux aussi ouvrir depuis l'icône d'engrenage de l'écran Amis. Activer une catégorie la partage avec tes amis et la garde synchronisée quand elle change. Les programmes et entraînements ont aussi un interrupteur Partager individuel sur l'écran de présentation de chaque élément, ce qui te permet de publier des programmes ou entraînements spécifiques sans tout partager. Une icône nuage sur la carte programme ou entraînement confirme qu'il est actuellement publié. Désactiver une catégorie arrête le partage des nouveaux éléments, mais ce qui est déjà partagé reste visible jusqu'à ce que tu appuies sur Supprimer toutes les données partagées dans la section Confidentialité des Paramètres. Si un programme est trop volumineux pour être partagé, divise-le en programmes plus petits."
+            }
+          }
+        },
+        {
+          "id": "importing-from-friends",
+          "title": {
+            "en": "Importing from Friends",
+            "de": "Von Freunden importieren",
+            "es": "Importar de amigos",
+            "fr": "Importer depuis ses amis"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Tap any accepted friend in your Friends list to open their profile. Their profile shows whatever they have chosen to share: strength PRs, recent activity, body measurements, plans, workouts, and custom exercises. Tap Add on a plan, workout, or custom exercise to add it directly to your own library. Imported plans and workouts are saved as new copies that you can edit freely without affecting the original. Imported custom exercises are added to your exercise library and available immediately when building workouts. Each section of a profile starts collapsed; tap its heading to open it.",
+              "de": "Tippe auf einen beliebigen akzeptierten Freund in deiner Freundesliste, um sein Profil zu öffnen. Das Profil zeigt alles, was dein Freund teilt: Kraft-PRs, letzte Aktivitäten, Körpermaße, Pläne, Trainings und eigene Übungen. Tippe bei einem Plan, Training oder einer eigenen Übung auf Hinzufügen, um sie direkt in deine eigene Bibliothek zu übernehmen. Importierte Pläne und Trainings werden als neue Kopien gespeichert, die du frei bearbeiten kannst, ohne das Original zu beeinflussen. Importierte eigene Übungen werden deiner Übungsbibliothek hinzugefügt und sind sofort beim Erstellen von Trainings verfügbar. Jeder Abschnitt eines Profils ist zunächst eingeklappt; tippe auf die Überschrift, um ihn zu öffnen.",
+              "es": "Toca cualquier amigo aceptado en tu lista de Amigos para abrir su perfil. Su perfil muestra todo lo que ha elegido compartir: récords de fuerza, actividad reciente, medidas corporales, planes, entrenamientos y ejercicios personalizados. Toca Añadir en un plan, entrenamiento o ejercicio personalizado para añadirlo directamente a tu propia biblioteca. Los planes y entrenamientos importados se guardan como nuevas copias que puedes editar libremente sin afectar al original. Los ejercicios personalizados importados se añaden a tu biblioteca de ejercicios y están disponibles inmediatamente al crear entrenamientos. Cada sección de un perfil empieza plegada; toca su título para abrirla.",
+              "fr": "Appuie sur n'importe quel ami accepté dans ta liste d'amis pour ouvrir son profil. Son profil affiche tout ce qu'il a choisi de partager : records de force, activité récente, mesures corporelles, programmes, entraînements et exercices personnalisés. Appuie sur Ajouter sur un programme, un entraînement ou un exercice personnalisé pour l'ajouter directement à ta propre bibliothèque. Les programmes et entraînements importés sont sauvegardés comme de nouvelles copies que tu peux modifier librement sans affecter l'original. Les exercices personnalisés importés sont ajoutés à ta bibliothèque d'exercices et disponibles immédiatement lors de la création d'entraînements. Chaque section d'un profil est repliée au départ ; appuie sur son titre pour l'ouvrir."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "title": {
+        "en": "Account",
+        "de": "Konto",
+        "es": "Cuenta",
+        "fr": "Compte"
+      },
+      "sections": [
+        {
+          "id": "signing-in",
+          "title": {
+            "en": "Signing In",
+            "de": "Anmelden",
+            "es": "Inicio de sesión",
+            "fr": "Connexion"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Tap Sign in with Google in Settings to connect your account; signing in needs an internet connection. Signing in enables cloud backups so your data is safe if you switch devices or reinstall the app, lets you add friends, and shows your name in the home screen greeting. The app works fully offline without signing in, but cloud backups and Friends are unavailable. Your data is stored locally on your device and is not shared with anyone unless you choose to share it yourself.",
+              "de": "Tippe in den Einstellungen auf Mit Google anmelden, um dein Konto zu verbinden; für die Anmeldung brauchst du eine Internetverbindung. Die Anmeldung ermöglicht Cloud-Sicherungen, damit deine Daten sicher sind, wenn du das Gerät wechselst oder die App neu installierst, lässt dich Freunde hinzufügen und zeigt deinen Namen in der Startbildschirmbegrüßung. Die App funktioniert vollständig offline ohne Anmeldung, aber Cloud-Sicherungen und Freunde sind dann nicht verfügbar. Deine Daten werden lokal auf deinem Gerät gespeichert und nicht mit anderen geteilt, sofern du es nicht selbst tust.",
+              "es": "Toca Iniciar sesión con Google en Ajustes para conectar tu cuenta; para iniciar sesión necesitas conexión a internet. Al iniciar sesión se activan las copias de seguridad en la nube para que tus datos estén seguros si cambias de dispositivo o reinstalas la app, puedes añadir amigos y tu nombre aparece en el saludo de la pantalla de inicio. La app funciona completamente sin conexión sin iniciar sesión, pero las copias de seguridad en la nube y Amigos no están disponibles. Tus datos se almacenan localmente en tu dispositivo y no se comparten con nadie a menos que tú decidas hacerlo.",
+              "fr": "Appuie sur Se connecter avec Google dans les Paramètres pour connecter ton compte ; la connexion nécessite internet. La connexion active les sauvegardes cloud pour que tes données soient en sécurité si tu changes d'appareil ou réinstalles l'appli, te permet d'ajouter des amis et affiche ton nom dans le message d'accueil. L'appli fonctionne entièrement hors ligne sans connexion, mais les sauvegardes cloud et Amis ne sont alors pas disponibles. Tes données sont stockées localement sur ton appareil et ne sont partagées avec personne, sauf si tu choisis de les partager toi-même."
+            }
+          }
+        },
+        {
+          "id": "backup-restore",
+          "title": {
+            "en": "Backup & Restore",
+            "de": "Sichern & Wiederherstellen",
+            "es": "Copia de seguridad y restauración",
+            "fr": "Sauvegarde et restauration"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Sign in with Google in Settings to enable cloud backups of all your workout data. Tap Backup at any time to save a snapshot; the date of your last backup is shown beneath the button. A backup that fails partway never replaces your last good one. Tap Restore to download and apply your latest backup. This replaces all training data on this device, so anything logged since that backup is lost; confirm the prompt and the app will reload with your restored data. Backup and restore need an internet connection. Your backups are stored securely and are tied to your Google account. If you switch devices or reinstall the app, simply sign in with the same Google account and tap Restore to get your data back. The home screen reminds you when you have never backed up or your last backup is more than 30 days old.",
+              "de": "Melde dich in den Einstellungen mit Google an, um Cloud-Sicherungen all deiner Trainingsdaten zu aktivieren. Tippe jederzeit auf Sichern, um eine Momentaufnahme zu speichern; das Datum deiner letzten Sicherung wird unter der Schaltfläche angezeigt. Eine Sicherung, die unterwegs fehlschlägt, ersetzt nie deine letzte funktionierende Sicherung. Tippe auf Wiederherstellen, um deine neueste Sicherung herunterzuladen und anzuwenden. Dabei werden alle Trainingsdaten auf diesem Gerät ersetzt, sodass alles verloren geht, was du seit dieser Sicherung erfasst hast; bestätige die Eingabeaufforderung und die App lädt mit deinen wiederhergestellten Daten neu. Sichern und Wiederherstellen benötigen eine Internetverbindung. Deine Sicherungen werden sicher gespeichert und sind mit deinem Google-Konto verknüpft. Wenn du das Gerät wechselst oder die App neu installierst, melde dich einfach mit demselben Google-Konto an und tippe auf Wiederherstellen. Der Startbildschirm erinnert dich, wenn du noch nie gesichert hast oder deine letzte Sicherung mehr als 30 Tage alt ist.",
+              "es": "Inicia sesión con Google en Ajustes para activar las copias de seguridad en la nube de todos tus datos de entrenamiento. Toca Copia de seguridad en cualquier momento para guardar una instantánea; la fecha de tu última copia se muestra bajo el botón. Una copia que falla a medias nunca sustituye a tu última copia correcta. Toca Restaurar para descargar y aplicar tu última copia. Esto reemplaza todos los datos de entrenamiento de este dispositivo, así que se pierde todo lo registrado desde esa copia; confirma el aviso y la app se recargará con tus datos restaurados. La copia de seguridad y la restauración necesitan conexión a internet. Tus copias se almacenan de forma segura y están vinculadas a tu cuenta de Google. Si cambias de dispositivo o reinstalas la app, simplemente inicia sesión con la misma cuenta de Google y toca Restaurar para recuperar tus datos. La pantalla de inicio te avisa cuando nunca has hecho una copia de seguridad o la última tiene más de 30 días.",
+              "fr": "Connecte-toi avec Google dans les Paramètres pour activer les sauvegardes cloud de toutes tes données d'entraînement. Appuie sur Sauvegarde à tout moment pour créer un instantané ; la date de ta dernière sauvegarde s'affiche sous le bouton. Une sauvegarde qui échoue en cours de route ne remplace jamais ta dernière sauvegarde valide. Appuie sur Restaurer pour télécharger et appliquer ta dernière sauvegarde. Cela remplace toutes les données d'entraînement de cet appareil, donc tout ce que tu as enregistré depuis cette sauvegarde est perdu ; confirme l'invite et l'appli se rechargera avec tes données restaurées. La sauvegarde et la restauration nécessitent une connexion internet. Tes sauvegardes sont stockées en sécurité et liées à ton compte Google. Si tu changes d'appareil ou réinstalles l'appli, connecte-toi avec le même compte Google et appuie sur Restaurer pour récupérer tes données. L'écran d'accueil te le rappelle quand tu n'as jamais fait de sauvegarde ou que la dernière date de plus de 30 jours."
+            }
+          }
+        },
+        {
+          "id": "export-delete-account",
+          "title": {
+            "en": "Export Data & Delete Account",
+            "de": "Daten exportieren & Konto löschen",
+            "es": "Exportar datos y eliminar cuenta",
+            "fr": "Exporter les données et supprimer le compte"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Under Your data in Settings, tap Export training data to save your workouts and measurements as CSV for spreadsheets, or as JSON with everything, including plans and custom exercises. If you are signed in, Delete account removes your sign-in account, your profile and friend connections, everything you have shared with friends, and your cloud backups. You choose whether to keep the training data on this device. Export a copy first if you want to keep your history.",
+              "de": "Tippe in den Einstellungen unter Deine Daten auf Trainingsdaten exportieren, um deine Trainings und Messungen als CSV für Tabellenkalkulationen zu speichern, oder als JSON mit allem, einschließlich Plänen und eigenen Übungen. Wenn du angemeldet bist, entfernt Konto löschen dein Anmeldekonto, dein Profil und deine Freundschaften, alles, was du mit Freunden geteilt hast, und deine Cloud-Sicherungen. Du entscheidest, ob die Trainingsdaten auf diesem Gerät erhalten bleiben. Exportiere vorher eine Kopie, wenn du deine Historie behalten möchtest.",
+              "es": "En Tus datos, dentro de Ajustes, toca Exportar datos de entrenamiento para guardar tus entrenamientos y medidas en CSV para hojas de cálculo, o en JSON con todo, incluidos planes y ejercicios personalizados. Si has iniciado sesión, Eliminar cuenta borra tu cuenta de acceso, tu perfil y tus conexiones de amistad, todo lo que has compartido con amigos y tus copias de seguridad en la nube. Tú decides si conservas los datos de entrenamiento en este dispositivo. Exporta una copia antes si quieres conservar tu historial.",
+              "fr": "Dans Tes données, dans les Paramètres, appuie sur Exporter les données d'entraînement pour enregistrer tes entraînements et tes mesures en CSV pour les tableurs, ou en JSON avec tout, y compris les programmes et les exercices personnalisés. Si tu es connecté, Supprimer le compte efface ton compte de connexion, ton profil et tes liens d'amitié, tout ce que tu as partagé avec tes amis et tes sauvegardes cloud. Tu choisis de garder ou non les données d'entraînement sur cet appareil. Exporte d'abord une copie si tu veux conserver ton historique."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+---
+import { Picture, getImage } from "astro:assets";
+import { screenshots, type ScreenshotId } from "../data/screenshots";
+import { t, type Locale } from "../i18n/ui";
+interface Props { id: ScreenshotId; alt: string; eager?: boolean; locale?: Locale; class?: string }
+const { id, alt, eager = false, locale = "en", class: cls = "" } = Astro.props;
+const src = screenshots[id];
+const full = await getImage({ src, width: 1080, format: "webp" });
+---
+<button type="button" data-lightbox-src={full.src} data-lightbox-alt={alt}
+  class:list={["group block w-full cursor-zoom-in overflow-hidden rounded-[2rem] border-4 border-black bg-black shadow-2xl", cls]}
+  aria-label={t(locale, "screenshot.enlarge").replace("{alt}", alt)}>
+  <Picture src={src} alt={alt} formats={["avif"]} fallbackFormat="webp" widths={[280, 420, 560, 840]}
+    sizes="(min-width: 768px) 320px, 70vw" loading={eager ? "eager" : "lazy"}
+    fetchpriority={eager ? "high" : "auto"} class="h-auto w-full" />
+</button>

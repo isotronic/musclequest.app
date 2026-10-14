@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PlayBadge from "../components/PlayBadge.astro";
+import { localePath, t } from "../i18n/ui";
+const locale = "en";
+---
+<BaseLayout locale={locale} title="Page not found | MuscleQuest" description="This page doesn't exist." path="/404/" noindex>
+  <div class="mx-auto max-w-xl px-4 py-24 text-center sm:px-6">
+    <p class="text-6xl font-extrabold text-accent">404</p>
+    <h1 class="mt-4 text-3xl font-bold">{t(locale, "notFound.title")}</h1>
+    <p class="mt-4 text-muted">{t(locale, "notFound.body")}</p>
+    <ul class="mt-8 flex flex-wrap justify-center gap-3">
+      <li><a href={localePath(locale, "/")} class="inline-block rounded-full bg-accent px-5 py-2.5 font-semibold text-bg hover:bg-accent-hover">{t(locale, "notFound.home")}</a></li>
+      <li><a href={localePath(locale, "/help/")} class="inline-block rounded-full border border-surface-2 px-5 py-2.5 font-semibold hover:text-accent">{t(locale, "notFound.help")}</a></li>
+    </ul>
+    <div class="mt-10 flex justify-center"><PlayBadge placement="404" locale={locale} /></div>
+  </div>
+</BaseLayout>
