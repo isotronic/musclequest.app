@@ -1,11 +1,19 @@
 import type { ImageMetadata } from "astro";
-import home from "../assets/screenshots/home.png";
-import plan from "../assets/screenshots/plan.png";
-import workout from "../assets/screenshots/workout.png";
-import progression from "../assets/screenshots/progression.png";
-import stats from "../assets/screenshots/stats.png";
-// PLACEHOLDER: wrong screen until the user supplies a measurements screenshot (README → Screenshots).
+import home from "../assets/screenshots/home.jpg";
+import plan from "../assets/screenshots/plan.jpg";
+import workout from "../assets/screenshots/workout.jpg";
+import progression from "../assets/screenshots/progression.jpg";
+import stats from "../assets/screenshots/stats.jpg";
 import measurements from "../assets/screenshots/measurements.jpg";
+import friends from "../assets/screenshots/friend-profile.jpg";
 
-export type ScreenshotId = "home" | "plan" | "workout" | "progression" | "stats" | "measurements";
-export const screenshots: Record<ScreenshotId, ImageMetadata> = { home, plan, workout, progression, stats, measurements };
+export type ScreenshotId = "home" | "plan" | "workout" | "progression" | "stats" | "measurements" | "friends";
+export const screenshots: Record<ScreenshotId, ImageMetadata> = {
+  home,
+  plan,
+  workout,
+  progression,
+  stats,
+  measurements,
+  friends,
+};

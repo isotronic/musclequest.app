@@ -25,20 +25,21 @@ Commit the updated `src/content/help.json` and `src/content/changelog.json`.
 
 ## Screenshots
 
-Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.jpg` → `.png`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI:
+Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.png` → `.jpg`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI:
 
 | File | Screen | Should show | Used in |
 |---|---|---|---|
-| `home.png` | Home | Weekly goal strip with some days done, active plan workouts, measurements card | Hero, social preview image |
-| `plan.png` | Plan overview or editor | Several workouts and a weekly schedule, ideally a superset | Plans |
-| `workout.png` | Active workout | Mid-workout, pre-filled sets, rest timer running | Logging |
-| `progression.png` | Exercise details | Performance chart, all-time PR, top sets | Progression |
-| `stats.png` | Stats dashboard | Customised dashboard with muscle heatmap and weekly chart | Stats |
-| `measurements.jpg` | Body measurements | A measurement chart over time, e.g. body weight (**currently a placeholder showing the wrong screen**) | Measurements |
+| `home.jpg` | Home | Weekly goal strip with some days done, the active plan's workouts | Hero, social preview image |
+| `plan.jpg` | Plan editor | Workouts with sets and reps, ideally a superset | Plans |
+| `workout.jpg` | Active workout | Mid-workout, pre-filled set, rest timer running | Logging, download card |
+| `progression.jpg` | Exercise details | Performance chart, all-time PR | Progression |
+| `stats.jpg` | Stats | Insights, totals, workout history, PRs | Stats |
+| `measurements.jpg` | Body measurements | Latest values and a chart over time | Measurements |
+| `friend-profile.jpg` | Friend profile | A friend's shared PRs and activity | Friends |
 
-Optional extras for later: plate calculator, friends.
+Optional extra for later: plate calculator.
 
-After replacing `home.png`, regenerate the social preview image:
+After replacing `home.jpg`, regenerate the social preview image:
 
 ```bash
 google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files --window-size=1200,630 \

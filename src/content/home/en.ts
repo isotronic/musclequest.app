@@ -10,7 +10,7 @@ export const home: HomeContent = {
     titleAccent: "Watch it add up.",
     lede: "The free workout tracker that keeps your training on your phone, not in someone's cloud.",
     chips: ["Free, no ads", "Works offline", "No account needed"],
-    screenshotAlt: "MuscleQuest home screen showing this week's workouts and progress toward the weekly goal",
+    screenshotAlt: "MuscleQuest home screen with this week's goal strip, two of four days done, and the active plan's workouts",
   },
   features: {
     intro: { title: "Everything a training log should do", text: "From the plan to the last rep to the long-term trend, in one app that stays out of your way." },
@@ -21,7 +21,7 @@ export const home: HomeContent = {
         text: "Build your own plan from nearly 1,000 exercises, or start from one of seven premade programmes and make it yours. Set sets, reps and rest for every exercise, then pin workouts to the days you train.",
         bullets: ["7 premade plans, from 3-Day Full Body to 5-Day PPL", "Warm-up sets, drop sets and supersets", "A weekly schedule with suggested training days", "Duplicate plans and reuse workouts anywhere"],
         screenshot: "plan",
-        screenshotAlt: "Plan editor with several workouts and a weekly schedule",
+        screenshotAlt: "Plan editor for a 4-day upper/lower split, with sets and reps for each exercise and a superset",
       },
       {
         id: "logging",
@@ -29,7 +29,7 @@ export const home: HomeContent = {
         text: "Start from your plan, your saved workouts or a quick workout on the fly. Sets come pre-filled from last time, so most of the time you just tap done.",
         bullets: ["Reps, weight, time, distance or assisted loads", "A rest timer that alerts you even with your phone locked", "A plate calculator for the plates you actually own", "Pick up an interrupted session right where you left off"],
         screenshot: "workout",
-        screenshotAlt: "Active workout with pre-filled sets and the rest timer",
+        screenshotAlt: "Active workout on set 4 of 5, pre-filled with a suggested 50 kg for 8 reps and the rest timer counting down",
       },
       {
         id: "progression",
@@ -37,7 +37,7 @@ export const home: HomeContent = {
         text: "Tell MuscleQuest how each exercise felt and it suggests when to add weight, reps or sets. Nothing changes without your OK.",
         bullets: ["Adaptive progression with deload support", "A gentle restart after time away", "All-time PRs and top sets for every exercise", "Performance charts and pinned exercise sparklines"],
         screenshot: "progression",
-        screenshotAlt: "Exercise details with a performance chart and personal records",
+        screenshotAlt: "Barbell bench press details with an all-time PR of 104.5 kg and an estimated one-rep max chart",
       },
       {
         id: "stats",
@@ -45,7 +45,7 @@ export const home: HomeContent = {
         text: "See how much you train, what you train and how it's trending, on a dashboard you arrange yourself.",
         bullets: ["Volume, time and workouts per week", "Muscle heatmap and body-part split", "A workout calendar and a full, editable history", "Weekly goal and streak tracking"],
         screenshot: "stats",
-        screenshotAlt: "Stats dashboard with weekly volume and a muscle heatmap",
+        screenshotAlt: "Stats screen with weekly insights, totals for workouts, volume and time, recent workouts and PRs",
       },
       {
         id: "measurements",
@@ -53,7 +53,15 @@ export const home: HomeContent = {
         text: "Log body weight, body fat, circumferences or your own metrics, straight from the home screen, and chart any of them over time.",
         bullets: ["Weight, body fat and circumferences", "Your own custom metrics", "Quick entry from the home screen", "A chart for every metric"],
         screenshot: "measurements",
-        screenshotAlt: "Body measurements chart over time",
+        screenshotAlt: "Body measurement entry with weight, body fat, waist and chest, above a falling body weight chart",
+      },
+      {
+        id: "friends",
+        title: "Train with friends",
+        text: "Add friends by email and see what they choose to share. Like their plan? Add a copy to your own library and make it yours.",
+        bullets: ["Strength PRs, recent workouts and measurements", "Add a friend's plan, workout or custom exercise in one tap", "Choose what you share, category by category", "Your email is never shown to other users"],
+        screenshot: "friends",
+        screenshotAlt: "A friend's profile with their strength PRs and recent activity",
       },
     ],
   },
@@ -73,7 +81,7 @@ export const home: HomeContent = {
     title: "And everything else",
     intro: "The small things that make a training app pleasant to use every day.",
     items: [
-      { title: "Train with friends", text: "Share workouts, PRs and plans, and import theirs in one tap. You choose what to share." },
+      { title: "Session notes", text: "Add a note to any workout to remember how it went." },
       { title: "Nearly 1,000 exercises", text: "Animated demos and search that understands RDL, OHP and typos." },
       { title: "Custom exercises", text: "Add your own, with your own image and tracking type." },
       { title: "Workout reminders", text: "On the days and at the times you choose." },
@@ -101,6 +109,6 @@ export const home: HomeContent = {
     title: "Start your next workout with MuscleQuest",
     text: "Your plan, your sets and your progress in one app. No ads, no account needed, and it works offline.",
     screenshot: "workout",
-    screenshotAlt: "Active workout with pre-filled sets and the rest timer",
+    screenshotAlt: "Active workout with a suggested weight and the rest timer counting down",
   },
 };
