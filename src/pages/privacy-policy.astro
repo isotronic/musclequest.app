@@ -22,7 +22,8 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <ul>
       <li>
         <strong>Account Information</strong>: Account creation in <strong>MuscleQuest</strong> is optional. If you
-        choose to create an account using Google OAuth, we collect your name and email address.
+        choose to create an account using Google OAuth, we collect your name, email address and profile photo from
+        your Google account.
       </li>
       <li>
         <strong>Workout Data</strong>: Your workout data is stored locally on your device and will only leave your
@@ -30,14 +31,16 @@ import { breadcrumbJsonLd } from "../lib/seo";
       </li>
       <li>
         <strong>Social Features</strong>: Friends and sharing are optional and require an account. Your display
-        name and profile photo are visible to people who search for you or are your friends. Your email address is
-        stored as a one-way hash so friends can find you by email; other users never see it. Plans, workouts,
-        custom exercises, workout history, body measurements and strength progress are shared only if you turn on
-        sharing for that category in the app, and only with your friends.
+        name and profile photo are visible to your friends, to people who search for your exact email address, and
+        to anyone you send a friend request to or receive one from. Your email address is stored with your account
+        and other users never see it. A one-way hash of it lets people who already know your exact address find
+        you. Plans, workouts, custom exercises, workout history, body measurements and strength progress are
+        shared only if you turn on sharing for that category in the app, or for a single plan or workout, and only
+        with your friends.
       </li>
     </ul>
 
-    <h3>b. Non-Personal Information</h3>
+    <h3>b. Device and Diagnostic Information</h3>
     <ul>
       <li>
         <strong>Device Information</strong>: General data related to your device model, operating system version,
@@ -62,15 +65,17 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <ul>
       <li>
         <strong>Service Providers</strong>: We may share limited data with trusted service providers that assist
-        us in operating the app: Supabase Inc. for accounts, backup storage and social features (hosted in Ireland,
-        EU), Google for sign-in, Cloudflare for delivering exercise animations and app configuration, Bugsnag
-        (SmartBear) for error reports, and Expo for app updates, crash reports and performance data.
+        us in operating the app: Supabase Inc. for accounts, backup storage and social features (hosted in
+        Ireland, EU), Google for sign-in, Cloudflare for delivering exercise animations and app configuration,
+        Bugsnag (SmartBear) for error reports and performance data, and Expo for app updates, crash reports and
+        performance data.
       </li>
       <li>
         <strong>Your Friends</strong>: If you use the social features, your display name and profile photo are
-        visible to your friends and to people who search for you by email. Plans, workouts, custom exercises,
-        workout history, body measurements and strength progress are shared with your friends only for the
-        categories where you turn sharing on in the app.
+        visible to your friends, to people who search for your exact email address, and to anyone you send a
+        friend request to or receive one from. Plans, workouts, custom exercises, workout history, body
+        measurements and strength progress are shared with your friends only for the categories, or the single
+        plans and workouts, where you turn sharing on in the app.
       </li>
       <li>
         <strong>Legal Requirements</strong>: We may disclose your information if required by law or in response to
@@ -94,8 +99,9 @@ import { breadcrumbJsonLd } from "../lib/seo";
       </li>
       <li>
         <strong>Shared Data</strong>: Data you share with friends is kept until you remove it in the app or delete
-        your account. Turning off sharing for a category stops new sharing but does not remove what is already
-        shared; use "Delete all shared data" in the app for that.
+        your account. Turning off sharing for a category stops its items being shared automatically but does not
+        remove what is already shared; use "Delete all shared data" in the app for that. Copies that friends have
+        already added to their own library stay on their devices.
       </li>
       <li>
         <strong>Personal Data</strong>: Retained for as long as your account is active or as needed to provide
@@ -103,8 +109,13 @@ import { breadcrumbJsonLd } from "../lib/seo";
       </li>
       <li>
         <strong>Account Deletion</strong>: <a href="/delete-account/">Deleting your account</a> in the app
-        immediately removes your account, profile, friendships, shared data and backups. You choose whether to keep
-        the training data on your device.
+        immediately removes your account, profile, friendships, shared data and backups. You choose whether to
+        keep the training data on your device. Copies that friends have already added to their own library stay on
+        their devices. If you can't use the app, the form on that page takes up to 30 days.
+      </li>
+      <li>
+        <strong>Diagnostics</strong>: Error reports and diagnostics already sent to Bugsnag and Expo are kept for
+        those providers' retention periods and are not removed when you delete your account.
       </li>
     </ul>
 
@@ -118,13 +129,14 @@ import { breadcrumbJsonLd } from "../lib/seo";
 
     <h2 id="third-parties">7. Third-Party Services</h2>
     <p>
-      <strong>MuscleQuest</strong> uses third-party services to support core app functionality and diagnostics. These services may collect the following categories of data:
+      <strong>MuscleQuest</strong> uses third-party services to support core app functionality and diagnostics.
+      These services may collect the following categories of data:
     </p>
     <ul>
-      <li>Device or other IDs (such as app instance IDs or device identifiers)</li>
+      <li>Device or other IDs (such as app instance IDs, device identifiers and IP addresses)</li>
       <li>
-        Technical data (such as device model, operating system, language, app version, app launch counts and the
-        hosts of slow network requests)
+        Technical data (such as device model, operating system, language, app version, app launch counts, screens
+        viewed, and the addresses and timings of network requests)
       </li>
       <li>
         Diagnostics and crash data (such as crash logs, error messages, stack traces and app startup performance)
@@ -134,7 +146,8 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <ul>
       <li>Authentication and account security (via Supabase Auth with Google sign-in)</li>
       <li>
-        Crash reporting and diagnostics to identify and fix technical issues (via Bugsnag and EAS Observe from Expo)
+        Crash reporting, performance monitoring and diagnostics to identify and fix technical issues (via Bugsnag
+        and EAS Observe from Expo)
       </li>
       <li>Delivering exercise animations and app configuration (via Cloudflare)</li>
       <li>
@@ -160,17 +173,17 @@ import { breadcrumbJsonLd } from "../lib/seo";
       on servers outside your region or country, which may have different data protection regulations.
     </p>
     <p>
-      Versions of MuscleQuest before 2.0 used Google Firebase for accounts, backups, shared data, usage analytics and
-      crash reports, and keep doing so until you update. We copy accounts, backups and shared data from Firebase to
-      Supabase, and delete them from Firebase, including for accounts deleted in the meantime, once the move is
-      complete.
+      Versions of MuscleQuest before 2.0 used Google Firebase for accounts, backups, shared data, usage analytics
+      and crash reports, and keep doing so until you update. We copy accounts, backups and shared data from
+      Firebase to Supabase without any action from you. Once the move is complete we delete them from Firebase,
+      including those of accounts deleted in the meantime.
     </p>
 
     <h2 id="website">9. This Website</h2>
     <p>
-      This website uses Cloudflare Web Analytics to count page views. It does not use cookies, does not track you across
-      sites and does not collect personal data. If you use the account deletion form, the name, email address and message
-      you enter are sent to us through Formspree so we can process your request.
+      This website uses Cloudflare Web Analytics to count page views. It does not use cookies, does not track you
+      across sites and does not collect personal data. If you use the account deletion form, the name, email
+      address and message you enter are sent to us through Formspree so we can process your request.
     </p>
 
     <h2 id="changes">10. Changes to This Privacy Policy</h2>
