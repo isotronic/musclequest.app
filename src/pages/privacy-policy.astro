@@ -8,7 +8,7 @@ import { breadcrumbJsonLd } from "../lib/seo";
   jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Privacy policy", path: "/privacy-policy/" }])]}>
   <Prose>
     <h1>Privacy policy</h1>
-    <p><strong>Last updated: 13 October 2026</strong></p>
+    <p><strong>Last updated: 1 November 2026</strong></p>
     <p>
       Thank you for using <strong>MuscleQuest</strong>. We value your privacy and are committed to protecting your
       personal data. This privacy policy outlines how we collect, use, and safeguard your information when you use
@@ -40,13 +40,8 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <h3>b. Non-Personal Information</h3>
     <ul>
       <li>
-        <strong>Usage Data</strong>: Google Analytics for Firebase automatically records app usage events such as
-        first launch, sessions, engagement time and app updates. We do not log the content of your workouts as
-        analytics events, and we do not collect the advertising ID.
-      </li>
-      <li>
-        <strong>Device Information</strong>: General data related to your device type, operating system version,
-        and diagnostic information.
+        <strong>Device Information</strong>: General data related to your device model, operating system version,
+        language and app version, and diagnostic information.
       </li>
     </ul>
 
@@ -56,7 +51,7 @@ import { breadcrumbJsonLd } from "../lib/seo";
       <li>Provide, maintain, and improve the app.</li>
       <li>Personalise the user experience.</li>
       <li>Communicate with you regarding updates and app-related notifications.</li>
-      <li>Analyse usage patterns and app performance for optimisation.</li>
+      <li>Analyse app stability and performance for optimisation.</li>
     </ul>
 
     <h2 id="sharing">3. How We Share Your Information</h2>
@@ -67,8 +62,9 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <ul>
       <li>
         <strong>Service Providers</strong>: We may share limited data with trusted service providers that assist
-        us in operating the app (e.g., Google Firebase for authentication, backup storage and social features, and
-        Expo for app updates).
+        us in operating the app: Supabase Inc. for accounts, backup storage and social features (hosted in Ireland,
+        EU), Google for sign-in, Cloudflare for delivering exercise animations and app configuration, Bugsnag
+        (SmartBear) for error reports, and Expo for app updates, crash reports and performance data.
       </li>
       <li>
         <strong>Your Friends</strong>: If you use the social features, your display name and profile photo are
@@ -92,16 +88,23 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <h2 id="retention">5. Data Storage and Retention</h2>
     <ul>
       <li>
-        <strong>Workout Data</strong>: Stored locally on your device and only backed up to Firebase if you opt for
-        a backup. Data from the backup is used exclusively for restoration.
+        <strong>Workout Data</strong>: Stored locally on your device. If you opt for a backup, it is stored in
+        Supabase Storage in the EU, readable only by your account. Data from the backup is used exclusively for
+        restoration.
       </li>
       <li>
-        <strong>Shared Data</strong>: Data you share with friends is kept until you turn off sharing for that
-        category or delete your account.
+        <strong>Shared Data</strong>: Data you share with friends is kept until you remove it in the app or delete
+        your account. Turning off sharing for a category stops new sharing but does not remove what is already
+        shared; use "Delete all shared data" in the app for that.
       </li>
       <li>
         <strong>Personal Data</strong>: Retained for as long as your account is active or as needed to provide
         services and comply with legal obligations.
+      </li>
+      <li>
+        <strong>Account Deletion</strong>: <a href="/delete-account/">Deleting your account</a> in the app
+        immediately removes your account, profile, friendships, shared data and backups. You choose whether to keep
+        the training data on your device.
       </li>
     </ul>
 
@@ -115,25 +118,25 @@ import { breadcrumbJsonLd } from "../lib/seo";
 
     <h2 id="third-parties">7. Third-Party Services</h2>
     <p>
-      <strong>MuscleQuest</strong> uses third-party services to support core app functionality, analytics, and
-      diagnostics. These services may collect the following categories of data:
+      <strong>MuscleQuest</strong> uses third-party services to support core app functionality and diagnostics. These services may collect the following categories of data:
     </p>
     <ul>
       <li>Device or other IDs (such as app instance IDs or device identifiers)</li>
-      <li>Technical and usage data (including app usage events, device/OS information)</li>
-      <li>Diagnostics and crash data (such as crash logs and performance data)</li>
+      <li>
+        Technical data (such as device model, operating system, language, app version, app launch counts and the
+        hosts of slow network requests)
+      </li>
+      <li>
+        Diagnostics and crash data (such as crash logs, error messages, stack traces and app startup performance)
+      </li>
     </ul>
     <p>This data is collected and used for the following purposes:</p>
     <ul>
-      <li>Authentication and account security (via Firebase Authentication and Google OAuth)</li>
+      <li>Authentication and account security (via Supabase Auth with Google sign-in)</li>
       <li>
-        Analytics to understand app usage and improve features (via Firebase Analytics / Google Analytics for
-        Firebase)
+        Crash reporting and diagnostics to identify and fix technical issues (via Bugsnag and EAS Observe from Expo)
       </li>
-      <li>
-        Crash reporting and diagnostics to identify and fix technical issues (via Bugsnag and Firebase
-        Crashlytics)
-      </li>
+      <li>Delivering exercise animations and app configuration (via Cloudflare)</li>
       <li>
         Delivering app updates and counting app launches by platform and app version (via Expo Application
         Services)
@@ -142,19 +145,25 @@ import { breadcrumbJsonLd } from "../lib/seo";
     <p>
       Data collected by these services may be associated with your user account or device to help investigate
       issues and improve the app. MuscleQuest does <strong>not</strong> use this data for targeted advertising and
-      does <strong>not</strong> sell your personal data. Analytics runs with advertising features turned off. For
-      more information, please review the privacy policies of
-      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase/Google</a>,
+      does <strong>not</strong> sell your personal data. For more information, please review the privacy policies of
+      <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase</a>,
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google</a>,
+      <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare</a>,
       <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">Expo</a> and
       <a href="https://docs.bugsnag.com/platforms/android/playstore-privacy/" target="_blank" rel="noopener noreferrer">Bugsnag</a>.
     </p>
 
     <h2 id="transfer">8. Data Transfer</h2>
     <p>
-      Backups are stored in Firebase Cloud Storage and shared data in Cloud Firestore, both protected by
-      Firebase's security measures and by access rules that limit each item to you and, for shared data, your
-      friends. Your data may be transferred to and stored on servers outside your region or country, which may
-      have different data protection regulations.
+      Your account, backups and shared data are stored with Supabase in the EU (Ireland), protected by access rules
+      that limit each item to you and, for shared data, your friends. Our other service providers may process data
+      on servers outside your region or country, which may have different data protection regulations.
+    </p>
+    <p>
+      Versions of MuscleQuest before 2.0 used Google Firebase for accounts, backups, shared data, usage analytics and
+      crash reports, and keep doing so until you update. We copy accounts, backups and shared data from Firebase to
+      Supabase, and delete them from Firebase, including for accounts deleted in the meantime, once the move is
+      complete.
     </p>
 
     <h2 id="website">9. This Website</h2>
