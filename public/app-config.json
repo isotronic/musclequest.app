@@ -1,5 +1,5 @@
 {
-  "minSupportedVersion": "1.0.0",
+  "minSupportedVersion": "2.0.0",
   "storeUrls": {
     "android": "https://play.google.com/store/apps/details?id=com.isotronic.musclequest",
     "ios": ""
