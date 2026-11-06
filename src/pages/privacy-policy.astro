@@ -8,7 +8,7 @@ import { breadcrumbJsonLd } from "../lib/seo";
   jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Privacy policy", path: "/privacy-policy/" }])]}>
   <Prose>
     <h1>Privacy policy</h1>
-    <p><strong>Last updated: 1 November 2026</strong></p>
+    <p><strong>Last updated: 6 November 2026</strong></p>
     <p>
       Thank you for using <strong>MuscleQuest</strong>. We value your privacy and are committed to protecting your
       personal data. This privacy policy outlines how we collect, use, and safeguard your information when you use
@@ -117,6 +117,11 @@ import { breadcrumbJsonLd } from "../lib/seo";
         <strong>Diagnostics</strong>: Error reports and diagnostics already sent to Bugsnag and Expo are kept for
         those providers' retention periods and are not removed when you delete your account.
       </li>
+      <li>
+        <strong>Database Backups</strong>: We keep encrypted backups of our database and backup storage for up to
+        30 days, so we can recover from a technical failure. When you delete your account, your data leaves these
+        backups within 30 days, as older backups are deleted.
+      </li>
     </ul>
 
     <h2 id="rights">6. Your Rights</h2>
@@ -174,9 +179,12 @@ import { breadcrumbJsonLd } from "../lib/seo";
     </p>
     <p>
       Versions of MuscleQuest before 2.0 used Google Firebase for accounts, backups, shared data, usage analytics
-      and crash reports, and keep doing so until you update. We copy accounts, backups and shared data from
-      Firebase to Supabase without any action from you. Once the move is complete we delete them from Firebase,
-      including those of accounts deleted in the meantime.
+      and crash reports. Version 2.0 moved accounts, backups and shared data to Supabase without any action from
+      you, and versions 1.6 and 1.7 now ask you to update. Older versions keep using Firebase until you update, and
+      for a short time we keep copying what they save to Supabase. After that, the data in Firebase is locked so
+      that no app can read or change it, and kept only as a safety copy until our Supabase setup has automated
+      backups of its own; then it is deleted. If you delete your account, we also delete your data from that
+      copy.
     </p>
 
     <h2 id="website">9. This Website</h2>
