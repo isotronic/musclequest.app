@@ -1,7 +1,10 @@
 ---
 import { absoluteUrl } from "../lib/seo";
-interface Props { title: string; description: string; path: string; jsonLd?: object[]; noindex?: boolean; ogImage?: string }
-const { title, description, path, jsonLd = [], noindex = false, ogImage = "/og-image.png" } = Astro.props;
+import { ogLocale, type Locale } from "../i18n/ui";
+type Alternate = { hreflang: string; href: string; ogLocale?: string };
+interface Props { title: string; description: string; path: string; locale: Locale; alternates?: Alternate[]; jsonLd?: object[]; noindex?: boolean; ogImage?: string }
+const { title, description, path, locale, alternates = [], jsonLd = [], noindex = false, ogImage = "/og-image.png" } = Astro.props;
+const og = ogLocale(locale);
 const canonical = absoluteUrl(path);
 const image = absoluteUrl(ogImage);
 ---
@@ -9,8 +12,11 @@ const image = absoluteUrl(ogImage);
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
 {noindex && <meta name="robots" content="noindex" />}
+{alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={absoluteUrl(a.href)} />)}
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="MuscleQuest" />
+<meta property="og:locale" content={og} />
+{alternates.flatMap((a) => (a.ogLocale && a.ogLocale !== og ? [<meta property="og:locale:alternate" content={a.ogLocale} />] : []))}
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonical} />

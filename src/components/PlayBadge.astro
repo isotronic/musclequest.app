@@ -1,10 +1,13 @@
 ---
 import { Image } from "astro:assets";
-import badge from "../assets/google-play-badge.png";
+import badgeEn from "../assets/google-play-badge.png";
+import badgeDe from "../assets/google-play-badge-de.png";
 import { playUrl, type Placement } from "../lib/seo";
 import { t, type Locale } from "../i18n/ui";
 interface Props { placement: Placement; locale?: Locale; class?: string }
 const { placement, locale = "en", class: cls = "" } = Astro.props;
+// Google's localised badges; other locales use the English one.
+const badge = locale === "de" ? badgeDe : badgeEn;
 ---
 <a href={playUrl(placement)} class:list={["inline-block rounded-lg", cls]} rel="noopener">
   <Image src={badge} alt={t(locale, "play.badgeAlt")} height={72} densities={[1, 2]} class="-m-3 h-[72px] w-auto max-w-none" loading="eager" />

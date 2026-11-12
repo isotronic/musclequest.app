@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Prose from "../components/Prose.astro";
 import { breadcrumbJsonLd } from "../lib/seo";
 ---
-<BaseLayout title="Privacy policy | MuscleQuest" path="/privacy-policy/"
+<BaseLayout title="Privacy policy | MuscleQuest" path="/privacy-policy/" translated={false}
   description="How MuscleQuest collects, uses and protects your data, and the choices you have."
   jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Privacy policy", path: "/privacy-policy/" }])]}>
   <Prose>

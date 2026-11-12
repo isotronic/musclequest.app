@@ -12,6 +12,17 @@ npm run build        # type check + static build to dist/
 npm run check-links  # verify internal links and anchors in dist/
 ```
 
+## Languages
+
+The site is in English (at `/`) and German (at `/de/`). Page bodies live in `src/views/`; `src/pages/` and `src/pages/de/` are one-line wrappers that pass the locale. Copy comes from:
+
+- `src/i18n/en.json` and `de.json`: navigation, footer and page chrome (a test checks both have the same keys)
+- `src/content/home/en.ts` and `de.ts`: the home page
+- `src/views/DeleteAccountPage.astro`: its own copy for both languages
+- `src/content/help.json` and `changelog.json`: synced from the app's catalogs (below), all four languages
+
+German copy uses the app's voice and terms (du, and the button names from the app's German UI). The privacy policy is English only; German pages link to it as "Datenschutzerklärung (Englisch)". The German 404 is moved to `dist/de/404.html` after the build, since Cloudflare Pages serves the nearest `404.html`. Spanish and French: add the locale to `SITE_LOCALES` in `src/i18n/ui.ts`, a dictionary, a home content file, the wrappers, the sitemap `i18n` map and the 404 hook in `astro.config.mjs`.
+
 ## Help and changelog content
 
 The help guide and changelog come from the app repo (`constants/HelpData.ts`, `constants/WhatsNew.ts` and the Lingui `.po` files). After an app release:
@@ -25,7 +36,7 @@ Commit the updated `src/content/help.json` and `src/content/changelog.json`.
 
 ## Screenshots
 
-Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.png` → `.jpg`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI:
+Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.png` → `.jpg`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI (the German pages use the same screenshots for now):
 
 | File | Screen | Should show | Used in |
 |---|---|---|---|

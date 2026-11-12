@@ -1,0 +1,99 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Prose from "../components/Prose.astro";
+import { SUPPORT_EMAIL, breadcrumbJsonLd } from "../lib/seo";
+import { localePath, t, type SiteLocale } from "../i18n/ui";
+interface Props { locale: SiteLocale }
+const { locale } = Astro.props;
+const field = "w-full rounded-lg border border-surface-2 bg-surface px-3 py-2.5 text-text placeholder:text-muted";
+
+// inAppHtml holds <strong> for the app's button names; the copy is ours, not user input.
+const copy = {
+  en: {
+    metaTitle: "Delete your account | MuscleQuest",
+    metaDescription: "Delete your MuscleQuest account and cloud data in the app, or request deletion here.",
+    crumb: "Delete account",
+    title: "Delete your account and data",
+    inAppTitle: "The quickest way: in the app",
+    inAppHtml: "Open <strong>More</strong>, then <strong>Settings</strong>, go to <strong>Profile and account</strong> and tap <strong>Delete account</strong>. This removes your sign-in account, your profile and friend connections, everything you've shared with friends and your cloud backups. You choose whether to keep the training data on your phone. Export a copy first if you want to keep your history.",
+    noAccount: "If you never signed in, there's no account: all your data is on your phone, and uninstalling the app removes it.",
+    requestTitle: "Can't use the app? Request deletion here",
+    requestText: "Send us the email address of your Google account and we'll delete the same data for you within 30 days and confirm by email.",
+    name: "Full name",
+    email: "Email address of your account",
+    message: "Anything else?",
+    optional: "(optional)",
+    submit: "Send deletion request",
+    sending: "Sending…",
+    sent: "Thanks, we've received your request. We'll confirm by email once it's done.",
+    failed: "Sorry, that didn't go through. Please try again, or email support@musclequest.app.",
+    questions: "Questions? Email",
+  },
+  de: {
+    metaTitle: "Konto löschen | MuscleQuest",
+    metaDescription: "Lösche dein MuscleQuest-Konto und deine Cloud-Daten in der App oder beantrage die Löschung hier.",
+    crumb: "Konto löschen",
+    title: "Konto und Daten löschen",
+    inAppTitle: "Am schnellsten: in der App",
+    inAppHtml: "Öffne <strong>Mehr</strong>, dann <strong>Einstellungen</strong>, geh zu <strong>Profil und Konto</strong> und tippe auf <strong>Konto löschen</strong>. Das entfernt dein Anmeldekonto, dein Profil und deine Freundschaften, alles, was du mit Freunden geteilt hast, und deine Cloud-Sicherungen. Du entscheidest, ob die Trainingsdaten auf deinem Handy bleiben. Exportiere vorher eine Kopie, wenn du deinen Verlauf behalten möchtest.",
+    noAccount: "Wenn du dich nie angemeldet hast, gibt es kein Konto: Alle deine Daten liegen auf deinem Handy, und beim Deinstallieren der App werden sie gelöscht.",
+    requestTitle: "Du kannst die App nicht nutzen? Beantrage die Löschung hier",
+    requestText: "Schick uns die E-Mail-Adresse deines Google-Kontos. Wir löschen dieselben Daten innerhalb von 30 Tagen für dich und bestätigen es per E-Mail.",
+    name: "Vollständiger Name",
+    email: "E-Mail-Adresse deines Kontos",
+    message: "Noch etwas?",
+    optional: "(optional)",
+    submit: "Löschantrag senden",
+    sending: "Wird gesendet…",
+    sent: "Danke, dein Antrag ist angekommen. Wir bestätigen per E-Mail, sobald alles gelöscht ist.",
+    failed: "Das hat leider nicht geklappt. Versuch es noch einmal oder schreib an support@musclequest.app.",
+    questions: "Fragen? Schreib an",
+  },
+}[locale];
+---
+<BaseLayout locale={locale} title={copy.metaTitle} path="/delete-account/" description={copy.metaDescription}
+  jsonLd={[breadcrumbJsonLd([{ name: t(locale, "breadcrumb.home"), path: localePath(locale, "/") }, { name: copy.crumb, path: localePath(locale, "/delete-account/") }])]}>
+  <Prose>
+    <h1>{copy.title}</h1>
+    <h2 id="in-app">{copy.inAppTitle}</h2>
+    <p set:html={copy.inAppHtml} />
+    <p>{copy.noAccount}</p>
+
+    <h2 id="request">{copy.requestTitle}</h2>
+    <p>{copy.requestText}</p>
+
+    <form id="delete-form" action="https://formspree.io/f/mzzbrvnb" method="POST" class="mt-6 space-y-5"
+      data-sending={copy.sending} data-sent={copy.sent} data-failed={copy.failed}>
+      <div><label for="name" class="mb-1 block font-medium">{copy.name}</label><input id="name" name="name" required autocomplete="name" class={field} /></div>
+      <div><label for="email" class="mb-1 block font-medium">{copy.email}</label><input id="email" name="email" type="email" required autocomplete="email" class={field} /></div>
+      <div><label for="message" class="mb-1 block font-medium">{copy.message} <span class="font-normal text-muted">{copy.optional}</span></label><textarea id="message" name="message" rows="4" class={field}></textarea></div>
+      <!-- The subject stays English for the inbox; the language field says which page sent it. -->
+      <input type="hidden" name="_subject" value="Account deletion request" />
+      <input type="hidden" name="language" value={locale} />
+      <button type="submit" class="w-full rounded-full bg-accent px-6 py-3 font-semibold text-bg hover:bg-accent-hover disabled:opacity-60">{copy.submit}</button>
+      <p id="form-status" role="status" aria-live="polite" class="min-h-6"></p>
+    </form>
+    <p>{copy.questions} <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>.</p>
+  </Prose>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById("delete-form") as HTMLFormElement;
+  const status = document.getElementById("form-status")!;
+  const button = form.querySelector("button")!;
+  const text = form.dataset as { sending: string; sent: string; failed: string };
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    button.disabled = true;
+    status.textContent = text.sending;
+    try {
+      const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+      if (!res.ok) throw new Error(String(res.status));
+      form.reset();
+      status.textContent = text.sent;
+    } catch {
+      status.textContent = text.failed;
+      button.disabled = false;
+    }
+  });
+</script>
