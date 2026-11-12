@@ -1,0 +1,151 @@
+import { config } from "./config";
+import type { CoachContent } from "./types";
+
+// Copy from spec 09 ("The page", "Request access flow"). Every feature claim maps to a feature on
+// main of the coach repo (spec 09, anti-goal 1): remove a claim whose feature is missing, do not soften it.
+export const coach: CoachContent = {
+  meta: {
+    title: "MuscleQuest Coach: coach your clients in the app they train with",
+    description: "A web app for personal trainers and online coaches. Build plans in the browser, your clients train in the free MuscleQuest app, and you see every set they log.",
+  },
+  nav: { how: "How it works", features: "Features", faq: "FAQ", signIn: "Sign in", request: "Request access" },
+  hero: {
+    eyebrow: "For personal trainers and online coaches",
+    titleLead: "Build the plan once.",
+    titleAccent: "See every set they log.",
+    lede: "Your clients train in the free MuscleQuest app. You coach from the browser: build plans, follow every workout they log, adjust as you go.",
+    primary: "Request early access",
+    secondary: "See how it works",
+    platformNote: "Clients train on Android today. iOS is next.",
+    appLinkText: "Looking for the workout tracker? It's here.",
+    screenshotAlt: "MuscleQuest Coach plan builder with the exercise picker, a strip of four workouts and an open workout with a superset and set targets, the block's week tabs above",
+  },
+  how: {
+    title: "Three steps to your first coached session",
+    intro: "No app for your clients to learn from scratch, no spreadsheets to send around.",
+    steps: [
+      { title: "Build the plan", text: "Blocks, weeks, sets and cues. Start from one of your templates or from scratch, with over 1,200 library exercises and your own." },
+      { title: "Invite the client", text: "Send them a code. They enter it in the MuscleQuest app and choose what to share with you and from when." },
+      { title: "Watch the data come in", text: "Every set they log shows up in your client view, with how the session felt. Change the plan, and the change is on their phone at the next sync." },
+    ],
+  },
+  features: {
+    title: "Programming without the busywork",
+    blocks: [
+      {
+        id: "builder",
+        title: "A plan builder made for real programming",
+        text: "Training blocks with week-by-week targets and deloads. Templates with muscle slots the client fills from their own equipment. Supersets and circuits, warm-up and cool-down sections, mobility sessions.",
+        bullets: ["Reuse templates across clients", "Per-exercise cues and tracking type", "Drag and drop between picker, workout strip and the open workout"],
+        screenshot: "coachBlockWeeks",
+        screenshotAlt: "Block weeks in the plan builder: week-by-week set targets for one exercise, with the last week marked as a deload",
+      },
+      {
+        id: "history",
+        title: "See what actually happened",
+        text: "Completed workouts set by set, with the client's notes, effort and recovery ratings. Weekly volume, PRs and body measurements on the client's page.",
+        bullets: ["History back to the day they joined, or further if they choose to share it", "Correct a mistyped set, with an audit trail", "Ask for older history later"],
+        screenshot: "coachClientView",
+        screenshotAlt: "A client's completed workout set by set, with effort and a note, beside the weekly volume chart",
+      },
+      {
+        id: "progression",
+        title: "Progression you approve, not guess",
+        text: "The app proposes weight, rep or set increases from how the sets went, using your increments. You pick the mode per plan: manual, suggest, or approve each one before the client sees it.",
+        bullets: ["Suggestions queued for your review", "Edit a suggestion before it goes out", "Override a week without rebuilding the block"],
+        screenshot: "coachSuggestions",
+        screenshotAlt: "Three pending progression suggestions, each with accept, edit and reject",
+      },
+      {
+        id: "library",
+        title: "Every exercise, shown properly",
+        text: "Over 1,200 exercises with animations, muscles and equipment, the same library the client has in their pocket. Add your own exercises with your own cues.",
+        bullets: [],
+        screenshot: "coachLibrary",
+        screenshotAlt: "The exercise library as a grid of stills, filtered by one muscle, with a custom exercise among them",
+      },
+    ],
+  },
+  clients: {
+    title: "Your clients get a real training app, not a thin companion",
+    intro: "MuscleQuest is a full workout tracker in its own right. Clients can log their own sessions alongside yours, keep their history when they move on, and decide what you see.",
+    columns: [
+      {
+        title: "Logging they'll actually do",
+        text: "Pre-filled sets, rest timer with the phone locked, plate calculator, works offline in the gym.",
+        screenshot: "workout",
+        screenshotAlt: "Active workout in the MuscleQuest app on set 4 of 5, pre-filled with a suggested 50 kg for 8 reps and the rest timer counting down",
+      },
+      {
+        title: "Consent built in",
+        text: "Clients choose what to share and from when. They can pause sharing or disconnect any time.",
+        screenshot: "phoneSharing",
+        screenshotAlt: "Sharing with your trainer settings in the MuscleQuest app: what is shared, since when, and the pause and disconnect buttons",
+      },
+      {
+        title: "Their data stays theirs",
+        text: "History, PRs and stats live on their phone, with backups in the EU. Free, no ads.",
+        screenshot: "stats",
+        screenshotAlt: "Stats screen in the MuscleQuest app with weekly insights, totals for workouts, volume and time, recent workouts and PRs",
+      },
+    ],
+  },
+  early: {
+    title: "Early access",
+    text: "MuscleQuest Coach is opening to a small group of trainers first. Early access is free during the pilot, with personal onboarding and a direct line to the developer. Pricing is announced before the general launch, and pilot trainers hear it first.",
+    bullets: ["Free during the pilot", "Set up by hand within two days", "Your feedback shapes the roadmap"],
+  },
+  form: {
+    title: "Request access",
+    labels: {
+      name: "Name",
+      email: "Email",
+      coachingSetting: "How do you coach?",
+      clientCount: "Roughly how many clients?",
+      clientPhones: "Your clients' phones",
+      message: "Anything else?",
+      optional: "optional",
+      turnstile: "Security check",
+      options: {
+        coachingSetting: { gym: "In a gym", online: "Online", both: "Both" },
+        clientCount: { "1-5": "1 to 5", "6-15": "6 to 15", "16-40": "16 to 40", "40+": "More than 40" },
+        clientPhones: { android: "Mostly Android", iphone: "Mostly iPhone", mixed: "Mixed" },
+      },
+    },
+    submit: "Request access",
+    sending: "Sending",
+    note: { text: "We use these details only to set up your account and get in touch.", privacyLink: "See the privacy policy." },
+    thanks: "Thanks, {name}. You'll hear from Joseph within two days with your login. In the meantime, install MuscleQuest on your own phone and log a workout, it helps to know what your clients will see.",
+    thanksPlay: "Get MuscleQuest on Google Play",
+    errors: {
+      nameRequired: "Enter your name.",
+      nameTooLong: "Keep your name under 120 characters.",
+      emailRequired: "Enter your email address.",
+      emailInvalid: "Enter an email address like name@example.com.",
+      emailTooLong: "Keep your email address under 254 characters.",
+      coachingSettingRequired: "Choose how you coach.",
+      clientCountRequired: "Choose roughly how many clients you have.",
+      clientPhonesRequired: "Choose which phones your clients use.",
+      messageTooLong: "Keep your message under 2,000 characters.",
+      network: "Could not reach the server. Check your connection and try again, or email coach@musclequest.app.",
+      server: "Something went wrong on our side. Please try again, or email coach@musclequest.app.",
+      turnstile: "The security check did not finish. Please try again.",
+    },
+    noScript: "This form needs JavaScript. Turn it on, or email coach@musclequest.app.",
+  },
+  faq: {
+    title: "Questions trainers ask",
+    items: [
+      { question: "What do my clients need?", answer: "An Android phone and the free MuscleQuest app from Google Play. No account is needed to train; connecting with you needs a Google sign-in on the phone." },
+      { question: "Do my clients pay anything?", answer: "No. The app is free, with no ads, and stays free." },
+      { question: "Is there an iPhone app?", answer: "Not yet. The iOS app follows the coach launch. Tell us in the form if most of your clients use iPhones." },
+      { question: "Where is the data stored?", answer: "Training data lives on your client's phone. What they share with you is stored in the EU (Supabase, Ireland) and shown to you in the browser. Exercise animations come from Cloudflare." },
+      { question: "Can I bring my existing plans?", answer: "You rebuild them in the builder for now, once, as templates. There is no spreadsheet import yet." },
+      { question: "What happens when a client stops working with me?", answer: "You choose per organisation whether their trainer plans stay on their phone as their own plans or are removed. Their training history always stays with them. Your record of the coaching stays with you." },
+      { question: "What will it cost after the pilot?", answer: "Pricing is set before the general launch and pilot trainers hear it first. Early access itself is free." },
+      { question: "How do I get access?", answer: "Fill in the form; the developer sets up your organisation by hand and emails your login within two days." },
+    ],
+  },
+  closing: { title: "Ready to coach in MuscleQuest?", text: "Join the pilot and get set up this week.", button: "Request early access" },
+  config,
+};

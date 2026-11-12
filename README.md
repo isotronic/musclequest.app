@@ -48,6 +48,14 @@ Screenshots live in `src/assets/screenshots/` and are wired up by file name in `
 | `stats.jpg` | Stats | Insights, totals, workout history, PRs (or the Consistency and Training Split widgets) | Stats |
 | `measurements.jpg` | Body measurements | Latest values and a chart over time | Measurements |
 | `friend-profile.jpg` | Friend profile | A friend's shared PRs and activity | Friends |
+| `coach-builder.png` | Coach app: plan builder, a client plan with a block | Three panes: exercise picker, workout strip with 3 to 4 workouts, open workout with a superset and set targets; the block's week tabs visible | Coach hero, coach social preview image |
+| `coach-block-weeks.png` | Coach app: plan builder, block weeks | Week-by-week set targets for one exercise with a deload week marked, or the template with a muscle slot in the picker | Coach features 1 |
+| `coach-client-view.png` | Coach app: client page, a completed workout | Set-by-set view with effort and a note, and the weekly volume or PR chart on the same screen | Coach features 2 |
+| `coach-suggestions.png` | Coach app: suggestions queue | Two or three pending progression suggestions with accept, edit and reject | Coach features 3 |
+| `coach-library.png` | Coach app: exercise library | Grid of exercises with stills, a muscle filter active, one custom exercise visible | Coach features 4 |
+| `phone-sharing.png` | Phone: "Sharing with your trainer" settings | What is shared, since when, pause and disconnect visible | Coach page, for your clients 2 |
+
+The coach page also reuses `workout.jpg` and `stats.jpg` (for your clients 1 and 3). The six coach files are flat placeholders until the owner captures them with the demo organisation (spec 09, "Screenshots"): web shots at 1440 by 900 without browser chrome, the phone shot portrait at 1080 by 2400, English UI.
 
 Optional extra for later: plate calculator.
 
