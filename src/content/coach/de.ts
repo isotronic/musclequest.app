@@ -115,7 +115,7 @@ export const coach: CoachContent = {
     },
     submit: "Zugang anfragen",
     sending: "Wird gesendet",
-    note: { text: "Wir verwenden diese Angaben nur, um Ihren Zugang einzurichten und uns bei Ihnen zu melden.", privacyLink: "Siehe Datenschutzerklärung." },
+    note: { text: "Wir verwenden diese Angaben nur, um Ihren Zugang einzurichten und uns bei Ihnen zu melden.", privacyLink: "Siehe Datenschutzerklärung (Englisch)." },
     thanks: "Danke, {name}. Joseph meldet sich innerhalb von zwei Tagen mit Ihrem Login. Installieren Sie in der Zwischenzeit MuscleQuest auf Ihrem eigenen Handy und loggen Sie ein Training, so sehen Sie, was Ihre Klienten sehen.",
     thanksPlay: "MuscleQuest bei Google Play laden",
     errors: {

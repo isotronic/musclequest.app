@@ -150,6 +150,23 @@ export function fillThanks(template: string, name: string): string {
   return template.replace("{name}", () => name);
 }
 
+type FieldText = Partial<Record<Field, string>>;
+
+/**
+ * Which shown field errors stay after an edit or a submit that failed the client check. A server error stays
+ * while its field still holds the value the server refused (`serverValues`), whatever the client check says;
+ * any other shown error stays, as the client's current message, while the client check still fails it.
+ */
+export function errorsToKeep(shown: FieldText, client: FieldText, serverValues: FieldText, current: FieldText): FieldText {
+  const kept: FieldText = {};
+  for (const field of FIELDS) {
+    if (!shown[field]) continue;
+    if (field in serverValues && (current[field] ?? "") === serverValues[field]) kept[field] = shown[field];
+    else if (client[field]) kept[field] = client[field];
+  }
+  return kept;
+}
+
 /** A message split around the contact address, so the glue can render the address as a mailto link. */
 export function splitAtAddress(message: string, address: string): [string, string | null, string] {
   const at = address ? message.indexOf(address) : -1;
@@ -202,6 +219,17 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
   let token: string | null = null;
   let widgetId: string | undefined;
   let shownErrors: Partial<Record<Field, string>> = {};
+  // The values the server refused, per field, so their errors survive edits elsewhere in the form.
+  let serverValues: FieldText = {};
+  const currentValues = (): FieldText => {
+    const data = new FormData(form);
+    const values: FieldText = {};
+    for (const field of FIELDS) {
+      const value = data.get(field);
+      values[field] = typeof value === "string" ? value : "";
+    }
+    return values;
+  };
   // True while the Turnstile sentence shown comes from the widget itself (failed load or error-callback),
   // not from the server; a new token then clears it.
   let widgetError = false;
@@ -283,6 +311,10 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
     if (state.resetTurnstile) resetTurnstile();
     const fieldErrors: Partial<Record<Field, string>> = {};
     for (const [field, key] of Object.entries(state.fieldErrors) as [Field, ErrorKey][]) fieldErrors[field] = messages[key];
+    // A submit clears them; a server refusal records the refused values.
+    const values = currentValues();
+    serverValues = {};
+    for (const field of Object.keys(state.fieldErrors) as Field[]) serverValues[field] = values[field] ?? "";
     // On submit this clears field errors left from a previous server answer.
     showFieldErrors(fieldErrors);
     if (state.status !== "sending") focusFirstInvalid(fieldErrors);
@@ -294,10 +326,7 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
   const recheck = () => {
     if (Object.keys(shownErrors).length === 0) return;
     const result = collectPayload(new FormData(form), source, form.dataset.locale ?? "en", messages);
-    const still = result.ok ? {} : result.errors;
-    const next: Partial<Record<Field, string>> = {};
-    for (const field of FIELDS) if (shownErrors[field] && still[field]) next[field] = still[field];
-    showFieldErrors(next);
+    showFieldErrors(errorsToKeep(shownErrors, result.ok ? {} : result.errors, serverValues, currentValues()));
   };
   form.addEventListener("input", recheck);
   form.addEventListener("change", recheck);
@@ -307,7 +336,8 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
     if (state.status === "sending" || state.status === "sent") return;
     const result = collectPayload(new FormData(form), source, form.dataset.locale ?? "en", messages);
     if (!result.ok) {
-      showFieldErrors(result.errors);
+      // New client errors, plus any server error whose field still holds the refused value.
+      showFieldErrors(errorsToKeep({ ...shownErrors, ...result.errors }, result.errors, serverValues, currentValues()));
       showFormError(null);
       focusFirstInvalid(result.errors);
       return;

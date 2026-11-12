@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { collectPayload, eventForResponse, fillThanks, initialState, readSource, reduce, splitAtAddress, turnstileSize, type FormState, type Payload } from "./requestForm";
+import { collectPayload, eventForResponse, fillThanks, initialState, readSource, reduce, errorsToKeep, splitAtAddress, turnstileSize, type FormState, type Payload } from "./requestForm";
 import { coach } from "../content/coach/en";
 
 const messages = coach.form.errors;
@@ -203,5 +203,24 @@ describe("turnstileSize", () => {
   test("compact when it does not", () => {
     expect(turnstileSize(299)).toBe("compact");
     expect(turnstileSize(240)).toBe("compact");
+  });
+});
+
+describe("errorsToKeep", () => {
+  const server = "server says no";
+  test("a server error stays while its field holds the refused value, even once the client check passes", () => {
+    expect(errorsToKeep({ email: server }, {}, { email: "a@b.co" }, { email: "a@b.co", name: "Changed" })).toEqual({ email: server });
+  });
+  test("a server error goes once its field changes", () => {
+    expect(errorsToKeep({ email: server }, {}, { email: "a@b.co" }, { email: "c@d.co" })).toEqual({});
+  });
+  test("a changed field that is now invalid on the client shows the client error", () => {
+    expect(errorsToKeep({ email: server }, { email: "invalid" }, { email: "a@b.co" }, { email: "x" })).toEqual({ email: "invalid" });
+  });
+  test("a client error stays while the field is invalid and goes once it is valid", () => {
+    expect(errorsToKeep({ name: "required", email: "invalid" }, { email: "invalid" }, {}, { name: "Jo", email: "x" })).toEqual({ email: "invalid" });
+  });
+  test("a field without a shown error gains none", () => {
+    expect(errorsToKeep({}, { name: "required" }, {}, { name: "" })).toEqual({});
   });
 });
