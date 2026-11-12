@@ -21,6 +21,7 @@ const cols = [
           { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
           { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
           { href: playUrl("footer"), label: "Google Play" },
+          { href: localePath(locale, "/coach/"), label: t(locale, "nav.forCoaches") },
         ],
   },
   { title: t(locale, "footer.legal"), links: [
@@ -34,7 +35,7 @@ const cols = [
 ];
 ---
 <footer id="contact" class="border-t border-surface-2/60 bg-bg px-4 py-14 sm:px-6">
-  <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-4">
+  <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-4 md:gap-6 lg:gap-10">
     <div>
       <p class="text-lg font-bold text-accent">MuscleQuest</p>
       <p class="mt-2 text-sm text-muted">© {year} · {t(locale, "footer.madeBy")} <a href={AUTHOR_URL} class="underline hover:text-accent">Joseph Bouqdib</a></p>

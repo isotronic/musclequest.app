@@ -66,6 +66,44 @@ google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files --
   --virtual-time-budget=4000 --screenshot=public/og-image.png "file://$PWD/scripts/og/og-image.html"
 ```
 
+After replacing `coach-builder.png`, regenerate the coach page's social preview the same way:
+
+```bash
+google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files --window-size=1200,630 \
+  --virtual-time-budget=4000 --screenshot=public/og-coach.png "file://$PWD/scripts/og/og-coach.html"
+```
+
+## Coach page
+
+`/coach/` and `/de/coach/` (`src/views/CoachPage.astro`, copy in `src/content/coach/`) are the landing page for MuscleQuest Coach (spec 09 in the app repo). The request form posts to the coach web app's `/api/access-requests` route. Unlike the app pages, the German coach copy uses Sie (trainers are professional contacts).
+
+To try the form locally, run the local Supabase stack (`npm run db:start` in the app repo) and the coach app (`npm run dev` in `../musclequest-coach`, port 5173), then start this site against them with Cloudflare's always-pass Turnstile test key:
+
+```bash
+PUBLIC_COACH_API_URL=http://localhost:5173/api/access-requests \
+PUBLIC_TURNSTILE_SITE_KEY=1x00000000000000000000AA npm run dev
+```
+
+### Launch gate
+
+The page stays unpublished (`noindex`) until a trainer can be onboarded end to end: the coach app on `coach.musclequest.app` and the phone side of coaching in a store release of the app. Before merging:
+
+1. Replace the placeholder screenshots (`coach-*.png`, `phone-sharing.png`) by file name, and regenerate `public/og-coach.png` (above).
+2. Review the German body copy in `src/content/coach/de.ts`.
+3. Publish the access request section of the privacy policy.
+4. Turn indexing on: remove the `noindex` attribute from `<BaseLayout>` in `src/views/CoachPage.astro`.
+5. Merge. Afterwards, turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
+
+### Campaign links
+
+Each campaign gets a short path in `public/_redirects`, one line per campaign:
+
+```
+/go/flyer      /coach/?src=flyer      302
+```
+
+The `/go/` path shows up as its own path in Cloudflare Web Analytics (visits per campaign), and the `src` value is stored with each access request (requests per campaign). A source is lowercase letters, digits and hyphens, at most 40 characters; anything else is dropped by the form. `/de/go/<source>` sends any source to the German page. Point QR codes at the short path, for example `https://musclequest.app/go/flyer`: it is shorter to scan and keeps working if the page moves. `npm test` checks every line, and the link check checks that each target page exists.
+
 ## Deploy (Cloudflare Pages)
 
 - Build command: `npm run build`

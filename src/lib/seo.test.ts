@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { absoluteUrl, breadcrumbJsonLd, faqJsonLd, mobileAppJsonLd, playUrl } from "./seo";
+import { absoluteUrl, breadcrumbJsonLd, faqJsonLd, mobileAppJsonLd, playUrl, softwareApplicationJsonLd } from "./seo";
 
 test("absoluteUrl", () => {
   expect(absoluteUrl("/")).toBe("https://musclequest.app/");
@@ -31,4 +31,15 @@ test("faqJsonLd and breadcrumbJsonLd", () => {
 
 test("playUrl tags the coach page's thank-you link", () => {
   expect(new URL(playUrl("coach")).searchParams.get("utm_campaign")).toBe("coach");
+});
+
+test("softwareApplicationJsonLd describes the coach web app", () => {
+  const ld = softwareApplicationJsonLd() as Record<string, any>;
+  expect(ld["@type"]).toBe("SoftwareApplication");
+  expect(ld.name).toBe("MuscleQuest Coach");
+  expect(ld.applicationCategory).toBe("HealthApplication");
+  expect(ld.operatingSystem).toBe("Web");
+  expect(ld.url).toBe("https://musclequest.app/coach/");
+  expect(ld.author).toEqual((mobileAppJsonLd() as Record<string, any>).author);
+  expect(ld.offers).toBeUndefined();
 });

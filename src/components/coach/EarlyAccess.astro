@@ -6,7 +6,7 @@ interface Props { early: CoachContent["early"]; form: CoachContent["form"]; conf
 const { early, form, config, locale } = Astro.props;
 ---
 <section id="request" class="px-4 py-20 sm:px-6 md:py-28">
-  <div class="mx-auto grid max-w-6xl gap-12 rounded-3xl border-2 border-accent/70 bg-surface px-6 py-10 sm:px-10 md:grid-cols-2 md:gap-16 md:p-14">
+  <div class="mx-auto grid max-w-6xl gap-12 rounded-3xl border-2 border-accent/70 bg-surface px-6 py-10 sm:px-10 md:p-14 lg:grid-cols-2 lg:gap-16">
     <div>
       <h2 class="text-3xl font-bold tracking-tight text-balance md:text-4xl">{early.title}</h2>
       <p class="mt-4 text-lg text-muted text-pretty">{early.text}</p>

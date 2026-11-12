@@ -7,7 +7,7 @@ const { content } = Astro.props;
 ---
 <Section id="how" tone="surface">
   <SectionHeading title={content.title} intro={content.intro} />
-  <ol class="grid gap-6 md:grid-cols-3">
+  <ol class="grid gap-6 lg:grid-cols-3">
     {content.steps.map((s, i) => (
       <li class="reveal rounded-2xl border border-surface-2 bg-bg p-6 md:p-8">
         <span aria-hidden="true" class="grid size-10 place-items-center rounded-full bg-accent/15 text-lg font-bold text-accent">{i + 1}</span>

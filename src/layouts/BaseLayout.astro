@@ -9,8 +9,8 @@ import { organizationJsonLd } from "../lib/seo";
 // `path` is the page's English path ("/help/"); the layout prefixes it for other locales.
 // `translated` is false for pages that exist in English only (privacy policy).
 // `variant` switches the nav and footer links between the app pages and the coach page.
-interface Props { locale?: Locale; title: string; description: string; path: string; translated?: boolean; jsonLd?: object[]; noindex?: boolean; variant?: "app" | "coach" }
-const { locale = "en", title, description, path, translated = true, jsonLd = [], noindex, variant = "app" } = Astro.props;
+interface Props { locale?: Locale; title: string; description: string; path: string; translated?: boolean; jsonLd?: object[]; noindex?: boolean; ogImage?: string; variant?: "app" | "coach" }
+const { locale = "en", title, description, path, translated = true, jsonLd = [], noindex, ogImage, variant = "app" } = Astro.props;
 const alternates = translated
   ? [
       ...SITE_LOCALES.map((l) => ({ hreflang: htmlLang(l), href: localePath(l, path), ogLocale: ogLocale(l) })),
@@ -24,7 +24,7 @@ const alternates = translated
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <Seo title={title} description={description} path={localePath(locale, path)} locale={locale} alternates={alternates}
-      jsonLd={[organizationJsonLd(), ...jsonLd]} noindex={noindex} />
+      jsonLd={[organizationJsonLd(), ...jsonLd]} noindex={noindex} ogImage={ogImage} />
   </head>
   <body class="flex min-h-dvh flex-col">
     <a href="#main" class="sr-only z-50 rounded bg-accent px-4 py-2 font-semibold text-bg focus:not-sr-only focus:fixed focus:left-4 focus:top-4">{t(locale, "nav.skip")}</a>

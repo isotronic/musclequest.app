@@ -20,6 +20,7 @@ const navLinks: NavLink[] = variant === "coach"
       { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
       { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
       { href: localePath(locale, "/#faq"), label: t(locale, "nav.faq"), section: "faq" },
+      { href: localePath(locale, "/coach/"), label: t(locale, "nav.forCoaches") },
     ];
 const links = navLinks.map((l) => ({ ...l, current: !l.section && Astro.url.pathname === l.href }));
 // The accent button: the Play Store on the app pages, the request form on the coach page.
