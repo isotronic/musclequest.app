@@ -36,7 +36,7 @@ Commit the updated `src/content/help.json` and `src/content/changelog.json`.
 
 ## Screenshots
 
-Screenshots live in `src/assets/screenshots/` and are wired up in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.png` → `.jpg`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI (the German pages use the same screenshots for now):
+Screenshots live in `src/assets/screenshots/` and are wired up by file name in `src/data/screenshots.ts`. To replace one, overwrite the file with the same name. If the file type changes (e.g. `.png` → `.jpg`), update its import. Capture them on the current app with realistic demo data (a few weeks of history, an active plan, some PRs and measurements), portrait, English UI. For the German pages, put captures of the app in German in `src/assets/screenshots/de/` with the same file names; any file missing there falls back to the English one. The app repo's store-screenshot tool (`docs/store-screenshots/`) takes the same German captures in its `src/de/`.
 
 | File | Screen | Should show | Used in |
 |---|---|---|---|

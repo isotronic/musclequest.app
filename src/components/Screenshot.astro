@@ -1,10 +1,10 @@
 ---
 import { Picture, getImage } from "astro:assets";
-import { screenshots, type ScreenshotId } from "../data/screenshots";
+import { screenshot, type ScreenshotId } from "../data/screenshots";
 import { t, type Locale } from "../i18n/ui";
 interface Props { id: ScreenshotId; alt: string; eager?: boolean; locale?: Locale; class?: string }
 const { id, alt, eager = false, locale = "en", class: cls = "" } = Astro.props;
-const src = screenshots[id];
+const src = screenshot(id, locale);
 const full = await getImage({ src, width: 1080, format: "webp" });
 ---
 <button type="button" data-lightbox-src={full.src} data-lightbox-alt={alt}
