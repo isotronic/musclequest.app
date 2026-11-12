@@ -20,8 +20,8 @@ export const home: HomeContent = {
       {
         id: "plans",
         title: "Pläne, die zu deiner Woche passen",
-        text: "Stell dir aus fast 1.000 Übungen deinen eigenen Plan zusammen oder starte mit einem von sieben fertigen Programmen und pass es an. Lege Sätze, Wiederholungen und Pausen für jede Übung fest und verteile deine Trainings auf die Tage, an denen du trainierst.",
-        bullets: ["7 fertige Pläne für 3 bis 6 Tage pro Woche, auch mit Körpergewicht oder nur Kurzhanteln", "Aufwärmsätze, Dropsätze und Supersätze", "Ein Wochenplan mit vorgeschlagenen Trainingstagen", "Pläne duplizieren und Trainings überall wiederverwenden"],
+        text: "Stell dir aus über 1.200 Übungen deinen eigenen Plan zusammen oder starte mit einem von zehn fertigen Programmen und pass es an. Lege Sätze, Wiederholungen und Pausen für jede Übung fest und verteile deine Trainings auf die Tage, an denen du trainierst.",
+        bullets: ["10 fertige Pläne für 2 bis 6 Tage pro Woche, auch mit Körpergewicht oder nur Kurzhanteln", "Aufwärmsätze, Dropsätze und Supersätze", "Ein Wochenplan mit vorgeschlagenen Trainingstagen", "Pläne duplizieren und Trainings überall wiederverwenden"],
         screenshot: "plan",
         screenshotAlt: "Planeditor für einen 4-Tage-Split aus Ober- und Unterkörper, mit Sätzen und Wiederholungen für jede Übung und einem Supersatz",
       },
@@ -84,7 +84,7 @@ export const home: HomeContent = {
     intro: "Die kleinen Dinge, die eine Trainings-App jeden Tag angenehm machen.",
     items: [
       { title: "Notizen zur Einheit", text: "Füge jedem Training eine Notiz hinzu, um dir zu merken, wie es lief." },
-      { title: "Fast 1.000 Übungen", text: "Animierte Demos und eine Suche, die RDL, OHP und Tippfehler versteht." },
+      { title: "Über 1.200 Übungen", text: "Animierte Demos und eine Suche, die RDL, OHP und Tippfehler versteht." },
       { title: "Eigene Übungen", text: "Füge eigene hinzu, mit eigenem Bild und eigenem Tracking-Typ." },
       { title: "Trainingserinnerungen", text: "An den Tagen und zu den Uhrzeiten, die du wählst." },
       { title: "Deine Einheiten", text: "kg oder lbs, cm oder Zoll, Meter oder Fuß." },

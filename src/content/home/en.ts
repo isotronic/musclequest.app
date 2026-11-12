@@ -18,8 +18,8 @@ export const home: HomeContent = {
       {
         id: "plans",
         title: "Plans that fit your week",
-        text: "Build your own plan from nearly 1,000 exercises, or start from one of seven premade programmes and make it yours. Set sets, reps and rest for every exercise, then pin workouts to the days you train.",
-        bullets: ["7 premade plans for 3 to 6 days a week, including bodyweight and dumbbell-only", "Warm-up sets, drop sets and supersets", "A weekly schedule with suggested training days", "Duplicate plans and reuse workouts anywhere"],
+        text: "Build your own plan from over 1,200 exercises, or start from one of ten premade programmes and make it yours. Set sets, reps and rest for every exercise, then pin workouts to the days you train.",
+        bullets: ["10 premade plans for 2 to 6 days a week, including bodyweight and dumbbell-only", "Warm-up sets, drop sets and supersets", "A weekly schedule with suggested training days", "Duplicate plans and reuse workouts anywhere"],
         screenshot: "plan",
         screenshotAlt: "Plan editor for a 4-day upper/lower split, with sets and reps for each exercise and a superset",
       },
@@ -82,7 +82,7 @@ export const home: HomeContent = {
     intro: "The small things that make a training app pleasant to use every day.",
     items: [
       { title: "Session notes", text: "Add a note to any workout to remember how it went." },
-      { title: "Nearly 1,000 exercises", text: "Animated demos and search that understands RDL, OHP and typos." },
+      { title: "Over 1,200 exercises", text: "Animated demos and search that understands RDL, OHP and typos." },
       { title: "Custom exercises", text: "Add your own, with your own image and tracking type." },
       { title: "Workout reminders", text: "On the days and at the times you choose." },
       { title: "Your units", text: "kg or lbs, cm or in, metres or feet." },
