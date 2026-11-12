@@ -12,7 +12,7 @@ const { content, locale } = Astro.props;
         <span class="size-1.5 rounded-full bg-accent" aria-hidden="true"></span>{content.eyebrow}
       </p>
       <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-balance sm:text-5xl lg:text-6xl">
-        {content.titleLead}<br /><span class="text-accent">{content.titleAccent}</span>
+        <span class="block text-balance">{content.titleLead}</span> <span class="block text-balance text-accent">{content.titleAccent}</span>
       </h1>
       <p class="mt-5 max-w-lg text-lg text-muted text-pretty">{content.lede}</p>
       <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">

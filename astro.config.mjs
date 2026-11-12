@@ -32,7 +32,8 @@ export default defineConfig({
   integrations: [
     localized404,
     sitemap({
-      filter: (page) => !page.includes("/404"),
+      // The coach page stays out while it is noindex (README, "Launch gate").
+      filter: (page) => !page.includes("/404") && !/\/coach\/$/.test(page),
       // Adds hreflang links between pages that exist in both languages.
       i18n: { defaultLocale: "en", locales: { en: "en-GB", de: "de" } },
     }),

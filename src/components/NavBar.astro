@@ -77,8 +77,7 @@ const linkAttrs = (l: (typeof links)[number]) => ({
   dialog.addEventListener("close", () => open.setAttribute("aria-expanded", "false"));
 
   // On the home and coach pages, highlight the section link while its section is being read.
-  import { activeId } from "../lib/scrollspy";
-  const SECTION_LINK: Record<string, string> = { how: "how", features: "features", privacy: "features", more: "features", clients: "features", faq: "faq" };
+  import { activeId, navSection } from "../lib/scrollspy";
   const sections = ["how", "features", "privacy", "more", "clients", "request", "faq", "download"].flatMap((id) => document.getElementById(id) ?? []);
   if (sections.length) {
     const links = [...document.querySelectorAll<HTMLAnchorElement>("a[data-nav-section]")];
@@ -94,7 +93,7 @@ const linkAttrs = (l: (typeof links)[number]) => ({
         offset,
         root.scrollTop + innerHeight >= root.scrollHeight - 2,
       );
-      const key = SECTION_LINK[id ?? ""];
+      const key = navSection(id);
       if (key === current) return;
       current = key;
       for (const a of links) {

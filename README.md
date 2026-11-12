@@ -91,7 +91,7 @@ The page stays unpublished (`noindex`) until a trainer can be onboarded end to e
 1. Replace the placeholder screenshots (`coach-*.png`, `phone-sharing.png`) by file name, and regenerate `public/og-coach.png` (above).
 2. Review the German body copy in `src/content/coach/de.ts`.
 3. Publish the access request section of the privacy policy.
-4. Turn indexing on: remove the `noindex` attribute from `<BaseLayout>` in `src/views/CoachPage.astro`.
+4. Turn indexing on: remove the `noindex` attribute from `<BaseLayout>` in `src/views/CoachPage.astro`, and remove the `/coach/` exclusion from the sitemap `filter` in `astro.config.mjs`.
 5. Merge. Afterwards, turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
 
 ### Campaign links
@@ -102,7 +102,7 @@ Each campaign gets a short path in `public/_redirects`, one line per campaign:
 /go/flyer      /coach/?src=flyer      302
 ```
 
-The `/go/` path shows up as its own path in Cloudflare Web Analytics (visits per campaign), and the `src` value is stored with each access request (requests per campaign). A source is lowercase letters, digits and hyphens, at most 40 characters; anything else is dropped by the form. `/de/go/<source>` sends any source to the German page. Point QR codes at the short path, for example `https://musclequest.app/go/flyer`: it is shorter to scan and keeps working if the page moves. `npm test` checks every line, and the link check checks that each target page exists.
+The `/go/` path shows up as its own path in Cloudflare Web Analytics (visits per campaign), and the `src` value is stored with each access request (requests per campaign). A source is lowercase letters, digits and hyphens, at most 40 characters; anything else is dropped by the form. `/de/go/<source>` sends any source to the German page. Point QR codes at the short path, for example `https://musclequest.app/go/flyer`: it is shorter to scan and keeps working if the page moves. `npm test` checks every line: the source must pass the form's rule and must equal the `/go/` path segment (`/go/flyer` sends `src=flyer`), so the analytics path and the stored source name the same campaign. The link check checks that each target page exists.
 
 ## Deploy (Cloudflare Pages)
 

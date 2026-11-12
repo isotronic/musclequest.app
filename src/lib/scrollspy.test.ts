@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { activeId } from "./scrollspy";
+import { activeId, navSection } from "./scrollspy";
 
 const s = (...tops: number[]) => tops.map((top, i) => ({ id: `s${i}`, top }));
 
@@ -18,4 +18,21 @@ test("picks the last section when scrolled to the bottom", () => {
 
 test("returns null when there are no sections", () => {
   expect(activeId([], 120, false)).toBeNull();
+});
+
+test("navSection maps the home page's sections onto their nav links", () => {
+  expect(navSection("features")).toBe("features");
+  expect(navSection("privacy")).toBe("features");
+  expect(navSection("more")).toBe("features");
+  expect(navSection("faq")).toBe("faq");
+  expect(navSection("download")).toBeUndefined();
+  expect(navSection(null)).toBeUndefined();
+});
+
+test("navSection clears the highlight in coach sections without a nav link", () => {
+  expect(navSection("how")).toBe("how");
+  expect(navSection("features")).toBe("features");
+  expect(navSection("clients")).toBeUndefined();
+  expect(navSection("request")).toBeUndefined();
+  expect(navSection("faq")).toBe("faq");
 });
