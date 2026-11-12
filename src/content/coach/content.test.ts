@@ -90,6 +90,7 @@ describe("coach content", () => {
     for (const content of [en, de]) {
       expect(content.form.errors.server).toContain(content.config.contactEmail);
       expect(content.form.errors.network).toContain(content.config.contactEmail);
+      expect(content.form.errors.turnstile).toContain(content.config.contactEmail);
       expect(content.form.noScript).toContain(content.config.contactEmail);
     }
   });

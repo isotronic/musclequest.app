@@ -34,3 +34,12 @@ const coach = coachContent(locale);
   <ClosingCta content={coach.closing} />
   <Lightbox locale={locale} />
 </BaseLayout>
+
+<script>
+  // A visitor from a campaign link (/go/flyer) keeps its source when switching language.
+  import { withSource } from "../lib/source";
+  const src = new URLSearchParams(location.search).get("src");
+  document.querySelectorAll<HTMLAnchorElement>('nav[aria-labelledby="footer-language"] a[hreflang]').forEach((a) => {
+    a.setAttribute("href", withSource(a.getAttribute("href") ?? "", src));
+  });
+</script>

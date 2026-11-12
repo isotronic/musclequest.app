@@ -92,7 +92,13 @@ The page stays unpublished (`noindex`) until a trainer can be onboarded end to e
 2. Review the German body copy in `src/content/coach/de.ts`.
 3. Publish the access request section of the privacy policy.
 4. Turn indexing on: remove the `noindex` attribute from `<BaseLayout>` in `src/views/CoachPage.astro`, and remove the `/coach/` exclusion from the sitemap `filter` in `astro.config.mjs`.
-5. Merge. Afterwards, turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
+5. Check what the form depends on outside this repo:
+   - The coach route (`/api/access-requests`) is deployed on `coach.musclequest.app` with its Worker secrets set, and the `access_requests` migration is applied on the production Supabase project.
+   - `www.musclequest.app` answers with a 301 to `https://musclequest.app`. The route's CORS origin and the Turnstile widget's hostname accept only the apex, so a form on `www` would always fail.
+   - `coach@musclequest.app` reaches a mailbox (Cloudflare Email Routing). The form's error lines, the no-JavaScript line and the FAQ point people at it.
+6. Merge. Then send one real request through the live form and check that the row and the notification email arrive; delete the row afterwards. Turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
+
+The form never works on Pages preview deployments (`*.pages.dev`), by design: the Turnstile widget's hostname list holds only the apex, so the widget fails and the security check sentence shows, and the route would refuse the origin anyway (the network sentence). Test the form locally (above) or on the live site.
 
 ### Campaign links
 
@@ -102,7 +108,7 @@ Each campaign gets a short path in `public/_redirects`, one line per campaign:
 /go/flyer      /coach/?src=flyer      302
 ```
 
-The `/go/` path shows up as its own path in Cloudflare Web Analytics (visits per campaign), and the `src` value is stored with each access request (requests per campaign). A source is lowercase letters, digits and hyphens, at most 40 characters; anything else is dropped by the form. `/de/go/<source>` sends any source to the German page. Point QR codes at the short path, for example `https://musclequest.app/go/flyer`: it is shorter to scan and keeps working if the page moves. `npm test` checks every line: the source must pass the form's rule and must equal the `/go/` path segment (`/go/flyer` sends `src=flyer`), so the analytics path and the stored source name the same campaign. The link check checks that each target page exists.
+Requests per campaign come from the `source` column of `coaching.access_requests`, which stores the `src` value. A `/go/` path is a 302 that renders no page, so Cloudflare Web Analytics (a script on the page) most likely does not count it; visits per short link can be read in the zone's HTTP traffic analytics or logs instead (check after the first deploy). A source is lowercase letters, digits and hyphens, at most 40 characters; anything else is dropped by the form. `/de/go/<source>` sends any source to the German page. Point QR codes at the short path, for example `https://musclequest.app/go/flyer`: it is shorter to scan and keeps working if the page moves. `npm test` checks every line: the source must pass the form's rule and must equal the `/go/` path segment (`/go/flyer` sends `src=flyer`), so the short path and the stored source name the same campaign. The link check checks that each target page exists.
 
 ## Deploy (Cloudflare Pages)
 

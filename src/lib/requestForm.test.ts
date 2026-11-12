@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { collectPayload, eventForResponse, fillThanks, initialState, readSource, reduce, type FormState, type Payload } from "./requestForm";
+import { collectPayload, eventForResponse, fillThanks, initialState, readSource, reduce, splitAtAddress, turnstileSize, type FormState, type Payload } from "./requestForm";
 import { coach } from "../content/coach/en";
 
 const messages = coach.form.errors;
@@ -180,5 +180,28 @@ describe("fillThanks", () => {
   });
   test.each(["$&", "$1", "$$", "$`", "$'", "<b>x</b>"])("keeps %s in a name literally", (name) => {
     expect(fillThanks("Thanks, {name}.", name)).toBe(`Thanks, ${name}.`);
+  });
+});
+
+describe("splitAtAddress", () => {
+  test("splits a sentence around the address", () => {
+    expect(splitAtAddress("Try again, or email coach@musclequest.app.", "coach@musclequest.app")).toEqual(["Try again, or email ", "coach@musclequest.app", "."]);
+  });
+  test("a sentence without the address stays whole", () => {
+    expect(splitAtAddress("Please try again.", "coach@musclequest.app")).toEqual(["Please try again.", null, ""]);
+  });
+  test("an empty address never matches", () => {
+    expect(splitAtAddress("Please try again.", "")).toEqual(["Please try again.", null, ""]);
+  });
+});
+
+describe("turnstileSize", () => {
+  test("normal when the container fits the 300 px widget", () => {
+    expect(turnstileSize(300)).toBe("normal");
+    expect(turnstileSize(486)).toBe("normal");
+  });
+  test("compact when it does not", () => {
+    expect(turnstileSize(299)).toBe("compact");
+    expect(turnstileSize(240)).toBe("compact");
   });
 });

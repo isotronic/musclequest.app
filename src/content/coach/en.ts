@@ -128,7 +128,7 @@ export const coach: CoachContent = {
       messageTooLong: "Use up to 2,000 characters for your message.",
       network: "Could not reach the server. Check your connection and try again, or email coach@musclequest.app.",
       server: "Something went wrong on our side. Please try again, or email coach@musclequest.app.",
-      turnstile: "The security check did not finish. Please try again.",
+      turnstile: "The security check did not finish. Reload the page and try again, or email coach@musclequest.app.",
     },
     noScript: "This form needs JavaScript. Turn it on, or email coach@musclequest.app.",
   },

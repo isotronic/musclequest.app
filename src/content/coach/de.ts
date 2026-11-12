@@ -36,7 +36,7 @@ export const coach: CoachContent = {
       {
         id: "builder",
         title: "Ein Plan-Builder für echte Programmierung",
-        text: "Trainingsblöcke mit Zielen Woche für Woche und Deload-Wochen. Vorlagen mit Muskel-Platzhaltern, die der Klient passend zu seiner eigenen Ausrüstung füllt. Supersätze und Zirkel, Aufwärmen und Cool-down als eigene Abschnitte, Mobilitätseinheiten.",
+        text: "Trainingsblöcke mit Zielen Woche für Woche und Deload-Wochen. Vorlagen mit Muskel-Platzhaltern, die der Klient passend zu seinen eigenen Geräten füllt. Supersätze und Zirkel, Aufwärmen und Cool-down als eigene Abschnitte, Mobilitätseinheiten.",
         bullets: ["Vorlagen für mehrere Klienten wiederverwenden", "Hinweise und Tracking-Typ pro Übung", "Per Drag-and-drop zwischen Übungsauswahl, Trainingsleiste und geöffnetem Training verschieben"],
         screenshot: "coachBlockWeeks",
         screenshotAlt: "Wochen eines Blocks im Plan-Builder: Satzziele Woche für Woche für eine Übung, die letzte Woche als Deload-Woche markiert",
@@ -79,7 +79,7 @@ export const coach: CoachContent = {
       },
       {
         title: "Einwilligung eingebaut",
-        text: "Klienten wählen, was sie teilen und ab wann. Sie können das Teilen jederzeit pausieren oder die Verbindung trennen.",
+        text: "Klienten wählen, was sie teilen und ab wann, und können das Teilen jederzeit pausieren oder die Verbindung trennen.",
         screenshot: "phoneSharing",
         screenshotAlt: "Einstellungen zum Teilen mit dem Trainer in der MuscleQuest-App: was geteilt wird, seit wann, und die Schaltflächen zum Pausieren und Trennen",
       },
@@ -130,7 +130,7 @@ export const coach: CoachContent = {
       messageTooLong: "Ihre Nachricht darf höchstens 2.000 Zeichen lang sein.",
       network: "Der Server war nicht erreichbar. Prüfen Sie Ihre Verbindung und versuchen Sie es noch einmal, oder schreiben Sie an coach@musclequest.app.",
       server: "Bei uns ist etwas schiefgelaufen. Bitte versuchen Sie es noch einmal, oder schreiben Sie an coach@musclequest.app.",
-      turnstile: "Die Sicherheitsprüfung wurde nicht abgeschlossen. Bitte versuchen Sie es noch einmal.",
+      turnstile: "Die Sicherheitsprüfung wurde nicht abgeschlossen. Laden Sie die Seite neu und versuchen Sie es noch einmal, oder schreiben Sie an coach@musclequest.app.",
     },
     noScript: "Dieses Formular braucht JavaScript. Schalten Sie es ein, oder schreiben Sie an coach@musclequest.app.",
   },

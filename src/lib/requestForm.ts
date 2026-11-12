@@ -150,11 +150,25 @@ export function fillThanks(template: string, name: string): string {
   return template.replace("{name}", () => name);
 }
 
+/** A message split around the contact address, so the glue can render the address as a mailto link. */
+export function splitAtAddress(message: string, address: string): [string, string | null, string] {
+  const at = address ? message.indexOf(address) : -1;
+  if (at === -1) return [message, null, ""];
+  return [message.slice(0, at), address, message.slice(at + address.length)];
+}
+
+// The normal widget is 300 px wide; in a narrower container (a 320 px phone) use the compact one.
+const TURNSTILE_NORMAL_WIDTH = 300;
+export function turnstileSize(containerWidth: number): "normal" | "compact" {
+  return containerWidth >= TURNSTILE_NORMAL_WIDTH ? "normal" : "compact";
+}
+
 // ---- DOM glue ----
 
 type Turnstile = {
   render(container: HTMLElement, options: Record<string, unknown>): string | undefined;
   reset(widgetId?: string): void;
+  remove(widgetId?: string): void;
 };
 
 declare global {
@@ -165,8 +179,10 @@ declare global {
 
 // The server can take about 33 s in the worst case (Turnstile check plus database plus email).
 const REQUEST_TIMEOUT_MS = 45_000;
-// api.js loads with `defer` and `render=explicit`; this module polls for window.turnstile rather
-// than using the script's onload callback, so the order the two scripts run in does not matter.
+// api.js loads with `async` and `render=explicit`, so it may run before or after this module. The module
+// renders the widget once, on whichever comes first: window.turnstile found by polling, or the script's
+// load event. A script that fails to load marks itself with `data-failed` (an inline onerror, in case it
+// fails before this module runs) or fires its error event later; either shows the Turnstile sentence at once.
 const TURNSTILE_POLL_MS = 100;
 const TURNSTILE_GIVE_UP_MS = 20_000;
 
@@ -178,6 +194,7 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
   const thanksTitle = document.getElementById("rf-thanks-title")!;
   const submitLabel = submit.textContent ?? "";
   const source = readSource(location.search);
+  const contact = form.dataset.contact ?? "";
   const sourceInput = form.querySelector<HTMLInputElement>("#rf-source");
   if (sourceInput) sourceInput.value = source ?? "";
 
@@ -185,6 +202,9 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
   let token: string | null = null;
   let widgetId: string | undefined;
   let shownErrors: Partial<Record<Field, string>> = {};
+  // True while the Turnstile sentence shown comes from the widget itself (failed load or error-callback),
+  // not from the server; a new token then clears it.
+  let widgetError = false;
 
   const controls = (field: Field): HTMLElement[] => [...form.querySelectorAll<HTMLElement>(`[name="${field}"]`)];
 
@@ -210,9 +230,27 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
     }
   };
 
+  // Built from text nodes and an <a>, never innerHTML: the address becomes a mailto link.
   const showFormError = (message: string | null) => {
-    formError.textContent = message ?? "";
+    widgetError = false;
+    formError.replaceChildren();
     formError.hidden = !message;
+    if (!message) return;
+    const [before, address, after] = splitAtAddress(message, contact);
+    formError.append(before);
+    if (address) {
+      const link = document.createElement("a");
+      link.href = `mailto:${address}`;
+      link.textContent = address;
+      link.className = "underline hover:text-accent";
+      formError.append(link, after);
+    }
+  };
+
+  const showWidgetError = () => {
+    setToken(null);
+    showFormError(messages.turnstile);
+    widgetError = true;
   };
 
   const focusFirstInvalid = (errors: Partial<Record<Field, string>>) => {
@@ -233,6 +271,8 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
   const dispatch = (event: FormEvent) => {
     state = reduce(state, event);
     if (state.status === "sent") {
+      if (widgetId !== undefined) window.turnstile?.remove(widgetId);
+      widgetId = undefined;
       const name = state.values?.name ?? "";
       thanksTitle.textContent = fillThanks(thanksTitle.dataset.template ?? "", name);
       form.hidden = true;
@@ -300,33 +340,35 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
         sitekey: container.dataset.sitekey,
         action: container.dataset.action ?? "access-request",
         theme: container.dataset.theme ?? "dark",
-        callback: (value: string) => setToken(value),
+        language: form.dataset.locale ?? "auto",
+        size: turnstileSize(container.getBoundingClientRect().width),
+        callback: (value: string) => {
+          setToken(value);
+          if (widgetError) showFormError(null);
+        },
         "expired-callback": () => setToken(null),
-        "error-callback": () => setToken(null),
+        "error-callback": () => showWidgetError(),
       });
     } catch {
       widgetId = undefined;
     }
     // Without a widget id the token can never be reset, so the form cannot be sent: say so.
-    if (widgetId === undefined) {
-      setToken(null);
-      showFormError(messages.turnstile);
-    } else if (formError.textContent === messages.turnstile) {
-      showFormError(null);
-    }
+    if (widgetId === undefined) showWidgetError();
+    else if (widgetError) showFormError(null);
   };
 
   // A slow connection can load api.js after the polling window: render on its load event then.
-  document
-    .querySelector<HTMLScriptElement>('script[src*="challenges.cloudflare.com/turnstile/"]')
-    ?.addEventListener("load", () => window.turnstile && render(window.turnstile), { once: true });
+  const script = document.querySelector<HTMLScriptElement>('script[src*="challenges.cloudflare.com/turnstile/"]');
+  script?.addEventListener("load", () => window.turnstile && render(window.turnstile), { once: true });
+  script?.addEventListener("error", () => !rendered && showWidgetError(), { once: true });
+  if (script?.dataset.failed !== undefined) showWidgetError();
 
   const started = Date.now();
   const waitForTurnstile = () => {
     if (rendered) return;
     if (window.turnstile) render(window.turnstile);
     else if (Date.now() - started < TURNSTILE_GIVE_UP_MS) setTimeout(waitForTurnstile, TURNSTILE_POLL_MS);
-    else showFormError(messages.turnstile);
+    else if (!widgetError) showWidgetError();
   };
   waitForTurnstile();
 }
