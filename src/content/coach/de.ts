@@ -28,7 +28,7 @@ export const coach: CoachContent = {
     steps: [
       { title: "Plan bauen", text: "Blöcke, Wochen, Sätze und Hinweise. Starten Sie mit einer Ihrer Vorlagen oder bei null, mit über 1.200 Übungen aus der Bibliothek und Ihren eigenen." },
       { title: "Klient einladen", text: "Schicken Sie einen Code. Ihr Klient gibt ihn in der MuscleQuest-App ein und wählt, was er mit Ihnen teilt und ab wann." },
-      { title: "Daten kommen an", text: "Jeder geloggte Satz erscheint in Ihrer Klientenansicht, zusammen mit dem, wie sich die Einheit angefühlt hat. Ändern Sie den Plan, ist die Änderung bei der nächsten Synchronisierung auf dem Handy Ihres Klienten." },
+      { title: "Daten kommen an", text: "Jeder geloggte Satz erscheint in Ihrer Klientenansicht, und Sie sehen, wie sich die Einheit angefühlt hat. Ändern Sie den Plan, ist die Änderung bei der nächsten Synchronisierung auf dem Handy Ihres Klienten." },
     ],
   },
   features: {
@@ -138,7 +138,7 @@ export const coach: CoachContent = {
   faq: {
     title: "Was Trainer fragen",
     items: [
-      { question: "Was brauchen meine Klienten?", answer: "Ein Android-Handy und die kostenlose MuscleQuest-App aus Google Play. Zum Trainieren ist kein Konto nötig; für die Verbindung mit Ihnen braucht es eine Google-Anmeldung auf dem Handy." },
+      { question: "Was brauchen meine Klienten?", answer: "Ein Android-Handy und die kostenlose MuscleQuest-App bei Google Play. Zum Trainieren ist kein Konto nötig; für die Verbindung mit Ihnen braucht es eine Google-Anmeldung auf dem Handy." },
       { question: "Zahlen meine Klienten etwas?", answer: "Nein. Die App ist kostenlos, ohne Werbung, und bleibt kostenlos." },
       { question: "Gibt es eine iPhone-App?", answer: "Noch nicht. Die iOS-App folgt nach dem Start von MuscleQuest Coach. Sagen Sie es uns im Formular, wenn die meisten Ihrer Klienten ein iPhone nutzen." },
       { question: "Wo werden die Daten gespeichert?", answer: "Die Trainingsdaten liegen auf dem Handy Ihres Klienten. Was er mit Ihnen teilt, wird in der EU gespeichert (Supabase, Irland) und Ihnen im Browser angezeigt. Die Übungsanimationen kommen von Cloudflare." },
