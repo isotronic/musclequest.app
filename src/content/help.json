@@ -20,10 +20,10 @@
           "body": {
             "type": "text",
             "text": {
-              "en": "The home screen shows your progress toward your weekly training goal, which is the number of days you want to work out each week, set in Settings. A strip at the top tracks how many days you have completed and highlights each completed day; tap a highlighted day to view the workout you logged. Below it, your active plan's workouts are listed with their completion status for the week; tap Start on any workout to begin. Without a weekly schedule, the plan runs in order: the workout after the one you did last comes first, even in a new week. If you are just starting out and have no active plan, a Pick a plan to get started card suggests a few premade plans instead. The card displayed beneath changes with your status: a Resume card appears if a session is in progress, a Rest Day card shows on days with no scheduled workout, and a Workout Done card confirms today's session is complete. When you hit your weekly goal, a Weekly Summary card appears showing total workouts, sets, and volume for the week, plus your streak, which counts the number of consecutive weeks you have met your goal. At the bottom, the Log Measurements card shows your latest body measurement; tap it to log today's values without leaving the screen. If your training history has never been backed up, or your last backup is more than 30 days old, a reminder card appears here so you can back up or sign in on the spot; tap Later to hide it for two weeks.",
-              "de": "Der Startbildschirm zeigt deinen Fortschritt in Richtung deines wöchentlichen Trainingsziels, also die Anzahl der Tage, an denen du pro Woche trainieren möchtest, festgelegt in den Einstellungen. Ein Streifen oben verfolgt, wie viele Tage du abgeschlossen hast, und hebt jeden abgeschlossenen Tag hervor; tippe auf einen hervorgehobenen Tag, um das dort erfasste Training anzusehen. Darunter werden die Trainings deines aktiven Plans mit ihrem Abschlussstatus für die Woche aufgelistet; tippe auf Starten bei einem Training, um zu beginnen. Ohne Wochenplan läuft der Plan der Reihe nach: Das Training nach deinem letzten steht oben, auch in einer neuen Woche. Wenn du gerade erst anfängst und noch keinen aktiven Plan hast, schlägt dir stattdessen die Karte „Wähle einen Plan, um loszulegen“ einige vorgefertigte Pläne vor. Die darunter angezeigte Karte ändert sich je nach Status: Eine Fortsetzen-Karte erscheint, wenn eine Einheit läuft, eine Ruhetag-Karte wird an Tagen ohne geplantes Training angezeigt, und eine Training-abgeschlossen-Karte bestätigt, dass die heutige Einheit abgeschlossen ist. Wenn du dein Wochenziel erreichst, erscheint eine Wochenzusammenfassungskarte mit Gesamttrainings, Sätzen und Volumen der Woche sowie deiner Serie, die die Anzahl aufeinanderfolgender Wochen zählt, in denen du dein Ziel erreicht hast. Ganz unten zeigt die Karte Körpermaße erfassen deine letzte Messung; tippe darauf, um die heutigen Werte einzutragen, ohne den Bildschirm zu verlassen. Wenn dein Trainingsverlauf noch nie gesichert wurde oder deine letzte Sicherung mehr als 30 Tage alt ist, erscheint hier eine Erinnerungskarte, über die du direkt sichern oder dich anmelden kannst; tippe auf Später, um sie für zwei Wochen auszublenden.",
-              "es": "La pantalla de inicio muestra tu progreso hacia tu objetivo semanal de entrenamiento, que es el número de días que quieres entrenar cada semana, establecido en Ajustes. Una franja en la parte superior registra cuántos días has completado y resalta cada día completado; toca un día resaltado para ver el entrenamiento que registraste. Debajo, los entrenamientos de tu plan activo se listan con su estado de finalización para la semana; toca Iniciar en cualquier entrenamiento para comenzar. Sin horario semanal, el plan sigue su orden: primero aparece el entrenamiento que va después del último que hiciste, incluso en una nueva semana. Si acabas de empezar y no tienes un plan activo, la tarjeta Elige un plan para empezar te sugiere algunos planes prediseñados. La tarjeta que se muestra debajo cambia según tu estado: aparece una tarjeta Reanudar si hay una sesión en curso, una tarjeta Día de descanso en los días sin entrenamiento programado, y una tarjeta Entrenamiento completado que confirma que la sesión de hoy está terminada. Cuando alcanzas tu objetivo semanal, aparece una tarjeta Resumen semanal que muestra el total de entrenamientos, series y volumen de la semana, más tu racha, que cuenta el número de semanas consecutivas en las que has cumplido tu objetivo. Al final, la tarjeta Registrar medidas muestra tu última medida corporal; tócala para registrar los valores de hoy sin salir de la pantalla. Si nunca has hecho una copia de seguridad de tu historial de entrenamiento, o la última tiene más de 30 días, aquí aparece una tarjeta de recordatorio para hacer la copia o iniciar sesión al momento; toca Más tarde para ocultarla durante dos semanas.",
-              "fr": "L'écran d'accueil affiche ta progression vers ton objectif d'entraînement hebdomadaire, qui correspond au nombre de jours par semaine où tu veux t'entraîner, défini dans les Paramètres. Une bande en haut indique le nombre de jours complétés et met en évidence chaque jour terminé ; appuie sur un jour mis en évidence pour voir l'entraînement enregistré. En dessous, les entraînements de ton programme actif sont listés avec leur statut d'avancement pour la semaine ; appuie sur Commencer sur n'importe quel entraînement pour le lancer. Sans planning hebdomadaire, le programme suit son ordre : l'entraînement qui suit ton dernier apparaît en premier, même en début de semaine. Si tu débutes et n'as pas encore de programme actif, la carte Choisis un programme pour commencer te propose plutôt quelques programmes prêts à l'emploi. La carte affichée en dessous change selon ton statut : une carte Reprendre apparaît si une séance est en cours, une carte Jour de repos s'affiche les jours sans entraînement planifié, et une carte Entraînement terminé confirme que la séance du jour est complète. Quand tu atteins ton objectif hebdomadaire, une carte Résumé de la semaine apparaît avec le total d'entraînements, de séries et de volume pour la semaine, plus ta série consécutive, qui compte le nombre de semaines consécutives où tu as atteint ton objectif. Tout en bas, la carte Saisir les mesures affiche ta dernière mesure corporelle ; appuie dessus pour saisir les valeurs du jour sans quitter l'écran. Si ton historique d'entraînement n'a jamais été sauvegardé, ou si ta dernière sauvegarde date de plus de 30 jours, une carte de rappel apparaît ici pour sauvegarder ou te connecter directement ; appuie sur Plus tard pour la masquer pendant deux semaines."
+              "en": "The home screen shows your progress toward your weekly training goal, which is the number of days you want to work out each week, set in Settings. The week strip at the top highlights each day you trained and counts them, such as 2 of 3 this week; tap a highlighted day to view the workout you logged. Below it, the Today card shows the workout to do next: today's scheduled workout, or without a weekly schedule the one after the workout you did last, even in a new week. On a rest day it says so and shows the next scheduled workout. The card shows how many exercises it has, an estimated duration and when you last did it; tap the card to see the exercises, or tap Start to begin. Once you have trained today, a Workout Done card takes its place, and while a session is in progress a Resume card is shown instead. Quick workout and Choose workout sit right below. Your plan's other workouts are under Other workouts in this plan, with their completion status for the week; tap the header to show or hide them. If you have no active plan, the card offers Explore plans, and if you are just starting out, a Pick a plan to get started card suggests a few premade plans instead. An active plan without workouts offers Add workouts. When you hit your weekly goal, a Weekly Summary card appears showing total workouts, sets, and volume for the week, plus your streak, which counts the number of consecutive weeks you have met your goal. If your training history has never been backed up, or your last backup is more than 30 days old, a reminder card appears so you can back up or sign in on the spot; tap Later to hide it for two weeks. At the bottom, the Log Measurements card shows your latest body measurement; tap it to log today's values without leaving the screen.",
+              "de": "Der Startbildschirm zeigt deinen Fortschritt in Richtung deines wöchentlichen Trainingsziels, also die Anzahl der Tage, an denen du pro Woche trainieren möchtest, festgelegt in den Einstellungen. Der Wochenstreifen oben hebt jeden Tag hervor, an dem du trainiert hast, und zählt sie, etwa 2 von 3 diese Woche; tippe auf einen hervorgehobenen Tag, um das dort erfasste Training anzusehen. Darunter zeigt die Karte Heute das nächste Training: das für heute geplante oder, ohne Wochenplan, das Training nach dem zuletzt gemachten, auch in einer neuen Woche. An einem Ruhetag sagt sie das und zeigt das nächste geplante Training. Die Karte zeigt, wie viele Übungen es hat, eine geschätzte Dauer und wann du es zuletzt gemacht hast; tippe auf die Karte, um die Übungen zu sehen, oder auf Starten, um zu beginnen. Sobald du heute trainiert hast, tritt eine Training-abgeschlossen-Karte an ihre Stelle, und während eine Einheit läuft, wird stattdessen eine Fortsetzen-Karte angezeigt. Schnelltraining und Training auswählen stehen direkt darunter. Die übrigen Trainings deines Plans findest du unter Weitere Trainings in diesem Plan, mit ihrem Abschlussstatus für die Woche; tippe auf die Überschrift, um sie ein- oder auszublenden. Ohne aktiven Plan bietet die Karte Pläne erkunden an, und wenn du gerade erst anfängst, schlägt dir stattdessen die Karte Wähle einen Plan, um loszulegen einige vorgefertigte Pläne vor. Ein aktiver Plan ohne Trainings bietet Trainings hinzufügen an. Wenn du dein Wochenziel erreichst, erscheint eine Wochenzusammenfassungskarte mit Gesamttrainings, Sätzen und Volumen der Woche sowie deiner Serie, die die Anzahl aufeinanderfolgender Wochen zählt, in denen du dein Ziel erreicht hast. Wenn dein Trainingsverlauf noch nie gesichert wurde oder deine letzte Sicherung älter als 30 Tage ist, erscheint eine Erinnerungskarte, damit du gleich sichern oder dich anmelden kannst; tippe auf Später, um sie für zwei Wochen auszublenden. Ganz unten zeigt die Karte Körpermaße erfassen deine letzte Messung; tippe darauf, um die heutigen Werte einzutragen, ohne den Bildschirm zu verlassen.",
+              "es": "La pantalla de inicio muestra tu progreso hacia tu objetivo semanal de entrenamiento, que es el número de días que quieres entrenar cada semana, establecido en Ajustes. La franja de la semana en la parte superior resalta cada día que entrenaste y los cuenta, por ejemplo 2 de 3 esta semana; toca un día resaltado para ver el entrenamiento que registraste. Debajo, la tarjeta Hoy muestra el siguiente entrenamiento: el programado para hoy o, sin calendario semanal, el que sigue al último que hiciste, incluso en una semana nueva. En un día de descanso lo indica y muestra el siguiente entrenamiento programado. La tarjeta muestra cuántos ejercicios tiene, una duración estimada y cuándo lo hiciste por última vez; toca la tarjeta para ver los ejercicios, o toca Iniciar para empezar. Cuando ya has entrenado hoy, una tarjeta Entrenamiento completado ocupa su lugar, y mientras hay una sesión en curso se muestra en su lugar una tarjeta Reanudar. Entrenamiento rápido y Elegir entrenamiento están justo debajo. Los demás entrenamientos de tu plan están en Otros entrenamientos de este plan, con su estado de la semana; toca el encabezado para mostrarlos u ocultarlos. Si no tienes un plan activo, la tarjeta ofrece Explorar planes, y si acabas de empezar, la tarjeta Elige un plan para empezar te sugiere algunos planes prediseñados. Un plan activo sin entrenamientos ofrece Añadir entrenamientos. Cuando alcanzas tu objetivo semanal, aparece una tarjeta Resumen semanal que muestra el total de entrenamientos, series y volumen de la semana, más tu racha, que cuenta el número de semanas consecutivas en las que has cumplido tu objetivo. Si tu historial nunca se ha guardado en una copia de seguridad, o la última tiene más de 30 días, aparece una tarjeta de recordatorio para que hagas la copia o inicies sesión al momento; toca Más tarde para ocultarla dos semanas. Al final, la tarjeta Registrar medidas muestra tu última medida corporal; tócala para registrar los valores de hoy sin salir de la pantalla.",
+              "fr": "L'écran d'accueil affiche ta progression vers ton objectif d'entraînement hebdomadaire, qui correspond au nombre de jours par semaine où tu veux t'entraîner, défini dans les Paramètres. La bande de la semaine en haut met en évidence chaque jour où tu t'es entraîné et les compte, par exemple 2 sur 3 cette semaine ; appuie sur un jour mis en évidence pour voir l'entraînement enregistré. En dessous, la carte Aujourd'hui affiche le prochain entraînement : celui prévu aujourd'hui ou, sans planning hebdomadaire, celui qui suit le dernier que tu as fait, même dans une nouvelle semaine. Un jour de repos, elle l'indique et affiche le prochain entraînement prévu. La carte indique son nombre d'exercices, une durée estimée et quand tu l'as fait pour la dernière fois ; appuie sur la carte pour voir les exercices, ou sur Commencer pour démarrer. Une fois que tu t'es entraîné aujourd'hui, une carte Entraînement terminé prend sa place, et pendant une séance en cours, une carte Reprendre s'affiche à la place. Entraînement rapide et Choisir un entraînement se trouvent juste en dessous. Les autres entraînements de ton programme sont sous Autres entraînements de ce programme, avec leur statut pour la semaine ; appuie sur l'en-tête pour les afficher ou les masquer. Sans programme actif, la carte propose Explorer les programmes, et si tu débutes, la carte Choisis un programme pour commencer te propose plutôt quelques programmes prêts à l'emploi. Un programme actif sans entraînements propose Ajouter des entraînements. Quand tu atteins ton objectif hebdomadaire, une carte Résumé de la semaine apparaît avec le total d'entraînements, de séries et de volume pour la semaine, plus ta série consécutive, qui compte le nombre de semaines consécutives où tu as atteint ton objectif. Si ton historique n'a jamais été sauvegardé, ou si ta dernière sauvegarde date de plus de 30 jours, une carte de rappel apparaît pour que tu puisses sauvegarder ou te connecter sur-le-champ ; appuie sur Plus tard pour la masquer pendant deux semaines. Tout en bas, la carte Saisir les mesures affiche ta dernière mesure corporelle ; appuie dessus pour saisir les valeurs du jour sans quitter l'écran."
             }
           }
         },
@@ -139,6 +139,108 @@
           }
         },
         {
+          "id": "estimated-duration",
+          "title": {
+            "en": "Estimated Duration",
+            "de": "Geschätzte Dauer",
+            "es": "Duración estimada",
+            "fr": "Durée estimée"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Workouts show an estimated duration on the home screen, on the Plans tab, in the workout editor and on the workout overview. It adds up the time each set takes and the rest after it, so the range runs from a quick session to a slower one.",
+              "de": "Trainings zeigen eine geschätzte Dauer auf der Startseite, im Tab Pläne, im Trainingseditor und in der Trainingsübersicht. Sie addiert die Zeit jedes Satzes und die Pause danach, sodass die Spanne von einer zügigen bis zu einer gemächlicheren Einheit reicht.",
+              "es": "Los entrenamientos muestran una duración estimada en la pantalla de inicio, en la pestaña Planes, en el editor de entrenamientos y en el resumen del entrenamiento. Suma el tiempo de cada serie y el descanso posterior, así que el rango va de una sesión rápida a una más pausada.",
+              "fr": "Les entraînements affichent une durée estimée sur l'écran d'accueil, dans l'onglet Programmes, dans l'éditeur d'entraînement et dans l'aperçu de l'entraînement. Elle additionne le temps de chaque série et le repos qui suit, la fourchette va donc d'une séance rapide à une séance plus tranquille."
+            },
+            "steps": [
+              {
+                "en": "Rest counts as you set it for each set, so the closer your rest times are to what you really take, the better the estimate. The rest after the last set of the workout is left out, and in a superset there is no rest before the partner exercise.",
+                "de": "Die Pause zählt so, wie du sie für jeden Satz eingestellt hast: Je näher deine Pausenzeiten an dem liegen, was du wirklich pausierst, desto genauer die Schätzung. Die Pause nach dem letzten Satz des Trainings zählt nicht, und in einem Supersatz gibt es keine Pause vor der Partnerübung.",
+                "es": "El descanso cuenta tal como lo configuras en cada serie, así que cuanto más se parezcan tus tiempos de descanso a lo que descansas de verdad, mejor será la estimación. El descanso tras la última serie del entrenamiento no cuenta, y en una superserie no hay descanso antes del ejercicio pareja.",
+                "fr": "Le repos compte tel que tu l'as réglé pour chaque série : plus tes temps de repos sont proches de ce que tu prends vraiment, plus l'estimation est juste. Le repos après la dernière série de l'entraînement n'est pas compté, et dans une superserie il n'y a pas de repos avant l'exercice associé."
+              },
+              {
+                "en": "Until you have logged an exercise, each set's time comes from its equipment, so a barbell set counts for longer than a dumbbell or body weight set. It is scaled to the set's target reps, so a set of 5 is quicker than a set of 15. Timed sets use their target time.",
+                "de": "Solange du eine Übung noch nicht protokolliert hast, richtet sich die Zeit jedes Satzes nach dem Gerät, ein Langhantelsatz zählt also länger als ein Kurzhantel- oder Körpergewichtssatz. Sie wird an die Zielwiederholungen des Satzes angepasst, ein Satz mit 5 ist also schneller als einer mit 15. Zeitbasierte Sätze nutzen ihre Zielzeit.",
+                "es": "Hasta que registres un ejercicio, el tiempo de cada serie depende de su equipo, así que una serie con barra cuenta más que una con mancuernas o con peso corporal. Se ajusta a las reps objetivo de la serie, de modo que una serie de 5 es más rápida que una de 15. Las series por tiempo usan su tiempo objetivo.",
+                "fr": "Tant que tu n'as pas enregistré un exercice, le temps de chaque série dépend de son équipement : une série à la barre compte plus longtemps qu'une série aux haltères ou au poids du corps. Il est ajusté aux reps visées de la série, une série de 5 est donc plus rapide qu'une série de 15. Les séries chronométrées utilisent leur temps visé."
+              },
+              {
+                "en": "During a session, each set is timed from when it is ready to start until you complete it. The estimate learns from these times for that exercise, in any workout: after a few sets it blends them with the equipment default, and from five sets on it uses your own typical range from your 20 most recent sets.",
+                "de": "Während einer Einheit wird jeder Satz gemessen, von dem Moment, in dem er bereit ist, bis du ihn abschließt. Die Schätzung lernt aus diesen Zeiten für diese Übung, in jedem Training: Nach ein paar Sätzen mischt sie sie mit dem Gerätewert, und ab fünf Sätzen nutzt sie deine eigene typische Spanne aus deinen 20 letzten Sätzen.",
+                "es": "Durante una sesión, cada serie se cronometra desde que está lista para empezar hasta que la completas. La estimación aprende de esos tiempos para ese ejercicio, en cualquier entrenamiento: tras unas pocas series los combina con el valor del equipo, y a partir de cinco series usa tu propio rango habitual de tus 20 series más recientes.",
+                "fr": "Pendant une séance, chaque série est chronométrée du moment où elle est prête à commencer jusqu'à ce que tu la termines. L'estimation apprend de ces temps pour cet exercice, dans n'importe quel entraînement : après quelques séries elle les mélange avec la valeur de l'équipement, et à partir de cinq séries elle utilise ta propre fourchette habituelle, tirée de tes 20 séries les plus récentes."
+              },
+              {
+                "en": "Warm-up sets count like any other set. With Single-side rep logging on in Settings, a unilateral exercise counts both sides, so its sets take twice as long.",
+                "de": "Aufwärmsätze zählen wie jeder andere Satz. Ist Einseitige Wdh.-Erfassung in den Einstellungen aktiv, zählt eine einseitige Übung beide Seiten, ihre Sätze dauern also doppelt so lang.",
+                "es": "Las series de calentamiento cuentan como cualquier otra. Con Reps por un solo lado activado en Ajustes, un ejercicio unilateral cuenta ambos lados, así que sus series duran el doble.",
+                "fr": "Les séries d'échauffement comptent comme les autres. Avec Reps d'un seul côté activé dans les Paramètres, un exercice unilatéral compte les deux côtés, ses séries durent donc deux fois plus longtemps."
+              },
+              {
+                "en": "Only sets and rest are counted, not warming up beforehand or setting up equipment, so allow a few extra minutes.",
+                "de": "Gezählt werden nur Sätze und Pausen, nicht das Aufwärmen vorher oder das Einrichten der Geräte, plane also ein paar Minuten extra ein.",
+                "es": "Solo cuentan las series y los descansos, no el calentamiento previo ni preparar el equipo, así que cuenta con unos minutos extra.",
+                "fr": "Seuls les séries et les repos sont comptés, pas l'échauffement préalable ni l'installation du matériel, prévois donc quelques minutes de plus."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "muscles-worked",
+          "title": {
+            "en": "Muscles Worked",
+            "de": "Trainierte Muskeln",
+            "es": "Músculos trabajados",
+            "fr": "Muscles travaillés"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "See which muscles a workout or plan trains while you build it, so you can spot gaps before you start.",
+              "de": "Sieh schon beim Erstellen, welche Muskeln ein Training oder Plan trainiert, damit dir Lücken vor dem Start auffallen.",
+              "es": "Mira qué músculos trabaja un entrenamiento o un plan mientras lo creas, para detectar huecos antes de empezar.",
+              "fr": "Vois quels muscles un entraînement ou un programme travaille pendant que tu le crées, pour repérer les manques avant de commencer."
+            },
+            "steps": [
+              {
+                "en": "Each workout in the plan editor, in the workout editor and on a plan's overview has a Muscles worked row naming the muscles it trains most. Tap it to see planned sets per muscle. During a quick workout, the same row sits on the workout overview and updates as you add exercises.",
+                "de": "Jedes Training im Planeditor, im Trainingseditor und in der Planübersicht hat eine Zeile Trainierte Muskeln, die die am meisten trainierten Muskeln nennt. Tippe darauf, um die geplanten Sätze pro Muskel zu sehen. Bei einem Schnelltraining steht dieselbe Zeile in der Trainingsübersicht und aktualisiert sich, während du Übungen hinzufügst.",
+                "es": "Cada entrenamiento en el editor de planes, en el editor de entrenamientos y en el resumen de un plan tiene una fila Músculos trabajados con los músculos que más trabaja. Tócala para ver las series planificadas por músculo. Durante un entrenamiento rápido, la misma fila aparece en el resumen del entrenamiento y se actualiza a medida que añades ejercicios.",
+                "fr": "Chaque entraînement dans l'éditeur de programme, dans l'éditeur d'entraînement et dans l'aperçu d'un programme a une ligne Muscles travaillés qui nomme les muscles les plus sollicités. Appuie dessus pour voir les séries prévues par muscle. Pendant un entraînement rapide, la même ligne apparaît dans l'aperçu de l'entraînement et se met à jour à mesure que tu ajoutes des exercices."
+              },
+              {
+                "en": "The plan editor and a plan's overview also show a Weekly sets per muscle card. Each workout counts once for every day the schedule gives it; without a schedule, the card counts each workout once. Tap the card to see the bars.",
+                "de": "Der Planeditor und die Planübersicht zeigen außerdem eine Karte Wöchentliche Sätze pro Muskel. Jedes Training zählt einmal für jeden Tag, an dem es im Wochenplan steht; ohne Wochenplan zählt jedes Training einmal. Tippe auf die Karte, um die Balken zu sehen.",
+                "es": "El editor de planes y el resumen de un plan también muestran una tarjeta Series semanales por músculo. Cada entrenamiento cuenta una vez por cada día que le asigna el horario; sin horario, cada entrenamiento cuenta una vez. Toca la tarjeta para ver las barras.",
+                "fr": "L'éditeur de programme et l'aperçu d'un programme affichent aussi une carte Séries hebdomadaires par muscle. Chaque entraînement compte une fois pour chaque jour où le planning le place ; sans planning, chaque entraînement compte une fois. Appuie sur la carte pour voir les barres."
+              },
+              {
+                "en": "Under the card's title, Not trained lists any major muscle that gets no sets at all, such as hamstrings or calves.",
+                "de": "Unter dem Titel der Karte nennt Nicht trainiert jeden großen Muskel, der gar keine Sätze bekommt, etwa Beinbeuger oder Waden.",
+                "es": "Bajo el título de la tarjeta, Sin trabajar lista cualquier músculo principal que no recibe ninguna serie, como los isquiotibiales o los gemelos.",
+                "fr": "Sous le titre de la carte, Non travaillés liste tout muscle principal qui ne reçoit aucune série, comme les ischio-jambiers ou les mollets."
+              },
+              {
+                "en": "Only working sets count, not warm-up sets. A set counts for the exercise's target muscle, and as half a set for each secondary muscle.",
+                "de": "Nur Arbeitssätze zählen, keine Aufwärmsätze. Ein Satz zählt für den Zielmuskel der Übung und als halber Satz für jeden sekundären Muskel.",
+                "es": "Solo cuentan las series efectivas, no las de calentamiento. Una serie cuenta para el músculo objetivo del ejercicio y como media serie para cada músculo secundario.",
+                "fr": "Seules les séries de travail comptent, pas les séries d'échauffement. Une série compte pour le muscle ciblé de l'exercice, et pour une demi-série pour chaque muscle secondaire."
+              },
+              {
+                "en": "The target range and secondary muscles follow the Sets per Muscle / Week widget on the Stats tab: its target range is shaded on the weekly bars, and turning off Count secondary muscles there turns them off here too. Warm-up sets never count here, even when the widget includes them.",
+                "de": "Zielbereich und sekundäre Muskeln folgen dem Widget Sätze pro Muskel / Woche im Tab Statistiken: Sein Zielbereich ist auf den Wochenbalken schattiert, und wenn du dort Sekundäre Muskeln mitzählen ausschaltest, gilt das auch hier. Aufwärmsätze zählen hier nie, auch wenn das Widget sie mitzählt.",
+                "es": "El rango objetivo y los músculos secundarios siguen el widget Series por músculo / semana de la pestaña Estadísticas: su rango objetivo aparece sombreado en las barras semanales, y si desactivas allí Contar músculos secundarios, también se desactivan aquí. Las series de calentamiento nunca cuentan aquí, aunque el widget las incluya.",
+                "fr": "La plage d'objectif et les muscles secondaires suivent le widget Séries par muscle / semaine de l'onglet Stats : sa plage d'objectif est grisée sur les barres hebdomadaires, et désactiver Compter les muscles secondaires là-bas les désactive ici aussi. Les séries d'échauffement ne comptent jamais ici, même quand le widget les inclut."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
           "id": "active-workout",
           "title": {
             "en": "Active Workout",
@@ -174,10 +276,16 @@
                 "fr": "Glisse la poignée d'une carte d'exercice pour réorganiser les exercices en cours de séance."
               },
               {
-                "en": "For time-based exercises, tap Start Timer. After a short Get Ready countdown, a count-up timer with a progress ring marks your goal time; you can keep going past it.",
-                "de": "Tippe bei zeitbasierten Übungen auf Timer starten. Nach einem kurzen Countdown „Mach dich bereit“ markiert ein Vorwärts-Timer mit Fortschrittsring deine Zielzeit; du kannst auch darüber hinaus weitermachen.",
-                "es": "En los ejercicios basados en tiempo, toca Iniciar temporizador. Tras una breve cuenta atrás ¡Prepárate!, un cronómetro con un anillo de progreso marca tu tiempo objetivo; puedes continuar más allá de él.",
-                "fr": "Pour les exercices basés sur le temps, appuie sur Démarrer la minuterie. Après un court compte à rebours Prépare-toi, un chronomètre avec un anneau de progression marque ton temps objectif ; tu peux continuer au-delà."
+                "en": "On the workout overview, tap the arrow on an exercise to list its sets. Tap a set to open it, or tap its circle to complete it with the values shown.",
+                "de": "Tippe in der Übersicht auf den Pfeil bei einer Übung, um ihre Sätze anzuzeigen. Tippe auf einen Satz, um ihn zu öffnen, oder auf seinen Kreis, um ihn mit den angezeigten Werten abzuschließen.",
+                "es": "En la vista general, toca la flecha de un ejercicio para ver sus series. Toca una serie para abrirla, o toca su círculo para completarla con los valores mostrados.",
+                "fr": "Dans la vue d'ensemble, appuie sur la flèche d'un exercice pour afficher ses séries. Appuie sur une série pour l'ouvrir, ou sur son cercle pour la terminer avec les valeurs affichées."
+              },
+              {
+                "en": "For time-based exercises, tap Start Timer. After a short Get Ready countdown, the timer counts down to the goal time and stops there. One-sided holds run both sides with a Switch sides cue. Without a goal time it counts up until you tap Stop.",
+                "de": "Tippe bei zeitbasierten Übungen auf Timer starten. Nach einem kurzen Countdown „Mach dich bereit“ zählt der Timer bis zur Zielzeit herunter und hält dort an. Einseitige Halteübungen laufen auf beiden Seiten mit einem Hinweis „Seite wechseln“. Ohne Zielzeit zählt er aufwärts, bis du auf Stopp tippst.",
+                "es": "Toca Iniciar temporizador en los ejercicios por tiempo. Tras una breve cuenta atrás de «Prepárate», el temporizador cuenta hacia atrás hasta el tiempo objetivo y se detiene ahí. Las posturas de un solo lado se hacen por ambos lados, con un aviso de «Cambia de lado». Sin tiempo objetivo, cuenta hacia delante hasta que toques Detener.",
+                "fr": "Pour les exercices chronométrés, touche Démarrer la minuterie. Après un bref compte à rebours « Prépare-toi », le minuteur décompte jusqu'au temps cible et s'arrête là. Les maintiens d'un seul côté se font des deux côtés, avec une indication « Change de côté ». Sans temps cible, il compte vers le haut jusqu'à ce que tu touches Arrêter."
               },
               {
                 "en": "Tap the menu (⋮) on a set and choose Edit Set to change its rep range or rest time mid-workout.",
@@ -204,10 +312,10 @@
                 "fr": "Les repères sont des rappels permanents. Ajoute-les par exercice avec l'icône d'ampoule dans l'en-tête de l'exercice, par entraînement depuis l'écran de vue d'ensemble de l'entraînement ou par programme depuis l'écran de vue d'ensemble du programme."
               },
               {
-                "en": "Notes belong to one session. Add a session note from the workout overview, or a note on a single set with Add note in its menu (⋮). Next time, a set's note shows under its Last time line. Notes stay on your device and are never shared with friends.",
-                "de": "Notizen gehören zu einer Einheit. Füge in der Trainingsübersicht eine Trainingsnotiz hinzu oder über Notiz hinzufügen im Menü (⋮) eines Satzes eine Notiz zu diesem Satz. Beim nächsten Mal erscheint die Notiz eines Satzes unter seiner Zeile „Letztes Mal“. Notizen bleiben auf deinem Gerät und werden nie mit Freunden geteilt.",
-                "es": "Las notas pertenecen a una sesión. Añade una nota de la sesión desde el resumen del entrenamiento, o una nota a una sola serie con Añadir nota en su menú (⋮). La próxima vez, la nota de una serie aparece bajo su línea Última vez. Las notas se quedan en tu dispositivo y nunca se comparten con amigos.",
-                "fr": "Les notes appartiennent à une séance. Ajoute une note de séance depuis la vue d'ensemble de l'entraînement, ou une note sur une seule série avec Ajouter une note dans son menu (⋮). La fois suivante, la note d'une série s'affiche sous sa ligne La dernière fois. Les notes restent sur ton appareil et ne sont jamais partagées avec tes amis."
+                "en": "Notes belong to one session. Add a session note from the workout overview, or a note on a single set with the note icon next to its menu (⋮). Next time, a set's note shows under its Last time line. Notes stay on your device and are never shared with friends.",
+                "de": "Notizen gehören zu einer Einheit. Füge in der Trainingsübersicht eine Trainingsnotiz hinzu oder über das Notiz-Symbol neben dem Menü (⋮) eines Satzes eine Notiz zu diesem Satz. Beim nächsten Mal erscheint die Notiz eines Satzes unter seiner Zeile „Letztes Mal“. Notizen bleiben auf deinem Gerät und werden nie mit Freunden geteilt.",
+                "es": "Las notas pertenecen a una sesión. Añade una nota de la sesión desde el resumen del entrenamiento, o una nota a una sola serie con el icono de nota junto a su menú (⋮). La próxima vez, la nota de una serie aparece bajo su línea Última vez. Las notas se quedan en tu dispositivo y nunca se comparten con amigos.",
+                "fr": "Les notes appartiennent à une séance. Ajoute une note de séance depuis la vue d'ensemble de l'entraînement, ou une note sur une seule série avec l'icône de note à côté de son menu (⋮). La fois suivante, la note d'une série s'affiche sous sa ligne La dernière fois. Les notes restent sur ton appareil et ne sont jamais partagées avec tes amis."
               },
               {
                 "en": "If you add, remove, or reorder exercises or sets, you'll be prompted at the end to save those changes back to the original workout or plan.",
@@ -229,6 +337,108 @@
               }
             ],
             "ordered": true
+          }
+        },
+        {
+          "id": "logging-style",
+          "title": {
+            "en": "Logging Style",
+            "de": "Erfassungsart",
+            "es": "Modo de registro",
+            "fr": "Mode de saisie"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Choose how you log sets with Logging style in Settings, under Workout and rest timer: One set at a time, the default, or All sets in a list. During a workout, switch with Show sets as a list or Show one set at a time in the workout menu (⋮) on the overview.",
+              "de": "Wähle mit Erfassungsart in den Einstellungen unter Training und Pausentimer, wie du Sätze erfasst: Ein Satz nach dem anderen, die Voreinstellung, oder Alle Sätze in einer Liste. Während eines Trainings schaltest du in der Übersicht im Trainingsmenü (⋮) mit Sätze als Liste zeigen oder Einen Satz nach dem anderen zeigen um.",
+              "es": "Elige cómo registras las series con Modo de registro en Ajustes, dentro de Entrenamiento y temporizador de descanso: Una serie cada vez, la opción predeterminada, o Todas las series en una lista. Durante un entrenamiento, cámbialo con Mostrar series en lista o Mostrar una serie cada vez en el menú del entrenamiento (⋮) de la vista general.",
+              "fr": "Choisis comment tu saisis tes séries avec Mode de saisie dans les Paramètres, sous Séance et minuteur de repos : Une série à la fois, par défaut, ou Toutes les séries dans une liste. Pendant une séance, change avec Afficher les séries en liste ou Afficher une série à la fois dans le menu de la séance (⋮) de la vue d'ensemble."
+            },
+            "steps": [
+              {
+                "en": "With All sets in a list, tapping an exercise on the workout overview shows all its sets at once, each with your last time next to the set number.",
+                "de": "Mit Alle Sätze in einer Liste zeigt ein Tippen auf eine Übung in der Übersicht alle ihre Sätze auf einmal, jeweils mit deinem letzten Mal neben der Satznummer.",
+                "es": "Con Todas las series en una lista, al tocar un ejercicio en la vista general ves todas sus series a la vez, cada una con tu última vez junto al número de serie.",
+                "fr": "Avec Toutes les séries dans une liste, appuyer sur un exercice dans la vue d'ensemble affiche toutes ses séries d'un coup, chacune avec ta dernière fois à côté du numéro de série."
+              },
+              {
+                "en": "Enter the weight and reps, or the time or distance, then tap the set's check to complete it. The next set is ready to fill in, and the rest timer starts as usual.",
+                "de": "Gib Gewicht und Wiederholungen ein, oder Zeit oder Strecke, und tippe dann auf das Häkchen des Satzes, um ihn abzuschließen. Der nächste Satz ist bereit zum Ausfüllen, und der Pausentimer startet wie gewohnt.",
+                "es": "Introduce el peso y las repeticiones, o el tiempo o la distancia, y toca la marca de la serie para completarla. La siguiente serie queda lista para rellenar y el temporizador de descanso empieza como siempre.",
+                "fr": "Saisis le poids et les répétitions, ou le temps ou la distance, puis appuie sur la coche de la série pour la terminer. La série suivante est prête à remplir, et le minuteur de repos démarre comme d'habitude."
+              },
+              {
+                "en": "Flags such as Warm-up, Drop Set and To Failure show under the set, and the menu (⋮) on each set has the same options as one set at a time.",
+                "de": "Markierungen wie Aufwärmen, Dropsatz und Bis zum Versagen stehen unter dem Satz, und das Menü (⋮) jedes Satzes bietet dieselben Optionen wie bei Ein Satz nach dem anderen.",
+                "es": "Las marcas como Calentamiento, Serie descendente y Al fallo aparecen bajo la serie, y el menú (⋮) de cada serie tiene las mismas opciones que en Una serie cada vez.",
+                "fr": "Les indicateurs comme Échauffement, Série dégressive et Jusqu'à l'échec s'affichent sous la série, et le menu (⋮) de chaque série propose les mêmes options qu'en Une série à la fois."
+              },
+              {
+                "en": "Tap Next to move to the following exercise, or Previous to go back. On the last exercise, tap Back to overview.",
+                "de": "Tippe auf Weiter, um zur nächsten Übung zu wechseln, oder auf Zurück, um zurückzugehen. Bei der letzten Übung tippst du auf Zurück zur Übersicht.",
+                "es": "Toca Siguiente para pasar al ejercicio siguiente, o Anterior para volver. En el último ejercicio, toca Volver a la vista general.",
+                "fr": "Appuie sur Suivant pour passer à l'exercice suivant, ou sur Précédent pour revenir. Au dernier exercice, appuie sur Retour à la vue d'ensemble."
+              },
+              {
+                "en": "A superset shows both exercises together, with their sets in rounds.",
+                "de": "Ein Supersatz zeigt beide Übungen zusammen, mit ihren Sätzen in Runden.",
+                "es": "Una superserie muestra los dos ejercicios juntos, con sus series en rondas.",
+                "fr": "Une superserie affiche les deux exercices ensemble, avec leurs séries par tours."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "effort-per-set",
+          "title": {
+            "en": "Effort per Set",
+            "de": "Anstrengung pro Satz",
+            "es": "Esfuerzo por serie",
+            "fr": "Effort par série"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Turn on Log effort per set in Settings, under Workout and rest timer, to rate how hard each set was. It stays off until you turn it on.",
+              "de": "Schalte Anstrengung pro Satz erfassen in den Einstellungen unter Training und Pausentimer ein, um zu bewerten, wie hart jeder Satz war. Es bleibt aus, bis du es einschaltest.",
+              "es": "Activa Registrar esfuerzo por serie en Ajustes, en Entrenamiento y temporizador de descanso, para valorar lo dura que fue cada serie. Está desactivado hasta que lo actives.",
+              "fr": "Active Noter l'effort par série dans Paramètres, sous Séance et minuteur de repos, pour noter la difficulté de chaque série. C'est désactivé tant que tu ne l'actives pas."
+            },
+            "steps": [
+              {
+                "en": "RIR (reps in reserve) is how many more reps you could have done: 0, 1, 2, 3 or 4+. Choose RPE instead to rate sets from 6 to 10 in half steps.",
+                "de": "RIR (Wiederholungen in Reserve) ist, wie viele Wiederholungen du noch geschafft hättest: 0, 1, 2, 3 oder 4+. Wähle stattdessen RPE, um Sätze von 6 bis 10 in halben Schritten zu bewerten.",
+                "es": "RIR (repeticiones en reserva) son cuántas repeticiones más podrías haber hecho: 0, 1, 2, 3 o 4+. Elige RPE para valorar las series de 6 a 10 en medios puntos.",
+                "fr": "Le RIR (répétitions en réserve), c'est combien de répétitions tu aurais encore pu faire : 0, 1, 2, 3 ou 4+. Choisis plutôt RPE pour noter les séries de 6 à 10 par demi-points."
+              },
+              {
+                "en": "Tap a chip under the inputs before you complete the set, or under the set in the list of sets. Tap it again to clear it. Rating a set is optional.",
+                "de": "Tippe vor dem Abschließen des Satzes auf einen Chip unter den Eingaben oder unter dem Satz in der Satzliste. Tippe erneut, um ihn zu entfernen. Die Bewertung ist freiwillig.",
+                "es": "Toca una opción bajo los campos antes de completar la serie, o bajo la serie en la lista de series. Tócala otra vez para quitarla. Valorar una serie es opcional.",
+                "fr": "Touche une pastille sous les champs avant de terminer la série, ou sous la série dans la liste des séries. Touche-la à nouveau pour l'effacer. Noter une série est facultatif."
+              },
+              {
+                "en": "Your effort shows after each set in your workout history, on the exercise's History tab and in Last time. Change it later in Edit workout.",
+                "de": "Deine Anstrengung steht nach jedem Satz in deinem Trainingsverlauf, im Tab Verlauf der Übung und bei Letztes Mal. Ändere sie später unter Training bearbeiten.",
+                "es": "Tu esfuerzo aparece después de cada serie en tu historial de entrenamientos, en la pestaña Historial del ejercicio y en Última vez. Cámbialo después en Editar entrenamiento.",
+                "fr": "Ton effort s'affiche après chaque série dans ton historique de séances, dans l'onglet Historique de l'exercice et dans La dernière fois. Modifie-le plus tard dans Modifier l'entraînement."
+              },
+              {
+                "en": "With adaptive progression on, rating every working set of an exercise answers how it felt for you, and the feedback card asks only about pain.",
+                "de": "Ist die adaptive Progression an, beantwortet die Bewertung aller Arbeitssätze einer Übung für dich, wie es sich angefühlt hat, und die Feedback-Karte fragt nur nach Schmerzen.",
+                "es": "Con la progresión adaptativa activada, valorar todas las series de trabajo de un ejercicio responde por ti a cómo te fue, y la tarjeta de opinión solo pregunta por el dolor.",
+                "fr": "Avec la progression adaptative activée, noter toutes les séries de travail d'un exercice répond pour toi à la question sur le ressenti, et la carte de retour ne demande que la douleur."
+              },
+              {
+                "en": "Effort is stored as RPE, so switching between RIR and RPE never changes what you logged. It stays on your device and is not shared with friends.",
+                "de": "Die Anstrengung wird als RPE gespeichert, daher ändert ein Wechsel zwischen RIR und RPE nie, was du erfasst hast. Sie bleibt auf deinem Gerät und wird nicht mit Freunden geteilt.",
+                "es": "El esfuerzo se guarda como RPE, así que cambiar entre RIR y RPE nunca cambia lo que registraste. Se queda en tu dispositivo y no se comparte con amigos.",
+                "fr": "L'effort est enregistré en RPE, donc passer de RIR à RPE ne change jamais ce que tu as noté. Il reste sur ton appareil et n'est pas partagé avec tes amis."
+              }
+            ],
+            "ordered": false
           }
         },
         {
@@ -285,10 +495,22 @@
                 "fr": "Quand ton repos est terminé, tu reçois une notification même si ton téléphone est verrouillé ou si tu es dans une autre appli. La première fois que tu lances un repos, l'appli demande l'autorisation de l'envoyer."
               },
               {
-                "en": "In Settings, toggle a sound or vibration for when the timer ends, and choose whether the notification also shows while the app is open.",
-                "de": "Schalte in den Einstellungen einen Ton oder eine Vibration für das Ende des Timers ein und lege fest, ob die Benachrichtigung auch angezeigt wird, während die App geöffnet ist.",
-                "es": "En Ajustes, activa un sonido o una vibración para el final del temporizador, y elige si la notificación también se muestra mientras la app está abierta.",
-                "fr": "Dans les Paramètres, active un son ou une vibration pour la fin de la minuterie, et choisis si la notification s'affiche aussi quand l'appli est ouverte."
+                "en": "In Settings, toggle a sound or vibration for when the timer ends (the vibration also fires when a hold reaches its goal), and choose whether the notification also shows while the app is open.",
+                "de": "Schalte in den Einstellungen einen Ton oder eine Vibration für das Ende des Timers ein (die Vibration erfolgt auch, wenn eine Halteübung ihr Ziel erreicht) und lege fest, ob die Benachrichtigung auch angezeigt wird, während die App geöffnet ist.",
+                "es": "En Ajustes, activa un sonido o una vibración para cuando termine el temporizador (la vibración también se activa cuando una postura sostenida alcanza su objetivo) y elige si la notificación también se muestra con la app abierta.",
+                "fr": "Dans les Réglages, active un son ou une vibration pour la fin du minuteur (la vibration se déclenche aussi quand un maintien atteint son objectif) et choisis si la notification s'affiche aussi quand l'app est ouverte."
+              },
+              {
+                "en": "On Android 12 and later, rest alerts arrive exactly on time only when Alarms & reminders is allowed for MuscleQuest. Settings shows whether it is under Rest alerts on time; tap it to open the system setting.",
+                "de": "Ab Android 12 kommen Pausen-Alarme nur dann pünktlich, wenn Wecker und Erinnerungen für MuscleQuest erlaubt ist. Unter Pausen-Alarme pünktlich zeigen die Einstellungen, ob das der Fall ist; tippe darauf, um die Systemeinstellung zu öffnen.",
+                "es": "En Android 12 y posteriores, los avisos de descanso solo llegan puntuales si Alarmas y recordatorios está permitido para MuscleQuest. Ajustes muestra si lo está en Avisos de descanso puntuales; tócalo para abrir el ajuste del sistema.",
+                "fr": "À partir d'Android 12, les alertes de repos n'arrivent à l'heure que si Alarmes et rappels est autorisé pour MuscleQuest. Les Réglages l'indiquent sous Alertes de repos à l'heure ; appuie dessus pour ouvrir le réglage système."
+              },
+              {
+                "en": "On Android, turn on Rest alert sounds on silent in Settings to hear the rest notification with your phone on silent. It then plays at your alarm volume; Do Not Disturb still mutes it.",
+                "de": "Aktiviere unter Android in den Einstellungen Pausenalarm auch im Lautlos-Modus, um die Pausen-Benachrichtigung auch bei lautlos gestelltem Handy zu hören. Sie spielt dann mit deiner Wecker-Lautstärke; Bitte nicht stören schaltet sie weiterhin stumm.",
+                "es": "En Android, activa Aviso de descanso en modo silencio en Ajustes para oír la notificación de descanso con el móvil en silencio. Sonará con el volumen de la alarma; No molestar la sigue silenciando.",
+                "fr": "Sur Android, active Alerte de repos même en silencieux dans les Réglages pour entendre la notification de repos avec le téléphone en silencieux. Elle sonne alors au volume de ton alarme ; Ne pas déranger la coupe toujours."
               }
             ],
             "ordered": false
@@ -352,9 +574,180 @@
                 "de": "Wenn du einen Satz einer Übung abschließt, wechselt die App direkt zum Supersatz-Partner.",
                 "es": "Cuando completas una serie en un ejercicio, la app te lleva directamente a su compañero de superserie.",
                 "fr": "Quand tu termines une série sur un exercice, l'appli te déplace directement vers son partenaire de superserie."
+              },
+              {
+                "en": "On the workout overview and with the All sets in a list logging style, a superset's sets are shown together by round.",
+                "de": "In der Übersicht und mit der Erfassungsart Alle Sätze in einer Liste werden die Sätze eines Supersatzes zusammen nach Runden angezeigt.",
+                "es": "En la vista general y con el modo de registro Todas las series en una lista, las series de una superserie se muestran juntas por rondas.",
+                "fr": "Dans la vue d'ensemble et avec le mode de saisie Toutes les séries dans une liste, les séries d'une superserie s'affichent ensemble par tour."
               }
             ],
             "ordered": true
+          }
+        },
+        {
+          "id": "warm-ups-cool-downs",
+          "title": {
+            "en": "Warm-ups and cool-downs",
+            "de": "Aufwärmen und Cool-down",
+            "es": "Calentamientos y vueltas a la calma",
+            "fr": "Échauffements et retours au calme"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "A training workout has three sections: Warm-up, Main and Cool-down. Only the Main section counts toward your volume, PRs and progression.",
+              "de": "Ein Training hat drei Abschnitte: Aufwärmen, Hauptteil und Cool-down. Nur der Hauptteil zählt für dein Volumen, deine PRs und die Progression.",
+              "es": "Un entrenamiento tiene tres secciones: Calentamiento, Principal y Vuelta a la calma. Solo la sección Principal cuenta para tu volumen, tus PR y la progresión.",
+              "fr": "Un entraînement a trois sections : Échauffement, Principal et Retour au calme. Seule la section Principal compte pour ton volume, tes PR et ta progression."
+            },
+            "steps": [
+              {
+                "en": "In the workout editor, add exercises to each section. The exercise picker opens with the categories that fit the section.",
+                "de": "Füge im Trainingseditor jedem Abschnitt Übungen hinzu. Die Übungsauswahl öffnet sich mit den Kategorien, die zum Abschnitt passen.",
+                "es": "En el editor de entrenamientos, añade ejercicios a cada sección. El selector de ejercicios se abre con las categorías que encajan con la sección.",
+                "fr": "Dans l'éditeur d'entraînement, ajoute des exercices à chaque section. Le sélecteur d'exercices s'ouvre avec les catégories qui correspondent à la section."
+              },
+              {
+                "en": "Drag a row to move it between sections.",
+                "de": "Ziehe eine Zeile, um sie zwischen Abschnitten zu verschieben.",
+                "es": "Arrastra una fila para moverla entre secciones.",
+                "fr": "Fais glisser une ligne pour la déplacer d'une section à l'autre."
+              },
+              {
+                "en": "Tap Copy from to copy a section or a whole mobility session into a section.",
+                "de": "Tippe auf Kopieren aus, um einen Abschnitt oder eine ganze Mobilitätseinheit in einen Abschnitt zu kopieren.",
+                "es": "Toca Copiar de para copiar una sección o una sesión de movilidad completa en una sección.",
+                "fr": "Touche Copier depuis pour copier une section ou une séance de mobilité entière dans une section."
+              },
+              {
+                "en": "During a session, each section is a card. Tap Skip to main to leave the warm-up, or Skip cool-down to finish early.",
+                "de": "Während einer Einheit ist jeder Abschnitt eine Karte. Tippe auf Weiter zum Hauptteil, um das Aufwärmen zu verlassen, oder auf Cool-down überspringen, um früher zu enden.",
+                "es": "Durante una sesión, cada sección es una tarjeta. Toca Saltar al principal para salir del calentamiento, o Saltar la vuelta a la calma para terminar antes.",
+                "fr": "Pendant une séance, chaque section est une carte. Touche Passer au principal pour quitter l'échauffement, ou Passer le retour au calme pour finir plus tôt."
+              },
+              {
+                "en": "Stretches show a hold such as Hold 30 s, or per side for one-sided moves, and have no rest timer by default.",
+                "de": "Dehnungen zeigen eine Haltezeit wie 30 s halten, oder pro Seite bei einseitigen Bewegungen, und haben standardmäßig keinen Pausentimer.",
+                "es": "Los estiramientos muestran un tiempo sostenido como Mantén 30 s, o por lado en los movimientos de un solo lado, y no tienen temporizador de descanso por defecto.",
+                "fr": "Les étirements affichent un maintien comme Tiens 30 s, ou par côté pour les mouvements unilatéraux, et n'ont pas de minuteur de repos par défaut."
+              },
+              {
+                "en": "Warm-ups and cool-downs never ask for post-exercise feedback or suggest a progression.",
+                "de": "Aufwärmen und Cool-down fragen nie nach Feedback nach der Übung und schlagen keine Progression vor.",
+                "es": "Los calentamientos y las vueltas a la calma nunca piden valoración tras el ejercicio ni sugieren una progresión.",
+                "fr": "Les échauffements et les retours au calme ne demandent jamais de retour après l'exercice et ne proposent aucune progression."
+              }
+            ],
+            "ordered": true
+          }
+        },
+        {
+          "id": "mobility-sessions",
+          "title": {
+            "en": "Mobility sessions",
+            "de": "Mobilitätseinheiten",
+            "es": "Sesiones de movilidad",
+            "fr": "Séances de mobilité"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "A mobility session is a workout of mobility, stretch and recovery work. Use it on a rest day, or before or after training.",
+              "de": "Eine Mobilitätseinheit ist eine Einheit aus Mobilitäts-, Dehn- und Erholungsübungen. Nutze sie an einem Ruhetag oder vor oder nach einem Training.",
+              "es": "Una sesión de movilidad es un entrenamiento de movilidad, estiramientos y recuperación. Úsala en un día de descanso, o antes o después de entrenar.",
+              "fr": "Une séance de mobilité est un entraînement de mobilité, d'étirements et de récupération. Utilise-la un jour de repos, ou avant ou après l'entraînement."
+            },
+            "steps": [
+              {
+                "en": "In the workout editor, switch between Training and Mobility at the top. A plan can hold both kinds.",
+                "de": "Wechsle im Trainingseditor oben zwischen Training und Mobilität. Ein Plan kann beide Arten enthalten.",
+                "es": "En el editor de entrenamientos, cambia entre Entrenamiento y Movilidad en la parte superior. Un plan puede tener ambos tipos.",
+                "fr": "Dans l'éditeur d'entraînement, bascule en haut entre Entraînement et Mobilité. Un plan peut contenir les deux types."
+              },
+              {
+                "en": "Mobility sessions outside plans live under Mobility routines in the plans tab, next to five premade routines: General warm-up, Lower-body warm-up, Upper-body warm-up, Full-body cool-down and Full-body mobility.",
+                "de": "Mobilitätseinheiten außerhalb von Plänen findest du unter Mobilitätsroutinen im Tab Pläne, neben fünf fertigen Routinen: General warm-up, Lower-body warm-up, Upper-body warm-up, Full-body cool-down und Full-body mobility.",
+                "es": "Las sesiones de movilidad fuera de los planes están en Rutinas de movilidad, en la pestaña de planes, junto a cinco rutinas prediseñadas: General warm-up, Lower-body warm-up, Upper-body warm-up, Full-body cool-down y Full-body mobility.",
+                "fr": "Les séances de mobilité hors des plans se trouvent sous Routines de mobilité dans l'onglet des plans, à côté de cinq routines prédéfinies : General warm-up, Lower-body warm-up, Upper-body warm-up, Full-body cool-down et Full-body mobility."
+              },
+              {
+                "en": "In the schedule, each weekday takes one training workout and one mobility session. Home shows both of today's sessions, and on a rest day it offers a mobility session.",
+                "de": "Im Wochenplan nimmt jeder Wochentag ein Training und eine Mobilitätseinheit auf. Die Startseite zeigt beide Einheiten von heute und bietet an einem Ruhetag eine Mobilitätseinheit an.",
+                "es": "En el calendario, cada día de la semana admite un entrenamiento y una sesión de movilidad. Inicio muestra las dos sesiones de hoy y, en un día de descanso, ofrece una sesión de movilidad.",
+                "fr": "Dans le planning, chaque jour de la semaine accepte un entraînement et une séance de mobilité. L'accueil affiche les deux séances du jour et, un jour de repos, propose une séance de mobilité."
+              },
+              {
+                "en": "Mobility sessions are marked in your history and the calendar. They do not count as training days unless you turn on Count mobility sessions as training days in Settings, under Stats. That setting affects streaks and the weekly goal.",
+                "de": "Mobilitätseinheiten sind im Verlauf und im Kalender markiert. Sie zählen nicht als Trainingstage, außer du aktivierst Mobilitätseinheiten als Trainingstage zählen in den Einstellungen unter Statistiken. Diese Einstellung wirkt sich auf Serien und das Wochenziel aus.",
+                "es": "Las sesiones de movilidad se marcan en tu historial y en el calendario. No cuentan como días de entrenamiento salvo que actives Contar las sesiones de movilidad como días de entrenamiento en Ajustes, en Estadísticas. Este ajuste afecta a las rachas y al objetivo semanal.",
+                "fr": "Les séances de mobilité sont marquées dans ton historique et le calendrier. Elles ne comptent pas comme jours d'entraînement, sauf si tu actives Compter les séances de mobilité comme jours d'entraînement dans Paramètres, sous Stats. Ce réglage influe sur les séries et l'objectif hebdomadaire."
+              },
+              {
+                "en": "Stretches show their longest hold on the exercise screen.",
+                "de": "Dehnungen zeigen auf dem Übungsbildschirm ihre längste Haltezeit.",
+                "es": "Los estiramientos muestran su tiempo sostenido más largo en la pantalla del ejercicio.",
+                "fr": "Les étirements affichent leur maintien le plus long sur l'écran de l'exercice."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
+          "id": "bands",
+          "title": {
+            "en": "Bands",
+            "de": "Bänder",
+            "es": "Bandas",
+            "fr": "Bandes"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "Log which resistance band you used on each set of a band exercise.",
+              "de": "Erfasse, mit welchem Widerstandsband du jeden Satz einer Bandübung gemacht hast.",
+              "es": "Registra qué banda elástica usaste en cada serie de un ejercicio con banda.",
+              "fr": "Note la bande élastique utilisée pour chaque série d'un exercice avec bande."
+            },
+            "steps": [
+              {
+                "en": "Your bands are in Settings, under Workout and rest timer, in Bands. You start with five, from Extra light to Extra heavy; rename, recolour, reorder or remove them, and add your own.",
+                "de": "Deine Bänder findest du in den Einstellungen unter Training und Pausentimer, in Bänder. Du startest mit fünf, von Extra leicht bis Extra schwer; du kannst sie umbenennen, umfärben, umsortieren oder entfernen und eigene hinzufügen.",
+                "es": "Tus bandas están en Ajustes, en Entrenamiento y temporizador de descanso, en Bandas. Empiezas con cinco, de Extra suave a Extra fuerte; cámbiales el nombre, el color o el orden, elimínalas y añade las tuyas.",
+                "fr": "Tes bandes se trouvent dans les Paramètres, sous Séance et minuteur de repos, dans Bandes. Tu commences avec cinq, d'Extra légère à Extra forte ; renomme-les, change leur couleur ou leur ordre, supprime-les et ajoute les tiennes."
+              },
+              {
+                "en": "Give a band a level so a trainer's plan, which asks for a level such as Heavy, picks it. The first band at that level is used.",
+                "de": "Gib einem Band eine Stufe, damit der Plan eines Trainers, der eine Stufe wie Schwer vorgibt, es wählt. Verwendet wird das erste Band dieser Stufe.",
+                "es": "Dale un nivel a una banda para que el plan de un entrenador, que indica un nivel como Fuerte, la elija. Se usa la primera banda de ese nivel.",
+                "fr": "Donne un niveau à une bande pour que le plan d'un coach, qui indique un niveau comme Forte, la choisisse. La première bande de ce niveau est utilisée."
+              },
+              {
+                "en": "A weight for a band is optional. When a band has one, a set done with it is logged with that weight, plus any weight you enter.",
+                "de": "Ein Gewicht für ein Band ist optional. Hat ein Band eines, wird ein Satz damit mit diesem Gewicht erfasst, plus dem Gewicht, das du eingibst.",
+                "es": "El peso de una banda es opcional. Si una banda tiene peso, una serie hecha con ella se registra con ese peso, más el peso que introduzcas.",
+                "fr": "Le poids d'une bande est facultatif. Si une bande en a un, une série faite avec elle est enregistrée avec ce poids, plus le poids que tu saisis."
+              },
+              {
+                "en": "During a session, tap the band chip on a set to pick the band. The set keeps that band, and your history shows it next to the set, such as 15 reps · Heavy.",
+                "de": "Tippe während eines Trainings auf den Band-Chip eines Satzes, um das Band zu wählen. Der Satz behält dieses Band, und dein Verlauf zeigt es neben dem Satz, etwa 15 Wdh. · Schwer.",
+                "es": "Durante una sesión, toca el chip de banda de una serie para elegir la banda. La serie conserva esa banda, y tu historial la muestra junto a la serie, por ejemplo 15 reps · Fuerte.",
+                "fr": "Pendant une séance, touche la puce de bande d'une série pour choisir la bande. La série garde cette bande, et ton historique l'affiche à côté de la série, par exemple 15 rép. · Forte."
+              },
+              {
+                "en": "Renaming a band or changing its weight affects future sets only. Logged sets keep the band and the weight they were logged with.",
+                "de": "Ein neuer Name oder ein geändertes Gewicht gilt nur für künftige Sätze. Erfasste Sätze behalten das Band und das Gewicht, mit dem sie erfasst wurden.",
+                "es": "Cambiar el nombre o el peso de una banda solo afecta a las series futuras. Las series registradas conservan la banda y el peso con que se registraron.",
+                "fr": "Renommer une bande ou changer son poids ne concerne que les séries à venir. Les séries enregistrées gardent la bande et le poids avec lesquels elles ont été enregistrées."
+              },
+              {
+                "en": "Band sets never count as PRs and band exercises get no load progression. Volume counts a band set's logged weight, so a band without a weight adds none.",
+                "de": "Bandsätze zählen nie als PRs, und Bandübungen bekommen keine Gewichtsprogression. Das Volumen zählt das erfasste Gewicht eines Bandsatzes, ein Band ohne Gewicht fügt also nichts hinzu.",
+                "es": "Las series con banda nunca cuentan como PR y los ejercicios con banda no tienen progresión de carga. El volumen cuenta el peso registrado de una serie con banda, así que una banda sin peso no suma nada.",
+                "fr": "Les séries avec bande ne comptent jamais comme PR et les exercices avec bande n'ont pas de progression de charge. Le volume compte le poids enregistré d'une série avec bande, donc une bande sans poids n'ajoute rien."
+              }
+            ],
+            "ordered": false
           }
         }
       ]
@@ -397,10 +790,10 @@
           "body": {
             "type": "steps",
             "lead": {
-              "en": "After the last working set of an exercise, a short feedback card appears in the rest timer, or under the set when there is no rest.",
-              "de": "Nach dem letzten Arbeitssatz einer Übung erscheint eine kurze Feedbackkarte im Pausentimer oder, wenn es keine Pause gibt, unter dem Satz.",
-              "es": "Tras la última serie efectiva de un ejercicio, aparece una breve tarjeta de feedback en el temporizador de descanso, o bajo la serie si no hay descanso.",
-              "fr": "Après la dernière série de travail d'un exercice, une courte carte de feedback apparaît dans le minuteur de repos, ou sous la série s'il n'y a pas de repos."
+              "en": "After the last working set of an exercise, a short feedback card appears in the rest timer. Without a rest, it shows under the set, or at the top of the screen if you completed the set from the workout overview or the list of sets.",
+              "de": "Nach dem letzten Arbeitssatz einer Übung erscheint eine kurze Feedbackkarte im Pausentimer. Ohne Pause erscheint sie unter dem Satz, oder oben auf dem Bildschirm, wenn du den Satz in der Übersicht oder in der Liste der Sätze abgeschlossen hast.",
+              "es": "Tras la última serie efectiva de un ejercicio, aparece una breve tarjeta de feedback en el temporizador de descanso. Sin descanso, aparece bajo la serie, o arriba de la pantalla si completaste la serie desde la vista general o la lista de series.",
+              "fr": "Après la dernière série de travail d'un exercice, une courte carte de feedback apparaît dans le minuteur de repos. Sans repos, elle s'affiche sous la série, ou en haut de l'écran si tu as terminé la série depuis la vue d'ensemble ou la liste des séries."
             },
             "steps": [
               {
@@ -408,6 +801,12 @@
                 "de": "Tippe an, wie es sich angefühlt hat: Leicht, Passt so, Schwer oder Nicht geschafft. Ein Tippen sendet es ab.",
                 "es": "Toca cómo te ha ido: Fácil, Más o menos bien, Difícil o No pude terminar. Un toque lo envía.",
                 "fr": "Appuie sur ton ressenti : Facile, À peu près bien, Difficile ou Pas réussi à finir. Un seul appui suffit."
+              },
+              {
+                "en": "If you log effort per set and rate every working set, the card skips that question: your last working set decides it (RIR 3 or more is Easy, RIR 1 to 2 About right, RIR 0 Hard), and only pain is asked.",
+                "de": "Wenn du die Anstrengung pro Satz erfasst und jeden Arbeitssatz bewertest, überspringt die Karte diese Frage: Dein letzter Arbeitssatz entscheidet (RIR 3 oder mehr ist Leicht, RIR 1 bis 2 Passt so, RIR 0 Schwer), und es wird nur nach Schmerzen gefragt.",
+                "es": "Si registras el esfuerzo por serie y valoras todas las series de trabajo, la tarjeta se salta esa pregunta: decide tu última serie de trabajo (RIR 3 o más es Fácil, RIR 1 a 2 Más o menos bien, RIR 0 Difícil) y solo se pregunta por el dolor.",
+                "fr": "Si tu notes l'effort par série et notes toutes les séries de travail, la carte saute cette question : ta dernière série de travail décide (RIR 3 ou plus, c'est Facile, RIR 1 à 2 À peu près bien, RIR 0 Difficile), et seule la douleur est demandée."
               },
               {
                 "en": "To report pain, tap Any pain? first, choose Discomfort or Pain, then tap how it felt. With Pain you can note where you felt it.",
@@ -426,6 +825,12 @@
                 "de": "Wenn du das Wiederholungsziel verfehlt hast, fragt die Karte nur nach Schmerzen, da der Vorschlag ohnehin gleich bleibt.",
                 "es": "Si te quedaste por debajo del objetivo de reps, la tarjeta solo pregunta por el dolor, ya que la sugerencia se mantiene igualmente.",
                 "fr": "Si tu n'as pas atteint l'objectif de reps, la carte ne demande que la douleur, car la suggestion reste la même dans tous les cas."
+              },
+              {
+                "en": "Exercises with % of best targets in your plan never ask: the percentages set their weight.",
+                "de": "Übungen mit Zielen in % der Bestleistung in deinem Plan fragen nie: Die Prozente bestimmen ihr Gewicht.",
+                "es": "Los ejercicios con objetivos en % de tu mejor marca en tu plan nunca preguntan: los porcentajes fijan su peso.",
+                "fr": "Les exercices avec des objectifs en % du record dans ton plan ne demandent jamais : les pourcentages fixent leur poids."
               },
               {
                 "en": "Discomfort is tracked across sessions: one report keeps the load steady, a second consecutive report adds a form-check note.",
@@ -477,6 +882,12 @@
                 "de": "Vorschläge, die empfehlen, die aktuelle Last beizubehalten, erscheinen nicht in der Karte, da keine Aktion erforderlich ist.",
                 "es": "Las sugerencias que recomiendan mantener la carga actual no aparecen en la tarjeta, ya que no se necesita ninguna acción.",
                 "fr": "Les suggestions qui recommandent de maintenir la charge actuelle n'apparaissent pas dans la carte, car aucune action n'est nécessaire."
+              },
+              {
+                "en": "For assisted exercises, progress means less assistance: a step up suggests lowering the assistance, and easing off adds some back.",
+                "de": "Bei unterstützten Übungen bedeutet Fortschritt weniger Assistenz: Ein Schritt nach oben schlägt weniger Assistenz vor, und beim Zurückschalten kommt etwas dazu.",
+                "es": "En los ejercicios asistidos, progresar significa menos asistencia: un paso adelante sugiere bajar la asistencia, y aflojar añade un poco.",
+                "fr": "Pour les exercices assistés, progresser veut dire moins d'assistance : un palier de plus propose de baisser l'assistance, et lever le pied en rajoute un peu."
               },
               {
                 "en": "A plateau advisory note appears if an exercise has been at the same load for four or more sessions.",
@@ -617,6 +1028,63 @@
           }
         },
         {
+          "id": "set-targets",
+          "title": {
+            "en": "Set Targets",
+            "de": "Satzziele",
+            "es": "Objetivos de serie",
+            "fr": "Objectifs de série"
+          },
+          "body": {
+            "type": "steps",
+            "lead": {
+              "en": "A plan can say what each set should be, beyond its reps. In the plan editor, tap a set and choose a Target. During a workout, open a set's menu (⋮) and choose Edit Set to change it; at the end you can save the change to the plan.",
+              "de": "Ein Plan kann für jeden Satz mehr als die Wiederholungen vorgeben. Tippe im Plan-Editor auf einen Satz und wähle ein Ziel. Während des Trainings öffnest du das Menü (⋮) eines Satzes und wählst Satz bearbeiten, um es zu ändern; am Ende kannst du die Änderung im Plan speichern.",
+              "es": "Un plan puede indicar cómo debe ser cada serie, además de sus repeticiones. En el editor de planes, toca una serie y elige un Objetivo. Durante un entrenamiento, abre el menú (⋮) de una serie y elige Editar serie para cambiarlo; al final puedes guardar el cambio en el plan.",
+              "fr": "Un plan peut indiquer ce que doit être chaque série, au-delà de ses répétitions. Dans l'éditeur de plan, touche une série et choisis un Objectif. Pendant une séance, ouvre le menu (⋮) d'une série et choisis Modifier la série pour le changer ; à la fin, tu peux enregistrer le changement dans le plan."
+            },
+            "steps": [
+              {
+                "en": "Weight: a starting weight, or the assistance on assisted exercises. It is filled in until you have logged the exercise; after that your history and progression fill the set, and the target shows as a reminder.",
+                "de": "Gewicht: ein Startgewicht oder die Unterstützung bei unterstützten Übungen. Es wird eingetragen, bis du die Übung erfasst hast; danach füllen dein Verlauf und die Progression den Satz, und das Ziel bleibt als Erinnerung sichtbar.",
+                "es": "Peso: un peso inicial, o la asistencia en ejercicios asistidos. Se rellena hasta que registres el ejercicio; después, tu historial y la progresión rellenan la serie y el objetivo se muestra como recordatorio.",
+                "fr": "Poids : un poids de départ, ou l'assistance pour les exercices assistés. Il est rempli tant que tu n'as pas noté l'exercice ; ensuite ton historique et la progression remplissent la série, et l'objectif reste affiché comme rappel."
+              },
+              {
+                "en": "% of best: a share of your best estimated one-rep max for the exercise in the last 90 days, rounded to your weight step and, for barbells, to the plates you own. Until you have logged the exercise, there is no weight to fill in.",
+                "de": "% der Bestleistung: ein Anteil deines besten geschätzten 1RM für die Übung in den letzten 90 Tagen, gerundet auf deinen Gewichtsschritt und bei Langhanteln auf die Scheiben, die du hast. Solange du die Übung nicht erfasst hast, gibt es kein Gewicht zum Eintragen.",
+                "es": "% de tu mejor marca: una parte de tu mejor 1RM estimado del ejercicio en los últimos 90 días, redondeada a tu incremento de peso y, en barras, a los discos que tienes. Hasta que registres el ejercicio, no hay peso que rellenar.",
+                "fr": "% du record : une part de ton meilleur 1RM estimé pour l'exercice sur les 90 derniers jours, arrondie à ton incrément de poids et, pour les barres, aux disques que tu possèdes. Tant que tu n'as pas noté l'exercice, il n'y a pas de poids à remplir."
+              },
+              {
+                "en": "Effort: the RIR, or RPE, the set should end with.",
+                "de": "Anstrengung: die RIR oder RPE, mit der der Satz enden soll.",
+                "es": "Esfuerzo: el RIR, o el RPE, con que debe terminar la serie.",
+                "fr": "Effort : le RIR, ou le RPE, sur lequel la série doit se terminer."
+              },
+              {
+                "en": "During the workout, a target line above Last time, or under each set in the list of sets, shows the target. A % of best target fills in its weight. When a Weight target and a progression suggestion differ, the line shows both so you can choose. A weight you type always wins.",
+                "de": "Während des Trainings zeigt eine Zielzeile über Letztes Mal oder unter jedem Satz in der Satzliste das Ziel. Ein Ziel in % der Bestleistung trägt sein Gewicht ein. Weichen ein Gewichtsziel und ein Progressionsvorschlag voneinander ab, zeigt die Zeile beides, damit du wählen kannst. Ein Gewicht, das du eintippst, hat immer Vorrang.",
+                "es": "Durante el entrenamiento, una línea de objetivo sobre Última vez, o bajo cada serie en la lista de series, muestra el objetivo. Un objetivo en % de tu mejor marca rellena su peso. Si un objetivo de peso y una sugerencia de progresión no coinciden, la línea muestra los dos para que elijas. Un peso que escribas siempre manda.",
+                "fr": "Pendant la séance, une ligne d'objectif au-dessus de La dernière fois, ou sous chaque série dans la liste des séries, affiche l'objectif. Un objectif en % du record remplit son poids. Quand un objectif de poids et une suggestion de progression diffèrent, la ligne affiche les deux pour que tu choisisses. Un poids que tu saisis l'emporte toujours."
+              },
+              {
+                "en": "With adaptive progression on, an exercise whose working sets have % of best targets has no feedback card and no suggestion, since the percentages set its weight. The set screen says so under the target line.",
+                "de": "Ist die adaptive Progression an, hat eine Übung, deren Arbeitssätze Ziele in % der Bestleistung haben, keine Feedback-Karte und keinen Vorschlag, da die Prozente ihr Gewicht bestimmen. Der Satzbildschirm weist unter der Zielzeile darauf hin.",
+                "es": "Con la progresión adaptativa activada, un ejercicio cuyas series de trabajo tienen objetivos en % de tu mejor marca no tiene tarjeta de opinión ni sugerencia, porque los porcentajes fijan su peso. La pantalla de la serie lo indica bajo la línea de objetivo.",
+                "fr": "Avec la progression adaptative activée, un exercice dont les séries de travail ont des objectifs en % du record n'a ni carte de retour ni suggestion, car les pourcentages fixent son poids. L'écran de la série l'indique sous la ligne d'objectif."
+              },
+              {
+                "en": "Targets go with the plan when you share it with friends.",
+                "de": "Ziele werden mit dem Plan geteilt, wenn du ihn mit Freunden teilst.",
+                "es": "Los objetivos van con el plan cuando lo compartes con amigos.",
+                "fr": "Les objectifs accompagnent le plan quand tu le partages avec tes amis."
+              }
+            ],
+            "ordered": false
+          }
+        },
+        {
           "id": "exercise-library",
           "title": {
             "en": "Exercise Library",
@@ -627,10 +1095,28 @@
           "body": {
             "type": "text",
             "text": {
-              "en": "Open the Exercise Library from the menu at any time to browse almost 1,000 exercises, and filter by body part, target muscle, or equipment. Search understands common abbreviations like RDL, OHP, DB, and KB, and forgives small typos. Use the sort chips at the top to order exercises by Default, Active Plan, Recent, or Frequent, so the exercises most relevant to you appear first. When replacing an exercise, the filter automatically preselects the matching target muscle to help you find alternatives faster. Tap any exercise to view its animated demonstration, the muscles targeted, and a full history of every time you have performed it, including weights, reps, time, or distance per set. Download all exercise animations (~100 MB) in Settings for offline access; the download needs an internet connection.",
-              "de": "Öffne die Übungsbibliothek jederzeit über das Menü, um fast 1.000 Übungen zu durchsuchen, und filtere nach Körperteil, Zielmuskel oder Gerät. Die Suche versteht gängige Abkürzungen wie RDL, OHP, DB und KB und verzeiht kleine Tippfehler. Nutze die Sortier-Chips oben, um Übungen nach Standard, Aktiver Plan, Zuletzt oder Häufig zu sortieren, damit die für dich relevantesten Übungen zuerst erscheinen. Wenn du eine Übung ersetzt, wählt der Filter automatisch den passenden Zielmuskel vor, damit du schneller Alternativen findest. Tippe auf eine Übung, um die animierte Demo, die angesprochenen Muskeln und eine vollständige Historie jeder Durchführung mit Gewicht, Wiederholungen, Zeit oder Distanz pro Satz anzuzeigen. Lade alle Übungsanimationen (~100 MB) in den Einstellungen für den Offline-Zugriff herunter; dafür brauchst du eine Internetverbindung.",
-              "es": "Abre la Biblioteca de ejercicios desde el menú en cualquier momento para explorar casi 1.000 ejercicios, y filtra por parte del cuerpo, músculo objetivo o equipamiento. La búsqueda entiende abreviaturas comunes como RDL, OHP, DB y KB, y tolera pequeñas erratas. Usa los chips de ordenación en la parte superior para ordenar los ejercicios por Predeterminado, Plan activo, Reciente o Frecuente, y así los ejercicios más relevantes para ti aparecerán primero. Al reemplazar un ejercicio, el filtro preselecciona automáticamente el músculo objetivo correspondiente para ayudarte a encontrar alternativas más rápido. Toca cualquier ejercicio para ver su demostración animada, los músculos trabajados y un historial completo de cada vez que lo has realizado, incluyendo pesos, reps, tiempo o distancia por serie. Descarga todas las animaciones de ejercicios (~100 MB) en Ajustes para acceso sin conexión; la descarga necesita conexión a internet.",
-              "fr": "Ouvre la Bibliothèque d'exercices depuis le menu à tout moment pour parcourir près de 1 000 exercices, et filtre par partie du corps, muscle cible ou équipement. La recherche comprend les abréviations courantes comme RDL, OHP, DB et KB, et tolère les petites fautes de frappe. Utilise les chips de tri en haut pour classer les exercices par Par défaut, Programme actif, Récent ou Fréquent, afin que les exercices les plus pertinents pour toi apparaissent en premier. Quand tu remplaces un exercice, le filtre présélectionne automatiquement le muscle cible correspondant pour t'aider à trouver des alternatives plus rapidement. Appuie sur n'importe quel exercice pour voir sa démonstration animée, les muscles sollicités et un historique complet de chaque fois que tu l'as effectué, avec les poids, répétitions, temps ou distances par série. Télécharge toutes les animations d'exercices (~100 Mo) dans les Paramètres pour y accéder hors ligne ; le téléchargement nécessite une connexion internet."
+              "en": "Open the Exercise Library from the menu at any time to browse more than 1,000 exercises, and filter by body part, target muscle, or equipment. Search understands common abbreviations like RDL, OHP, DB, and KB, and forgives small typos. Use the sort chips at the top to order exercises by Default, Active Plan, Recent, or Frequent, so the exercises most relevant to you appear first. When replacing an exercise, the filter automatically preselects the matching target muscle to help you find alternatives faster. Tap any exercise to view its animated demonstration, the muscles targeted, and a full history of every time you have performed it, including weights, reps, time, or distance per set. Download all exercise animations (~100 MB) in Settings for offline access; the download needs an internet connection. If your phone is set to German, French or Spanish, exercise names show in that language, with the English name on the exercise screen; to see English names everywhere, turn off Translate exercise names in Settings, under Appearance.",
+              "de": "Öffne die Übungsbibliothek jederzeit über das Menü, um mehr als 1.000 Übungen zu durchsuchen, und filtere nach Körperteil, Zielmuskel oder Gerät. Die Suche versteht gängige Abkürzungen wie RDL, OHP, DB und KB und verzeiht kleine Tippfehler. Nutze die Sortier-Chips oben, um Übungen nach Standard, Aktiver Plan, Zuletzt oder Häufig zu sortieren, damit die für dich relevantesten Übungen zuerst erscheinen. Wenn du eine Übung ersetzt, wählt der Filter automatisch den passenden Zielmuskel vor, damit du schneller Alternativen findest. Tippe auf eine Übung, um die animierte Demo, die angesprochenen Muskeln und eine vollständige Historie jeder Durchführung mit Gewicht, Wiederholungen, Zeit oder Distanz pro Satz anzuzeigen. Lade alle Übungsanimationen (~100 MB) in den Einstellungen für den Offline-Zugriff herunter; dafür brauchst du eine Internetverbindung.",
+              "es": "Abre la Biblioteca de ejercicios desde el menú en cualquier momento para explorar más de 1.000 ejercicios, y filtra por parte del cuerpo, músculo objetivo o equipamiento. La búsqueda entiende abreviaturas comunes como RDL, OHP, DB y KB, y tolera pequeñas erratas. Usa los chips de ordenación en la parte superior para ordenar los ejercicios por Predeterminado, Plan activo, Reciente o Frecuente, y así los ejercicios más relevantes para ti aparecerán primero. Al reemplazar un ejercicio, el filtro preselecciona automáticamente el músculo objetivo correspondiente para ayudarte a encontrar alternativas más rápido. Toca cualquier ejercicio para ver su demostración animada, los músculos trabajados y un historial completo de cada vez que lo has realizado, incluyendo pesos, reps, tiempo o distancia por serie. Descarga todas las animaciones de ejercicios (~100 MB) en Ajustes para acceso sin conexión; la descarga necesita conexión a internet.",
+              "fr": "Ouvre la Bibliothèque d'exercices depuis le menu à tout moment pour parcourir plus de 1 000 exercices, et filtre par partie du corps, muscle cible ou équipement. La recherche comprend les abréviations courantes comme RDL, OHP, DB et KB, et tolère les petites fautes de frappe. Utilise les chips de tri en haut pour classer les exercices par Par défaut, Programme actif, Récent ou Fréquent, afin que les exercices les plus pertinents pour toi apparaissent en premier. Quand tu remplaces un exercice, le filtre présélectionne automatiquement le muscle cible correspondant pour t'aider à trouver des alternatives plus rapidement. Appuie sur n'importe quel exercice pour voir sa démonstration animée, les muscles sollicités et un historique complet de chaque fois que tu l'as effectué, avec les poids, répétitions, temps ou distances par série. Télécharge toutes les animations d'exercices (~100 Mo) dans les Paramètres pour y accéder hors ligne ; le téléchargement nécessite une connexion internet."
+            }
+          }
+        },
+        {
+          "id": "exercise-categories",
+          "title": {
+            "en": "Exercise categories",
+            "de": "Übungskategorien",
+            "es": "Categorías de ejercicios",
+            "fr": "Catégories d'exercices"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Every exercise has a category: Strength, Cardio, Mobility, Stretch or Recovery. Use the category chips in the exercise lists to filter. While you browse, stretches, mobility and recovery exercises stay hidden so the list stays short, but search still finds them. The library includes foam rolling, band, stability ball and Bosu ball work, with new equipment values to match. Custom exercises have a category too.",
+              "de": "Jede Übung hat eine Kategorie: Kraft, Cardio, Mobilität, Dehnung oder Erholung. Filtere mit den Kategorie-Chips in den Übungslisten. Beim Stöbern bleiben Dehn-, Mobilitäts- und Erholungsübungen ausgeblendet, damit die Liste kurz bleibt, die Suche findet sie aber trotzdem. Die Bibliothek enthält Faszienrollen sowie Übungen mit Band, Stabilitätsball und Bosu-Ball, mit passenden neuen Geräten. Eigene Übungen haben ebenfalls eine Kategorie.",
+              "es": "Cada ejercicio tiene una categoría: Fuerza, Cardio, Movilidad, Estiramiento o Recuperación. Usa los chips de categoría en las listas de ejercicios para filtrar. Al explorar, los ejercicios de estiramiento, movilidad y recuperación quedan ocultos para que la lista sea corta, pero la búsqueda los encuentra. La biblioteca incluye rodillo de espuma y ejercicios con banda, pelota de estabilidad y Bosu, con los nuevos equipos correspondientes. Los ejercicios personalizados también tienen categoría.",
+              "fr": "Chaque exercice a une catégorie : Force, Cardio, Mobilité, Étirement ou Récupération. Utilise les puces de catégorie dans les listes d'exercices pour filtrer. En parcourant, les exercices d'étirement, de mobilité et de récupération restent masqués pour garder la liste courte, mais la recherche les trouve. La bibliothèque comprend du rouleau de massage et des exercices avec bande, ballon de stabilité et Bosu, avec les nouveaux équipements correspondants. Les exercices personnalisés ont aussi une catégorie."
             }
           }
         },
@@ -676,10 +1162,10 @@
                 "fr": "Donne-lui un nom, une image optionnelle, une partie du corps, des muscles cibles, des muscles secondaires et de l'équipement."
               },
               {
-                "en": "Choose a tracking type: Weight/Reps, Time, Distance, Reps, or Assistance/Reps (factors in your body weight, for movements like assisted pull-ups). The tracking type can't be changed after the exercise is created.",
-                "de": "Wähle einen Tracking-Typ: Gewicht/Wdh., Zeit, Distanz, Wdh. oder Assistenz/Wdh. (berücksichtigt dein Körpergewicht für Bewegungen wie assistierte Klimmzüge). Der Tracking-Typ kann nach dem Erstellen der Übung nicht mehr geändert werden.",
-                "es": "Elige un tipo de seguimiento: Peso/Reps, Tiempo, Distancia, Reps o Asistencia/Reps (que tiene en cuenta tu peso corporal para movimientos como dominadas asistidas). El tipo de seguimiento no se puede cambiar después de crear el ejercicio.",
-                "fr": "Choisis un type de suivi : Poids/Rép., Temps, Distance, Répétitions ou Assistance/Rép. (qui prend en compte ton poids de corps pour des mouvements comme les tractions assistées). Le type de suivi ne peut plus être modifié une fois l'exercice créé."
+                "en": "Choose a tracking type: Weight/Reps, Assistance/Reps (factors in your body weight, for movements like assisted pull-ups), Reps, Time, or Distance. Four types log two numbers: Distance/Time for cardio machines and runs (shows your average speed), Weight/Distance for carries, Weight/Time for weighted holds, and Floors/Time for a stair climber. The tracking type can't be changed after the exercise is created.",
+                "de": "Wähle einen Tracking-Typ: Gewicht/Wdh., Assistenz/Wdh. (berücksichtigt dein Körpergewicht für Bewegungen wie assistierte Klimmzüge), Wdh., Zeit oder Distanz. Vier Typen erfassen zwei Werte: Distanz/Zeit für Cardiogeräte und Läufe (zeigt deine Durchschnittsgeschwindigkeit), Gewicht/Distanz für das Tragen von Gewichten, Gewicht/Zeit für Halteübungen mit Gewicht und Etagen/Zeit für einen Treppensteiger. Der Tracking-Typ kann nach dem Erstellen der Übung nicht mehr geändert werden.",
+                "es": "Elige un tipo de seguimiento: Peso/Reps, Asistencia/Reps (que tiene en cuenta tu peso corporal para movimientos como dominadas asistidas), Reps, Tiempo o Distancia. Cuatro tipos registran dos valores: Distancia/Tiempo para máquinas de cardio y carreras (muestra tu velocidad media), Peso/Distancia para acarreos, Peso/Tiempo para isometrías con peso y Pisos/Tiempo para una escaladora. El tipo de seguimiento no se puede cambiar después de crear el ejercicio.",
+                "fr": "Choisis un type de suivi : Poids/Rép., Assistance/Rép. (qui prend en compte ton poids de corps pour des mouvements comme les tractions assistées), Répétitions, Temps ou Distance. Quatre types enregistrent deux valeurs : Distance/Temps pour les machines de cardio et la course (affiche ta vitesse moyenne), Poids/Distance pour les portés, Poids/Temps pour les gainages lestés et Étages/Temps pour un simulateur d'escalier. Le type de suivi ne peut plus être modifié une fois l'exercice créé."
               },
               {
                 "en": "Turn on Single-arm / single-leg for unilateral exercises; reps can be automatically doubled in your stats.",
@@ -718,6 +1204,24 @@
               "de": "Körpergewichtsübungen wie Klimmzüge oder Dips erfassen standardmäßig nur Wiederholungen. Wenn du zusätzliches Gewicht protokollieren möchtest, z. B. einen Gewichtsgürtel oder eine Gewichtsweste, öffne die Satzübersicht für diese Übung im Trainings- oder Planeditor und aktiviere Gewicht erfassen. Während einer Einheit kannst du auch auf das Menü (⋮) eines Satzes tippen und Gewicht hinzufügen wählen. Die Einstellung wird pro Training gespeichert, sodass manche Trainings nur Körpergewicht verwenden und andere die zusätzliche Last erfassen können. Fortschrittsgraphen und Historie spiegeln das protokollierte Gewicht wider, sobald die Einstellung aktiviert ist.",
               "es": "Los ejercicios con peso corporal como las dominadas o los fondos registran solo repeticiones por defecto. Si quieres anotar peso adicional, como un cinturón de lastre o un chaleco, abre el resumen de series de ese ejercicio en el editor de entrenamiento o plan y activa Registrar peso. Durante una sesión, también puedes tocar el menú (⋮) de una serie y elegir Añadir peso. La opción se guarda por entrenamiento, así que puedes tener algunos entrenamientos solo con peso corporal y otros que registren la carga adicional. Los gráficos de progresión y el historial reflejarán el peso registrado una vez que la opción esté activada.",
               "fr": "Les exercices au poids de corps comme les tractions ou les dips ne suivent que les répétitions par défaut. Si tu veux noter le poids ajouté, comme une ceinture lestée ou un gilet, ouvre le récapitulatif des séries de cet exercice dans l'éditeur d'entraînement ou de programme et active Enregistrer le poids. Pendant une séance, tu peux aussi appuyer sur le menu (⋮) d'une série et choisir Ajouter du poids. Le réglage est sauvegardé par entraînement, tu peux donc avoir des entraînements en poids de corps uniquement et d'autres qui enregistrent la charge supplémentaire. Les graphiques de progression et l'historique refléteront le poids enregistré une fois le réglage activé."
+            }
+          }
+        },
+        {
+          "id": "carry-track-by-time",
+          "title": {
+            "en": "Carries by Distance or Time",
+            "de": "Tragen nach Distanz oder Zeit",
+            "es": "Acarreos por distancia o tiempo",
+            "fr": "Portés à la distance ou au temps"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Carries like the farmer's walk log weight and distance. To carry for a set time instead, open the sets overview for that exercise in the workout or plan editor and toggle Track by Time on, or tap the menu (⋮) on a set during a session and choose Track by Time. Like Track Weight, it's saved per workout. Last time shows a carry or hold only when both numbers were logged, so log the distance or time along with the weight.",
+              "de": "Tragen wie der Farmer's Walk erfasst Gewicht und Distanz. Um stattdessen eine bestimmte Zeit zu tragen, öffne die Satzübersicht für diese Übung im Trainings- oder Planeditor und aktiviere Nach Zeit erfassen, oder tippe während einer Einheit auf das Menü (⋮) eines Satzes und wähle Nach Zeit erfassen. Wie Gewicht erfassen wird die Einstellung pro Training gespeichert. Letztes Mal zeigt ein Tragen oder Halten nur, wenn beide Werte erfasst wurden, also trag die Distanz oder Zeit zusammen mit dem Gewicht ein.",
+              "es": "Los acarreos como el paseo del granjero registran peso y distancia. Para hacer un acarreo durante un tiempo fijo, abre el resumen de series de ese ejercicio en el editor de entrenamiento o plan y activa Registrar por tiempo, o toca el menú (⋮) de una serie durante una sesión y elige Registrar por tiempo. Igual que Registrar peso, se guarda por entrenamiento. Última vez muestra un acarreo o una isometría solo cuando se registraron los dos valores, así que registra la distancia o el tiempo junto con el peso.",
+              "fr": "Les portés comme la marche du fermier enregistrent le poids et la distance. Pour porter pendant une durée fixe, ouvre le récapitulatif des séries de cet exercice dans l'éditeur d'entraînement ou de programme et active Enregistrer le temps, ou appuie sur le menu (⋮) d'une série pendant une séance et choisis Enregistrer le temps. Comme Enregistrer le poids, le réglage est sauvegardé par entraînement. La dernière fois n'affiche un porté ou un gainage que si les deux valeurs ont été enregistrées, alors enregistre la distance ou le temps avec le poids."
             }
           }
         }
@@ -765,6 +1269,24 @@
               "de": "Der Statistiken-Tab zeigt Gesamttrainings, Gesamtvolumen, Gesamtzeit und durchschnittliche Einheitsdauer über einen auswählbaren Zeitraum, mit einer Periode-zu-Periode-Differenz für jede Kennzahl. Diagramme zeigen wöchentliches Volumen, Trainings pro Woche und deinen Trainings-Split nach Körperteil. Durchsuche deine vollständige Trainingshistorie und tippe auf eine Einheit, um jeden Satz im Detail einzusehen, einschließlich Gewichte, Wiederholungen, Zeit oder Distanz. Du kannst abgeschlossene Trainings vom Verlaufsdetailsbildschirm bearbeiten oder löschen; ein gelöschtes Training kannst du über Rückgängig in der eingeblendeten Meldung wiederherstellen. Wenn du die falsche Übung erfasst hast, tippe auf dem Bearbeitungsbildschirm auf das Stiftsymbol daneben, um sie gegen die richtige auszutauschen. Tippe auf das Kalendersymbol im Bereich Trainingshistorie, um eine Kalenderansicht zu öffnen: Tage mit Trainings sind mit einem gelben Kreis hervorgehoben, und ein Tippen auf einen Tag zeigt die an diesem Datum protokollierten Trainings.",
               "es": "La pestaña Estadísticas muestra el total de entrenamientos, volumen total, tiempo total y duración media de sesión en un rango de tiempo seleccionable, con una variación período a período para cada métrica. Los gráficos muestran el volumen semanal, los entrenamientos por semana y tu división de entrenamiento por parte del cuerpo. Navega por tu historial completo de entrenamientos y toca cualquier sesión para revisar cada serie en detalle, incluyendo pesos, reps, tiempo o distancia. Puedes editar o eliminar entrenamientos completados desde la pantalla de detalles del historial; puedes recuperar un entrenamiento eliminado tocando Deshacer en el mensaje que aparece. Si registraste el ejercicio equivocado, toca el icono de lápiz junto a él en la pantalla de edición para cambiarlo por el correcto. Toca el icono de calendario en la sección Historial de entrenamientos para abrir una vista de calendario: los días con entrenamientos se resaltan con un círculo amarillo, y al tocar cualquier día se muestran los entrenamientos registrados en esa fecha.",
               "fr": "L'onglet Stats affiche le nombre total d'entraînements, le volume total, le temps total et la durée moyenne des séances sur une période sélectionnable, avec un delta par rapport à la période précédente pour chaque indicateur. Des graphiques affichent le volume hebdomadaire, les entraînements par semaine et ta répartition d'entraînement par partie du corps. Parcours l'historique complet de tes entraînements et appuie sur une séance pour revoir chaque série en détail. Tu peux modifier ou supprimer des entraînements terminés depuis l'écran de détails ; un entraînement supprimé peut être restauré en appuyant sur Annuler dans le message qui s'affiche. Si tu as enregistré le mauvais exercice, appuie sur l'icône crayon à côté dans l'écran de modification pour l'échanger contre le bon. Appuie sur l'icône calendrier dans la section Historique pour ouvrir une vue calendrier : les jours avec des entraînements sont mis en évidence avec un cercle jaune."
+            }
+          }
+        },
+        {
+          "id": "volume",
+          "title": {
+            "en": "What volume counts",
+            "de": "Was zum Volumen zählt",
+            "es": "Qué cuenta en el volumen",
+            "fr": "Ce que compte le volume"
+          },
+          "body": {
+            "type": "text",
+            "text": {
+              "en": "Volume is weight times reps, added up over your sets. Assisted exercises count your body weight minus the assistance, so less assistance means more volume. Bodyweight exercises such as push-ups and pull-ups count nothing unless you turn on Include body weight in volume in Settings, under Stats; then they count your body weight, plus any weight you added. Each workout uses the latest body weight logged before it, or your current one if there was none yet, so log your weight under Body Measurements to keep it current. Time and distance exercises have no volume, and neither do weighted carries and holds.",
+              "de": "Volumen ist Gewicht mal Wiederholungen, über deine Sätze addiert. Unterstützte Übungen zählen dein Körpergewicht abzüglich der Unterstützung, weniger Unterstützung bedeutet also mehr Volumen. Körpergewichtsübungen wie Liegestütze und Klimmzüge zählen nicht, außer du aktivierst Körpergewicht im Volumen zählen in den Einstellungen unter Statistiken; dann zählen sie dein Körpergewicht plus eventuelles Zusatzgewicht. Jedes Training nutzt das Körpergewicht, das du bis zu diesem Tag eingetragen hattest, also trag dein Gewicht unter Körpermaße ein, damit es aktuell bleibt. Zeit- und Distanzübungen haben kein Volumen, ebenso wenig das Tragen und Halten von Gewichten.",
+              "es": "El volumen es el peso por las reps, sumado en todas tus series. Los ejercicios asistidos cuentan tu peso corporal menos la asistencia, así que menos asistencia significa más volumen. Los ejercicios con peso corporal, como flexiones y dominadas, no cuentan nada salvo que actives Incluir peso corporal en el volumen en Ajustes, en Estadísticas; entonces cuentan tu peso corporal más el peso que hayas añadido. Cada entrenamiento usa el peso corporal que tenías registrado ese día, así que registra tu peso en Medidas corporales para mantenerlo al día. Los ejercicios de tiempo y distancia no tienen volumen, y tampoco los acarreos y las isometrías con peso.",
+              "fr": "Le volume, c'est le poids multiplié par les reps, additionné sur tes séries. Les exercices assistés comptent ton poids du corps moins l'assistance : moins d'assistance, c'est plus de volume. Les exercices au poids du corps comme les pompes et les tractions ne comptent rien, sauf si tu actives Inclure le poids du corps dans le volume dans Paramètres, sous Stats ; ils comptent alors ton poids du corps, plus le poids ajouté. Chaque séance utilise le poids du corps que tu avais noté à cette date, alors note ton poids dans Mesures corporelles pour le garder à jour. Les exercices de temps et de distance n'ont pas de volume, et les portés et gainages lestés non plus."
             }
           }
         },
@@ -839,6 +1361,18 @@
                 "fr": "Unités de poids, de taille et de distance, ton objectif hebdomadaire, séries par exercice par défaut, temps de repos par défaut et incréments ± de poids et de minuterie de repos utilisés pendant une séance."
               },
               {
+                "en": "Logging style: One set at a time, or All sets in a list.",
+                "de": "Erfassungsart: Ein Satz nach dem anderen oder Alle Sätze in einer Liste.",
+                "es": "Modo de registro: Una serie cada vez o Todas las series en una lista.",
+                "fr": "Mode de saisie : Une série à la fois ou Toutes les séries dans une liste."
+              },
+              {
+                "en": "Log effort per set: Off, RIR or RPE.",
+                "de": "Anstrengung pro Satz erfassen: Aus, RIR oder RPE.",
+                "es": "Registrar esfuerzo por serie: Desactivado, RIR o RPE.",
+                "fr": "Noter l'effort par série : désactivé, RIR ou RPE."
+              },
+              {
                 "en": "Workout button size (Standard, Large, or XLarge), and Keep Screen On to stop the display sleeping mid-workout.",
                 "de": "Schaltflächengröße für das Training (Standard, Groß oder Sehr groß) und Bildschirm eingeschaltet lassen, damit das Display nicht mitten im Training ausgeht.",
                 "es": "Tamaño de los botones de entrenamiento (Estándar, Grande o Muy grande) y Mantener pantalla encendida para que la pantalla no se apague.",
@@ -857,16 +1391,22 @@
                 "fr": "Toujours utiliser l'historique le plus récent, pour pré-remplir les séries avec la dernière fois où tu as fait un exercice dans n'importe quel entraînement, et pas seulement le même."
               },
               {
-                "en": "Under Stats: exclude warm-up sets from volume, turn on Single-side rep logging to double reps for unilateral exercises, or Per-side weight entry to double the weight for paired implements (useful if you log per-dumbbell weight rather than the total).",
-                "de": "Unter Statistiken: Aufwärmsätze vom Volumen ausschließen, Einseitige Wdh.-Erfassung aktivieren, um Wiederholungen für einseitige Übungen zu verdoppeln, oder Gewichteingabe pro Seite, um das Gewicht für gepaarte Geräte zu verdoppeln (nützlich, wenn du das Gewicht pro Kurzhantel statt das Gesamtgewicht protokollierst).",
-                "es": "En Estadísticas: excluye las series de calentamiento del volumen, activa Reps por un solo lado para duplicar las reps en ejercicios unilaterales, o Peso por lado para doblar el peso de implementos pareados (útil si registras el peso de una mancuerna en lugar del total).",
-                "fr": "Sous Stats : exclure les séries d'échauffement du volume, activer Reps d'un seul côté pour doubler les reps des exercices unilatéraux, ou Poids par côté pour doubler le poids des implements appariés (utile si tu notes le poids par haltère plutôt que le total)."
+                "en": "Under Stats: exclude warm-up sets from volume, turn on Single-side rep logging to double reps for unilateral exercises, Per-side weight entry to double the weight for paired implements (useful if you log per-dumbbell weight rather than the total), or Include body weight in volume.",
+                "de": "Unter Statistiken: Aufwärmsätze vom Volumen ausschließen, Einseitige Wdh.-Erfassung aktivieren, um Wiederholungen für einseitige Übungen zu verdoppeln, Gewichteingabe pro Seite, um das Gewicht für gepaarte Geräte zu verdoppeln (nützlich, wenn du das Gewicht pro Kurzhantel statt das Gesamtgewicht protokollierst), oder Körpergewicht im Volumen zählen.",
+                "es": "En Estadísticas: excluye las series de calentamiento del volumen, activa Reps por un solo lado para duplicar las reps en ejercicios unilaterales, Peso por lado para doblar el peso de implementos pareados (útil si registras el peso de una mancuerna en lugar del total), o Incluir peso corporal en el volumen.",
+                "fr": "Sous Stats : exclure les séries d'échauffement du volume, activer Reps d'un seul côté pour doubler les reps des exercices unilatéraux, Poids par côté pour doubler le poids des implements appariés (utile si tu notes le poids par haltère plutôt que le total), ou Inclure le poids du corps dans le volume."
               },
               {
-                "en": "Your body weight, used to calculate effective load for assisted exercises.",
-                "de": "Dein Körpergewicht, das zur Berechnung der effektiven Last bei Assistenzübungen verwendet wird.",
-                "es": "Tu peso corporal, usado para calcular la carga efectiva en ejercicios asistidos.",
-                "fr": "Ton poids de corps, utilisé pour calculer la charge effective pour les exercices assistés."
+                "en": "Your body weight, from your latest entry under Body Measurements; tap it to log a new one. It is used for assisted and bodyweight exercises.",
+                "de": "Dein Körpergewicht, aus deinem letzten Eintrag unter Körpermaße; tippe darauf, um einen neuen einzutragen. Es wird für unterstützte Übungen und Körpergewichtsübungen verwendet.",
+                "es": "Tu peso corporal, de tu último registro en Medidas corporales; tócalo para registrar uno nuevo. Se usa en ejercicios asistidos y con peso corporal.",
+                "fr": "Ton poids du corps, d'après ta dernière entrée dans Mesures corporelles ; touche-le pour en noter un nouveau. Il sert pour les exercices assistés et au poids du corps."
+              },
+              {
+                "en": "Under Appearance: Show tips on home, and Translate exercise names to see exercise names in your phone's language or in English.",
+                "de": "Unter Erscheinungsbild: Tipps auf dem Startbildschirm zeigen, und Übungsnamen übersetzen, um Übungsnamen in der Sprache deines Handys oder auf Englisch zu sehen.",
+                "es": "En Apariencia: Mostrar consejos en inicio, y Traducir los nombres de ejercicios para verlos en el idioma de tu móvil o en inglés.",
+                "fr": "Sous Apparence : Afficher les conseils sur l'accueil, et Traduire les noms d'exercices pour voir les noms d'exercices dans la langue de ton téléphone ou en anglais."
               }
             ],
             "ordered": false
@@ -966,10 +1506,10 @@
           "body": {
             "type": "text",
             "text": {
-              "en": "Tap any accepted friend in your Friends list to open their profile. Their profile shows whatever they have chosen to share: strength PRs, recent activity, body measurements, plans, workouts, and custom exercises. Tap Add on a plan, workout, or custom exercise to add it directly to your own library. Imported plans and workouts are saved as new copies that you can edit freely without affecting the original. Imported custom exercises are added to your exercise library and available immediately when building workouts. Each section of a profile starts collapsed; tap its heading to open it.",
-              "de": "Tippe auf einen beliebigen akzeptierten Freund in deiner Freundesliste, um sein Profil zu öffnen. Das Profil zeigt alles, was dein Freund teilt: Kraft-PRs, letzte Aktivitäten, Körpermaße, Pläne, Trainings und eigene Übungen. Tippe bei einem Plan, Training oder einer eigenen Übung auf Hinzufügen, um sie direkt in deine eigene Bibliothek zu übernehmen. Importierte Pläne und Trainings werden als neue Kopien gespeichert, die du frei bearbeiten kannst, ohne das Original zu beeinflussen. Importierte eigene Übungen werden deiner Übungsbibliothek hinzugefügt und sind sofort beim Erstellen von Trainings verfügbar. Jeder Abschnitt eines Profils ist zunächst eingeklappt; tippe auf die Überschrift, um ihn zu öffnen.",
-              "es": "Toca cualquier amigo aceptado en tu lista de Amigos para abrir su perfil. Su perfil muestra todo lo que ha elegido compartir: récords de fuerza, actividad reciente, medidas corporales, planes, entrenamientos y ejercicios personalizados. Toca Añadir en un plan, entrenamiento o ejercicio personalizado para añadirlo directamente a tu propia biblioteca. Los planes y entrenamientos importados se guardan como nuevas copias que puedes editar libremente sin afectar al original. Los ejercicios personalizados importados se añaden a tu biblioteca de ejercicios y están disponibles inmediatamente al crear entrenamientos. Cada sección de un perfil empieza plegada; toca su título para abrirla.",
-              "fr": "Appuie sur n'importe quel ami accepté dans ta liste d'amis pour ouvrir son profil. Son profil affiche tout ce qu'il a choisi de partager : records de force, activité récente, mesures corporelles, programmes, entraînements et exercices personnalisés. Appuie sur Ajouter sur un programme, un entraînement ou un exercice personnalisé pour l'ajouter directement à ta propre bibliothèque. Les programmes et entraînements importés sont sauvegardés comme de nouvelles copies que tu peux modifier librement sans affecter l'original. Les exercices personnalisés importés sont ajoutés à ta bibliothèque d'exercices et disponibles immédiatement lors de la création d'entraînements. Chaque section d'un profil est repliée au départ ; appuie sur son titre pour l'ouvrir."
+              "en": "Tap any accepted friend in your Friends list to open their profile. Their profile shows whatever they have chosen to share: strength PRs, recent activity, body measurements, plans, workouts, and custom exercises. Tap Add on a plan, workout, or custom exercise to add it directly to your own library. Imported plans and workouts are saved as new copies that you can edit freely without affecting the original. Imported custom exercises are added to your exercise library and available immediately when building workouts. Each section of a profile starts collapsed, with the most recent items first; tap its heading to open it.",
+              "de": "Tippe auf einen beliebigen akzeptierten Freund in deiner Freundesliste, um sein Profil zu öffnen. Das Profil zeigt alles, was dein Freund teilt: Kraft-PRs, letzte Aktivitäten, Körpermaße, Pläne, Trainings und eigene Übungen. Tippe bei einem Plan, Training oder einer eigenen Übung auf Hinzufügen, um sie direkt in deine eigene Bibliothek zu übernehmen. Importierte Pläne und Trainings werden als neue Kopien gespeichert, die du frei bearbeiten kannst, ohne das Original zu beeinflussen. Importierte eigene Übungen werden deiner Übungsbibliothek hinzugefügt und sind sofort beim Erstellen von Trainings verfügbar. Jeder Abschnitt eines Profils ist zunächst eingeklappt und zeigt die neuesten Einträge zuerst; tippe auf die Überschrift, um ihn zu öffnen.",
+              "es": "Toca cualquier amigo aceptado en tu lista de Amigos para abrir su perfil. Su perfil muestra todo lo que ha elegido compartir: récords de fuerza, actividad reciente, medidas corporales, planes, entrenamientos y ejercicios personalizados. Toca Añadir en un plan, entrenamiento o ejercicio personalizado para añadirlo directamente a tu propia biblioteca. Los planes y entrenamientos importados se guardan como nuevas copias que puedes editar libremente sin afectar al original. Los ejercicios personalizados importados se añaden a tu biblioteca de ejercicios y están disponibles inmediatamente al crear entrenamientos. Cada sección de un perfil empieza plegada, con lo más reciente primero; toca su título para abrirla.",
+              "fr": "Appuie sur n'importe quel ami accepté dans ta liste d'amis pour ouvrir son profil. Son profil affiche tout ce qu'il a choisi de partager : records de force, activité récente, mesures corporelles, programmes, entraînements et exercices personnalisés. Appuie sur Ajouter sur un programme, un entraînement ou un exercice personnalisé pour l'ajouter directement à ta propre bibliothèque. Les programmes et entraînements importés sont sauvegardés comme de nouvelles copies que tu peux modifier librement sans affecter l'original. Les exercices personnalisés importés sont ajoutés à ta bibliothèque d'exercices et disponibles immédiatement lors de la création d'entraînements. Chaque section d'un profil est repliée au départ, avec les éléments les plus récents en premier ; appuie sur son titre pour l'ouvrir."
             }
           }
         }
