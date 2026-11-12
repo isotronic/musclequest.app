@@ -8,7 +8,6 @@ export const coach: CoachContent = {
     title: "MuscleQuest Coach: coach your clients in the app they train with",
     description: "A web app for personal trainers and online coaches. Build plans in the browser, your clients train in the free MuscleQuest app, and you see every set they log.",
   },
-  nav: { how: "How it works", features: "Features", faq: "FAQ", signIn: "Sign in", request: "Request access" },
   hero: {
     eyebrow: "For personal trainers and online coaches",
     titleLead: "Build the plan once.",

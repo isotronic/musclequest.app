@@ -10,7 +10,6 @@ export const coach: CoachContent = {
     title: "MuscleQuest Coach: Ihre Klienten in der App coachen, mit der sie trainieren",
     description: "Eine Web-App für Personal Trainer und Online-Coaches. Sie bauen Pläne im Browser, Ihre Klienten trainieren mit der kostenlosen MuscleQuest-App, und Sie sehen jeden Satz, den sie loggen.",
   },
-  nav: { how: "So funktioniert es", features: "Funktionen", faq: "FAQ", signIn: "Anmelden", request: "Zugang anfragen" },
   hero: {
     eyebrow: "Für Personal Trainer und Online-Coaches",
     titleLead: "Einmal den Plan bauen.",

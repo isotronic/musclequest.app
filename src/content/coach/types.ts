@@ -8,7 +8,6 @@ export type ClientPhones = "android" | "iphone" | "mixed";
 
 export type CoachContent = {
   meta: { title: string; description: string };
-  nav: { how: string; features: string; faq: string; signIn: string; request: string };
   hero: {
     eyebrow: string;
     titleLead: string;
