@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { collectPayload, eventForResponse, initialState, readSource, reduce, type FormState, type Payload } from "./requestForm";
+import { collectPayload, eventForResponse, fillThanks, initialState, readSource, reduce, type FormState, type Payload } from "./requestForm";
 import { coach } from "../content/coach/en";
 
 const messages = coach.form.errors;
@@ -171,5 +171,14 @@ describe("eventForResponse", () => {
     [502, null],
   ])("%s %j is a server failure", (status, body) => {
     expect(eventForResponse(status, body)).toEqual({ type: "failed", kind: "server" });
+  });
+});
+
+describe("fillThanks", () => {
+  test("fills the name", () => {
+    expect(fillThanks("Thanks, {name}.", "Sam")).toBe("Thanks, Sam.");
+  });
+  test.each(["$&", "$1", "$$", "$`", "$'", "<b>x</b>"])("keeps %s in a name literally", (name) => {
+    expect(fillThanks("Thanks, {name}.", name)).toBe(`Thanks, ${name}.`);
   });
 });

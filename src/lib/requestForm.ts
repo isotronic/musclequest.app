@@ -145,6 +145,11 @@ export function eventForResponse(status: number, body: unknown): FormEvent {
   return { type: "failed", kind: "server" };
 }
 
+/** The thank-you heading: `{name}` replaced literally (a function replacer, so `$&` in a name stays as typed). */
+export function fillThanks(template: string, name: string): string {
+  return template.replace("{name}", () => name);
+}
+
 // ---- DOM glue ----
 
 type Turnstile = {
@@ -229,7 +234,7 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
     state = reduce(state, event);
     if (state.status === "sent") {
       const name = state.values?.name ?? "";
-      thanksTitle.textContent = (thanksTitle.dataset.template ?? "").replace("{name}", name);
+      thanksTitle.textContent = fillThanks(thanksTitle.dataset.template ?? "", name);
       form.hidden = true;
       thanks.hidden = false;
       thanksTitle.focus();
@@ -238,10 +243,9 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
     if (state.resetTurnstile) resetTurnstile();
     const fieldErrors: Partial<Record<Field, string>> = {};
     for (const [field, key] of Object.entries(state.fieldErrors) as [Field, ErrorKey][]) fieldErrors[field] = messages[key];
-    if (state.status !== "sending") {
-      showFieldErrors(fieldErrors);
-      focusFirstInvalid(fieldErrors);
-    }
+    // On submit this clears field errors left from a previous server answer.
+    showFieldErrors(fieldErrors);
+    if (state.status !== "sending") focusFirstInvalid(fieldErrors);
     showFormError(state.formError ? messages[state.formError] : null);
     updateButton();
   };
@@ -287,19 +291,39 @@ export function attachRequestForm(form: HTMLFormElement, messages: Messages): vo
     dispatch(event);
   });
 
+  let rendered = false;
   const render = (turnstile: Turnstile) => {
-    widgetId = turnstile.render(container, {
-      sitekey: container.dataset.sitekey,
-      action: container.dataset.action ?? "access-request",
-      theme: container.dataset.theme ?? "dark",
-      callback: (value: string) => setToken(value),
-      "expired-callback": () => setToken(null),
-      "error-callback": () => setToken(null),
-    });
+    if (rendered) return;
+    rendered = true;
+    try {
+      widgetId = turnstile.render(container, {
+        sitekey: container.dataset.sitekey,
+        action: container.dataset.action ?? "access-request",
+        theme: container.dataset.theme ?? "dark",
+        callback: (value: string) => setToken(value),
+        "expired-callback": () => setToken(null),
+        "error-callback": () => setToken(null),
+      });
+    } catch {
+      widgetId = undefined;
+    }
+    // Without a widget id the token can never be reset, so the form cannot be sent: say so.
+    if (widgetId === undefined) {
+      setToken(null);
+      showFormError(messages.turnstile);
+    } else if (formError.textContent === messages.turnstile) {
+      showFormError(null);
+    }
   };
+
+  // A slow connection can load api.js after the polling window: render on its load event then.
+  document
+    .querySelector<HTMLScriptElement>('script[src*="challenges.cloudflare.com/turnstile/"]')
+    ?.addEventListener("load", () => window.turnstile && render(window.turnstile), { once: true });
 
   const started = Date.now();
   const waitForTurnstile = () => {
+    if (rendered) return;
     if (window.turnstile) render(window.turnstile);
     else if (Date.now() - started < TURNSTILE_GIVE_UP_MS) setTimeout(waitForTurnstile, TURNSTILE_POLL_MS);
     else showFormError(messages.turnstile);
