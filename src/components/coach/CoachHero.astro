@@ -1,0 +1,30 @@
+---
+import BrowserShot from "./BrowserShot.astro";
+import { localePath, type Locale } from "../../i18n/ui";
+import type { CoachContent } from "../../content/coach/types";
+interface Props { content: CoachContent["hero"]; locale: Locale }
+const { content, locale } = Astro.props;
+---
+<section class="overflow-hidden px-4 pt-10 pb-20 sm:px-6 md:pt-16 md:pb-28">
+  <div class="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[1.05fr_0.95fr]">
+    <div>
+      <p class="inline-flex items-center gap-2 rounded-full border border-surface-2 px-3 py-1 text-sm text-muted">
+        <span class="size-1.5 rounded-full bg-accent" aria-hidden="true"></span>{content.eyebrow}
+      </p>
+      <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+        {content.titleLead}<br /><span class="text-accent">{content.titleAccent}</span>
+      </h1>
+      <p class="mt-5 max-w-lg text-lg text-muted text-pretty">{content.lede}</p>
+      <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
+        <a href="#request" class="rounded-full bg-accent px-6 py-3 font-semibold text-bg hover:bg-accent-hover">{content.primary}</a>
+        <a href="#how" class="py-3 font-semibold text-text hover:text-accent">{content.secondary} <span aria-hidden="true">→</span></a>
+      </div>
+      <p class="mt-8 text-sm text-muted">{content.platformNote}</p>
+      <p class="mt-1 text-sm"><a href={localePath(locale, "/")} class="text-muted underline hover:text-accent">{content.appLinkText}</a></p>
+    </div>
+    <div class="relative">
+      <div aria-hidden="true" class="absolute inset-x-[-10%] bottom-[-10%] top-[20%] rounded-full bg-accent/15 blur-3xl"></div>
+      <BrowserShot id="coachBuilder" alt={content.screenshotAlt} eager locale={locale} class="relative" />
+    </div>
+  </div>
+</section>

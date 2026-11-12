@@ -1,9 +1,10 @@
 ---
 import Section from "./Section.astro";
 import SectionHeading from "./SectionHeading.astro";
-import type { HomeContent } from "../content/home/types";
+import type { FaqContent } from "../content/home/types";
 import { localePath, type Locale } from "../i18n/ui";
-const { content, locale } = Astro.props as { content: HomeContent["faq"]; locale: Locale };
+interface Props { content: FaqContent; locale: Locale }
+const { content, locale } = Astro.props;
 ---
 <Section id="faq">
   <SectionHeading title={content.title} />

@@ -1,18 +1,28 @@
 ---
 import { LOCALE_NAMES, SITE_LOCALES, htmlLang, localePath, t, type Locale } from "../i18n/ui";
 import { AUTHOR_URL, INSTAGRAM_URL, SUPPORT_EMAIL, playUrl } from "../lib/seo";
-interface Props { locale: Locale; path: string; translated: boolean }
-const { locale, path, translated } = Astro.props;
+import { config as coachConfig } from "../content/coach/config";
+interface Props { locale: Locale; path: string; translated: boolean; variant?: "app" | "coach" }
+const { locale, path, translated, variant = "app" } = Astro.props;
 // An English-only page switches to the other language's home page.
 const languages = SITE_LOCALES.map((l) => ({ locale: l, name: LOCALE_NAMES[l], href: localePath(l, translated ? path : "/") }));
 const year = new Date().getFullYear();
 const cols = [
-  { title: t(locale, "footer.product"), links: [
-    { href: localePath(locale, "/#features"), label: t(locale, "nav.features") },
-    { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
-    { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
-    { href: playUrl("footer"), label: "Google Play" },
-  ]},
+  { title: t(locale, "footer.product"), links: variant === "coach"
+      ? [
+          { href: "#how", label: t(locale, "nav.how") },
+          { href: "#features", label: t(locale, "nav.features") },
+          { href: "#faq", label: t(locale, "nav.faq") },
+          { href: `${coachConfig.coachAppUrl}/login`, label: t(locale, "nav.signIn") },
+          { href: localePath(locale, "/coach/"), label: t(locale, "nav.forCoaches") },
+        ]
+      : [
+          { href: localePath(locale, "/#features"), label: t(locale, "nav.features") },
+          { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
+          { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
+          { href: playUrl("footer"), label: "Google Play" },
+        ],
+  },
   { title: t(locale, "footer.legal"), links: [
     { href: "/privacy-policy/", label: t(locale, "footer.privacy") },
     { href: localePath(locale, "/delete-account/"), label: t(locale, "footer.deleteAccount") },

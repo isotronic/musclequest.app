@@ -1,4 +1,5 @@
 import type { ScreenshotId } from "../../data/screenshots";
+import type { FaqContent } from "../home/types";
 
 /** Values the access request form sends; the API route and the database accept these only. */
 export type CoachingSetting = "gym" | "online" | "both";
@@ -71,7 +72,7 @@ export type CoachContent = {
     };
     noScript: string;
   };
-  faq: { title: string; items: { question: string; answer: string }[] };
+  faq: FaqContent;
   closing: { title: string; text: string; button: string };
   config: { turnstileSiteKey: string; apiUrl: string; coachAppUrl: string; contactEmail: string };
 };

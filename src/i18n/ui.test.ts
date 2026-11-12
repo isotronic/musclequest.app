@@ -17,6 +17,16 @@ describe("t", () => {
     expect(Object.keys(de).sort()).toEqual(Object.keys(en).sort());
     expect(Object.entries(de).filter(([, v]) => !v.trim())).toEqual([]);
   });
+  test("has the coach nav keys in English and German", () => {
+    expect(t("en", "nav.forCoaches")).toBe("For coaches");
+    expect(t("en", "nav.how")).toBe("How it works");
+    expect(t("en", "nav.signIn")).toBe("Sign in");
+    expect(t("en", "nav.requestAccess")).toBe("Request access");
+    expect(t("de", "nav.forCoaches")).toBe("Für Trainer");
+    expect(t("de", "nav.how")).toBe("So funktioniert es");
+    expect(t("de", "nav.signIn")).toBe("Anmelden");
+    expect(t("de", "nav.requestAccess")).toBe("Zugang anfragen");
+  });
   test("placeholders survive translation", () => {
     for (const [key, value] of Object.entries(en)) {
       const placeholders = value.match(/\{\w+\}/g) ?? [];

@@ -4,7 +4,7 @@ export const SUPPORT_EMAIL = "support@musclequest.app";
 export const INSTAGRAM_URL = "https://www.instagram.com/musclequest.app/";
 export const AUTHOR_URL = "https://joseph.bouqdib.com";
 
-export type Placement = "hero" | "nav" | "cta" | "footer" | "404";
+export type Placement = "hero" | "nav" | "cta" | "footer" | "404" | "coach";
 
 export function absoluteUrl(path: string): string {
   return new URL(path, SITE_URL).toString();

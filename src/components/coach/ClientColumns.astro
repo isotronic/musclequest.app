@@ -1,0 +1,23 @@
+---
+import Section from "../Section.astro";
+import SectionHeading from "../SectionHeading.astro";
+import Screenshot from "../Screenshot.astro";
+import type { CoachContent } from "../../content/coach/types";
+import type { Locale } from "../../i18n/ui";
+interface Props { content: CoachContent["clients"]; locale: Locale }
+const { content, locale } = Astro.props;
+---
+<Section id="clients" tone="surface">
+  <SectionHeading title={content.title} intro={content.intro} />
+  <ul class="grid gap-14 md:grid-cols-3 md:gap-10">
+    {content.columns.map((c) => (
+      <li class="reveal">
+        <div class="mx-auto w-56 sm:w-60">
+          <Screenshot id={c.screenshot} alt={c.screenshotAlt} locale={locale} />
+        </div>
+        <h3 class="mt-8 text-xl font-bold tracking-tight">{c.title}</h3>
+        <p class="mt-3 text-muted text-pretty">{c.text}</p>
+      </li>
+    ))}
+  </ul>
+</Section>

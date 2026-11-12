@@ -28,3 +28,7 @@ test("faqJsonLd and breadcrumbJsonLd", () => {
   const bc = breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Help", path: "/help/" }]) as any;
   expect(bc.itemListElement[1]).toMatchObject({ position: 2, item: "https://musclequest.app/help/" });
 });
+
+test("playUrl tags the coach page's thank-you link", () => {
+  expect(new URL(playUrl("coach")).searchParams.get("utm_campaign")).toBe("coach");
+});

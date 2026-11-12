@@ -8,8 +8,9 @@ import { SITE_LOCALES, htmlLang, localePath, ogLocale, t, type Locale } from "..
 import { organizationJsonLd } from "../lib/seo";
 // `path` is the page's English path ("/help/"); the layout prefixes it for other locales.
 // `translated` is false for pages that exist in English only (privacy policy).
-interface Props { locale?: Locale; title: string; description: string; path: string; translated?: boolean; jsonLd?: object[]; noindex?: boolean }
-const { locale = "en", title, description, path, translated = true, jsonLd = [], noindex } = Astro.props;
+// `variant` switches the nav and footer links between the app pages and the coach page.
+interface Props { locale?: Locale; title: string; description: string; path: string; translated?: boolean; jsonLd?: object[]; noindex?: boolean; variant?: "app" | "coach" }
+const { locale = "en", title, description, path, translated = true, jsonLd = [], noindex, variant = "app" } = Astro.props;
 const alternates = translated
   ? [
       ...SITE_LOCALES.map((l) => ({ hreflang: htmlLang(l), href: localePath(l, path), ogLocale: ogLocale(l) })),
@@ -27,8 +28,8 @@ const alternates = translated
   </head>
   <body class="flex min-h-dvh flex-col">
     <a href="#main" class="sr-only z-50 rounded bg-accent px-4 py-2 font-semibold text-bg focus:not-sr-only focus:fixed focus:left-4 focus:top-4">{t(locale, "nav.skip")}</a>
-    <NavBar locale={locale} />
+    <NavBar locale={locale} variant={variant} />
     <main id="main" class="flex-1"><slot /></main>
-    <Footer locale={locale} path={path} translated={translated} />
+    <Footer locale={locale} path={path} translated={translated} variant={variant} />
   </body>
 </html>
