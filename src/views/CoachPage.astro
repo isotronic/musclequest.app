@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CoachHero from "../components/coach/CoachHero.astro";
+import Steps from "../components/coach/Steps.astro";
+import Section from "../components/Section.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import CoachFeatureBlock from "../components/coach/CoachFeatureBlock.astro";
+import ClientColumns from "../components/coach/ClientColumns.astro";
+import EarlyAccess from "../components/coach/EarlyAccess.astro";
+import Faq from "../components/Faq.astro";
+import ClosingCta from "../components/coach/ClosingCta.astro";
+import Lightbox from "../components/Lightbox.astro";
+import { coachContent } from "../content/coach";
+import { faqJsonLd, softwareApplicationJsonLd } from "../lib/seo";
+import type { SiteLocale } from "../i18n/ui";
+// The coach landing page (spec 09). `noindex` stays on until the launch gate in the README.
+interface Props { locale: SiteLocale }
+const { locale } = Astro.props;
+const coach = coachContent(locale);
+---
+<BaseLayout locale={locale} variant="coach" title={coach.meta.title} description={coach.meta.description} path="/coach/"
+  noindex ogImage="/og-coach.png" jsonLd={[softwareApplicationJsonLd(), faqJsonLd(coach.faq.items)]}>
+  <CoachHero content={coach.hero} locale={locale} />
+  <Steps content={coach.how} />
+  <Section id="features">
+    <SectionHeading title={coach.features.title} />
+    <div class="space-y-24 md:space-y-32">
+      {coach.features.blocks.map((b, i) => <CoachFeatureBlock block={b} flip={i % 2 === 1} locale={locale} />)}
+    </div>
+  </Section>
+  <ClientColumns content={coach.clients} locale={locale} />
+  <EarlyAccess early={coach.early} form={coach.form} config={coach.config} locale={locale} />
+  <Faq content={coach.faq} locale={locale} />
+  <ClosingCta content={coach.closing} />
+  <Lightbox locale={locale} />
+</BaseLayout>
+
+<script>
+  // A visitor from a campaign link (/go/flyer) keeps its source when switching language.
+  import { withSource } from "../lib/source";
+  const src = new URLSearchParams(location.search).get("src");
+  document.querySelectorAll<HTMLAnchorElement>('nav[aria-labelledby="footer-language"] a[hreflang]').forEach((a) => {
+    a.setAttribute("href", withSource(a.getAttribute("href") ?? "", src));
+  });
+</script>

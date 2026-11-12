@@ -45,6 +45,17 @@ for (const [from, { html }] of pages) {
   }
 }
 for (const href of LEGACY) check("(legacy)", href);
+// Campaign short links (public/_redirects) are printed on QR codes, so their targets must resolve too.
+// The query (`?src=...`, including a `:splat` placeholder) is not part of the path and is not checked.
+const redirects = join(DIST, "_redirects");
+if (existsSync(redirects)) {
+  for (const line of readFileSync(redirects, "utf8").split("\n")) {
+    const [from, to] = line.trim().split(/\s+/);
+    if (!from || from.startsWith("#") || !to) continue;
+    if (!to.startsWith("/")) continue; // an external target
+    check(`(_redirects ${from})`, to);
+  }
+}
 
 if (errors.length) {
   console.error(errors.join("\n"));

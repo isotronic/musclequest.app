@@ -4,7 +4,9 @@ export const SUPPORT_EMAIL = "support@musclequest.app";
 export const INSTAGRAM_URL = "https://www.instagram.com/musclequest.app/";
 export const AUTHOR_URL = "https://joseph.bouqdib.com";
 
-export type Placement = "hero" | "nav" | "cta" | "footer" | "404";
+const AUTHOR = { "@type": "Person", name: "Joseph Bouqdib", url: AUTHOR_URL };
+
+export type Placement = "hero" | "nav" | "cta" | "footer" | "404" | "coach";
 
 export function absoluteUrl(path: string): string {
   return new URL(path, SITE_URL).toString();
@@ -41,7 +43,21 @@ export function mobileAppJsonLd(): object {
     installUrl: `https://play.google.com/store/apps/details?id=${PLAY_PACKAGE}`,
     image: absoluteUrl("/og-image.png"),
     offers: { "@type": "Offer", price: "0", priceCurrency: "GBP" },
-    author: { "@type": "Person", name: "Joseph Bouqdib", url: AUTHOR_URL },
+    author: AUTHOR,
+  };
+}
+
+// The coach web app (spec 09). No `offers` until pricing is announced.
+export function softwareApplicationJsonLd(): object {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "MuscleQuest Coach",
+    applicationCategory: "HealthApplication",
+    operatingSystem: "Web",
+    url: absoluteUrl("/coach/"),
+    image: absoluteUrl("/og-coach.png"),
+    author: AUTHOR,
   };
 }
 

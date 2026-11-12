@@ -1,0 +1,13 @@
+---
+import Section from "../Section.astro";
+import type { CoachContent } from "../../content/coach/types";
+interface Props { content: CoachContent["closing"] }
+const { content } = Astro.props;
+---
+<Section tone="surface">
+  <div class="reveal mx-auto max-w-2xl text-center">
+    <h2 class="text-3xl font-bold tracking-tight text-balance md:text-4xl">{content.title}</h2>
+    <p class="mt-4 text-lg text-muted text-pretty">{content.text}</p>
+    <a href="#request" class="mt-8 inline-block rounded-full bg-accent px-6 py-3 font-semibold text-bg hover:bg-accent-hover">{content.button}</a>
+  </div>
+</Section>

@@ -1,0 +1,7 @@
+# Campaign short links for the coach page (spec 09, "Campaign sources"). One line per campaign. The src value
+# is stored with each access request (requests per campaign); see the README for counting visits per link.
+# A source is lowercase letters, digits and hyphens, at most 40 characters (src/lib/source.ts).
+/go/flyer      /coach/?src=flyer      302
+/go/ad         /coach/?src=ad         302
+/go/instagram  /coach/?src=instagram  302
+/de/go/*       /de/coach/?src=:splat  302
