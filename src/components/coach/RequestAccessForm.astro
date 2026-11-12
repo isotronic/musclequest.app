@@ -80,3 +80,8 @@ const errorLine = "mt-2 border-l-2 border-danger pl-2 text-sm text-text";
 </div>
 
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer is:inline></script>
+<script>
+  import { attachRequestForm, type Messages } from "../../lib/requestForm";
+  const form = document.getElementById("request-form");
+  if (form instanceof HTMLFormElement) attachRequestForm(form, JSON.parse(form.dataset.messages ?? "{}") as Messages);
+</script>
