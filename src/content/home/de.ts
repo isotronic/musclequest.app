@@ -21,7 +21,7 @@ export const home: HomeContent = {
         id: "plans",
         title: "Pläne, die zu deiner Woche passen",
         text: "Stell dir aus über 1.200 Übungen deinen eigenen Plan zusammen oder starte mit einem von zehn fertigen Programmen und pass es an. Lege Sätze, Wiederholungen und Pausen für jede Übung fest und verteile deine Trainings auf die Tage, an denen du trainierst.",
-        bullets: ["10 fertige Pläne für 2 bis 6 Tage pro Woche, auch mit Körpergewicht oder nur Kurzhanteln", "Aufwärmsätze, Dropsätze und Supersätze", "Ein Wochenplan mit vorgeschlagenen Trainingstagen", "Pläne duplizieren und Trainings überall wiederverwenden"],
+        bullets: ["10 fertige Pläne für 2 bis 6 Tage pro Woche, auch mit Körpergewicht oder nur Kurzhanteln", "Aufwärmsätze, Dropsätze und Supersätze", "Aufwärmen, Cool-down und Mobilitätseinheiten für Ruhetage, mit 5 fertigen Routinen", "Ein Wochenplan mit vorgeschlagenen Trainingstagen", "Pläne duplizieren und Trainings überall wiederverwenden"],
         screenshot: "plan",
         screenshotAlt: "Planeditor für einen 4-Tage-Split aus Ober- und Unterkörper, mit Sätzen und Wiederholungen für jede Übung und einem Supersatz",
       },

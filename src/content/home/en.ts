@@ -19,7 +19,7 @@ export const home: HomeContent = {
         id: "plans",
         title: "Plans that fit your week",
         text: "Build your own plan from over 1,200 exercises, or start from one of ten premade programmes and make it yours. Set sets, reps and rest for every exercise, then pin workouts to the days you train.",
-        bullets: ["10 premade plans for 2 to 6 days a week, including bodyweight and dumbbell-only", "Warm-up sets, drop sets and supersets", "A weekly schedule with suggested training days", "Duplicate plans and reuse workouts anywhere"],
+        bullets: ["10 premade plans for 2 to 6 days a week, including bodyweight and dumbbell-only", "Warm-up sets, drop sets and supersets", "Warm-ups, cool-downs and mobility sessions for rest days, with 5 premade routines", "A weekly schedule with suggested training days", "Duplicate plans and reuse workouts anywhere"],
         screenshot: "plan",
         screenshotAlt: "Plan editor for a 4-day upper/lower split, with sets and reps for each exercise and a superset",
       },
