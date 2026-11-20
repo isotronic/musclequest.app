@@ -17,7 +17,7 @@ export const coach: CoachContent = {
     secondary: "See how it works",
     platformNote: "Clients train on Android today. iOS is next.",
     appLinkText: "Looking for the workout tracker? It's here.",
-    screenshotAlt: "MuscleQuest Coach plan builder with the exercise picker, a strip of four workouts and an open workout with a superset and set targets, the block's week tabs above",
+    screenshotAlt: "MuscleQuest Coach plan builder for client Alex Morgan's plan \"Upper, lower, full body\": the exercise list, workout tabs for Upper, Lower, Full body and Mobility, and the Upper workout with a bench press and row superset",
   },
   how: {
     title: "Three steps to your first coached session",
@@ -37,7 +37,7 @@ export const coach: CoachContent = {
         text: "Training blocks with week-by-week targets and deloads. Templates with muscle slots the client fills from their own equipment. Supersets and circuits, warm-up and cool-down sections, mobility sessions.",
         bullets: ["Reuse templates across clients", "Per-exercise cues and tracking type", "Drag and drop between picker, workout strip and the open workout"],
         screenshot: "coachBlockWeeks",
-        screenshotAlt: "Block weeks in the plan builder: week-by-week set targets for one exercise, with the last week marked as a deload",
+        screenshotAlt: "Block grid in the plan builder with weeks 1 to 4 (Base, Build, Peak, Deload), week 4 marked as the deload, and set targets for each week",
       },
       {
         id: "history",
@@ -45,7 +45,7 @@ export const coach: CoachContent = {
         text: "Completed workouts set by set, with the client's notes, effort and recovery ratings. Weekly volume, PRs and body measurements on the client's page.",
         bullets: ["History back to the day they joined, or further if they choose to share it", "Correct a mistyped set, with an audit trail", "Ask for older history later"],
         screenshot: "coachClientView",
-        screenshotAlt: "A client's completed workout set by set, with effort and a note, beside the weekly volume chart",
+        screenshotAlt: "A client's completed Lower session with the client's note and a set-by-set table of weight, reps and effort, including a note on one set",
       },
       {
         id: "progression",
@@ -53,7 +53,7 @@ export const coach: CoachContent = {
         text: "The app proposes weight, rep or set increases from how the sets went, using your increments. You pick the mode per plan: manual, suggest, or approve each one before the client sees it.",
         bullets: ["Suggestions queued for your review", "Edit a suggestion before it goes out", "Override a week without rebuilding the block"],
         screenshot: "coachSuggestions",
-        screenshotAlt: "Three pending progression suggestions, each with accept, edit and reject",
+        screenshotAlt: "A client's Feedback tab with three progression suggestions waiting, each with Approve, Edit and Reject",
       },
       {
         id: "library",
@@ -61,7 +61,7 @@ export const coach: CoachContent = {
         text: "Over 1,200 exercises with animations, muscles and equipment, the same library the client has in their pocket. Add your own exercises with your own cues.",
         bullets: [],
         screenshot: "coachLibrary",
-        screenshotAlt: "The exercise library as a grid of stills, filtered by one muscle, with a custom exercise among them",
+        screenshotAlt: "The exercise library filtered to lats and cable, shown as a table with a still image beside each exercise",
       },
     ],
   },
@@ -79,7 +79,7 @@ export const coach: CoachContent = {
         title: "Consent built in",
         text: "Clients choose what to share and from when. They can pause sharing or disconnect any time.",
         screenshot: "phoneSharing",
-        screenshotAlt: "Sharing with your trainer settings in the MuscleQuest app: what is shared, since when, and the pause and disconnect buttons",
+        screenshotAlt: "The Sharing with your trainer screen in the MuscleQuest app: what is shared, since when, pause sharing, sync, the data deletion request and disconnect",
       },
       {
         title: "Their data stays theirs",

@@ -48,14 +48,14 @@ Screenshots live in `src/assets/screenshots/` and are wired up by file name in `
 | `stats.jpg` | Stats | Insights, totals, workout history, PRs (or the Consistency and Training Split widgets) | Stats |
 | `measurements.jpg` | Body measurements | Latest values and a chart over time | Measurements |
 | `friend-profile.jpg` | Friend profile | A friend's shared PRs and activity | Friends |
-| `coach-builder.png` | Coach app: plan builder, a client plan with a block | Three panes: exercise picker, workout strip with 3 to 4 workouts, open workout with a superset and set targets; the block's week tabs visible | Coach hero, coach social preview image |
-| `coach-block-weeks.png` | Coach app: plan builder, block weeks | Week-by-week set targets for one exercise with a deload week marked, or the template with a muscle slot in the picker | Coach features 1 |
-| `coach-client-view.png` | Coach app: client page, a completed workout | Set-by-set view with effort and a note, and the weekly volume or PR chart on the same screen | Coach features 2 |
-| `coach-suggestions.png` | Coach app: suggestions queue | Two or three pending progression suggestions with accept, edit and reject | Coach features 3 |
-| `coach-library.png` | Coach app: exercise library | Grid of exercises with stills, a muscle filter active, one custom exercise visible | Coach features 4 |
-| `phone-sharing.png` | Phone: "Sharing with your trainer" settings | What is shared, since when, pause and disconnect visible | Coach page, for your clients 2 |
+| `coach-builder.png` | Coach app: plan builder, a client plan with a block | Three panes: exercise picker, workout strip with 3 to 4 workouts, open workout with a superset and set targets; the workout tabs visible | Coach hero, coach social preview image |
+| `coach-block-weeks.png` | Coach app: plan builder, block weeks | Block grid with weeks 1 to 4 (Base, Build, Peak, Deload), week 4 marked as deload, per-week targets | Coach features 1 |
+| `coach-client-view.png` | Coach app: client page, a completed workout | A completed Lower session with the client's note and a set-by-set table (weight, reps, effort) plus a set note; no chart | Coach features 2 |
+| `coach-suggestions.png` | Coach app: suggestions queue | Feedback tab with three pending progression suggestions, each with Approve, Edit and Reject | Coach features 3 |
+| `coach-library.png` | Coach app: exercise library | Table of exercises with stills, filtered to lats and cable; no custom exercise visible | Coach features 4 |
+| `phone-sharing.png` | Phone: "Sharing with your trainer" settings | What is shared, since when, pause sharing, sync, data deletion request and disconnect | Coach page, for your clients 2 |
 
-The coach page also reuses `workout.jpg` and `stats.jpg` (for your clients 1 and 3). The six coach files are flat placeholders until the owner captures them with the demo organisation (spec 09, "Screenshots"): web shots at 1440 by 900 without browser chrome, the phone shot portrait at 1080 by 2400, English UI.
+The coach page also reuses `workout.jpg` and `stats.jpg` (for your clients 1 and 3). The six coach files are real captures from the demo organisation (spec 09, "Screenshots"): web shots at 1440 by 900 without browser chrome, the phone shot portrait at 1080 by 2400, English UI.
 
 Optional extra for later: plate calculator.
 
@@ -88,7 +88,7 @@ PUBLIC_TURNSTILE_SITE_KEY=1x00000000000000000000AA npm run dev
 
 The page is indexed and in the sitemap. It went live once a trainer could be onboarded end to end: the coach app on `coach.musclequest.app` and the phone side of coaching in a store release of the app. Done before merging:
 
-1. Placeholder screenshots (`coach-*.png`, `phone-sharing.png`) replaced by file name, and `public/og-coach.png` regenerated (above).
+1. ~~Placeholder screenshots~~ Done: real `coach-*.png` and `phone-sharing.png` in place, `public/og-coach.png` regenerated (above).
 2. German body copy in `src/content/coach/de.ts` reviewed.
 3. The access request section of the privacy policy is published (`src/pages/privacy-policy.astro`, under "9. This Website").
 4. Indexing is on: no `noindex` on `<BaseLayout>` in `src/views/CoachPage.astro`, and the sitemap `filter` in `astro.config.mjs` only excludes the 404 pages.

@@ -19,7 +19,7 @@ export const coach: CoachContent = {
     secondary: "So funktioniert es",
     platformNote: "Klienten trainieren heute auf Android. iOS folgt.",
     appLinkText: "Sie suchen den Trainingstracker? Hier entlang.",
-    screenshotAlt: "Plan-Builder von MuscleQuest Coach mit der Übungsauswahl, einer Leiste mit vier Trainings und einem geöffneten Training mit Supersatz und Satzzielen, darüber die Wochen des Blocks",
+    screenshotAlt: "Plan-Builder von MuscleQuest Coach für den Plan \"Upper, lower, full body\" von Klient Alex Morgan: Übungsliste, Trainings-Tabs für Upper, Lower, Full body und Mobility und das Training Upper mit einem Supersatz aus Bankdrücken und Rudern",
   },
   how: {
     title: "In drei Schritten zur ersten gecoachten Einheit",
@@ -39,7 +39,7 @@ export const coach: CoachContent = {
         text: "Trainingsblöcke mit Zielen Woche für Woche und Deload-Wochen. Vorlagen mit Muskel-Platzhaltern, die der Klient passend zu seinen eigenen Geräten füllt. Supersätze und Zirkel, Aufwärmen und Cool-down als eigene Abschnitte, Mobilitätseinheiten.",
         bullets: ["Vorlagen für mehrere Klienten wiederverwenden", "Hinweise und Tracking-Typ pro Übung", "Per Drag-and-drop zwischen Übungsauswahl, Trainingsleiste und geöffnetem Training verschieben"],
         screenshot: "coachBlockWeeks",
-        screenshotAlt: "Wochen eines Blocks im Plan-Builder: Satzziele Woche für Woche für eine Übung, die letzte Woche als Deload-Woche markiert",
+        screenshotAlt: "Blockraster im Plan-Builder mit den Wochen 1 bis 4 (Base, Build, Peak, Deload), Woche 4 als Deload markiert, und den Satzzielen je Woche",
       },
       {
         id: "history",
@@ -47,7 +47,7 @@ export const coach: CoachContent = {
         text: "Abgeschlossene Trainings Satz für Satz, mit den Notizen, der Anstrengung und den Erholungsbewertungen Ihres Klienten. Wochenvolumen, Bestleistungen und Körpermaße auf der Seite des Klienten.",
         bullets: ["Verlauf ab dem Tag der Verbindung, oder weiter zurück, wenn der Klient ihn teilt", "Einen vertippten Satz korrigieren, mit Änderungsprotokoll", "Älteren Verlauf später anfragen"],
         screenshot: "coachClientView",
-        screenshotAlt: "Ein abgeschlossenes Training eines Klienten Satz für Satz, mit Anstrengung und einer Notiz, daneben das Diagramm zum Wochenvolumen",
+        screenshotAlt: "Ein abgeschlossenes Training Lower eines Klienten mit dessen Notiz und einer Tabelle Satz für Satz mit Gewicht, Wiederholungen und Anstrengung, dazu eine Notiz zu einem Satz",
       },
       {
         id: "progression",
@@ -55,7 +55,7 @@ export const coach: CoachContent = {
         text: "Die App schlägt anhand der Sätze mehr Gewicht, mehr Wiederholungen oder mehr Sätze vor, mit Ihren Steigerungsschritten. Sie wählen den Modus pro Plan: manuell, vorschlagen oder jeden Vorschlag freigeben, bevor der Klient ihn sieht.",
         bullets: ["Vorschläge warten auf Ihre Prüfung", "Einen Vorschlag bearbeiten, bevor er beim Klienten ankommt", "Eine Woche anpassen, ohne den Block neu zu bauen"],
         screenshot: "coachSuggestions",
-        screenshotAlt: "Drei offene Progressionsvorschläge, jeweils mit Annehmen, Bearbeiten und Ablehnen",
+        screenshotAlt: "Der Reiter Feedback eines Klienten mit drei wartenden Progressionsvorschlägen, jeweils mit Genehmigen, Bearbeiten und Ablehnen",
       },
       {
         id: "library",
@@ -63,7 +63,7 @@ export const coach: CoachContent = {
         text: "Über 1.200 Übungen mit Animationen, Muskeln und Geräten, dieselbe Bibliothek, die Ihr Klient in der Tasche hat. Fügen Sie eigene Übungen mit Ihren eigenen Hinweisen hinzu.",
         bullets: [],
         screenshot: "coachLibrary",
-        screenshotAlt: "Die Übungsbibliothek als Raster mit Standbildern, nach einem Muskel gefiltert, darunter eine eigene Übung",
+        screenshotAlt: "Die Übungsbibliothek, gefiltert nach Latissimus und Kabel, als Tabelle mit je einem Standbild pro Übung",
       },
     ],
   },
@@ -81,7 +81,7 @@ export const coach: CoachContent = {
         title: "Einwilligung eingebaut",
         text: "Klienten wählen, was sie teilen und ab wann, und können das Teilen jederzeit pausieren oder die Verbindung trennen.",
         screenshot: "phoneSharing",
-        screenshotAlt: "Einstellungen zum Teilen mit dem Trainer in der MuscleQuest-App: was geteilt wird, seit wann, und die Schaltflächen zum Pausieren und Trennen",
+        screenshotAlt: "Der Bildschirm Teilen mit Ihrem Trainer in der MuscleQuest-App: was geteilt wird, seit wann, Teilen pausieren, Synchronisieren, die Anfrage zur Datenlöschung und Trennen",
       },
       {
         title: "Ihre Klienten behalten ihre Daten",
