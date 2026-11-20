@@ -8,7 +8,7 @@ import { breadcrumbJsonLd } from "../lib/seo";
   jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Privacy policy", path: "/privacy-policy/" }])]}>
   <Prose>
     <h1>Privacy policy</h1>
-    <p><strong>Last updated: 18 November 2026</strong></p>
+    <p><strong>Last updated: 20 November 2026</strong></p>
     <p>
       Thank you for using <strong>MuscleQuest</strong>. We value your privacy and are committed to protecting your
       personal data. This privacy policy outlines how we collect, use, and safeguard your information when you use
@@ -220,6 +220,11 @@ import { breadcrumbJsonLd } from "../lib/seo";
       Your account, backups and shared data are stored with Supabase in the EU (Ireland), protected by access rules
       that limit each item to you and, for shared data, your friends. Our other service providers may process data
       on servers outside your region or country, which may have different data protection regulations.
+    </p>    <p>
+      The coach access form on this website uses Cloudflare Turnstile and runs on Cloudflare's global network, so
+      the details you send and the Turnstile signals may be processed outside the EU. Cloudflare relies on the EU-US
+      Data Privacy Framework and standard contractual clauses for such transfers. The request itself is stored with
+      Supabase in the EU (Ireland).
     </p>
     <p>
       Versions of MuscleQuest before 2.0 used Google Firebase for accounts, backups, shared data, usage analytics
@@ -236,6 +241,75 @@ import { breadcrumbJsonLd } from "../lib/seo";
       This website uses Cloudflare Web Analytics to count page views. It does not use cookies, does not track you
       across sites and does not collect personal data. If you use the account deletion form, the name, email
       address and message you enter are sent to us through Formspree so we can process your request.
+    </p>
+
+    <h3 id="coach-access">Requesting access to MuscleQuest Coach</h3>
+    <p>
+      MuscleQuest Coach is a web app for personal trainers and online coaches. While it is in its pilot, trainers
+      ask for access through the form on <a href="/coach/">musclequest.app/coach</a>. This section covers that form
+      only. Once you have a login, the coach app's own terms and privacy notice apply.
+    </p>
+    <p><strong>What we collect.</strong> When you send the form, we store:</p>
+    <ul>
+      <li>your name and email address</li>
+      <li>
+        your answers to three questions: how you coach (in a gym, online or both), roughly how many clients you
+        have, and which phones your clients mostly use
+      </li>
+      <li>your message, if you write one</li>
+      <li>
+        the campaign the visit came from, if you arrived through one of our short links (for example
+        <code>musclequest.app/go/flyer</code>), stored as a short label such as "flyer"
+      </li>
+      <li>the language of the page you used (English or German)</li>
+    </ul>
+    <p>We also record when the request arrived and, once we have dealt with it, its status and our notes on it.</p>
+    <p>
+      <strong>Why.</strong> We use these details only to review your request, set up your organisation and login,
+      and get in touch with you about it. The campaign label tells us which flyers or ads reach trainers; it is
+      stored with your request, not used to track you. We do not use the details for advertising and do not sell
+      them.
+    </p>
+    <p>
+      <strong>Legal basis.</strong> You send the form to ask us for access, so we process the details to take steps
+      at your request before an agreement with you (Art. 6(1)(b) GDPR).
+    </p>
+    <p>
+      <strong>How long we keep it.</strong> We keep your request until we have handled it (you have a login, or we
+      have told you we cannot offer access yet) and then for 12 months, so we can answer questions about it and
+      avoid asking you twice. After that we delete it. If we offer you access, we create your organisation and
+      login by hand from the name and email address in your request; your account then follows the coach app's
+      privacy notice, and the request itself is still deleted at the end of that period. You can ask us to delete
+      your request at any time at <a href="mailto:coach@musclequest.app">coach@musclequest.app</a>.
+    </p>
+    <p><strong>Who processes it.</strong></p>
+    <ul>
+      <li>
+        <strong>Supabase</strong> (Supabase Inc.) stores the request in our database in the EU (Ireland). We read
+        requests there; no copy is sent anywhere else.
+      </li>
+      <li>
+        <strong>Cloudflare</strong> (Cloudflare, Inc.) runs the coach app that receives the form, protects the form
+        from bots with Cloudflare Turnstile, and counts page visits with Cloudflare Web Analytics.
+      </li>
+    </ul>
+    <p>No one else receives your request.</p>
+    <p>
+      <strong>Bot protection (Cloudflare Turnstile).</strong> The form uses Cloudflare Turnstile to check that a
+      person, not a bot, is sending it. To do this, Turnstile runs a check in your browser when the form loads and
+      sends Cloudflare technical information about your browser and device, such as your IP address, browser type
+      and version, and signals from how the page is used. We do not receive this information: we only get a pass or
+      fail result. Cloudflare processes it to provide and improve the bot check, as described in
+      <a href="https://www.cloudflare.com/turnstile-privacy-policy/" target="_blank" rel="noopener noreferrer">Cloudflare's Turnstile privacy addendum</a>.
+      We rely on our legitimate interest in keeping the form free of spam and abuse (Art. 6(1)(f) GDPR).
+    </p>
+    <p>
+      <strong>Page visits.</strong> As on the rest of this website, Cloudflare Web Analytics counts visits to the
+      coach page and to each short campaign link. It does not use cookies and does not collect personal data.
+    </p>
+    <p>
+      <strong>Your rights.</strong> The rights in <a href="#rights">section 6</a> apply to your access request too.
+      To see, correct or delete it, email <a href="mailto:coach@musclequest.app">coach@musclequest.app</a>.
     </p>
 
     <h2 id="changes">10. Changes to This Privacy Policy</h2>
