@@ -14,7 +14,7 @@ export const coach: CoachContent = {
     eyebrow: "Für Personal Trainer und Online-Coaches",
     titleLead: "Einmal den Plan bauen.",
     titleAccent: "Jeden Satz sehen, den sie loggen.",
-    lede: "Ihre Klienten trainieren mit der kostenlosen MuscleQuest-App. Sie coachen im Browser: Pläne bauen, jedes geloggte Training verfolgen, unterwegs anpassen.",
+    lede: "Ihre Klienten trainieren mit der kostenlosen MuscleQuest-App. Sie coachen im Browser: Pläne bauen, jedes geloggte Training verfolgen, laufend anpassen.",
     primary: "Frühen Zugang anfragen",
     secondary: "So funktioniert es",
     platformNote: "Klienten trainieren heute auf Android. iOS folgt.",
@@ -31,11 +31,11 @@ export const coach: CoachContent = {
     ],
   },
   features: {
-    title: "Programmieren ohne Kleinkram",
+    title: "Trainingsplanung ohne Kleinkram",
     blocks: [
       {
         id: "builder",
-        title: "Ein Plan-Builder für echte Programmierung",
+        title: "Ein Plan-Builder für echte Trainingsplanung",
         text: "Trainingsblöcke mit Zielen Woche für Woche und Deload-Wochen. Vorlagen mit Muskel-Platzhaltern, die der Klient passend zu seinen eigenen Geräten füllt. Supersätze und Zirkel, Aufwärmen und Cool-down als eigene Abschnitte, Mobilitätseinheiten.",
         bullets: ["Vorlagen für mehrere Klienten wiederverwenden", "Hinweise und Tracking-Typ pro Übung", "Per Drag-and-drop zwischen Übungsauswahl, Trainingsleiste und geöffnetem Training verschieben"],
         screenshot: "coachBlockWeeks",
@@ -84,7 +84,7 @@ export const coach: CoachContent = {
         screenshotAlt: "Einstellungen zum Teilen mit dem Trainer in der MuscleQuest-App: was geteilt wird, seit wann, und die Schaltflächen zum Pausieren und Trennen",
       },
       {
-        title: "Ihre Daten bleiben ihre Daten",
+        title: "Ihre Klienten behalten ihre Daten",
         text: "Verlauf, Bestleistungen und Statistiken liegen auf ihrem Handy, Sicherungen in der EU. Kostenlos und ohne Werbung.",
         screenshot: "stats",
         screenshotAlt: "Statistiken in der MuscleQuest-App mit Wochenauswertung, Summen für Trainings, Volumen und Zeit, letzten Trainings und Bestleistungen",
@@ -137,7 +137,7 @@ export const coach: CoachContent = {
   faq: {
     title: "Was Trainer fragen",
     items: [
-      { question: "Was brauchen meine Klienten?", answer: "Ein Android-Handy und die kostenlose MuscleQuest-App bei Google Play. Zum Trainieren ist kein Konto nötig; für die Verbindung mit Ihnen braucht es eine Google-Anmeldung auf dem Handy." },
+      { question: "Was brauchen meine Klienten?", answer: "Ein Android-Handy und die kostenlose MuscleQuest-App bei Google Play. Zum Trainieren ist kein Konto nötig; für die Verbindung mit Ihnen braucht es ein Konto in der App (Google oder E-Mail)." },
       { question: "Zahlen meine Klienten etwas?", answer: "Nein. Die App ist kostenlos, ohne Werbung, und bleibt kostenlos." },
       { question: "Gibt es eine iPhone-App?", answer: "Noch nicht. Die iOS-App folgt nach dem Start von MuscleQuest Coach. Sagen Sie es uns im Formular, wenn die meisten Ihrer Klienten ein iPhone nutzen." },
       { question: "Wo werden die Daten gespeichert?", answer: "Die Trainingsdaten liegen auf dem Handy Ihres Klienten. Was er mit Ihnen teilt, wird in der EU gespeichert (Supabase, Irland) und Ihnen im Browser angezeigt. Die Übungsanimationen kommen von Cloudflare." },

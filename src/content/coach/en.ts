@@ -135,7 +135,7 @@ export const coach: CoachContent = {
   faq: {
     title: "Questions trainers ask",
     items: [
-      { question: "What do my clients need?", answer: "An Android phone and the free MuscleQuest app from Google Play. No account is needed to train; connecting with you needs a Google sign-in on the phone." },
+      { question: "What do my clients need?", answer: "An Android phone and the free MuscleQuest app from Google Play. No account is needed to train; connecting with you needs an account in the app (Google or email)." },
       { question: "Do my clients pay anything?", answer: "No. The app is free, with no ads, and stays free." },
       { question: "Is there an iPhone app?", answer: "Not yet. The iOS app follows the coach launch. Tell us in the form if most of your clients use iPhones." },
       { question: "Where is the data stored?", answer: "Training data lives on your client's phone. What they share with you is stored in the EU (Supabase, Ireland) and shown to you in the browser. Exercise animations come from Cloudflare." },
