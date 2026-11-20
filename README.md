@@ -86,17 +86,22 @@ PUBLIC_TURNSTILE_SITE_KEY=1x00000000000000000000AA npm run dev
 
 ### Launch gate
 
-The page stays unpublished (`noindex`) until a trainer can be onboarded end to end: the coach app on `coach.musclequest.app` and the phone side of coaching in a store release of the app. Before merging:
+The page is indexed and in the sitemap. It went live once a trainer could be onboarded end to end: the coach app on `coach.musclequest.app` and the phone side of coaching in a store release of the app. Done before merging:
 
-1. Replace the placeholder screenshots (`coach-*.png`, `phone-sharing.png`) by file name, and regenerate `public/og-coach.png` (above).
-2. Review the German body copy in `src/content/coach/de.ts`.
-3. Publish the access request section of the privacy policy.
-4. Turn indexing on: remove the `noindex` attribute from `<BaseLayout>` in `src/views/CoachPage.astro`, and remove the `/coach/` exclusion from the sitemap `filter` in `astro.config.mjs`.
-5. Check what the form depends on outside this repo:
+1. Placeholder screenshots (`coach-*.png`, `phone-sharing.png`) replaced by file name, and `public/og-coach.png` regenerated (above).
+2. German body copy in `src/content/coach/de.ts` reviewed.
+3. The access request section of the privacy policy is published (`src/pages/privacy-policy.astro`, under "9. This Website").
+4. Indexing is on: no `noindex` on `<BaseLayout>` in `src/views/CoachPage.astro`, and the sitemap `filter` in `astro.config.mjs` only excludes the 404 pages.
+5. What the form depends on outside this repo:
    - The coach route (`/api/access-requests`) is deployed on `coach.musclequest.app` with its Worker secrets set, and the `access_requests` migration is applied on the production Supabase project.
    - `www.musclequest.app` answers with a 301 to `https://musclequest.app`. The route's CORS origin and the Turnstile widget's hostname accept only the apex, so a form on `www` would always fail.
-   - `coach@musclequest.app` reaches a mailbox (Cloudflare Email Routing). The form's error lines, the no-JavaScript line and the FAQ point people at it.
-6. Merge. Then send one real request through the live form and check that the row and the notification email arrive; delete the row afterwards. Turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
+   - `coach@musclequest.app` is an alias on the owner's Google Workspace mail (not Cloudflare Email Routing). The form's error lines, the no-JavaScript line and the FAQ point people at it.
+   - Cloudflare Email Sending is not used, so there is no notification email. New requests are read in the `coaching.access_requests` table.
+
+Still to do after merging:
+
+1. Send one real request through the live form and check that the row arrives in `coaching.access_requests`; delete the row afterwards.
+2. Turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
 
 The form never works on Pages preview deployments (`*.pages.dev`), by design: the Turnstile widget's hostname list holds only the apex, so the widget fails and the security check sentence shows, and the route would refuse the origin anyway (the network sentence). Test the form locally (above) or on the live site.
 

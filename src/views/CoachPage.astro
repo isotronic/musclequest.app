@@ -19,7 +19,7 @@ const { locale } = Astro.props;
 const coach = coachContent(locale);
 ---
 <BaseLayout locale={locale} variant="coach" title={coach.meta.title} description={coach.meta.description} path="/coach/"
-  noindex ogImage="/og-coach.png" jsonLd={[softwareApplicationJsonLd(), faqJsonLd(coach.faq.items)]}>
+  ogImage="/og-coach.png" jsonLd={[softwareApplicationJsonLd(), faqJsonLd(coach.faq.items)]}>
   <CoachHero content={coach.hero} locale={locale} />
   <Steps content={coach.how} />
   <Section id="features">
