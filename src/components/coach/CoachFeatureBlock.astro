@@ -1,0 +1,24 @@
+---
+import BrowserShot from "./BrowserShot.astro";
+import type { CoachContent } from "../../content/coach/types";
+import type { Locale } from "../../i18n/ui";
+// Like FeatureBlock, with a web screenshot; the text comes first on small screens whatever the side.
+interface Props { block: CoachContent["features"]["blocks"][number]; flip: boolean; locale: Locale }
+const { block, flip, locale } = Astro.props;
+---
+<article id={block.id} class="reveal grid items-center gap-10 md:grid-cols-2 md:gap-16">
+  <div class:list={[flip && "md:order-2"]}>
+    <h3 class="text-2xl font-bold tracking-tight md:text-3xl">{block.title}</h3>
+    <p class="mt-4 text-lg text-muted text-pretty">{block.text}</p>
+    {block.bullets.length > 0 && (
+      <ul class="mt-6 space-y-3">
+        {block.bullets.map((b) => (
+          <li class="flex gap-3"><svg aria-hidden="true" viewBox="0 0 20 20" class="mt-1 size-5 shrink-0 text-accent" fill="currentColor"><path d="M8 13.6 4.4 10l-1.4 1.4L8 16.4l9-9L15.6 6z" /></svg><span>{b}</span></li>
+        ))}
+      </ul>
+    )}
+  </div>
+  <div class:list={[flip && "md:order-1"]}>
+    <BrowserShot id={block.screenshot} alt={block.screenshotAlt} locale={locale} />
+  </div>
+</article>

@@ -3,17 +3,34 @@ import { Image } from "astro:assets";
 import logo from "../assets/logo.png";
 import { localePath, t, type Locale } from "../i18n/ui";
 import { playUrl } from "../lib/seo";
-interface Props { locale: Locale }
-const { locale } = Astro.props;
-// Page links are marked active at build time; section links on the home page are marked by the scroll script below.
-const links = [
-  { href: localePath(locale, "/#features"), label: t(locale, "nav.features"), section: "features" },
-  { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
-  { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
-  { href: localePath(locale, "/#faq"), label: t(locale, "nav.faq"), section: "faq" },
-].map((l) => ({ ...l, current: !l.section && Astro.url.pathname === l.href }));
+import { config as coachConfig } from "../content/coach/config";
+interface Props { locale: Locale; variant?: "app" | "coach" }
+const { locale, variant = "app" } = Astro.props;
+type NavLink = { href: string; label: string; section?: string; external?: boolean };
+// Page links are marked active at build time; section links are marked by the scroll script below.
+const navLinks: NavLink[] = variant === "coach"
+  ? [
+      { href: "#how", label: t(locale, "nav.how"), section: "how" },
+      { href: "#features", label: t(locale, "nav.features"), section: "features" },
+      { href: "#faq", label: t(locale, "nav.faq"), section: "faq" },
+      { href: `${coachConfig.coachAppUrl}/login`, label: t(locale, "nav.signIn"), external: true },
+    ]
+  : [
+      { href: localePath(locale, "/#features"), label: t(locale, "nav.features"), section: "features" },
+      { href: localePath(locale, "/help/"), label: t(locale, "nav.help") },
+      { href: localePath(locale, "/changelog/"), label: t(locale, "nav.changelog") },
+      { href: localePath(locale, "/#faq"), label: t(locale, "nav.faq"), section: "faq" },
+      { href: localePath(locale, "/coach/"), label: t(locale, "nav.forCoaches") },
+    ];
+const links = navLinks.map((l) => ({ ...l, current: !l.section && Astro.url.pathname === l.href }));
+// The accent button: the Play Store on the app pages, the request form on the coach page.
+// The coach links are longer (German most of all), so that list shows from lg and the menu button below it.
+const cta = variant === "coach"
+  ? { href: "#request", label: t(locale, "nav.requestAccess"), rel: undefined, "data-close": "" }
+  : { href: playUrl("nav"), label: t(locale, "nav.getApp"), rel: "noopener", "data-close": undefined };
 const linkAttrs = (l: (typeof links)[number]) => ({
   "data-nav-section": l.section,
+  rel: l.external ? "noopener" : undefined,
   "data-active": l.current ? "" : undefined,
   "aria-current": l.current ? ("page" as const) : undefined,
 });
@@ -24,11 +41,11 @@ const linkAttrs = (l: (typeof links)[number]) => ({
       <Image src={logo} alt="" width={36} height={36} densities={[1, 2]} loading="eager" />
       <span class="text-lg">MuscleQuest</span>
     </a>
-    <ul class="hidden items-center gap-8 md:flex">
+    <ul class:list={["hidden items-center gap-8", variant === "coach" ? "lg:flex" : "md:flex"]}>
       {links.map((l) => <li><a href={l.href} {...linkAttrs(l)} class="relative py-1 text-sm font-medium text-text/90 hover:text-accent data-[active]:text-accent data-[active]:after:scale-x-100 after:absolute after:inset-x-0 after:bottom-0 after:h-0.5 after:origin-left after:scale-x-0 after:rounded-full after:bg-accent after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 motion-reduce:after:transition-none">{l.label}</a></li>)}
-      <li><a href={playUrl("nav")} rel="noopener" class="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-bg hover:bg-accent-hover">{t(locale, "nav.getApp")}</a></li>
+      <li><a href={cta.href} rel={cta.rel} class="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-bg hover:bg-accent-hover">{cta.label}</a></li>
     </ul>
-    <button type="button" id="menu-open" class="grid size-11 place-items-center rounded-lg hover:bg-surface md:hidden"
+    <button type="button" id="menu-open" class:list={["grid size-11 place-items-center rounded-lg hover:bg-surface", variant === "coach" ? "lg:hidden" : "md:hidden"]}
       aria-haspopup="dialog" aria-controls="mobile-menu" aria-expanded="false">
       <span class="sr-only">{t(locale, "nav.openMenu")}</span>
       <svg aria-hidden="true" viewBox="0 0 24 24" class="size-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
@@ -43,7 +60,7 @@ const linkAttrs = (l: (typeof links)[number]) => ({
     </div>
     <ul class="flex flex-col gap-1 px-4 text-xl font-semibold">
       {links.map((l) => <li><a href={l.href} {...linkAttrs(l)} data-close class="block rounded-lg px-4 py-4 hover:bg-surface hover:text-accent data-[active]:text-accent">{l.label}</a></li>)}
-      <li class="mt-4"><a href={playUrl("nav")} rel="noopener" class="block rounded-full bg-accent px-6 py-4 text-center text-bg">{t(locale, "nav.getApp")}</a></li>
+      <li class="mt-4"><a href={cta.href} rel={cta.rel} data-close={cta["data-close"]} class="block rounded-full bg-accent px-6 py-4 text-center text-bg">{cta.label}</a></li>
     </ul>
   </dialog>
 </header>
@@ -59,10 +76,9 @@ const linkAttrs = (l: (typeof links)[number]) => ({
   dialog.querySelectorAll("[data-close]").forEach((a) => a.addEventListener("click", () => dialog.close()));
   dialog.addEventListener("close", () => open.setAttribute("aria-expanded", "false"));
 
-  // On the home page, highlight Features or FAQ while their sections are being read.
-  import { activeId } from "../lib/scrollspy";
-  const SECTION_LINK: Record<string, string> = { features: "features", privacy: "features", more: "features", faq: "faq" };
-  const sections = ["features", "privacy", "more", "faq", "download"].flatMap((id) => document.getElementById(id) ?? []);
+  // On the home and coach pages, highlight the section link while its section is being read.
+  import { activeId, navSection } from "../lib/scrollspy";
+  const sections = ["how", "features", "privacy", "more", "clients", "request", "faq", "download"].flatMap((id) => document.getElementById(id) ?? []);
   if (sections.length) {
     const links = [...document.querySelectorAll<HTMLAnchorElement>("a[data-nav-section]")];
     let current: string | undefined;
@@ -77,7 +93,7 @@ const linkAttrs = (l: (typeof links)[number]) => ({
         offset,
         root.scrollTop + innerHeight >= root.scrollHeight - 2,
       );
-      const key = SECTION_LINK[id ?? ""];
+      const key = navSection(id);
       if (key === current) return;
       current = key;
       for (const a of links) {

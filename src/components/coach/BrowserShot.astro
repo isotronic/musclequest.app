@@ -1,0 +1,22 @@
+---
+import { Picture, getImage } from "astro:assets";
+import { screenshot, type ScreenshotId } from "../../data/screenshots";
+import { t, type Locale } from "../../i18n/ui";
+// A screenshot of the coach web app in a browser-window frame, opening in the lightbox like Screenshot.
+interface Props { id: ScreenshotId; alt: string; eager?: boolean; locale?: Locale; class?: string }
+const { id, alt, eager = false, locale = "en", class: cls = "" } = Astro.props;
+const src = screenshot(id, locale);
+const full = await getImage({ src, width: 1440, format: "webp" });
+---
+<button type="button" data-lightbox-src={full.src} data-lightbox-alt={alt}
+  class:list={["group block w-full cursor-zoom-in overflow-hidden rounded-xl border border-surface-2 bg-surface text-left shadow-2xl shadow-black/40", cls]}
+  aria-label={t(locale, "screenshot.enlarge").replace("{alt}", alt)}>
+  <span aria-hidden="true" class="flex h-2.5 items-center gap-1 bg-surface px-2">
+    <span class="size-1.5 rounded-full bg-surface-2"></span>
+    <span class="size-1.5 rounded-full bg-surface-2"></span>
+    <span class="size-1.5 rounded-full bg-surface-2"></span>
+  </span>
+  <Picture src={src} alt={alt} formats={["avif"]} fallbackFormat="webp" widths={[720, 1080, 1440]}
+    sizes="(min-width: 1024px) 560px, 92vw" loading={eager ? "eager" : "lazy"}
+    fetchpriority={eager ? "high" : "auto"} class="block h-auto w-full" />
+</button>

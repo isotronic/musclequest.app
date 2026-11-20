@@ -1,7 +1,21 @@
 import type { ImageMetadata } from "astro";
 import type { Locale } from "../i18n/ui";
 
-export type ScreenshotId = "home" | "plan" | "workout" | "progression" | "stats" | "measurements" | "friends" | "workoutOverview";
+export type ScreenshotId =
+  | "home"
+  | "plan"
+  | "workout"
+  | "progression"
+  | "stats"
+  | "measurements"
+  | "friends"
+  | "workoutOverview"
+  | "coachBuilder"
+  | "coachBlockWeeks"
+  | "coachClientView"
+  | "coachSuggestions"
+  | "coachLibrary"
+  | "phoneSharing";
 
 // File name per screenshot, without extension. English captures sit in assets/screenshots/; a capture of the
 // app in another language goes in assets/screenshots/<locale>/ with the same name, and replaces the English one there.
@@ -14,6 +28,13 @@ const FILES: Record<ScreenshotId, string> = {
   measurements: "measurements",
   friends: "friend-profile",
   workoutOverview: "workout-overview",
+  // Coach page (spec 09): placeholders until the owner captures them from the coach app with demo data.
+  coachBuilder: "coach-builder",
+  coachBlockWeeks: "coach-block-weeks",
+  coachClientView: "coach-client-view",
+  coachSuggestions: "coach-suggestions",
+  coachLibrary: "coach-library",
+  phoneSharing: "phone-sharing",
 };
 
 const images = import.meta.glob<ImageMetadata>("../assets/screenshots/**/*.{jpg,jpeg,png,webp}", { eager: true, import: "default" });

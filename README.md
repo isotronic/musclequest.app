@@ -48,6 +48,14 @@ Screenshots live in `src/assets/screenshots/` and are wired up by file name in `
 | `stats.jpg` | Stats | Insights, totals, workout history, PRs (or the Consistency and Training Split widgets) | Stats |
 | `measurements.jpg` | Body measurements | Latest values and a chart over time | Measurements |
 | `friend-profile.jpg` | Friend profile | A friend's shared PRs and activity | Friends |
+| `coach-builder.png` | Coach app: plan builder, a client plan with a block | Three panes: exercise picker, workout strip with 3 to 4 workouts, open workout with a superset and set targets; the workout tabs visible | Coach hero, coach social preview image |
+| `coach-block-weeks.png` | Coach app: plan builder, block weeks | Block grid with weeks 1 to 4 (Base, Build, Peak, Deload), week 4 marked as deload, per-week targets | Coach features 1 |
+| `coach-client-view.png` | Coach app: client page, a completed workout | A completed Lower session with the client's note and a set-by-set table (weight, reps, effort) plus a set note; no chart | Coach features 2 |
+| `coach-suggestions.png` | Coach app: suggestions queue | Feedback tab with three pending progression suggestions, each with Approve, Edit and Reject | Coach features 3 |
+| `coach-library.png` | Coach app: exercise library | Table of exercises with stills, filtered to lats and cable; no custom exercise visible | Coach features 4 |
+| `phone-sharing.png` | Phone: "Sharing with your trainer" settings | What is shared, since when, pause sharing, sync, data deletion request and disconnect | Coach page, for your clients 2 |
+
+The coach page also reuses `workout.jpg` and `stats.jpg` (for your clients 1 and 3). The six coach files are real captures from the demo organisation (spec 09, "Screenshots"): web shots at 1440 by 900 without browser chrome, the phone shot portrait at 1080 by 2400, English UI.
 
 Optional extra for later: plate calculator.
 
@@ -57,6 +65,55 @@ After replacing `home.jpg`, regenerate the social preview image:
 google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files --window-size=1200,630 \
   --virtual-time-budget=4000 --screenshot=public/og-image.png "file://$PWD/scripts/og/og-image.html"
 ```
+
+After replacing `coach-builder.png`, regenerate the coach page's social preview the same way:
+
+```bash
+google-chrome --headless=new --hide-scrollbars --allow-file-access-from-files --window-size=1200,630 \
+  --virtual-time-budget=4000 --screenshot=public/og-coach.png "file://$PWD/scripts/og/og-coach.html"
+```
+
+## Coach page
+
+`/coach/` and `/de/coach/` (`src/views/CoachPage.astro`, copy in `src/content/coach/`) are the landing page for MuscleQuest Coach (spec 09 in the app repo). The request form posts to the coach web app's `/api/access-requests` route. Unlike the app pages, the German coach copy uses Sie (trainers are professional contacts).
+
+To try the form locally, run the local Supabase stack (`npm run db:start` in the app repo) and the coach app (`npm run dev` in `../musclequest-coach`, port 5173), then start this site against them with Cloudflare's always-pass Turnstile test key:
+
+```bash
+PUBLIC_COACH_API_URL=http://localhost:5173/api/access-requests \
+PUBLIC_TURNSTILE_SITE_KEY=1x00000000000000000000AA npm run dev
+```
+
+### Launch gate
+
+The page is indexed and in the sitemap. It went live once a trainer could be onboarded end to end: the coach app on `coach.musclequest.app` and the phone side of coaching in a store release of the app. Done before merging:
+
+1. ~~Placeholder screenshots~~ Done: real `coach-*.png` and `phone-sharing.png` in place, `public/og-coach.png` regenerated (above).
+2. German body copy in `src/content/coach/de.ts` reviewed.
+3. The access request section of the privacy policy is published (`src/pages/privacy-policy.astro`, under "9. This Website").
+4. Indexing is on: no `noindex` on `<BaseLayout>` in `src/views/CoachPage.astro`, and the sitemap `filter` in `astro.config.mjs` only excludes the 404 pages.
+5. What the form depends on outside this repo:
+   - The coach route (`/api/access-requests`) is deployed on `coach.musclequest.app` with its Worker secrets set, and the `access_requests` migration is applied on the production Supabase project.
+   - `www.musclequest.app` answers with a 301 to `https://musclequest.app`. The route's CORS origin and the Turnstile widget's hostname accept only the apex, so a form on `www` would always fail.
+   - `coach@musclequest.app` is an alias on the owner's Google Workspace mail (not Cloudflare Email Routing). The form's error lines, the no-JavaScript line and the FAQ point people at it.
+   - Cloudflare Email Sending is not used, so there is no notification email. New requests are read in the `coaching.access_requests` table.
+
+Still to do after merging:
+
+1. Send one real request through the live form and check that the row arrives in `coaching.access_requests`; delete the row afterwards.
+2. Turn `workers_dev` off in the coach repo's `wrangler.jsonc`.
+
+The form never works on Pages preview deployments (`*.pages.dev`), by design: the Turnstile widget's hostname list holds only the apex, so the widget fails and the security check sentence shows, and the route would refuse the origin anyway (the network sentence). Test the form locally (above) or on the live site.
+
+### Campaign links
+
+Each campaign gets a short path in `public/_redirects`, one line per campaign:
+
+```
+/go/flyer      /coach/?src=flyer      302
+```
+
+Requests per campaign come from the `source` column of `coaching.access_requests`, which stores the `src` value. A `/go/` path is a 302 that renders no page, so Cloudflare Web Analytics (a script on the page) most likely does not count it; visits per short link can be read in the zone's HTTP traffic analytics or logs instead (check after the first deploy). A source is lowercase letters, digits and hyphens, at most 40 characters; anything else is dropped by the form. `/de/go/<source>` sends any source to the German page. Point QR codes at the short path, for example `https://musclequest.app/go/flyer`: it is shorter to scan and keeps working if the page moves. `npm test` checks every line: the source must pass the form's rule and must equal the `/go/` path segment (`/go/flyer` sends `src=flyer`), so the short path and the stored source name the same campaign. The link check checks that each target page exists.
 
 ## Deploy (Cloudflare Pages)
 
