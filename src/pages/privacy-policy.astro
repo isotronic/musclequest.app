@@ -66,7 +66,8 @@ import { breadcrumbJsonLd } from "../lib/seo";
       <li>
         <strong>Service Providers</strong>: We may share limited data with trusted service providers that assist
         us in operating the app: Supabase Inc. for accounts, backup storage and social features (hosted in
-        Ireland, EU), Google for sign-in, Cloudflare for delivering exercise animations and app configuration,
+        Ireland, EU), Google for sign-in, Cloudflare for delivering exercise animations and app configuration and, on the website, for the
+        coach access form (Turnstile bot protection) and Web Analytics,
         Bugsnag (SmartBear) for error reports and performance data, and Expo for app updates, crash reports and
         performance data.
       </li>
@@ -199,6 +200,10 @@ import { breadcrumbJsonLd } from "../lib/seo";
         and EAS Observe from Expo)
       </li>
       <li>Delivering exercise animations and app configuration (via Cloudflare)</li>
+      <li>
+        On the website, protecting the coach access form from bots (Cloudflare Turnstile) and counting page visits
+        (Cloudflare Web Analytics)
+      </li>
       <li>
         Delivering app updates and counting app launches by platform and app version (via Expo Application
         Services)
