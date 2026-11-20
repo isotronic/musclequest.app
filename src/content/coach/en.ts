@@ -42,7 +42,7 @@ export const coach: CoachContent = {
       {
         id: "history",
         title: "See what actually happened",
-        text: "Completed workouts set by set, with the client's notes, effort and recovery ratings. Weekly volume, PRs and body measurements on the client's page.",
+        text: "Completed workouts set by set, with the client's notes, effort and recovery ratings. Weekly volume, PRs and body measurements one tab away.",
         bullets: ["History back to the day they joined, or further if they choose to share it", "Correct a mistyped set, with an audit trail", "Ask for older history later"],
         screenshot: "coachClientView",
         screenshotAlt: "A client's completed Lower session with the client's note and a set-by-set table of weight, reps and effort, including a note on one set",

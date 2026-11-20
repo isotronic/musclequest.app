@@ -44,7 +44,7 @@ export const coach: CoachContent = {
       {
         id: "history",
         title: "Sehen, was wirklich passiert ist",
-        text: "Abgeschlossene Trainings Satz für Satz, mit den Notizen, der Anstrengung und den Erholungsbewertungen Ihres Klienten. Wochenvolumen, Bestleistungen und Körpermaße auf der Seite des Klienten.",
+        text: "Abgeschlossene Trainings Satz für Satz, mit den Notizen, der Anstrengung und den Erholungsbewertungen Ihres Klienten. Wochenvolumen, Bestleistungen und Körpermaße nur einen Tab entfernt.",
         bullets: ["Verlauf ab dem Tag der Verbindung, oder weiter zurück, wenn der Klient ihn teilt", "Einen vertippten Satz korrigieren, mit Änderungsprotokoll", "Älteren Verlauf später anfragen"],
         screenshot: "coachClientView",
         screenshotAlt: "Ein abgeschlossenes Training Lower eines Klienten mit dessen Notiz und einer Tabelle Satz für Satz mit Gewicht, Wiederholungen und Anstrengung, dazu eine Notiz zu einem Satz",
