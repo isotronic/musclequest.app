@@ -8,7 +8,7 @@ import { breadcrumbJsonLd } from "../lib/seo";
   jsonLd={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Privacy policy", path: "/privacy-policy/" }])]}>
   <Prose>
     <h1>Privacy policy</h1>
-    <p><strong>Last updated: 20 November 2026</strong></p>
+    <p><strong>Last updated: 25 November 2026</strong></p>
     <p>
       Thank you for using <strong>MuscleQuest</strong>. We value your privacy and are committed to protecting your
       personal data. This privacy policy outlines how we collect, use, and safeguard your information when you use
@@ -73,8 +73,10 @@ import { breadcrumbJsonLd } from "../lib/seo";
       </li>
       <li>
         <strong>Your Friends</strong>: If you use the social features, your display name and profile photo are
-        visible to your friends, to people who search for your exact email address, and to anyone you send a
-        friend request to or receive one from. Plans, workouts, custom exercises, workout history, body
+        visible to your friends, to people who search for your exact email address (only accounts with a confirmed
+        email address can be found), and to anyone you send a friend request to or receive one from. To prevent
+        abuse, the number of friend requests and email searches per hour is limited, and a request that was declined
+        can't be sent again for 30 days. Plans, workouts, custom exercises, workout history, body
         measurements and strength progress are shared with your friends only for the categories, or the single
         plans and workouts, where you turn sharing on in the app.
       </li>
@@ -112,7 +114,9 @@ import { breadcrumbJsonLd } from "../lib/seo";
         <strong>Account Deletion</strong>: <a href="/delete-account/">Deleting your account</a> in the app
         immediately removes your account, profile, friendships, shared data and backups. You choose whether to
         keep the training data on your device. Copies that friends have already added to their own library stay on
-        their devices. If you can't use the app, the form on that page takes up to 30 days.
+        their devices. If you can't use the app, the form on that page takes up to 30 days. If you were connected
+        to a trainer, deleting your account also asks for the data your trainer's organisation holds to be erased
+        (see <a href="#coaching">Training with a trainer</a>).
       </li>
       <li>
         <strong>Diagnostics</strong>: Error reports and diagnostics already sent to Bugsnag and Expo are kept for
@@ -120,8 +124,8 @@ import { breadcrumbJsonLd } from "../lib/seo";
       </li>
       <li>
         <strong>Database Backups</strong>: We keep encrypted backups of our database and backup storage for up to
-        30 days, so we can recover from a technical failure. When you delete your account, your data leaves these
-        backups within 30 days, as older backups are deleted.
+        30 days, so we can recover from a technical failure. When you delete your account, or when data a trainer
+        held about you is erased, that data leaves these backups within 30 days, as older backups are deleted.
       </li>
     </ul>
 
@@ -147,9 +151,8 @@ import { breadcrumbJsonLd } from "../lib/seo";
     </p>
     <p>
       The trainer's organisation is the controller of its copy of this data. Its trainers can correct records in
-      your history, and every correction is recorded. The organisation keeps the data under its own retention
-      rules, also after you disconnect or delete your <strong>MuscleQuest</strong> account. Deleting your account
-      ends the connection but does not remove that copy.
+      your history, and every correction is recorded. After you disconnect, the organisation keeps its copy under
+      its own rules until you ask for it to be erased.
     </p>
     <p>You stay in control:</p>
     <ul>
@@ -160,14 +163,26 @@ import { breadcrumbJsonLd } from "../lib/seo";
       </li>
       <li>
         <strong>Ask your trainer to delete your data</strong>: on the same screen, choose "Ask your trainer to
-        delete your data". Your trainer is asked to delete the training data they hold about you, and you stay
-        connected.
+        delete your data". This files an erasure request for the training data your trainer's organisation holds
+        about you. The data can only be erased after the connection has ended, so disconnect as well when you want
+        it erased. We erase it within 30 days of your request, or of the end of the connection if that comes later.
       </li>
       <li>
         <strong>Disconnect</strong>: on the same screen, choose "Disconnect from your trainer". This stops all
-        sharing. Data your trainer's organisation already holds stays with it, unless it deletes it.
+        sharing. Data your trainer's organisation already holds stays with it until you ask for it to be erased.
+      </li>
+      <li>
+        <strong>Delete your account</strong>: deleting your <strong>MuscleQuest</strong> account ends every
+        connection and files an erasure request automatically, also for trainers you were connected to before. We
+        erase the data within 30 days.
       </li>
     </ul>
+    <p>
+      After an erasure, the organisation keeps only a record that a client was connected, without your name, the
+      link to your account or your consent; the invite code you used, without the link to you; and the erasure
+      request itself (its dates and any note your trainer left). Erased data leaves our encrypted database backups
+      within 30 days, as older backups are deleted.
+    </p>
 
     <h2 id="rights">6. Your Rights</h2>
     <p>You have the right to:</p>
